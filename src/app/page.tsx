@@ -35,12 +35,13 @@ export default function HomePage() {
             <FadeIn>
               <SectionEyebrow>Built for European nonprofits</SectionEyebrow>
               <h1 id="hero-heading" className="mt-6 font-heading text-4xl leading-[1.02] tracking-[-0.035em] sm:text-[54px] lg:text-[68px]">
-                The nonprofit CRM built for how Europe actually fundraises.
+                Run your mission. Not your spreadsheets.
               </h1>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">
-                Run donor management, postal appeals, public donation pages,
-                grants, volunteers, impact reporting, and finance handoff in one
-                GDPR-native system — without Salesforce complexity.
+                Givernance is a GDPR-native CRM for European nonprofits.
+                Manage donors, postal campaigns, online giving, grants, and
+                impact reporting in one calm system — without Salesforce
+                complexity or cost.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <PrimaryButton label="Book a demo" href="/demo" />
@@ -50,8 +51,8 @@ export default function HomePage() {
                 />
               </div>
               <p className="mt-5 text-[13px] leading-6 text-muted">
-                AI-assisted by default. Human-controlled for sensitive actions.
-                Fast to set up, affordable to run.
+                AI-assisted by default. You stay in control of every
+                sensitive decision. Fast to set up, affordable to run.
               </p>
               <div className="mt-10 grid max-w-xl grid-cols-3 gap-4">
                 <StatPill value="2–200" label="staff" />
@@ -98,13 +99,13 @@ export default function HomePage() {
             <FadeIn>
               <SectionEyebrow>Why teams switch</SectionEyebrow>
               <h2 id="why-switch-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
-                Salesforce made sense. Then your nonprofit had to actually use
-                it.
+                You chose Salesforce for the free seats. Then your team grew.
               </h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">
-                Too many nonprofits outgrow the free-seats story and end up with
-                rising license costs, consultant dependency, retrofitted GDPR
-                workflows, and reporting workarounds in spreadsheets.
+                Rising licence costs, consultant dependency, retrofitted GDPR
+                workflows, and reporting workarounds in spreadsheets — sound
+                familiar? You deserve a system built for how your organisation
+                actually works.
               </p>
             </FadeIn>
 
@@ -162,18 +163,16 @@ export default function HomePage() {
               <div className="mt-6 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
                 <div className="max-w-3xl">
                   <h2 id="fundraising-heading" className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
-                    More than a donor database. A system for the campaigns you
-                    actually run.
+                    Your campaigns. Your channels. One system.
                   </h2>
                   <p className="mt-6 text-base leading-8 text-muted">
-                    Plan nominative postal campaigns, generate QR-linked asks,
+                    Plan nominative postal campaigns, generate QR-coded appeals,
                     manage door-drops by geography, publish donation pages,
-                    connect Stripe, and follow campaign ROI in one flow.
+                    connect Stripe, and track campaign ROI — all in one place.
                   </p>
                 </div>
                 <div className="shrink-0 rounded-full border border-border bg-bg px-4 py-3 text-[13px] text-muted">
-                  Built around the fundraising workflows European nonprofits
-                  really use.
+                  Built around how European nonprofits actually raise funds.
                 </div>
               </div>
             </FadeIn>
@@ -207,11 +206,12 @@ export default function HomePage() {
           <div className="mt-6 grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
             <FadeIn>
               <h2 id="product-heading" className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
-                Fundraising at the center. Everything else connected around it.
+                Your donors at the centre. Everything else connected.
               </h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">
-                Givernance starts with the donor lifecycle, then connects the
-                rest of the organisation around that relationship.
+                Givernance starts with the donor lifecycle — who gives, how
+                much, and why — then connects programmes, grants, volunteers,
+                and reporting around that relationship.
               </p>
               <ul className="mt-8 max-w-md space-y-3">
                 {platformBullets.map((line) => (
@@ -253,12 +253,12 @@ export default function HomePage() {
               <SectionEyebrow>AI with guardrails</SectionEyebrow>
               <div className="mt-6 max-w-3xl">
                 <h2 id="ai-heading" className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
-                  AI that reduces admin without removing control.
+                  Less admin. Same control.
                 </h2>
                 <p className="mt-6 text-base leading-8 text-navy-muted">
-                  Givernance uses AI to cut repetitive work, improve data
-                  quality, and guide everyday tasks — while keeping people in
-                  charge of sensitive decisions.
+                  AI handles the repetitive work — duplicate detection, data
+                  clean-up, suggested next steps — so your team can focus on
+                  relationships. You always decide what happens next.
                 </p>
               </div>
             </FadeIn>
@@ -290,8 +290,8 @@ export default function HomePage() {
               </ul>
 
               <div className="mt-8 rounded-card border border-white/10 bg-white/4 p-5 text-sm leading-6 text-navy-muted">
-                No irreversible action without confirmation. Full auditability
-                when AI is involved.
+                No irreversible action without your confirmation. Every AI
+                decision is logged and auditable.
               </div>
             </FadeIn>
           </div>
@@ -307,12 +307,12 @@ export default function HomePage() {
             <FadeIn>
               <SectionEyebrow>Made for European realities</SectionEyebrow>
               <h2 id="security-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
-                Privacy, payments, and nonprofit workflows that feel local.
+                GDPR-native. Not GDPR-patched.
               </h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">
-                Givernance is built for European organisations that need
-                GDPR-native controls, EU-friendly fundraising workflows, and
-                software that feels practical instead of imported.
+                Consent tracking, audit logs, data residency, and right-to-erasure
+                are built in from day one — not bolted on after the fact.
+                Your compliance team will thank you.
               </p>
             </FadeIn>
 
@@ -353,13 +353,12 @@ export default function HomePage() {
               <FadeIn>
                 <SectionEyebrow>See the product</SectionEyebrow>
                 <h2 id="resources-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
-                  Not a concept deck. A real product vision you can click
-                  through.
+                  Click through it yourself.
                 </h2>
                 <p className="mt-6 max-w-xl text-base leading-8 text-muted">
-                  Explore interactive mockups across the core modules and see
-                  how Givernance handles donor workflows, campaigns, compliance,
-                  reporting, and AI-assisted work.
+                  Explore 86 interactive mockups across donor management,
+                  campaigns, compliance, reporting, and AI-assisted workflows.
+                  This is not a slide deck — it is a product you can navigate.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <StatPill value="86" label="interactive mockups" />
@@ -403,12 +402,12 @@ export default function HomePage() {
           <FadeIn>
             <SectionEyebrow>Ready to explore</SectionEyebrow>
             <h2 id="cta-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
-              See what a calmer nonprofit system could look like.
+              Ready to see what calmer nonprofit software looks like?
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-muted">
-              Book a demo to walk through the fundraising workflows that matter
-              most to your organisation — from donor management and postal
-              campaigns to online giving and reporting.
+              Book a 30-minute demo and walk through the workflows that
+              matter most to your organisation — donor management, postal
+              campaigns, online giving, and reporting.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <PrimaryButton label="Book a demo" href="/demo" />
@@ -440,145 +439,145 @@ const trustStrip = [
   {
     title: "Human-controlled AI",
     description:
-      "AI suggests and explains. Your team confirms what matters.",
+      "AI suggests and explains. You confirm what matters.",
     icon: Bot,
   },
   {
-    title: "Export-first",
-    description: "Your data stays yours.",
+    title: "Your data, always",
+    description: "Export everything, any time. No lock-in.",
     icon: Database,
   },
 ];
 
 const painPoints = [
-  "Pay more as the team grows",
-  "Depend on specialist admins for simple changes",
-  "Patch GDPR across disconnected tools",
-  "Adapt a US-centric model to European realities",
-  "Struggle to export cleanly when you want to move",
+  "You pay more every time the team grows",
+  "You depend on consultants for simple changes",
+  "You patch GDPR across disconnected tools",
+  "You adapt a US-centric model to European realities",
+  "You struggle to export your own data cleanly",
 ];
 
 const alternativePoints = [
-  "One calmer system for fundraising and operations",
-  "European nonprofit fit from day one",
-  "Human-controlled AI instead of admin sprawl",
-  "Clear reporting without consultant dependency",
-  "Export-first posture and practical setup",
+  "One calm system for fundraising and operations",
+  "Designed for European nonprofits from day one",
+  "AI that helps — you stay in control",
+  "Clear reporting without consultant fees",
+  "Your data is always yours to export",
 ];
 
 const fundraisingCards = [
   {
     title: "Postal campaigns",
     description:
-      "Create structured mail campaigns with the operational steps fundraising teams actually need.",
+      "Personalised letters, merge fields, and print-ready PDFs — the workflow your team already runs.",
     icon: Mail,
   },
   {
-    title: "QR tracking",
+    title: "QR attribution",
     description:
-      "Track which campaign drove which donation and what each mailing produced.",
+      "Every mailing carries a unique QR code so you know exactly which campaign drove which gift.",
     icon: QrCode,
   },
   {
     title: "Door-drops",
     description:
-      "Manage geographic campaigns and capture new donors when gifts come in.",
+      "Target geographic zones and automatically create constituent records when gifts arrive.",
     icon: Map,
   },
   {
-    title: "Public donation pages",
-    description: "Launch branded giving pages and embeddable donation flows.",
+    title: "Donation pages",
+    description: "Branded giving pages and embeddable widgets, live in minutes.",
     icon: HandHeart,
   },
   {
     title: "Stripe Connect",
     description:
-      "Let each nonprofit connect its own Stripe account without platform fund handling.",
+      "Your organisation connects its own Stripe account. Givernance never handles your funds.",
     icon: CreditCard,
   },
   {
     title: "Campaign ROI",
     description:
-      "See cost versus donations received without rebuilding the math in spreadsheets.",
+      "Cost vs. donations raised, broken down by channel — no spreadsheet required.",
     icon: BarChart3,
   },
 ];
 
 const platformCards = [
   {
-    title: "Donors and donations",
+    title: "Donors & donations",
     description:
       "Constituents, gifts, receipts, lifecycle stages, and campaign attribution.",
     icon: Users,
   },
   {
     title: "Grants",
-    description: "Track applications, deadlines, reporting, and follow-up.",
+    description: "Applications, deadlines, tranches, and funder reporting.",
     icon: FileText,
   },
   {
-    title: "Programs and beneficiaries",
+    title: "Programmes & beneficiaries",
     description:
-      "Support delivery work without fragmenting the nonprofit record.",
+      "Service delivery without fragmenting your constituent record.",
     icon: HandHeart,
   },
   {
     title: "Volunteers",
     description:
-      "Coordinate people, schedules, and contributions in one place.",
+      "Shifts, hours, background checks, and recognition in one place.",
     icon: Users,
   },
   {
-    title: "Impact and reporting",
-    description: "Connect outcomes back to fundraising and operations.",
+    title: "Impact & reporting",
+    description: "Connect outcomes to fundraising and operations data.",
     icon: BarChart3,
   },
   {
     title: "Finance handoff",
     description:
-      "Give finance what it needs without pretending to be a full accounting tool.",
+      "Export journal entries and fund balances — not a full accounting system.",
     icon: Landmark,
   },
 ];
 
 const platformBullets = [
-  "Donor lifecycle built as the core model, not an add-on",
-  "Operational modules connected to the same nonprofit record",
-  "A product that remains calm even when workflows get dense",
+  "Donor lifecycle as the core model, not an add-on",
+  "Every module shares the same constituent record",
+  "Stays calm even when your workflows get complex",
 ];
 
 const aiModes = [
   {
     title: "Manual",
-    description: "For strict human-only workflows.",
+    description: "Full human control. AI stays out of the way.",
   },
   {
     title: "Assisted",
     description:
-      "The default. AI proposes, explains, and helps your team move faster.",
+      "The default. AI proposes and explains — your team decides.",
   },
   {
     title: "Autopilot",
     description:
-      "For mature teams automating routine work with clear exceptions and audit trails.",
+      "For routine work you trust to run automatically, with clear exceptions and full audit trails.",
   },
 ];
 
 const securityCards = [
   {
-    title: "Privacy that isn't retrofitted",
+    title: "Privacy from day one",
     description:
-      "Consent history, auditability, and safer handling of sensitive nonprofit data.",
+      "Consent history, audit logs, and right-to-erasure — built in, not bolted on.",
   },
   {
-    title: "Operational fit",
+    title: "European operational fit",
     description:
-      "European fundraising channels, receipt workflows, and finance handoff designed into the product.",
+      "Postal campaigns, SEPA payments, EU tax receipts, and finance handoff designed into the product.",
   },
   {
-    title: "A calmer product culture",
+    title: "Calm by design",
     description:
-      "Less corporate theatre, less configuration overhead, more day-to-day usefulness.",
+      "Less configuration overhead, fewer consultants, more time for the work that matters.",
   },
 ];
 

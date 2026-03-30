@@ -35,8 +35,11 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-6 text-muted">
-              The GDPR-native CRM built for European nonprofits. Calm,
+              The GDPR-native CRM for European nonprofits. Calm,
               capable, affordable.
+            </p>
+            <p className="mt-3 max-w-xs text-sm italic leading-6 text-muted">
+              Built by people who believe nonprofits deserve better software.
             </p>
             <div className="mt-6">
               <PrimaryButton label="Book a demo" href="/demo" />
@@ -100,7 +103,7 @@ export function Footer() {
           <p className="text-sm text-muted">
             &copy; {year} Givernance. All rights reserved.
           </p>
-          <p className="text-sm text-muted">Made with care in Europe</p>
+          <p className="text-sm text-muted">Designed and hosted in Europe</p>
         </div>
       </div>
     </footer>
