@@ -83,7 +83,7 @@ export function Navigation() {
               <div className="text-base font-semibold tracking-tight">
                 Givernance
               </div>
-              <div className="hidden text-xs text-muted sm:block">
+              <div className="hidden whitespace-nowrap text-xs text-muted sm:block">
                 {t("tagline")}
               </div>
             </div>
@@ -97,7 +97,7 @@ export function Navigation() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-sm text-muted transition-colors hover:text-text"
+                className="whitespace-nowrap text-sm text-muted transition-colors hover:text-text"
               >
                 {link.label}
               </a>

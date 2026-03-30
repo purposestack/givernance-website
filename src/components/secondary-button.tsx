@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
 const className =
-  "inline-flex items-center gap-2 rounded-full border border-border bg-paper px-5 py-3 text-sm font-medium text-text shadow-subtle transition hover:bg-soft focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary";
+  "inline-flex items-center gap-2 whitespace-nowrap rounded-full border border-border bg-paper px-5 py-3 text-sm font-medium text-text shadow-subtle transition hover:bg-soft focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary";
 
 export function SecondaryButton({
   label,
