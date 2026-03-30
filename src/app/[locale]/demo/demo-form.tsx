@@ -103,7 +103,7 @@ export function DemoForm() {
 
         <p className="mt-6 text-lg leading-8 text-muted">
           A 30-minute on-screen walkthrough tailored to your organisation —
-          no slides, just the product. We'll show you exactly how Givernance
+          no slides, just the product. We&apos;ll show you exactly how Givernance
           fits your donor management, postal campaigns, and GDPR workflow.
         </p>
 
@@ -136,10 +136,10 @@ export function DemoForm() {
               aria-hidden="true"
             />
             <h2 className="mt-4 text-xl font-semibold text-text">
-              Thank you — we'll be in touch within 1 business day.
+              Thank you — we&apos;ll be in touch within 1 business day.
             </h2>
             <p className="mt-3 text-sm text-muted">
-              We've received your request and will reach out to schedule
+              We&apos;ve received your request and will reach out to schedule
               your demo.
             </p>
           </div>
@@ -153,7 +153,7 @@ export function DemoForm() {
               Request your demo
             </h2>
             <p className="mt-1 text-sm text-muted">
-              Fill in the form and we'll reach out to schedule a time.
+              Fill in the form and we&apos;ll reach out to schedule a time.
             </p>
 
             <div className="mt-6 space-y-5">
@@ -354,7 +354,7 @@ export function DemoForm() {
             </button>
 
             <p className="mt-4 text-center text-xs text-muted">
-              We'll reply within 1 business day. No spam, ever.
+              We&apos;ll reply within 1 business day. No spam, ever.
             </p>
           </form>
         )}
