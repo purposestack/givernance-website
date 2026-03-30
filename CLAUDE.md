@@ -145,3 +145,14 @@ A PR must not be created until **all** of these pass:
 - [ ] `code-reviewer` agent has run and all Critical/Important findings are fixed
 - [ ] All acceptance criteria from the GitHub issue are met
 - [ ] Design token usage verified — no hardcoded hex colours, font families, or shadows
+
+## Memory
+
+After completing any significant implementation (shipping a PR, adding a new pattern, discovering a convention), **proactively save relevant context to memory** so future conversations can pick up where this one left off. This includes:
+
+- Updated issue progress (which issues/PRs are done)
+- New architectural patterns or conventions introduced
+- Tech stack changes (new dependencies, version bumps)
+- Lessons learned from audit/review findings that apply broadly
+
+Do not wait to be asked — update memory as part of the Ship step.
