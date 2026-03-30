@@ -7,6 +7,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: "2026-03-30",
       changeFrequency: "weekly",
       priority: 1,
+      alternates: {
+        languages: {
+          en: "https://givernance.org",
+          fr: "https://givernance.org/fr",
+        },
+      },
+    },
+    {
+      url: "https://givernance.org/fr",
+      lastModified: "2026-03-30",
+      changeFrequency: "weekly",
+      priority: 1,
+      alternates: {
+        languages: {
+          en: "https://givernance.org",
+          fr: "https://givernance.org/fr",
+        },
+      },
     },
   ];
 }

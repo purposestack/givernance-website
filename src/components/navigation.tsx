@@ -1,26 +1,29 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
-import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { LogoMark } from "./logo-mark";
 import { PrimaryButton } from "./primary-button";
 import { SecondaryButton } from "./secondary-button";
-
-const navLinks = [
-  { label: "Product", href: "#product" },
-  { label: "Why switch", href: "#why-switch" },
-  { label: "Fundraising", href: "#fundraising" },
-  { label: "Security", href: "#security" },
-  { label: "Resources", href: "#resources" },
-];
+import { LanguageSwitcher } from "./language-switcher";
 
 export function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
   const shouldReduceMotion = useReducedMotion();
+  const t = useTranslations("nav");
+
+  const navLinks = [
+    { label: t("product"), href: "#product" },
+    { label: t("whySwitch"), href: "#why-switch" },
+    { label: t("fundraising"), href: "#fundraising" },
+    { label: t("security"), href: "#security" },
+    { label: t("resources"), href: "#resources" },
+  ];
 
   const close = useCallback(() => {
     setMobileOpen(false);
@@ -73,7 +76,7 @@ export function Navigation() {
           <Link
             href="/"
             className="flex items-center gap-3"
-            aria-label="Givernance home"
+            aria-label={t("home")}
           >
             <LogoMark />
             <div>
@@ -81,14 +84,14 @@ export function Navigation() {
                 Givernance
               </div>
               <div className="hidden text-xs text-muted sm:block">
-                The nonprofit CRM built for Europe
+                {t("tagline")}
               </div>
             </div>
           </Link>
 
           <nav
             className="hidden items-center gap-8 lg:flex"
-            aria-label="Main navigation"
+            aria-label={t("mainNavLabel")}
           >
             {navLinks.map((link) => (
               <a
@@ -103,11 +106,12 @@ export function Navigation() {
 
           <div className="flex items-center gap-3">
             <div className="hidden lg:block">
-              <SecondaryButton label="Explore the mockups" href="/mockups" />
+              <SecondaryButton label={t("exploreMockups")} href="/mockups" />
             </div>
             <div className="hidden sm:block">
-              <PrimaryButton label="Book a demo" href="/demo" />
+              <PrimaryButton label={t("bookDemo")} href="/demo" />
             </div>
+            <LanguageSwitcher />
             <button
               ref={triggerRef}
               type="button"
@@ -115,7 +119,7 @@ export function Navigation() {
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-expanded={mobileOpen}
               aria-controls="mobile-menu"
-              aria-label={mobileOpen ? "Close menu" : "Open menu"}
+              aria-label={mobileOpen ? t("closeMenu") : t("openMenu")}
             >
               {mobileOpen ? (
                 <X
@@ -158,7 +162,7 @@ export function Navigation() {
               id="mobile-menu"
               role="dialog"
               aria-modal="true"
-              aria-label="Navigation menu"
+              aria-label={t("mobileNavLabel")}
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
@@ -170,12 +174,12 @@ export function Navigation() {
               className="fixed top-0 right-0 z-[60] flex h-full w-80 max-w-[85vw] flex-col bg-paper shadow-hero"
             >
               <div className="flex items-center justify-between border-b border-border px-6 py-4">
-                <span className="text-base font-semibold">Menu</span>
+                <span className="text-base font-semibold">{t("menuTitle")}</span>
                 <button
                   type="button"
                   onClick={close}
                   className="rounded-full border border-border p-3 transition-colors hover:bg-soft"
-                  aria-label="Close menu"
+                  aria-label={t("closeMenu")}
                 >
                   <X
                     className="h-5 w-5 text-text"
@@ -188,7 +192,7 @@ export function Navigation() {
               {/* Nav links only — no duplicate CTAs */}
               <nav
                 className="flex flex-col gap-1 px-4 py-6"
-                aria-label="Mobile navigation"
+                aria-label={t("mobileNavLabel")}
               >
                 {navLinks.map((link) => (
                   <a
@@ -200,6 +204,9 @@ export function Navigation() {
                     {link.label}
                   </a>
                 ))}
+                <div className="mt-2 px-4">
+                  <LanguageSwitcher />
+                </div>
               </nav>
             </motion.div>
           </>
