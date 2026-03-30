@@ -67,75 +67,79 @@ export function Navigation() {
   }, [mobileOpen, close]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-bg/90 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
-        <Link
-          href="/"
-          className="flex items-center gap-3"
-          aria-label="Givernance home"
-        >
-          <LogoMark />
-          <div>
-            <div className="text-base font-semibold tracking-tight">
-              Givernance
-            </div>
-            <div className="hidden text-xs text-muted sm:block">
-              The nonprofit CRM built for Europe
-            </div>
-          </div>
-        </Link>
-
-        <nav
-          className="hidden items-center gap-8 lg:flex"
-          aria-label="Main navigation"
-        >
-          {navLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className="text-sm text-muted transition-colors hover:text-text"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
-
-        <div className="flex items-center gap-3">
-          <div className="hidden lg:block">
-            <SecondaryButton label="Explore the mockups" href="/mockups" />
-          </div>
-          <div className="hidden sm:block">
-            <PrimaryButton label="Book a demo" href="/demo" />
-          </div>
-          <button
-            ref={triggerRef}
-            type="button"
-            className="inline-flex rounded-full border border-border bg-paper p-3 transition-colors hover:bg-soft lg:hidden"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-expanded={mobileOpen}
-            aria-controls="mobile-menu"
-            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+    <>
+      <header className="sticky top-0 z-40 border-b border-border bg-bg/90 backdrop-blur-xl">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+          <Link
+            href="/"
+            className="flex items-center gap-3"
+            aria-label="Givernance home"
           >
-            {mobileOpen ? (
-              <X
-                className="h-5 w-5 text-text"
-                strokeWidth={1.7}
-                aria-hidden="true"
-              />
-            ) : (
-              <Menu
-                className="h-5 w-5 text-text"
-                strokeWidth={1.7}
-                aria-hidden="true"
-              />
-            )}
-          </button>
-        </div>
-      </div>
+            <LogoMark />
+            <div>
+              <div className="text-base font-semibold tracking-tight">
+                Givernance
+              </div>
+              <div className="hidden text-xs text-muted sm:block">
+                The nonprofit CRM built for Europe
+              </div>
+            </div>
+          </Link>
 
+          <nav
+            className="hidden items-center gap-8 lg:flex"
+            aria-label="Main navigation"
+          >
+            {navLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="text-sm text-muted transition-colors hover:text-text"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+
+          <div className="flex items-center gap-3">
+            <div className="hidden lg:block">
+              <SecondaryButton label="Explore the mockups" href="/mockups" />
+            </div>
+            <div className="hidden sm:block">
+              <PrimaryButton label="Book a demo" href="/demo" />
+            </div>
+            <button
+              ref={triggerRef}
+              type="button"
+              className="inline-flex rounded-full border border-border bg-paper p-3 transition-colors hover:bg-soft lg:hidden"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-menu"
+              aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            >
+              {mobileOpen ? (
+                <X
+                  className="h-5 w-5 text-text"
+                  strokeWidth={1.7}
+                  aria-hidden="true"
+                />
+              ) : (
+                <Menu
+                  className="h-5 w-5 text-text"
+                  strokeWidth={1.7}
+                  aria-hidden="true"
+                />
+              )}
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Mobile menu — rendered OUTSIDE <header> to escape its stacking context */}
       <AnimatePresence>
         {mobileOpen && (
           <>
+            {/* Full-page opaque backdrop — blocks all content underneath */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -143,10 +147,12 @@ export function Navigation() {
               transition={
                 shouldReduceMotion ? { duration: 0 } : { duration: 0.2 }
               }
-              className="fixed inset-0 z-40 bg-text/50"
+              className="fixed inset-0 z-50 bg-bg"
               onClick={close}
               aria-hidden="true"
             />
+
+            {/* Slide-in panel — above the backdrop */}
             <motion.div
               ref={panelRef}
               id="mobile-menu"
@@ -161,7 +167,7 @@ export function Navigation() {
                   ? { duration: 0 }
                   : { type: "spring", damping: 25, stiffness: 300 }
               }
-              className="fixed top-0 right-0 z-50 flex h-full w-80 max-w-[85vw] flex-col bg-paper shadow-hero"
+              className="fixed top-0 right-0 z-[60] flex h-full w-80 max-w-[85vw] flex-col bg-paper shadow-hero"
             >
               <div className="flex items-center justify-between border-b border-border px-6 py-4">
                 <span className="text-base font-semibold">Menu</span>
@@ -178,6 +184,8 @@ export function Navigation() {
                   />
                 </button>
               </div>
+
+              {/* Nav links only — no duplicate CTAs */}
               <nav
                 className="flex flex-col gap-1 px-4 py-6"
                 aria-label="Mobile navigation"
@@ -193,14 +201,10 @@ export function Navigation() {
                   </a>
                 ))}
               </nav>
-              <div className="mt-auto flex flex-col gap-3 border-t border-border px-6 py-6">
-                <PrimaryButton label="Book a demo" href="/demo" />
-                <SecondaryButton label="Explore the mockups" href="/mockups" />
-              </div>
             </motion.div>
           </>
         )}
       </AnimatePresence>
-    </header>
+    </>
   );
 }
