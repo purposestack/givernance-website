@@ -1,0 +1,98 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-lint:
+    name: Build, Lint & Type Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Type check
+        run: pnpm tsc --noEmit
+
+      - name: Lint
+        run: pnpm eslint src/
+
+      - name: Build
+        run: pnpm build
+
+      - name: Check bundle size
+        run: |
+          # Advisory warning — issue spec says "warn", not "fail"
+          node -e "
+            const fs = require('fs');
+            const buildManifest = JSON.parse(
+              fs.readFileSync('.next/build-manifest.json', 'utf8')
+            );
+            const pages = buildManifest.pages;
+            const allChunks = new Set();
+            for (const [page, chunks] of Object.entries(pages)) {
+              for (const chunk of chunks) {
+                allChunks.add(chunk);
+              }
+            }
+            let totalSize = 0;
+            for (const chunk of allChunks) {
+              try {
+                const stat = fs.statSync('.next/' + chunk);
+                totalSize += stat.size;
+              } catch {}
+            }
+            const sizeKB = (totalSize / 1024).toFixed(1);
+            const LIMIT_KB = 150;
+            console.log('Total JS bundle size: ' + sizeKB + ' KB');
+            if (totalSize / 1024 > LIMIT_KB) {
+              console.log('::warning::JS bundle size (' + sizeKB + ' KB) exceeds ' + LIMIT_KB + ' KB gzipped limit');
+            } else {
+              console.log('Bundle size within ' + LIMIT_KB + ' KB limit');
+            }
+          "
+
+  lighthouse:
+    name: Lighthouse CI
+    needs: build-and-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: .lighthouserc.json
+          uploadArtifacts: true
