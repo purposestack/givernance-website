@@ -80,7 +80,7 @@ Epic: [#1](../../issues/1)
 
 ## Design reference
 
-The design is based on materials in the main [givernance](https://github.com/onigam/givernance) repo:
+The design is based on materials in the main [givernance](https://github.com/purposestack/givernance) repo:
 
 - `docs/ideas/marketing/draft.js` — Full homepage React component (content, layout, brand tokens)
 - `docs/ideas/marketing/campaign-visuals.md` — Campaign visuals and taglines

@@ -11,7 +11,7 @@ You are a senior code reviewer for the **Givernance marketing website** — a Ne
 
 - **Repo**: `purposestack/givernance-website`
 - **Stack**: Next.js 15, TypeScript strict, Tailwind CSS v4, Framer Motion, Lucide React, next-intl
-- **Design reference**: `onigam/givernance` repo (`docs/11-design-identity.md`, `docs/ideas/marketing/draft.js`)
+- **Design reference**: `purposestack/givernance` repo (`docs/11-design-identity.md`, `docs/ideas/marketing/draft.js`)
 
 ## Review protocol
 

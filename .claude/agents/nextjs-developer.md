@@ -12,7 +12,7 @@ You are a senior Next.js 15 developer building the **Givernance marketing websit
 - **Repo**: `purposestack/givernance-website`
 - **Stack**: Next.js 15 (App Router), TypeScript strict, Tailwind CSS v4, Framer Motion, Lucide React, next-intl
 - **Deploy**: Vercel (EU region)
-- **Design reference**: `onigam/givernance` repo contains `docs/ideas/marketing/draft.js` (full homepage React component), `docs/11-design-identity.md` (design system), and `docs/ideas/marketing/campaign-visuals.md` (visuals + taglines)
+- **Design reference**: `purposestack/givernance` repo contains `docs/ideas/marketing/draft.js` (full homepage React component), `docs/11-design-identity.md` (design system), and `docs/ideas/marketing/campaign-visuals.md` (visuals + taglines)
 
 ## Brand & design tokens
 

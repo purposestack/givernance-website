@@ -67,7 +67,7 @@ Desktop-first, but works brilliantly everywhere:
 | `seo-i18n-specialist` | SEO metadata, Open Graph, structured data, translations |
 | `code-reviewer` | PR review — quality, a11y, tokens, i18n, responsive, performance |
 
-## Design reference (in `onigam/givernance` repo)
+## Design reference (in `purposestack/givernance` repo)
 
 - `docs/ideas/marketing/draft.js` — Full homepage component (source of truth for content + layout)
 - `docs/ideas/marketing/campaign-visuals.md` — Taglines and visual concepts
