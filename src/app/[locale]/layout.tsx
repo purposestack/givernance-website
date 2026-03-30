@@ -19,6 +19,22 @@ const instrumentSerif = Instrument_Serif({
   display: "swap",
 });
 
+const ogLocaleMap: Record<string, string> = {
+  en: "en_GB",
+  fr: "fr_FR",
+  de: "de_DE",
+  nl: "nl_NL",
+  es: "es_ES",
+};
+
+const htmlLangMap: Record<string, string> = {
+  en: "en-GB",
+  fr: "fr",
+  de: "de",
+  nl: "nl",
+  es: "es",
+};
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -40,6 +56,9 @@ export async function generateMetadata({
       languages: {
         en: "/",
         fr: "/fr",
+        de: "/de",
+        nl: "/nl",
+        es: "/es",
       },
     },
     openGraph: {
@@ -47,7 +66,7 @@ export async function generateMetadata({
       description: t("ogDescription"),
       url: locale === "en" ? "https://givernance.org" : `https://givernance.org/${locale}`,
       siteName: "Givernance",
-      locale: locale === "fr" ? "fr_FR" : "en_GB",
+      locale: ogLocaleMap[locale] ?? "en_GB",
       type: "website",
     },
     twitter: {
@@ -75,7 +94,7 @@ function buildJsonLd(locale: string, description: string) {
         : `https://givernance.org/${locale}`,
     description,
     foundingDate: "2026",
-    inLanguage: locale === "fr" ? "fr-FR" : "en-GB",
+    inLanguage: ogLocaleMap[locale]?.replace("_", "-") ?? "en-GB",
     areaServed: {
       "@type": "Place",
       name: "Europe",
@@ -98,7 +117,7 @@ export default async function LocaleLayout({
 
   return (
     <html
-      lang={locale === "fr" ? "fr" : "en-GB"}
+      lang={htmlLangMap[locale] ?? locale}
       className={`${inter.variable} ${instrumentSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
