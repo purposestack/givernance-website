@@ -8,10 +8,9 @@ export async function Footer() {
   const year = new Date().getFullYear();
 
   const productLinks = [
-    { label: t("features"), href: "#product" },
     { label: t("whySwitch"), href: "#why-switch" },
-    { label: t("fundraising"), href: "#fundraising" },
-    { label: t("security"), href: "#security" },
+    { label: t("features"), href: "#product" },
+    { label: t("ai"), href: "#ai" },
   ];
 
   const resourceLinks = [

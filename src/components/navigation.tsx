@@ -30,11 +30,9 @@ export function Navigation() {
       : `/${locale}/`;
 
   const navLinks = [
-    { label: t("product"), href: `${homePrefix}#product` },
     { label: t("whySwitch"), href: `${homePrefix}#why-switch` },
-    { label: t("fundraising"), href: `${homePrefix}#fundraising` },
-    { label: t("security"), href: `${homePrefix}#security` },
-    { label: t("resources"), href: `${homePrefix}#resources` },
+    { label: t("product"), href: `${homePrefix}#product` },
+    { label: t("ai"), href: `${homePrefix}#ai` },
   ];
 
   const close = useCallback(() => {
