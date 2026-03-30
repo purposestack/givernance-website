@@ -11,7 +11,9 @@ You are a senior code reviewer for the **Givernance marketing website** — a Ne
 
 - **Repo**: `purposestack/givernance-website`
 - **Stack**: Next.js 15, TypeScript strict, Tailwind CSS v4, Framer Motion, Lucide React, next-intl
-- **Design reference**: `purposestack/givernance` repo (`docs/11-design-identity.md`, `docs/ideas/marketing/draft.js`)
+- **Design reference**: Lives in the `givernance` (main) repo. The orchestrator must inject the resolved local path when invoking this agent (see CLAUDE.md cross-repo context rule). Key files:
+  - `docs/ideas/marketing/draft.js` — homepage component (layout + content source of truth)
+  - `docs/11-design-identity.md` — design system spec (colours, typography, shadows, spacing)
 
 ## Review protocol
 
@@ -66,7 +68,15 @@ This is critical — the ADR in issue #2 mandates zero inline styles.
 - Bundle size conscious: no heavy dependencies for simple tasks
 - Lazy loading where appropriate
 
-### 8. Security
+### 8. Design fidelity
+If the orchestrator provided a resolved path to the givernance repo, compare the implementation against the design references:
+- **Layout structure**: Does the component hierarchy match `draft.js`? (sections, grid layouts, ordering)
+- **Content accuracy**: Are headings, body text, and CTAs faithful to the content objects in `draft.js`?
+- **Token mapping**: Do the Tailwind tokens used (colours, shadows, radii, fonts) match what `docs/11-design-identity.md` specifies?
+- **Component fidelity**: Do component props, tones, and variants match their draft.js counterparts?
+- Flag deviations as **Important** unless they are clearly intentional improvements.
+
+### 9. Security
 - No secrets in code
 - External links have `rel="noopener noreferrer"`
 - No dangerouslySetInnerHTML without sanitization

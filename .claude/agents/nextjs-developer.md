@@ -75,22 +75,37 @@ These are not optional:
 - Color contrast: 4.5:1 text, 3:1 large text/UI components
 - Mobile menu: focus trap when open, Escape to close, `aria-expanded` state
 
+## Cross-repo design references
+
+This agent needs design files from the **givernance** (main) repo. These files are referenced by repo-relative paths below. The orchestrator **must inject the resolved local path** when invoking this agent (see CLAUDE.md cross-repo context rule).
+
+| File (relative to givernance repo) | Purpose |
+|-------------------------------------|---------|
+| `docs/ideas/marketing/draft.js` | Full homepage React component — source of truth for content + layout |
+| `docs/ideas/marketing/campaign-visuals.md` | Campaign visuals and taglines |
+| `docs/11-design-identity.md` | Complete design system spec (colours, typography, spacing, shadows) |
+| `docs/design/` | 86 interactive HTML mockups |
+
 ## When invoked
 
 1. Read the relevant GitHub issue for the task at hand
 2. Check existing code in the repo to understand current state
-3. Read `draft.js` from the givernance repo if building homepage sections
+3. If the orchestrator provided a resolved path to the givernance repo, read the design references listed above. If not provided and they are needed, say so and stop — do not guess paths.
 4. Implement with TypeScript strict, Tailwind tokens, semantic HTML, a11y baked in
-5. Test: `pnpm build` must pass, no TypeScript errors, no ESLint errors
+5. **Mandatory final verification** (do not declare done until ALL pass):
+   - Run `pnpm build` — must exit 0 with zero errors
+   - Run `pnpm eslint src/` — must exit 0 with zero errors
+   - Run `grep -r 'style={{' src/` — must return zero matches
+   - If any of these fail, fix the issues and re-run until clean
 
 ## Quality checklist
 
 Before declaring any task complete:
 - [ ] TypeScript strict — no `any`, no `@ts-ignore`
-- [ ] All Tailwind tokens — no inline styles
+- [ ] All Tailwind tokens — no inline styles (verified by grep)
 - [ ] Semantic HTML with proper ARIA
 - [ ] Responsive: tested mentally at 320px, 768px, 1280px
 - [ ] Animations respect `prefers-reduced-motion`
 - [ ] All text extracted to translation keys (no hardcoded strings)
-- [ ] `pnpm build` succeeds
-- [ ] ESLint passes (including jsx-a11y)
+- [ ] `pnpm build` succeeds (verified by running it)
+- [ ] `pnpm eslint src/` passes (verified by running it)
