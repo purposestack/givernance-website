@@ -6,8 +6,6 @@ export function LogoMark({ className = "h-10 w-10" }: { className?: string }) {
         className={className}
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-label="Givernance logo"
       >
         <path
           d="M50 25C39 32 29 38 18 43C25 59 37 71 52 77C56 66 56 54 50 25Z"
