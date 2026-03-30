@@ -171,6 +171,37 @@
     "successDescription": "Uw aanvraag is ontvangen. We nemen contact met u op om uw demo in te plannen.",
     "errorFallback": "Er ging iets mis. Probeer het opnieuw."
   },
+  "mockups": {
+    "eyebrow": "Design preview",
+    "heading": "Bekijk elk scherm voordat we het bouwen.",
+    "description": "97 interactieve mockups van het volledige Givernance-platform — van onboarding tot impactrapportage. Klik op een screenshot om het interactieve HTML-prototype te verkennen.",
+    "browseInteractive": "Alle interactieve mockups bekijken",
+    "categoryCore": "Dashboard",
+    "categoryConstituents": "Contacten",
+    "categoryDonations": "Donaties",
+    "categoryCampaigns": "Campagnes",
+    "categoryGrants": "Subsidies",
+    "categoryAuth": "Authenticatie & onboarding",
+    "categoryReference": "Design referentie",
+    "dashboard": "Dashboard",
+    "constituentsList": "Contactenlijst",
+    "constituentsDetail": "Contactdetail",
+    "donationsList": "Donatielijst",
+    "donationsNew": "Nieuwe donatie",
+    "campaignsList": "Campagnelijst",
+    "grantsKanban": "Subsidies kanban",
+    "authLogin": "Inloggen",
+    "onboarding1": "Onboarding — stap 1",
+    "onboarding2": "Onboarding — stap 2",
+    "onboarding3": "Onboarding — stap 3",
+    "onboarding4": "Onboarding — stap 4",
+    "onboarding5": "Onboarding — stap 5",
+    "designSystem": "Design systeem",
+    "moodboard": "Moodboard",
+    "statScreens": "Interactieve schermen",
+    "statModules": "Functiemodules",
+    "statInteractive": "Volledig interactief"
+  },
   "common": {
     "skipToContent": "Ga naar inhoud"
   }

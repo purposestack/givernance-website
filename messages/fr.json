@@ -171,6 +171,37 @@
     "successDescription": "Votre demande a bien été reçue. Nous vous contacterons pour planifier votre démonstration.",
     "errorFallback": "Une erreur est survenue. Veuillez réessayer."
   },
+  "mockups": {
+    "eyebrow": "Aperçu du design",
+    "heading": "Découvrez chaque écran avant sa réalisation.",
+    "description": "97 maquettes interactives couvrant l'intégralité de la plateforme Givernance — de l'intégration au reporting d'impact. Cliquez sur une capture pour explorer le prototype HTML interactif.",
+    "browseInteractive": "Parcourir toutes les maquettes interactives",
+    "categoryCore": "Tableau de bord",
+    "categoryConstituents": "Constituants",
+    "categoryDonations": "Dons",
+    "categoryCampaigns": "Campagnes",
+    "categoryGrants": "Subventions",
+    "categoryAuth": "Authentification et intégration",
+    "categoryReference": "Référence design",
+    "dashboard": "Tableau de bord",
+    "constituentsList": "Liste des constituants",
+    "constituentsDetail": "Fiche constituant",
+    "donationsList": "Liste des dons",
+    "donationsNew": "Nouveau don",
+    "campaignsList": "Liste des campagnes",
+    "grantsKanban": "Kanban subventions",
+    "authLogin": "Connexion",
+    "onboarding1": "Intégration — étape 1",
+    "onboarding2": "Intégration — étape 2",
+    "onboarding3": "Intégration — étape 3",
+    "onboarding4": "Intégration — étape 4",
+    "onboarding5": "Intégration — étape 5",
+    "designSystem": "Système de design",
+    "moodboard": "Planche d'inspiration",
+    "statScreens": "Écrans interactifs",
+    "statModules": "Modules fonctionnels",
+    "statInteractive": "Entièrement interactif"
+  },
   "common": {
     "skipToContent": "Aller au contenu"
   }

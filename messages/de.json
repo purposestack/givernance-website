@@ -171,6 +171,37 @@
     "successDescription": "Ihre Anfrage ist eingegangen. Wir werden uns melden, um Ihre Demo zu planen.",
     "errorFallback": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
   },
+  "mockups": {
+    "eyebrow": "Design-Vorschau",
+    "heading": "Sehen Sie jeden Bildschirm, bevor wir ihn bauen.",
+    "description": "97 interaktive Mockups der gesamten Givernance-Plattform — vom Onboarding bis zum Wirkungsbericht. Klicken Sie auf einen Screenshot, um den interaktiven HTML-Prototyp zu erkunden.",
+    "browseInteractive": "Alle interaktiven Mockups ansehen",
+    "categoryCore": "Dashboard",
+    "categoryConstituents": "Kontakte",
+    "categoryDonations": "Spenden",
+    "categoryCampaigns": "Kampagnen",
+    "categoryGrants": "Fördermittel",
+    "categoryAuth": "Authentifizierung & Onboarding",
+    "categoryReference": "Design-Referenz",
+    "dashboard": "Dashboard",
+    "constituentsList": "Kontaktliste",
+    "constituentsDetail": "Kontaktdetail",
+    "donationsList": "Spendenliste",
+    "donationsNew": "Neue Spende",
+    "campaignsList": "Kampagnenliste",
+    "grantsKanban": "Fördermittel-Kanban",
+    "authLogin": "Anmeldung",
+    "onboarding1": "Onboarding — Schritt 1",
+    "onboarding2": "Onboarding — Schritt 2",
+    "onboarding3": "Onboarding — Schritt 3",
+    "onboarding4": "Onboarding — Schritt 4",
+    "onboarding5": "Onboarding — Schritt 5",
+    "designSystem": "Design-System",
+    "moodboard": "Moodboard",
+    "statScreens": "Interaktive Bildschirme",
+    "statModules": "Funktionsmodule",
+    "statInteractive": "Vollständig interaktiv"
+  },
   "common": {
     "skipToContent": "Zum Inhalt springen"
   }
