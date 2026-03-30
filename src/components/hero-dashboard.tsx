@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import { CheckCircle2 } from "lucide-react";
 
 const chartBars = [
@@ -10,13 +11,15 @@ const chartBars = [
   "h-[102px]",
 ];
 
-const suggestedActions = [
-  "Send thank-you emails to 26 new donors",
-  "Review anomaly in QR campaign attribution",
-  "Confirm Stripe Connect onboarding for Fondation Horizon",
-];
+export async function HeroDashboard() {
+  const t = await getTranslations("dashboard");
 
-export function HeroDashboard() {
+  const suggestedActions = [
+    t("action1"),
+    t("action2"),
+    t("action3"),
+  ];
+
   return (
     <div className="rounded-panel border border-border bg-white/85 p-4 shadow-hero" aria-hidden="true">
       <div className="rounded-[20px] border border-border bg-soft p-5">
@@ -24,14 +27,14 @@ export function HeroDashboard() {
         <div className="flex items-center justify-between rounded-card bg-white px-4 py-3">
           <div>
             <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-muted">
-              Today&apos;s overview
+              {t("todayOverview")}
             </div>
             <div className="mt-1 text-sm font-semibold text-text">
-              Fundraising dashboard
+              {t("fundraisingDashboard")}
             </div>
           </div>
           <div className="rounded-full bg-primary-50 px-3 py-1 text-[11px] font-medium text-primary-dark">
-            Assisted mode
+            {t("assistedMode")}
           </div>
         </div>
 
@@ -42,14 +45,14 @@ export function HeroDashboard() {
             <div className="flex items-center justify-between">
               <div>
                 <div className="text-sm font-semibold text-text">
-                  Postal spring appeal
+                  {t("postalSpringAppeal")}
                 </div>
                 <div className="text-xs text-muted">
-                  QR-linked / 3 donor segments
+                  {t("qrLinkedSegments")}
                 </div>
               </div>
               <div className="rounded-full bg-primary-50 px-3 py-1 text-[11px] font-medium text-primary-dark">
-                On track
+                {t("onTrack")}
               </div>
             </div>
 
@@ -74,7 +77,7 @@ export function HeroDashboard() {
             {/* Suggested actions */}
             <div className="rounded-card bg-white p-4">
               <div className="text-sm font-semibold text-text">
-                Suggested next actions
+                {t("suggestedNextActions")}
               </div>
               <div className="mt-4 space-y-3">
                 {suggestedActions.map((item) => (
@@ -98,23 +101,23 @@ export function HeroDashboard() {
             {/* Campaign ROI card */}
             <div className="rounded-card bg-navy p-5 text-white">
               <div className="text-[11px] uppercase tracking-[0.18em] text-navy-muted">
-                Campaign ROI
+                {t("campaignRoi")}
               </div>
               <div className="mt-3 text-[34px] font-semibold tracking-tight">
                 4.8&times;
               </div>
               <div className="mt-1 text-[13px] text-navy-muted">
-                Cost vs donations received
+                {t("costVsDonations")}
               </div>
               <div className="mt-6 grid grid-cols-2 gap-3 text-[13px]">
                 <div className="rounded-[14px] bg-white/10 p-3">
-                  <div className="text-navy-muted">Mail sent</div>
-                  <div className="mt-1 font-medium text-white">12,400</div>
+                  <div className="text-navy-muted">{t("mailSent")}</div>
+                  <div className="mt-1 font-medium text-white">{t("mailSentValue")}</div>
                 </div>
                 <div className="rounded-[14px] bg-white/10 p-3">
-                  <div className="text-navy-muted">Revenue</div>
+                  <div className="text-navy-muted">{t("revenue")}</div>
                   <div className="mt-1 font-medium text-white">
-                    &euro;58,240
+                    {t("revenueValue")}
                   </div>
                 </div>
               </div>

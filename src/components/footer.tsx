@@ -1,26 +1,29 @@
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { LogoMark } from "./logo-mark";
 import { PrimaryButton } from "./primary-button";
 
-const productLinks = [
-  { label: "Features", href: "#product" },
-  { label: "Why switch", href: "#why-switch" },
-  { label: "Fundraising", href: "#fundraising" },
-  { label: "Security", href: "#security" },
-];
-
-const resourceLinks = [
-  { label: "Interactive mockups", href: "/mockups" },
-  { label: "Documentation", href: "/docs" },
-  { label: "Contact", href: "/contact" },
-];
-
-const legalLinks = [
-  { label: "Privacy policy", href: "/privacy" },
-  { label: "Mentions légales", href: "/legal" },
-];
-
-export function Footer() {
+export async function Footer() {
+  const t = await getTranslations("footer");
   const year = new Date().getFullYear();
+
+  const productLinks = [
+    { label: t("features"), href: "#product" },
+    { label: t("whySwitch"), href: "#why-switch" },
+    { label: t("fundraising"), href: "#fundraising" },
+    { label: t("security"), href: "#security" },
+  ];
+
+  const resourceLinks = [
+    { label: t("interactiveMockups"), href: "/mockups" },
+    { label: t("documentation"), href: "/docs" },
+    { label: t("contact"), href: "/contact" },
+  ];
+
+  const legalLinks = [
+    { label: t("privacyPolicy"), href: "/privacy" },
+    { label: t("legalNotice"), href: "/legal" },
+  ];
 
   return (
     <footer className="border-t border-border bg-soft" role="contentinfo">
@@ -35,20 +38,19 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-6 text-muted">
-              The GDPR-native CRM for European nonprofits. Calm,
-              capable, affordable.
+              {t("brandDescription")}
             </p>
             <p className="mt-3 max-w-xs text-sm italic leading-6 text-muted">
-              Built by people who believe nonprofits deserve better software.
+              {t("tagline")}
             </p>
             <div className="mt-6">
-              <PrimaryButton label="Book a demo" href="/demo" />
+              <PrimaryButton label={t("bookDemo")} href="/demo" />
             </div>
           </div>
 
           {/* Product */}
           <div>
-            <h3 className="text-sm font-semibold text-text">Product</h3>
+            <h3 className="text-sm font-semibold text-text">{t("productHeading")}</h3>
             <ul className="mt-4 space-y-3">
               {productLinks.map((link) => (
                 <li key={link.label}>
@@ -65,16 +67,16 @@ export function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="text-sm font-semibold text-text">Resources</h3>
+            <h3 className="text-sm font-semibold text-text">{t("resourcesHeading")}</h3>
             <ul className="mt-4 space-y-3">
               {resourceLinks.map((link) => (
                 <li key={link.label}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-sm text-muted transition-colors hover:text-text"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -82,16 +84,16 @@ export function Footer() {
 
           {/* Legal */}
           <div>
-            <h3 className="text-sm font-semibold text-text">Legal</h3>
+            <h3 className="text-sm font-semibold text-text">{t("legalHeading")}</h3>
             <ul className="mt-4 space-y-3">
               {legalLinks.map((link) => (
                 <li key={link.label}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-sm text-muted transition-colors hover:text-text"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -101,9 +103,9 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 flex flex-col items-center gap-4 border-t border-border pt-8 md:flex-row md:justify-between">
           <p className="text-sm text-muted">
-            &copy; {year} Givernance. All rights reserved.
+            {t("copyright", { year })}
           </p>
-          <p className="text-sm text-muted">Designed and hosted in Europe</p>
+          <p className="text-sm text-muted">{t("hostedInEurope")}</p>
         </div>
       </div>
     </footer>
