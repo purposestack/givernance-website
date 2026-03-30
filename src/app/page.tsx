@@ -29,12 +29,12 @@ export default function HomePage() {
       <Navigation />
       <main id="main-content">
         {/* ── Hero ── */}
-        <section className="relative overflow-hidden">
+        <section className="relative overflow-hidden" aria-labelledby="hero-heading">
           <div className="hero-gradient absolute inset-0" aria-hidden="true" />
           <div className="relative mx-auto grid max-w-7xl gap-14 px-6 py-16 lg:grid-cols-[0.95fr_1.05fr] lg:px-8 lg:py-24">
             <FadeIn>
               <SectionEyebrow>Built for European nonprofits</SectionEyebrow>
-              <h1 className="mt-6 font-heading text-4xl leading-[1.02] tracking-[-0.035em] sm:text-[54px] lg:text-[68px]">
+              <h1 id="hero-heading" className="mt-6 font-heading text-4xl leading-[1.02] tracking-[-0.035em] sm:text-[54px] lg:text-[68px]">
                 The nonprofit CRM built for how Europe actually fundraises.
               </h1>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">
@@ -69,20 +69,22 @@ export default function HomePage() {
         {/* ── Trust Strip ── */}
         <section
           className="mx-auto max-w-7xl px-6 py-6 lg:px-8"
-          aria-label="Key benefits"
+          aria-labelledby="trust-strip-heading"
         >
+          <h2 id="trust-strip-heading" className="sr-only">Key benefits</h2>
           <FadeIn>
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            <ul className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
               {trustStrip.map((item, index) => (
-                <Card
-                  key={item.title}
-                  title={item.title}
-                  description={item.description}
-                  icon={item.icon}
-                  tone={index === 0 ? "green" : "default"}
-                />
+                <li key={item.title}>
+                  <Card
+                    title={item.title}
+                    description={item.description}
+                    icon={item.icon}
+                    tone={index === 0 ? "green" : "default"}
+                  />
+                </li>
               ))}
-            </div>
+            </ul>
           </FadeIn>
         </section>
 
@@ -90,11 +92,12 @@ export default function HomePage() {
         <section
           id="why-switch"
           className="mx-auto max-w-7xl scroll-mt-20 px-6 py-16 lg:px-8 lg:py-24"
+          aria-labelledby="why-switch-heading"
         >
           <div className="grid gap-10 lg:grid-cols-[0.88fr_1.12fr] lg:items-start">
             <FadeIn>
               <SectionEyebrow>Why teams switch</SectionEyebrow>
-              <h2 className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
+              <h2 id="why-switch-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
                 Salesforce made sense. Then your nonprofit had to actually use
                 it.
               </h2>
@@ -109,36 +112,36 @@ export default function HomePage() {
               <div className="grid gap-4 rounded-panel border border-border bg-paper p-6 shadow-medium md:grid-cols-2">
                 {/* Pain points (red) */}
                 <div className="rounded-card border border-red-light-border bg-red-light-bg p-5">
-                  <div className="text-sm font-semibold text-red-dark">
+                  <p className="text-sm font-semibold text-red-dark" id="patchwork-heading">
                     The patchwork stack
-                  </div>
-                  <div className="mt-4 space-y-3">
+                  </p>
+                  <ul className="mt-4 space-y-3" aria-labelledby="patchwork-heading">
                     {painPoints.map((point) => (
-                      <div
+                      <li
                         key={point}
                         className="rounded-[14px] bg-white/80 p-3 text-[13px] leading-6 text-red-dark"
                       >
                         {point}
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </div>
 
                 {/* Givernance alternative (green) */}
                 <div className="rounded-card border border-green-soft-border bg-primary-50 p-5">
-                  <div className="text-sm font-semibold text-primary-dark">
+                  <p className="text-sm font-semibold text-primary-dark" id="alternative-heading">
                     The Givernance alternative
-                  </div>
-                  <div className="mt-4 space-y-3">
+                  </p>
+                  <ul className="mt-4 space-y-3" aria-labelledby="alternative-heading">
                     {alternativePoints.map((point) => (
-                      <div
+                      <li
                         key={point}
                         className="rounded-[14px] bg-white/80 p-3 text-[13px] leading-6 text-primary-dark"
                       >
                         {point}
-                      </div>
+                      </li>
                     ))}
-                  </div>
+                  </ul>
                 </div>
               </div>
             </FadeIn>
@@ -149,6 +152,7 @@ export default function HomePage() {
         <section
           id="fundraising"
           className="scroll-mt-20 border-y border-border bg-paper"
+          aria-labelledby="fundraising-heading"
         >
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
             <FadeIn>
@@ -157,7 +161,7 @@ export default function HomePage() {
               </SectionEyebrow>
               <div className="mt-6 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
                 <div className="max-w-3xl">
-                  <h2 className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
+                  <h2 id="fundraising-heading" className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
                     More than a donor database. A system for the campaigns you
                     actually run.
                   </h2>
@@ -175,17 +179,18 @@ export default function HomePage() {
             </FadeIn>
 
             <FadeIn>
-              <div className="mt-12 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              <ul className="mt-12 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {fundraisingCards.map((item, index) => (
-                  <Card
-                    key={item.title}
-                    title={item.title}
-                    description={item.description}
-                    icon={item.icon}
-                    tone={index % 3 === 0 ? "soft" : "default"}
-                  />
+                  <li key={item.title}>
+                    <Card
+                      title={item.title}
+                      description={item.description}
+                      icon={item.icon}
+                      tone={index % 3 === 0 ? "soft" : "default"}
+                    />
+                  </li>
                 ))}
-              </div>
+              </ul>
             </FadeIn>
           </div>
         </section>
@@ -194,22 +199,23 @@ export default function HomePage() {
         <section
           id="product"
           className="mx-auto max-w-7xl scroll-mt-20 px-6 py-16 lg:px-8 lg:py-24"
+          aria-labelledby="product-heading"
         >
           <FadeIn>
             <SectionEyebrow>One calmer system</SectionEyebrow>
           </FadeIn>
           <div className="mt-6 grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
             <FadeIn>
-              <h2 className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
+              <h2 id="product-heading" className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
                 Fundraising at the center. Everything else connected around it.
               </h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">
                 Givernance starts with the donor lifecycle, then connects the
                 rest of the organisation around that relationship.
               </p>
-              <div className="mt-8 max-w-md space-y-3">
+              <ul className="mt-8 max-w-md space-y-3">
                 {platformBullets.map((line) => (
-                  <div
+                  <li
                     key={line}
                     className="flex items-start gap-3 text-sm leading-6 text-muted"
                   >
@@ -219,33 +225,34 @@ export default function HomePage() {
                       aria-hidden="true"
                     />
                     <span>{line}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </FadeIn>
 
             <FadeIn delay={0.1}>
-              <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+              <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
                 {platformCards.map((item) => (
-                  <Card
-                    key={item.title}
-                    title={item.title}
-                    description={item.description}
-                    icon={item.icon}
-                  />
+                  <li key={item.title}>
+                    <Card
+                      title={item.title}
+                      description={item.description}
+                      icon={item.icon}
+                    />
+                  </li>
                 ))}
-              </div>
+              </ul>
             </FadeIn>
           </div>
         </section>
 
         {/* ── AI Section (dark navy) ── */}
-        <section className="bg-navy text-paper">
+        <section className="bg-navy text-paper" aria-labelledby="ai-heading">
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
             <FadeIn>
               <SectionEyebrow>AI with guardrails</SectionEyebrow>
               <div className="mt-6 max-w-3xl">
-                <h2 className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
+                <h2 id="ai-heading" className="font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
                   AI that reduces admin without removing control.
                 </h2>
                 <p className="mt-6 text-base leading-8 text-navy-muted">
@@ -257,9 +264,9 @@ export default function HomePage() {
             </FadeIn>
 
             <FadeIn>
-              <div className="mt-12 grid gap-4 lg:grid-cols-3">
+              <ul className="mt-12 grid gap-4 lg:grid-cols-3">
                 {aiModes.map((mode, index) => (
-                  <div
+                  <li
                     key={mode.title}
                     className={`rounded-card border p-6 ${
                       index === 1
@@ -278,9 +285,9 @@ export default function HomePage() {
                     <p className="mt-4 text-sm leading-6 text-navy-muted">
                       {mode.description}
                     </p>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
 
               <div className="mt-8 rounded-card border border-white/10 bg-white/4 p-5 text-sm leading-6 text-navy-muted">
                 No irreversible action without confirmation. Full auditability
@@ -294,11 +301,12 @@ export default function HomePage() {
         <section
           id="security"
           className="mx-auto max-w-7xl scroll-mt-20 px-6 py-16 lg:px-8 lg:py-24"
+          aria-labelledby="security-heading"
         >
           <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
             <FadeIn>
               <SectionEyebrow>Made for European realities</SectionEyebrow>
-              <h2 className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
+              <h2 id="security-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
                 Privacy, payments, and nonprofit workflows that feel local.
               </h2>
               <p className="mt-6 max-w-xl text-base leading-8 text-muted">
@@ -309,9 +317,9 @@ export default function HomePage() {
             </FadeIn>
 
             <FadeIn delay={0.1}>
-              <div className="grid gap-4 md:grid-cols-3">
+              <ul className="grid gap-4 md:grid-cols-3">
                 {securityCards.map((item, index) => (
-                  <div
+                  <li
                     key={item.title}
                     className={`rounded-card border border-border p-6 ${
                       index === 0
@@ -327,9 +335,9 @@ export default function HomePage() {
                     <p className="mt-3 text-sm leading-6 text-muted">
                       {item.description}
                     </p>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </FadeIn>
           </div>
         </section>
@@ -338,12 +346,13 @@ export default function HomePage() {
         <section
           id="resources"
           className="scroll-mt-20 border-y border-border bg-paper"
+          aria-labelledby="resources-heading"
         >
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
             <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
               <FadeIn>
                 <SectionEyebrow>See the product</SectionEyebrow>
-                <h2 className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
+                <h2 id="resources-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
                   Not a concept deck. A real product vision you can click
                   through.
                 </h2>
@@ -360,9 +369,9 @@ export default function HomePage() {
               </FadeIn>
 
               <FadeIn delay={0.1}>
-                <div className="grid gap-4 sm:grid-cols-2">
+                <ul className="grid gap-4 sm:grid-cols-2">
                   {resourceCards.map((item, index) => (
-                    <div
+                    <li
                       key={item.title}
                       className={`rounded-card border border-border p-5 ${
                         index % 2 === 0 ? "bg-bg" : "bg-soft"
@@ -381,19 +390,19 @@ export default function HomePage() {
                       <p className="mt-2 text-sm leading-6 text-muted">
                         {item.description}
                       </p>
-                    </div>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </FadeIn>
             </div>
           </div>
         </section>
 
         {/* ── Final CTA ── */}
-        <section className="mx-auto max-w-5xl px-6 py-16 text-center lg:px-8 lg:py-24">
+        <section className="mx-auto max-w-5xl px-6 py-16 text-center lg:px-8 lg:py-24" aria-labelledby="cta-heading">
           <FadeIn>
             <SectionEyebrow>Ready to explore</SectionEyebrow>
-            <h2 className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
+            <h2 id="cta-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">
               See what a calmer nonprofit system could look like.
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-muted">

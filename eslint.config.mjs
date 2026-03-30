@@ -8,9 +8,9 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   // jsx-a11y plugin is already registered by eslint-config-next,
-  // so we only spread the recommended rules to upgrade coverage.
+  // so we only spread the strict rules to upgrade coverage.
   {
-    rules: { ...jsxA11y.flatConfigs.recommended.rules },
+    rules: { ...jsxA11y.flatConfigs.strict.rules },
   },
   eslintConfigPrettier,
   // Override default ignores of eslint-config-next.

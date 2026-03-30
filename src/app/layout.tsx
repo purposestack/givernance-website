@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Instrument_Serif } from "next/font/google";
+import { AxeDev } from "@/components/axe-dev";
 import "./globals.css";
 
 const inter = Inter({
@@ -42,6 +43,7 @@ export default function RootLayout({
         <a href="#main-content" className="skip-link">
           Skip to content
         </a>
+        <AxeDev />
         {children}
       </body>
     </html>
