@@ -10,14 +10,39 @@ const inputClass =
 
 const labelClass = "block text-sm font-medium text-text mb-1.5";
 
-const MATTERS_OPTIONS = [
-  "Donor management",
-  "Postal campaigns",
-  "Online giving",
-  "Grant management",
-  "GDPR compliance",
-  "All of the above",
-];
+interface DemoFormTranslations {
+  eyebrow: string;
+  heading: string;
+  description: string;
+  points: string[];
+  formTitle: string;
+  formDescription: string;
+  firstName: string;
+  lastName: string;
+  orgName: string;
+  role: string;
+  email: string;
+  orgType: string;
+  teamSize: string;
+  currentTools: string;
+  mattersLegend: string;
+  required: string;
+  selectPlaceholder: string;
+  placeholderFirstName: string;
+  placeholderLastName: string;
+  placeholderOrgName: string;
+  placeholderRole: string;
+  placeholderEmail: string;
+  placeholderCurrentTools: string;
+  orgTypes: { value: string; label: string }[];
+  mattersOptions: { value: string; label: string }[];
+  submitButton: string;
+  submitting: string;
+  footerNote: string;
+  successTitle: string;
+  successDescription: string;
+  errorFallback: string;
+}
 
 interface FormData {
   firstName: string;
@@ -43,7 +68,7 @@ const initialForm: FormData = {
   matters: [],
 };
 
-export function DemoForm() {
+export function DemoForm({ translations: t }: { translations: DemoFormTranslations }) {
   const [form, setForm] = useState<FormData>(initialForm);
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -65,7 +90,7 @@ export function DemoForm() {
     }));
   }
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitting(true);
     setError(null);
@@ -80,12 +105,12 @@ export function DemoForm() {
       const data = await res.json();
 
       if (!res.ok || !data.success) {
-        throw new Error(data.error ?? "Something went wrong. Please try again.");
+        throw new Error(data.error ?? t.errorFallback);
       }
 
       setSubmitted(true);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Unexpected error.");
+      setError(err instanceof Error ? err.message : t.errorFallback);
     } finally {
       setSubmitting(false);
     }
@@ -95,25 +120,18 @@ export function DemoForm() {
     <div className="grid gap-16 lg:grid-cols-2 lg:gap-24">
       {/* Left — hero text */}
       <FadeIn className="flex flex-col justify-center">
-        <SectionEyebrow>Book a demo</SectionEyebrow>
+        <SectionEyebrow>{t.eyebrow}</SectionEyebrow>
 
         <h1 className="mt-6 font-heading text-4xl leading-tight tracking-tight text-text lg:text-5xl">
-          See Givernance in&nbsp;action
+          {t.heading}
         </h1>
 
         <p className="mt-6 text-lg leading-8 text-muted">
-          A 30-minute on-screen walkthrough tailored to your organisation —
-          no slides, just the product. We&apos;ll show you exactly how Givernance
-          fits your donor management, postal campaigns, and GDPR workflow.
+          {t.description}
         </p>
 
         <ul className="mt-8 space-y-4">
-          {[
-            "Live demo of the full product",
-            "Tailored to your team size and context",
-            "No commitment required",
-            "We reply within 1 business day",
-          ].map((point) => (
+          {t.points.map((point) => (
             <li key={point} className="flex items-center gap-3 text-sm text-muted">
               <CheckCircle
                 className="h-4 w-4 shrink-0 text-primary"
@@ -136,11 +154,10 @@ export function DemoForm() {
               aria-hidden="true"
             />
             <h2 className="mt-4 text-xl font-semibold text-text">
-              Thank you — we&apos;ll be in touch within 1 business day.
+              {t.successTitle}
             </h2>
             <p className="mt-3 text-sm text-muted">
-              We&apos;ve received your request and will reach out to schedule
-              your demo.
+              {t.successDescription}
             </p>
           </div>
         ) : (
@@ -150,10 +167,10 @@ export function DemoForm() {
             className="rounded-panel border border-border bg-paper p-8"
           >
             <h2 className="text-lg font-semibold text-text">
-              Request your demo
+              {t.formTitle}
             </h2>
             <p className="mt-1 text-sm text-muted">
-              Fill in the form and we&apos;ll reach out to schedule a time.
+              {t.formDescription}
             </p>
 
             <div className="mt-6 space-y-5">
@@ -161,7 +178,7 @@ export function DemoForm() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label htmlFor="firstName" className={labelClass}>
-                    First name <span className="text-red-dark" aria-hidden="true">*</span>
+                    {t.firstName} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
                   </label>
                   <input
                     id="firstName"
@@ -172,12 +189,12 @@ export function DemoForm() {
                     value={form.firstName}
                     onChange={handleChange}
                     className={inputClass}
-                    placeholder="Marie"
+                    placeholder={t.placeholderFirstName}
                   />
                 </div>
                 <div>
                   <label htmlFor="lastName" className={labelClass}>
-                    Last name <span className="text-red-dark" aria-hidden="true">*</span>
+                    {t.lastName} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
                   </label>
                   <input
                     id="lastName"
@@ -188,7 +205,7 @@ export function DemoForm() {
                     value={form.lastName}
                     onChange={handleChange}
                     className={inputClass}
-                    placeholder="Dupont"
+                    placeholder={t.placeholderLastName}
                   />
                 </div>
               </div>
@@ -196,7 +213,7 @@ export function DemoForm() {
               {/* Organisation name */}
               <div>
                 <label htmlFor="orgName" className={labelClass}>
-                  Organisation name <span className="text-red-dark" aria-hidden="true">*</span>
+                  {t.orgName} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
                 </label>
                 <input
                   id="orgName"
@@ -207,14 +224,14 @@ export function DemoForm() {
                   value={form.orgName}
                   onChange={handleChange}
                   className={inputClass}
-                  placeholder="Association des amis du lac"
+                  placeholder={t.placeholderOrgName}
                 />
               </div>
 
               {/* Role */}
               <div>
                 <label htmlFor="role" className={labelClass}>
-                  Role / job title <span className="text-red-dark" aria-hidden="true">*</span>
+                  {t.role} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
                 </label>
                 <input
                   id="role"
@@ -225,14 +242,14 @@ export function DemoForm() {
                   value={form.role}
                   onChange={handleChange}
                   className={inputClass}
-                  placeholder="Fundraising Manager"
+                  placeholder={t.placeholderRole}
                 />
               </div>
 
               {/* Work email */}
               <div>
                 <label htmlFor="email" className={labelClass}>
-                  Work email <span className="text-red-dark" aria-hidden="true">*</span>
+                  {t.email} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
                 </label>
                 <input
                   id="email"
@@ -243,7 +260,7 @@ export function DemoForm() {
                   value={form.email}
                   onChange={handleChange}
                   className={inputClass}
-                  placeholder="marie@association.org"
+                  placeholder={t.placeholderEmail}
                 />
               </div>
 
@@ -251,7 +268,7 @@ export function DemoForm() {
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label htmlFor="orgType" className={labelClass}>
-                    Organisation type
+                    {t.orgType}
                   </label>
                   <select
                     id="orgType"
@@ -260,16 +277,15 @@ export function DemoForm() {
                     onChange={handleChange}
                     className={inputClass}
                   >
-                    <option value="">Select…</option>
-                    <option value="Charity">Charity</option>
-                    <option value="Foundation">Foundation</option>
-                    <option value="Association">Association</option>
-                    <option value="Other">Other</option>
+                    <option value="">{t.selectPlaceholder}</option>
+                    {t.orgTypes.map((opt) => (
+                      <option key={opt.value} value={opt.value}>{opt.label}</option>
+                    ))}
                   </select>
                 </div>
                 <div>
                   <label htmlFor="teamSize" className={labelClass}>
-                    Team size
+                    {t.teamSize}
                   </label>
                   <select
                     id="teamSize"
@@ -278,7 +294,7 @@ export function DemoForm() {
                     onChange={handleChange}
                     className={inputClass}
                   >
-                    <option value="">Select…</option>
+                    <option value="">{t.selectPlaceholder}</option>
                     <option value="1-5">1–5</option>
                     <option value="6-20">6–20</option>
                     <option value="21-50">21–50</option>
@@ -291,7 +307,7 @@ export function DemoForm() {
               {/* Current tools */}
               <div>
                 <label htmlFor="currentTools" className={labelClass}>
-                  What are you currently using?
+                  {t.currentTools}
                 </label>
                 <textarea
                   id="currentTools"
@@ -300,29 +316,29 @@ export function DemoForm() {
                   value={form.currentTools}
                   onChange={handleChange}
                   className={inputClass}
-                  placeholder="Salesforce, Excel, nothing yet…"
+                  placeholder={t.placeholderCurrentTools}
                 />
               </div>
 
               {/* Matters checkboxes */}
               <fieldset>
                 <legend className={labelClass}>
-                  What matters most to you?
+                  {t.mattersLegend}
                 </legend>
                 <div className="mt-2 space-y-2.5">
-                  {MATTERS_OPTIONS.map((option) => (
+                  {t.mattersOptions.map((option) => (
                     <label
-                      key={option}
+                      key={option.value}
                       className="flex cursor-pointer items-center gap-3 text-sm text-text"
                     >
                       <input
                         type="checkbox"
-                        value={option}
-                        checked={form.matters.includes(option)}
+                        value={option.value}
+                        checked={form.matters.includes(option.value)}
                         onChange={handleCheckbox}
                         className="h-4 w-4 rounded border-border accent-primary"
                       />
-                      {option}
+                      {option.label}
                     </label>
                   ))}
                 </div>
@@ -343,7 +359,7 @@ export function DemoForm() {
               disabled={submitting}
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white shadow-green transition hover:bg-primary-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-60"
             >
-              {submitting ? "Sending…" : "Request my demo"}
+              {submitting ? t.submitting : t.submitButton}
               {!submitting && (
                 <ArrowRight
                   className="h-4 w-4"
@@ -354,7 +370,7 @@ export function DemoForm() {
             </button>
 
             <p className="mt-4 text-center text-xs text-muted">
-              We&apos;ll reply within 1 business day. No spam, ever.
+              {t.footerNote}
             </p>
           </form>
         )}
