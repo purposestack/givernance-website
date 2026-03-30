@@ -19,8 +19,7 @@
     "menuTitle": "Menu",
     "mobileNavLabel": "Mobiele navigatie",
     "mainNavLabel": "Hoofdnavigatie",
-    "switchLanguage": "Taal wijzigen",
-    "currentLanguage": "Huidige taal: Nederlands"
+    "switchLanguage": "Taal wijzigen"
   },
   "hero": {
     "eyebrow": "Gebouwd voor Europese non-profits",
@@ -28,7 +27,7 @@
     "description": "Givernance is een AVG-native CRM voor Europese non-profitorganisaties. Beheer donateurs, postale campagnes, online giften, subsidies en impactrapportage in één rustig systeem — zonder de complexiteit of kosten van Salesforce.",
     "bookDemo": "Demo boeken",
     "subtext": "AI-ondersteund als standaard. U behoudt de controle over elke gevoelige beslissing. Snel op te zetten, betaalbaar in gebruik.",
-    "statStaff": "medewerkers",
+    "statStaff": "personen",
     "statMockups": "interactieve mockups",
     "statModules": "kernmodules"
   },

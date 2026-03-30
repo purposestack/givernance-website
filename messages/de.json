@@ -19,8 +19,7 @@
     "menuTitle": "Menü",
     "mobileNavLabel": "Mobile Navigation",
     "mainNavLabel": "Hauptnavigation",
-    "switchLanguage": "Sprache wechseln",
-    "currentLanguage": "Aktuelle Sprache: Deutsch"
+    "switchLanguage": "Sprache wechseln"
   },
   "hero": {
     "eyebrow": "Entwickelt für europäische Non-Profits",
@@ -28,7 +27,7 @@
     "description": "Givernance ist ein DSGVO-natives CRM für europäische gemeinnützige Organisationen. Verwalten Sie Spender, Postkampagnen, Online-Spenden, Fördermittel und Wirkungsberichte in einem ruhigen System — ohne die Komplexität oder Kosten von Salesforce.",
     "bookDemo": "Demo buchen",
     "subtext": "KI-unterstützt von Anfang an. Sie behalten die Kontrolle über jede sensible Entscheidung. Schnell einzurichten, erschwinglich im Betrieb.",
-    "statStaff": "Mitarbeitende",
+    "statStaff": "Personen",
     "statMockups": "interaktive Mockups",
     "statModules": "Kernmodule"
   },
@@ -175,7 +174,7 @@
     "action3": "Stripe-Connect-Onboarding für Fondation Horizon bestätigen",
     "campaignRoi": "Kampagnen-ROI",
     "costVsDonations": "Kosten vs. erhaltene Spenden",
-    "mailSent": "Sendungen verschickt",
+    "mailSent": "Post versandt",
     "mailSentValue": "12.400",
     "revenue": "Einnahmen",
     "revenueValue": "58.240 €"

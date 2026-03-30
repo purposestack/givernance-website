@@ -19,8 +19,7 @@
     "menuTitle": "Menu",
     "mobileNavLabel": "Mobile navigation",
     "mainNavLabel": "Main navigation",
-    "switchLanguage": "Switch language",
-    "currentLanguage": "Current language: English"
+    "switchLanguage": "Switch language"
   },
   "hero": {
     "eyebrow": "Built for European nonprofits",

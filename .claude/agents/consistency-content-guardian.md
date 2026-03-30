@@ -74,7 +74,10 @@ Check that translations are roughly proportional in length:
 Verify correct terminology per CLAUDE.md conventions:
 
 - English: "NPO" not "NGO", en-GB spelling (organisation, colour)
-- French: "RGPD" not "GDPR", "association" not "ONG" (except in metadata)
+- French: "RGPD" not "GDPR", "association" not "ONG" (except in metadata where ONG may be acceptable for SEO)
+- Spanish: "ONG" is the accepted local term — this is a documented exception (do not flag)
+- German: "DSGVO" (not "GDPR")
+- Dutch: "AVG" (not "GDPR")
 - Project name: "Givernance" (capital G, never lowercase)
 - **Severity**: Warning
 

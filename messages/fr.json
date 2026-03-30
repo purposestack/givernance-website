@@ -19,8 +19,7 @@
     "menuTitle": "Menu",
     "mobileNavLabel": "Navigation mobile",
     "mainNavLabel": "Navigation principale",
-    "switchLanguage": "Changer de langue",
-    "currentLanguage": "Langue active : français"
+    "switchLanguage": "Changer de langue"
   },
   "hero": {
     "eyebrow": "Conçu pour les associations européennes",
