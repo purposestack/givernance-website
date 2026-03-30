@@ -311,7 +311,7 @@ export default async function HomePage({
         </section>
 
         {/* ── Final CTA ── */}
-        <section className="mx-auto max-w-5xl px-6 py-16 text-center lg:px-8 lg:py-24" aria-labelledby="cta-heading">
+        <section id="demo" className="mx-auto max-w-5xl scroll-mt-20 px-6 py-16 text-center lg:px-8 lg:py-24" aria-labelledby="cta-heading">
           <FadeIn>
             <SectionEyebrow>{t("cta.eyebrow")}</SectionEyebrow>
             <h2 id="cta-heading" className="mt-6 font-heading text-[32px] leading-[1.06] tracking-[-0.03em] sm:text-[42px] lg:text-[52px]">

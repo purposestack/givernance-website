@@ -33,6 +33,7 @@ export function Navigation() {
     { label: t("whySwitch"), href: `${homePrefix}#why-switch` },
     { label: t("product"), href: `${homePrefix}#product` },
     { label: t("ai"), href: `${homePrefix}#ai` },
+    { label: t("demo"), href: `${homePrefix}#demo` },
   ];
 
   const close = useCallback(() => {

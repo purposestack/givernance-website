@@ -11,6 +11,7 @@ export async function Footer() {
     { label: t("whySwitch"), href: "#why-switch" },
     { label: t("features"), href: "#product" },
     { label: t("ai"), href: "#ai" },
+    { label: t("demo"), href: "#demo" },
   ];
 
   const resourceLinks = [
