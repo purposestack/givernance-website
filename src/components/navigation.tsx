@@ -4,7 +4,8 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
 import { LogoMark } from "./logo-mark";
 import { PrimaryButton } from "./primary-button";
 
@@ -16,13 +17,24 @@ export function Navigation() {
   const triggerRef = useRef<HTMLButtonElement>(null);
   const shouldReduceMotion = useReducedMotion();
   const t = useTranslations("nav");
+  const pathname = usePathname();
+  const locale = useLocale();
+  const isHome = pathname === "/";
+
+  // On non-homepage routes, prefix anchors with the homepage path
+  // so clicking "Product" on /demo navigates to /#product
+  const homePrefix = isHome
+    ? ""
+    : locale === "en"
+      ? "/"
+      : `/${locale}/`;
 
   const navLinks = [
-    { label: t("product"), href: "#product" },
-    { label: t("whySwitch"), href: "#why-switch" },
-    { label: t("fundraising"), href: "#fundraising" },
-    { label: t("security"), href: "#security" },
-    { label: t("resources"), href: "#resources" },
+    { label: t("product"), href: `${homePrefix}#product` },
+    { label: t("whySwitch"), href: `${homePrefix}#why-switch` },
+    { label: t("fundraising"), href: `${homePrefix}#fundraising` },
+    { label: t("security"), href: `${homePrefix}#security` },
+    { label: t("resources"), href: `${homePrefix}#resources` },
   ];
 
   const close = useCallback(() => {
