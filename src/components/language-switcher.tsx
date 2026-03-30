@@ -1,16 +1,9 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { Globe } from "lucide-react";
 import { usePathname, useRouter } from "@/i18n/navigation";
 
-const locales = [
-  { code: "en", label: "English" },
-  { code: "fr", label: "Français" },
-  { code: "de", label: "Deutsch" },
-  { code: "nl", label: "Nederlands" },
-  { code: "es", label: "Español" },
-] as const;
+const locales = ["en", "fr", "de", "nl", "es"] as const;
 
 export function LanguageSwitcher() {
   const currentLocale = useLocale();
@@ -24,20 +17,15 @@ export function LanguageSwitcher() {
 
   return (
     <div className="relative inline-flex items-center">
-      <Globe
-        className="pointer-events-none absolute left-3 h-3.5 w-3.5 text-muted"
-        strokeWidth={1.7}
-        aria-hidden="true"
-      />
       <select
         value={currentLocale}
         onChange={handleChange}
         aria-label={t("switchLanguage")}
-        className="appearance-none rounded-full border border-border bg-paper py-1.5 pl-8 pr-7 text-xs font-medium text-text transition-colors hover:bg-soft focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+        className="appearance-none cursor-pointer rounded-full border border-border bg-paper py-1.5 pl-3 pr-6 text-xs font-medium uppercase tracking-wide text-muted transition-colors hover:bg-soft hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
       >
-        {locales.map((loc) => (
-          <option key={loc.code} value={loc.code}>
-            {loc.label}
+        {locales.map((code) => (
+          <option key={code} value={code}>
+            {code.toUpperCase()}
           </option>
         ))}
       </select>
