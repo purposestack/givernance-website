@@ -67,13 +67,81 @@ Desktop-first, but works brilliantly everywhere:
 | `seo-i18n-specialist` | SEO metadata, Open Graph, structured data, translations |
 | `code-reviewer` | PR review — quality, a11y, tokens, i18n, responsive, performance |
 
-## Design reference (in `purposestack/givernance` repo)
+## Sibling repositories
+
+This project depends on design references that live in a separate repository.
+
+| Repo | Purpose | GitHub |
+|------|---------|--------|
+| `givernance` (main repo) | Architecture specs, design identity, mockups, draft components | `purposestack/givernance` |
+| `givernance-website` (this repo) | Marketing website implementation | `purposestack/givernance-website` |
+
+### Design reference files (in `givernance` repo)
 
 - `docs/ideas/marketing/draft.js` — Full homepage component (source of truth for content + layout)
 - `docs/ideas/marketing/campaign-visuals.md` — Taglines and visual concepts
 - `docs/11-design-identity.md` — Complete design system spec
 - `docs/design/` — 86 interactive HTML mockups
 
+### Cross-repo context rule
+
+Agent definitions must **never hardcode absolute paths** to sibling repos. Local directory layouts vary between contributors.
+
+When the orchestrator invokes a subagent that needs cross-repo files, it **must inject the resolved paths as context** in the agent prompt. Example:
+
+```
+The main givernance repo is located at: {resolved_path}
+Read the design reference from: {resolved_path}/docs/11-design-identity.md
+```
+
+The orchestrator resolves these paths from its own environment (e.g. the working directories it was started with, or by asking the user). Agents reference sibling repos by name (`givernance` repo) and relative paths (`docs/11-design-identity.md`), never by absolute path.
+
 ## Issue tracker
 
 Issues #1–#7 in this repo define the full implementation plan. Work sequentially: #2 → #3 → #4 → #5 → #6 → #7.
+
+## Implementation workflow
+
+Every issue follows this pipeline. The orchestrator (Claude Code main conversation) drives the process and invokes agents in order.
+
+### Step 1 — Understand
+- Read the GitHub issue and its comments
+- Read relevant design references from the `givernance` repo (orchestrator resolves paths and injects them into agent prompts)
+- Identify acceptance criteria
+
+### Step 2 — Build
+- Invoke the `nextjs-developer` agent with the issue context and resolved cross-repo paths
+- The agent implements, runs `pnpm build` and `pnpm eslint src/`, and fixes any errors before declaring done
+
+### Step 3 — Audit
+- Invoke the `accessibility-auditor` agent on the changed code
+- It fixes issues directly and reports what it found
+- If the issue scope touches SEO/i18n, also invoke `seo-i18n-specialist`
+
+### Step 4 — Review
+- Invoke the `code-reviewer` agent on the full diff (`git diff main...HEAD`)
+- It checks code quality, design token compliance, a11y, i18n, responsive, performance
+- It also verifies implementation against the design reference (draft.js / design-identity.md)
+- Fix any Critical or Important findings before proceeding
+
+### Step 5 — Ship
+- Verify the Definition of Done (see below)
+- Commit, push, create PR linking the issue
+
+### Parallelisation guidance
+- Steps 1 is always first (need context for everything else)
+- Step 2 is the main work
+- Step 3 and 4 can run in parallel after step 2
+- Step 5 only after 3 and 4 are clean
+
+## Definition of Done (pre-PR gate)
+
+A PR must not be created until **all** of these pass:
+
+- [ ] `pnpm build` succeeds with zero errors
+- [ ] `pnpm eslint src/` passes with zero errors
+- [ ] Zero inline `style={{}}` in any `.tsx` file (grep verification)
+- [ ] `accessibility-auditor` agent has run and all Critical/Important issues are resolved
+- [ ] `code-reviewer` agent has run and all Critical/Important findings are fixed
+- [ ] All acceptance criteria from the GitHub issue are met
+- [ ] Design token usage verified — no hardcoded hex colours, font families, or shadows

@@ -75,7 +75,7 @@ When invoked:
 
 ### 6. Screen reader audit
 - Page has descriptive `<title>`
-- SVG logo has `role="img"` and `aria-label`
+- SVG icons/logos: if the parent element has `aria-hidden="true"`, the SVG must NOT have `role="img"` or `aria-label` (unreachable attributes are noise). If the SVG needs to be announced, the parent must not hide it.
 - Decorative icons have `aria-hidden="true"`
 - Stat pills: numbers + labels readable as coherent phrases
 - Language switcher is announced properly
