@@ -69,7 +69,8 @@
     "volunteersTitle": "Volunteers",
     "volunteersDescription": "Shifts, hours, background checks, and recognition alongside your constituent records.",
     "financeTitle": "Finance handoff",
-    "financeDescription": "Export journal entries and fund balances to your accounting system."
+    "financeDescription": "Export journal entries and fund balances to your accounting system.",
+    "browseMockups": "Browse all 97 interactive mockups"
   },
   "ai": {
     "eyebrow": "AI with guardrails",

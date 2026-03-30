@@ -69,7 +69,8 @@
     "volunteersTitle": "Bénévoles",
     "volunteersDescription": "Créneaux, heures, vérifications et reconnaissance aux côtés de vos fiches constituants.",
     "financeTitle": "Passerelle comptable",
-    "financeDescription": "Export des écritures comptables et soldes de fonds vers votre logiciel comptable."
+    "financeDescription": "Export des écritures comptables et soldes de fonds vers votre logiciel comptable.",
+    "browseMockups": "Parcourir les 97 maquettes interactives"
   },
   "ai": {
     "eyebrow": "IA avec garde-fous",
