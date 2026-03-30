@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #2E7D5E;
+  --color-primary-light: #4CAF82;
+  --color-primary-dark: #1A5240;
+  --color-primary-hover: #267052;
+  --color-primary-50: #E8F5EE;
+  --color-navy: #1E293B;
+  --color-bg: #FAFAF8;
+  --color-paper: #FFFFFF;
+  --color-soft: #F2F0EC;
+  --color-border: #E4E0D9;
+  --color-text: #1C1B19;
+  --color-muted: #6B6760;
+  --color-green-soft-border: #CFE2D7;
+  --color-red-dark: #991B1B;
+  --color-red-light-bg: #FEF2F2;
+  --color-red-light-border: #FECACA;
+
+  /* Fonts */
+  --font-heading: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Shadows */
+  --shadow-subtle: 0 2px 10px rgba(28, 27, 25, 0.04);
+  --shadow-medium: 0 8px 24px rgba(28, 27, 25, 0.05);
+  --shadow-hero: 0 24px 60px rgba(28, 27, 25, 0.08);
+  --shadow-green: 0 10px 24px rgba(46, 125, 94, 0.16);
+
+  /* Border radius */
+  --radius-card: 16px;
+  --radius-feature: 18px;
+  --radius-panel: 24px;
+
+  /* Animation (respects prefers-reduced-motion via Framer Motion) */
+  --animate-duration: 0.32s;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+/* Skip to content link */
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:rounded-lg focus:bg-primary focus:px-4 focus:py-2 focus:text-white focus:outline-none;
+}
+
+/* Focus visible styles */
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
