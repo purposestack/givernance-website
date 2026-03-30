@@ -17,16 +17,48 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Givernance — The nonprofit CRM built for Europe",
+  title: "Givernance — The Nonprofit CRM Built for Europe",
   description:
-    "A GDPR-native, affordable CRM designed for European nonprofits (2–200 staff). Built to replace Salesforce complexity with calm, purpose-built software.",
+    "GDPR-native CRM for European nonprofits (2–200 staff). Donor management, postal campaigns, online giving, grants, and impact reporting — without Salesforce complexity.",
   metadataBase: new URL("https://givernance.org"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Givernance — The Nonprofit CRM Built for Europe",
+    description:
+      "GDPR-native CRM for European nonprofits. Donor management, postal campaigns, online giving, grants, and reporting in one calm system.",
+    url: "https://givernance.org",
+    siteName: "Givernance",
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Givernance — The Nonprofit CRM Built for Europe",
+    description:
+      "GDPR-native CRM for European nonprofits. Donor management, postal campaigns, online giving, grants, and reporting in one calm system.",
+  },
 };
 
 export const viewport: Viewport = {
   themeColor: "#2E7D5E",
   width: "device-width",
   initialScale: 1,
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Givernance",
+  url: "https://givernance.org",
+  description:
+    "GDPR-native CRM for European nonprofits (2–200 staff). Donor management, postal campaigns, online giving, grants, and impact reporting.",
+  foundingDate: "2026",
+  areaServed: {
+    "@type": "Place",
+    name: "Europe",
+  },
 };
 
 export default function RootLayout({
@@ -36,10 +68,14 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-GB"
       className={`${inter.variable} ${instrumentSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <a href="#main-content" className="skip-link">
           Skip to content
         </a>
