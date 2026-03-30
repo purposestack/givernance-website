@@ -14,7 +14,6 @@
     "security": "Sicherheit",
     "resources": "Ressourcen",
     "bookDemo": "Demo buchen",
-    "exploreMockups": "Mockups ansehen",
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen",
     "menuTitle": "Menü",
@@ -28,7 +27,6 @@
     "heading": "Verfolgen Sie Ihre Mission. Nicht Ihre Tabellen.",
     "description": "Givernance ist ein DSGVO-natives CRM für europäische gemeinnützige Organisationen. Verwalten Sie Spender, Postkampagnen, Online-Spenden, Fördermittel und Wirkungsberichte in einem ruhigen System — ohne die Komplexität oder Kosten von Salesforce.",
     "bookDemo": "Demo buchen",
-    "exploreMockups": "Mockups ansehen",
     "subtext": "KI-unterstützt von Anfang an. Sie behalten die Kontrolle über jede sensible Entscheidung. Schnell einzurichten, erschwinglich im Betrieb.",
     "statStaff": "Mitarbeitende",
     "statMockups": "interaktive Mockups",
@@ -144,8 +142,7 @@
     "eyebrow": "Bereit zu entdecken",
     "heading": "Bereit zu sehen, wie ruhigere Non-Profit-Software aussieht?",
     "description": "Buchen Sie eine 30-minütige Demo und erkunden Sie die Abläufe, die für Ihre Organisation am wichtigsten sind — Spenderverwaltung, Postkampagnen, Online-Spenden und Berichtswesen.",
-    "bookDemo": "Demo buchen",
-    "exploreMockups": "Mockups ansehen"
+    "bookDemo": "Demo buchen"
   },
   "footer": {
     "brandDescription": "Das DSGVO-native CRM für europäische gemeinnützige Organisationen. Ruhig, leistungsfähig, erschwinglich.",
@@ -157,7 +154,6 @@
     "fundraising": "Fundraising",
     "security": "Sicherheit",
     "resourcesHeading": "Ressourcen",
-    "interactiveMockups": "Interaktive Mockups",
     "documentation": "Dokumentation",
     "contact": "Kontakt",
     "legalHeading": "Rechtliches",

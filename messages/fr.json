@@ -14,7 +14,6 @@
     "security": "Sécurité",
     "resources": "Ressources",
     "bookDemo": "Voir la démo",
-    "exploreMockups": "Nos maquettes",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "menuTitle": "Menu",
@@ -28,7 +27,6 @@
     "heading": "Portez votre mission. Pas vos tableurs.",
     "description": "Givernance est un CRM natif RGPD pour les associations européennes. Gérez vos donateurs, campagnes postales, dons en ligne, subventions et rapports d'impact dans un système serein — sans la complexité ni le coût de Salesforce.",
     "bookDemo": "Voir la démo",
-    "exploreMockups": "Nos maquettes",
     "subtext": "IA assistée par défaut. Vous gardez le contrôle sur chaque décision sensible. Rapide à mettre en place, abordable à utiliser.",
     "statStaff": "salariés",
     "statMockups": "maquettes interactives",
@@ -144,8 +142,7 @@
     "eyebrow": "Prêt à explorer",
     "heading": "Prêt à découvrir un logiciel associatif plus serein ?",
     "description": "Réservez une démo de 30 minutes et parcourez les processus qui comptent le plus pour votre association — gestion des donateurs, campagnes postales, dons en ligne et reporting.",
-    "bookDemo": "Voir la démo",
-    "exploreMockups": "Nos maquettes"
+    "bookDemo": "Voir la démo"
   },
   "footer": {
     "brandDescription": "Le CRM natif RGPD pour les associations européennes. Serein, complet, abordable.",
@@ -157,7 +154,6 @@
     "fundraising": "Collecte de fonds",
     "security": "Sécurité",
     "resourcesHeading": "Ressources",
-    "interactiveMockups": "Maquettes interactives",
     "documentation": "Documentation",
     "contact": "Contact",
     "legalHeading": "Juridique",

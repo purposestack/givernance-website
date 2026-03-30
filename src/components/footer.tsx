@@ -15,7 +15,6 @@ export async function Footer() {
   ];
 
   const resourceLinks = [
-    { label: t("interactiveMockups"), href: "/mockups" },
     { label: t("documentation"), href: "/docs" },
     { label: t("contact"), href: "/contact" },
   ];

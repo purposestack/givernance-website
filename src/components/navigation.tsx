@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LogoMark } from "./logo-mark";
 import { PrimaryButton } from "./primary-button";
-import { SecondaryButton } from "./secondary-button";
+
 import { LanguageSwitcher } from "./language-switcher";
 
 export function Navigation() {
@@ -105,9 +105,6 @@ export function Navigation() {
           </nav>
 
           <div className="flex items-center gap-3">
-            <div className="hidden lg:block">
-              <SecondaryButton label={t("exploreMockups")} href="/mockups" />
-            </div>
             <div className="hidden sm:block">
               <PrimaryButton label={t("bookDemo")} href="/demo" />
             </div>

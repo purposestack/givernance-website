@@ -14,7 +14,6 @@
     "security": "Beveiliging",
     "resources": "Bronnen",
     "bookDemo": "Demo boeken",
-    "exploreMockups": "Mockups bekijken",
     "openMenu": "Menu openen",
     "closeMenu": "Menu sluiten",
     "menuTitle": "Menu",
@@ -28,7 +27,6 @@
     "heading": "Draag uw missie uit. Niet uw spreadsheets.",
     "description": "Givernance is een AVG-native CRM voor Europese non-profitorganisaties. Beheer donateurs, postale campagnes, online giften, subsidies en impactrapportage in één rustig systeem — zonder de complexiteit of kosten van Salesforce.",
     "bookDemo": "Demo boeken",
-    "exploreMockups": "Mockups bekijken",
     "subtext": "AI-ondersteund als standaard. U behoudt de controle over elke gevoelige beslissing. Snel op te zetten, betaalbaar in gebruik.",
     "statStaff": "medewerkers",
     "statMockups": "interactieve mockups",
@@ -144,8 +142,7 @@
     "eyebrow": "Klaar om te verkennen",
     "heading": "Klaar om te zien hoe rustiger non-profitsoftware eruitziet?",
     "description": "Boek een demo van 30 minuten en doorloop de werkstromen die het belangrijkst zijn voor uw organisatie — donateurbeheer, postale campagnes, online giften en rapportage.",
-    "bookDemo": "Demo boeken",
-    "exploreMockups": "Mockups bekijken"
+    "bookDemo": "Demo boeken"
   },
   "footer": {
     "brandDescription": "Het AVG-native CRM voor Europese non-profitorganisaties. Rustig, capabel, betaalbaar.",
@@ -157,7 +154,6 @@
     "fundraising": "Fondsenwerving",
     "security": "Beveiliging",
     "resourcesHeading": "Bronnen",
-    "interactiveMockups": "Interactieve mockups",
     "documentation": "Documentatie",
     "contact": "Contact",
     "legalHeading": "Juridisch",

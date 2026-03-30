@@ -66,6 +66,7 @@ Desktop-first, but works brilliantly everywhere:
 | `accessibility-auditor` | WCAG 2.1 AA audit and fixes |
 | `seo-i18n-specialist` | SEO metadata, Open Graph, structured data, translations |
 | `code-reviewer` | PR review — quality, a11y, tokens, i18n, responsive, performance |
+| `consistency-content-guardian` | Content consistency — translation alignment, no hardcoded strings, label length |
 
 ## Sibling repositories
 
@@ -124,15 +125,22 @@ Every issue follows this pipeline. The orchestrator (Claude Code main conversati
 - It also verifies implementation against the design reference (draft.js / design-identity.md)
 - Fix any Critical or Important findings before proceeding
 
+### Step 4b — Content consistency gate
+- **Mandatory** when the change touches content, labels, translations, pages, or adds a language
+- Invoke the `consistency-content-guardian` agent on the current working tree
+- It verifies: all locale files have identical key sets, no hardcoded strings in TSX, no orphan/missing keys, label length limits, terminology rules
+- Any **Critical** finding blocks the commit — fix before proceeding
+- This agent's protocol evolves: when new consistency rules are discovered, update the agent definition
+
 ### Step 5 — Ship
 - Verify the Definition of Done (see below)
 - Commit, push, create PR linking the issue
 
 ### Parallelisation guidance
-- Steps 1 is always first (need context for everything else)
+- Step 1 is always first (need context for everything else)
 - Step 2 is the main work
-- Step 3 and 4 can run in parallel after step 2
-- Step 5 only after 3 and 4 are clean
+- Step 3, 4, and 4b can run in parallel after step 2
+- Step 5 only after 3, 4, and 4b are clean
 
 ## Definition of Done (pre-PR gate)
 
@@ -143,6 +151,7 @@ A PR must not be created until **all** of these pass:
 - [ ] Zero inline `style={{}}` in any `.tsx` file (grep verification)
 - [ ] `accessibility-auditor` agent has run and all Critical/Important issues are resolved
 - [ ] `code-reviewer` agent has run and all Critical/Important findings are fixed
+- [ ] `consistency-content-guardian` agent has run (if content/labels/translations changed) with zero Critical findings
 - [ ] All acceptance criteria from the GitHub issue are met
 - [ ] Design token usage verified — no hardcoded hex colours, font families, or shadows
 

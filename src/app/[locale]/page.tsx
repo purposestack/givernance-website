@@ -4,7 +4,7 @@ import { FadeIn } from "@/components/fade-in";
 import { HeroDashboard } from "@/components/hero-dashboard";
 import { Card } from "@/components/card";
 import { PrimaryButton } from "@/components/primary-button";
-import { SecondaryButton } from "@/components/secondary-button";
+
 import { SectionEyebrow } from "@/components/section-eyebrow";
 import { StatPill } from "@/components/stat-pill";
 import { Footer } from "@/components/footer";
@@ -212,10 +212,6 @@ export default async function HomePage({
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <PrimaryButton label={t("hero.bookDemo")} href="/demo" />
-                <SecondaryButton
-                  label={t("hero.exploreMockups")}
-                  href="/mockups"
-                />
               </div>
               <p className="mt-5 text-[13px] leading-6 text-muted">
                 {t("hero.subtext")}
@@ -561,7 +557,6 @@ export default async function HomePage({
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <PrimaryButton label={t("cta.bookDemo")} href="/demo" />
-              <SecondaryButton label={t("cta.exploreMockups")} href="/mockups" />
             </div>
           </FadeIn>
         </section>
