@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "description": "Hören Sie auf, Salesforce für Ihr 20-köpfiges Team passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet.",
+    "description": "Hören Sie auf, ein Enterprise-CRM für Ihr 20-köpfiges Team passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet.",
     "ogTitle": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "ogDescription": "Hören Sie auf, Salesforce passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet."
+    "ogDescription": "Hören Sie auf, ein Enterprise-CRM passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet."
   },
   "nav": {
     "home": "Givernance Startseite",
@@ -39,7 +39,7 @@
   },
   "problem": {
     "eyebrow": "Warum Teams wechseln",
-    "heading": "Sie haben sich wegen der kostenlosen Lizenzen für Salesforce entschieden. Dann wuchs Ihr Team.",
+    "heading": "Sie haben sich wegen der kostenlosen Lizenzen für ein großes CRM entschieden. Dann wuchs Ihr Team.",
     "description": "Steigende Lizenzkosten, Abhängigkeit von Beratern, nachträglich angepasste DSGVO-Prozesse und Reporting-Workarounds in Tabellenkalkulationen — kommt Ihnen das bekannt vor?",
     "patchworkHeading": "Wo Ihre Woche wirklich hingeht",
     "alternativeHeading": "Was sich mit Givernance ändert",

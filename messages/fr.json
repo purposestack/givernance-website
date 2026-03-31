@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — Le CRM associatif conçu pour l'Europe",
-    "description": "Arrêtez de tordre Salesforce pour une équipe de 20 personnes. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain.",
+    "description": "Arrêtez de tordre un CRM d'entreprise pour une équipe de 20 personnes. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain.",
     "ogTitle": "Givernance — Le CRM associatif conçu pour l'Europe",
-    "ogDescription": "Arrêtez de tordre Salesforce pour votre équipe. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain."
+    "ogDescription": "Arrêtez de tordre un CRM d'entreprise pour votre équipe. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain."
   },
   "nav": {
     "home": "Accueil Givernance",
@@ -39,7 +39,7 @@
   },
   "problem": {
     "eyebrow": "Pourquoi les équipes changent",
-    "heading": "Vous avez choisi Salesforce pour les licences gratuites. Puis votre équipe a grandi.",
+    "heading": "Vous avez choisi un grand CRM pour les licences gratuites. Puis votre équipe a grandi.",
     "description": "Coûts de licence croissants, dépendance aux consultants, processus RGPD bricolés et reporting dans des tableurs — ça vous parle ?",
     "patchworkHeading": "Ce qui dévore vraiment vos semaines",
     "alternativeHeading": "Ce qui change avec Givernance",

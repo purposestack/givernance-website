@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — Het CRM voor non-profitorganisaties in Europa",
-    "description": "Stop met Salesforce aanpassen voor uw team van 20 mensen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model.",
+    "description": "Stop met een enterprise-CRM aanpassen voor uw team van 20 mensen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model.",
     "ogTitle": "Givernance — Het CRM voor non-profitorganisaties in Europa",
-    "ogDescription": "Stop met Salesforce aanpassen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model."
+    "ogDescription": "Stop met een enterprise-CRM aanpassen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model."
   },
   "nav": {
     "home": "Givernance startpagina",
@@ -39,7 +39,7 @@
   },
   "problem": {
     "eyebrow": "Waarom teams overstappen",
-    "heading": "U koos Salesforce voor de gratis licenties. Toen groeide uw team.",
+    "heading": "U koos een groot CRM voor de gratis licenties. Toen groeide uw team.",
     "description": "Stijgende licentiekosten, afhankelijkheid van consultants, achteraf aangepaste AVG-processen en rapportage-workarounds in spreadsheets — klinkt dat bekend?",
     "patchworkHeading": "Waar uw week werkelijk aan opgaat",
     "alternativeHeading": "Wat er verandert met Givernance",

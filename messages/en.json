@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — The Nonprofit CRM Built for Europe",
-    "description": "Stop wrestling Salesforce into shape for your 20-person team. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model.",
+    "description": "Stop wrestling an enterprise CRM into shape for your 20-person team. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model.",
     "ogTitle": "Givernance — The Nonprofit CRM Built for Europe",
-    "ogDescription": "Stop wrestling Salesforce into shape. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model."
+    "ogDescription": "Stop wrestling an enterprise CRM into shape. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model."
   },
   "nav": {
     "home": "Givernance home",
@@ -39,7 +39,7 @@
   },
   "problem": {
     "eyebrow": "Why teams switch",
-    "heading": "You chose Salesforce for the free seats. Then your team grew.",
+    "heading": "You chose a big-name CRM for the free seats. Then your team grew.",
     "description": "Rising licence costs, consultant dependency, retrofitted GDPR workflows, and reporting workarounds in spreadsheets — sound familiar?",
     "patchworkHeading": "Where your week actually goes",
     "alternativeHeading": "What changes with Givernance",
