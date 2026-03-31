@@ -61,7 +61,7 @@ export default async function DemoPage({
   return (
     <>
       <Navigation />
-      <main className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
+      <main id="main-content" className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
         <DemoForm translations={translations} />
       </main>
       <Footer />

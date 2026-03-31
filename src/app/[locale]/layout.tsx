@@ -128,6 +128,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={htmlLangMap[locale] ?? locale}
+      data-scroll-behavior="smooth"
       className={`${inter.variable} ${newsreader.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">

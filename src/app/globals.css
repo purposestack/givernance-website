@@ -21,7 +21,7 @@
   --color-ice: #F7FAFC;
   --color-chart-bg: #F4FBF7;
   --color-ai-badge: #DFF7E8;
-  --color-navy-muted: #94A3B8;
+  --color-navy-muted: #AAB7C7;
 
   /* Fonts (fallback values — overridden by next/font below) */
   --font-heading: 'Newsreader', Georgia, 'Times New Roman', serif;
@@ -48,10 +48,6 @@
   --font-heading: var(--font-newsreader), Georgia, 'Times New Roman', serif;
   --font-body:    var(--font-inter), system-ui, -apple-system, sans-serif;
   --font-mono:    var(--font-jetbrains-mono), 'Fira Code', monospace;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
