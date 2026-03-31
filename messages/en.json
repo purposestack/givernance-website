@@ -24,7 +24,8 @@
     "eyebrow": "The nonprofit CRM built for Europe",
     "heading": "Run your mission. Not your spreadsheets.",
     "description": "One tool to run your fundraising — built for European nonprofits, not adapted from a US model. GDPR-native. No consultants required.",
-    "bookDemo": "Book a demo"
+    "bookDemo": "Book a demo",
+    "ctaReassurance": "Reply within 1 business day · No commitment · Free"
   },
   "trustStrip": {
     "heading": "Key benefits",
@@ -172,5 +173,38 @@
   },
   "common": {
     "skipToContent": "Skip to content"
+  },
+  "social": {
+    "built": "Built with Swiss and French nonprofits",
+    "hosted": "Hosted in Europe · GDPR-native",
+    "mockups": "86 interactive mockups available"
+  },
+  "pricing": {
+    "eyebrow": "Transparent pricing",
+    "heading": "Built for nonprofit budgets",
+    "subheading": "A fraction of a Salesforce licence. No surprises.",
+    "popular": "Popular",
+    "starterName": "Starter",
+    "starterPrice": "Free",
+    "starterLimit": "Up to 500 contacts",
+    "starterF1": "Donors & donations",
+    "starterF2": "3 users",
+    "starterF3": "Community support",
+    "growthName": "Growth",
+    "growthPrice": "€79",
+    "growthPriceSuffix": "/month",
+    "growthLimit": "Up to 5,000 contacts",
+    "growthF1": "All modules",
+    "growthF2": "10 users",
+    "growthF3": "Email support 48h",
+    "impactName": "Impact",
+    "impactPrice": "€249",
+    "impactPriceSuffix": "/month",
+    "impactLimit": "Up to 25,000 contacts",
+    "impactF1": "Unlimited users",
+    "impactF2": "SSO + advanced GDPR",
+    "impactF3": "Priority support",
+    "footer": "All plans include data export and EU hosting.",
+    "footerCta": "Tell us about your situation →"
   }
 }

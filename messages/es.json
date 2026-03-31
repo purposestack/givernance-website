@@ -24,7 +24,8 @@
     "eyebrow": "El CRM para ONG en Europa",
     "heading": "Impulse su misión. No sus hojas de cálculo.",
     "description": "Una sola herramienta para gestionar su captación de fondos — creada para ONG europeas, no adaptada de un modelo estadounidense. RGPD nativo. Sin consultores.",
-    "bookDemo": "Reservar demo"
+    "bookDemo": "Reservar demo",
+    "ctaReassurance": "Respuesta en 1 día hábil · Sin compromiso · Gratis"
   },
   "trustStrip": {
     "heading": "Ventajas clave",
@@ -172,5 +173,38 @@
   },
   "common": {
     "skipToContent": "Ir al contenido"
+  },
+  "social": {
+    "built": "Creado con asociaciones suizas y francesas",
+    "hosted": "Alojado en Europa · RGPD nativo",
+    "mockups": "86 maquetas interactivas disponibles"
+  },
+  "pricing": {
+    "eyebrow": "Precios transparentes",
+    "heading": "Pensado para presupuestos de asociaciones",
+    "subheading": "Mucho menos que una licencia de Salesforce. Sin sorpresas.",
+    "popular": "Popular",
+    "starterName": "Starter",
+    "starterPrice": "Gratis",
+    "starterLimit": "Hasta 500 contactos",
+    "starterF1": "Donantes y donaciones",
+    "starterF2": "3 usuarios",
+    "starterF3": "Soporte comunidad",
+    "growthName": "Growth",
+    "growthPrice": "79€",
+    "growthPriceSuffix": "/mes",
+    "growthLimit": "Hasta 5.000 contactos",
+    "growthF1": "Todos los módulos",
+    "growthF2": "10 usuarios",
+    "growthF3": "Soporte email 48h",
+    "impactName": "Impact",
+    "impactPrice": "249€",
+    "impactPriceSuffix": "/mes",
+    "impactLimit": "Hasta 25.000 contactos",
+    "impactF1": "Usuarios ilimitados",
+    "impactF2": "SSO + RGPD avanzado",
+    "impactF3": "Soporte prioritario",
+    "footer": "Todos los planes incluyen exportación de datos y alojamiento en Europa.",
+    "footerCta": "Cuéntenos su situación →"
   }
 }

@@ -24,7 +24,8 @@
     "eyebrow": "Het CRM voor non-profits in Europa",
     "heading": "Draag uw missie uit. Niet uw spreadsheets.",
     "description": "Eén tool voor al uw fondsenwerving — gebouwd voor Europese non-profits, niet afgeleid van een Amerikaans model. AVG-native. Zonder consultants.",
-    "bookDemo": "Demo boeken"
+    "bookDemo": "Demo boeken",
+    "ctaReassurance": "Antwoord binnen 1 werkdag · Vrijblijvend · Gratis"
   },
   "trustStrip": {
     "heading": "Belangrijkste voordelen",
@@ -172,5 +173,38 @@
   },
   "common": {
     "skipToContent": "Ga naar inhoud"
+  },
+  "social": {
+    "built": "Gebouwd met Zwitserse en Franse verenigingen",
+    "hosted": "Gehost in Europa · AVG-native",
+    "mockups": "86 interactieve mockups beschikbaar"
+  },
+  "pricing": {
+    "eyebrow": "Transparante prijzen",
+    "heading": "Ontworpen voor verenigingsbudgetten",
+    "subheading": "Een fractie van een Salesforce-licentie. Geen verrassingen.",
+    "popular": "Populair",
+    "starterName": "Starter",
+    "starterPrice": "Gratis",
+    "starterLimit": "Tot 500 contacten",
+    "starterF1": "Donateurs & donaties",
+    "starterF2": "3 gebruikers",
+    "starterF3": "Community-support",
+    "growthName": "Growth",
+    "growthPrice": "79€",
+    "growthPriceSuffix": "/maand",
+    "growthLimit": "Tot 5.000 contacten",
+    "growthF1": "Alle modules",
+    "growthF2": "10 gebruikers",
+    "growthF3": "E-mailsupport 48u",
+    "impactName": "Impact",
+    "impactPrice": "249€",
+    "impactPriceSuffix": "/maand",
+    "impactLimit": "Tot 25.000 contacten",
+    "impactF1": "Onbeperkte gebruikers",
+    "impactF2": "SSO + uitgebreide AVG",
+    "impactF3": "Prioriteitssupport",
+    "footer": "Alle abonnementen bevatten data-export en EU-hosting.",
+    "footerCta": "Vertel ons over uw situatie →"
   }
 }
