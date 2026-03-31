@@ -24,7 +24,8 @@
     "eyebrow": "Le CRM associatif conçu pour l'Europe",
     "heading": "Portez votre mission. Pas vos tableurs.",
     "description": "Un seul outil pour piloter votre collecte — conçu pour les associations européennes, pas adapté d'un modèle américain. RGPD natif. Sans consultants.",
-    "bookDemo": "Voir la démo"
+    "bookDemo": "Voir la démo",
+    "ctaReassurance": "Réponse sous 1 jour ouvré · Sans engagement · Gratuit"
   },
   "trustStrip": {
     "heading": "Avantages clés",
@@ -172,5 +173,38 @@
   },
   "common": {
     "skipToContent": "Aller au contenu"
+  },
+  "social": {
+    "built": "Conçu avec des associations suisses et françaises",
+    "hosted": "Hébergé en Europe · RGPD natif",
+    "mockups": "86 maquettes interactives disponibles"
+  },
+  "pricing": {
+    "eyebrow": "Tarifs transparents",
+    "heading": "Pensé pour les budgets associatifs",
+    "subheading": "Beaucoup moins qu'une licence Salesforce. Sans surprise.",
+    "popular": "Populaire",
+    "starterName": "Starter",
+    "starterPrice": "Gratuit",
+    "starterLimit": "Jusqu'à 500 contacts",
+    "starterF1": "Donateurs & dons",
+    "starterF2": "3 utilisateurs",
+    "starterF3": "Support communauté",
+    "growthName": "Growth",
+    "growthPrice": "79€",
+    "growthPriceSuffix": "/mois",
+    "growthLimit": "Jusqu'à 5 000 contacts",
+    "growthF1": "Tous les modules",
+    "growthF2": "10 utilisateurs",
+    "growthF3": "Support email 48h",
+    "impactName": "Impact",
+    "impactPrice": "249€",
+    "impactPriceSuffix": "/mois",
+    "impactLimit": "Jusqu'à 25 000 contacts",
+    "impactF1": "Utilisateurs illimités",
+    "impactF2": "SSO + RGPD avancé",
+    "impactF3": "Support prioritaire",
+    "footer": "Tous les plans incluent l'exportation de vos données et l'hébergement en Europe.",
+    "footerCta": "Parlez-nous de votre situation →"
   }
 }

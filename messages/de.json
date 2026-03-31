@@ -24,7 +24,8 @@
     "eyebrow": "Das CRM für Non-Profits in Europa",
     "heading": "Verfolgen Sie Ihre Mission. Nicht Ihre Tabellen.",
     "description": "Ein Werkzeug für Ihr gesamtes Fundraising — gebaut für europäische Non-Profits, nicht von einem US-Modell abgeleitet. DSGVO-nativ. Ohne Berater.",
-    "bookDemo": "Demo buchen"
+    "bookDemo": "Demo buchen",
+    "ctaReassurance": "Antwort innerhalb 1 Werktag · Unverbindlich · Kostenlos"
   },
   "trustStrip": {
     "heading": "Hauptvorteile",
@@ -172,5 +173,38 @@
   },
   "common": {
     "skipToContent": "Zum Inhalt springen"
+  },
+  "social": {
+    "built": "Entwickelt mit Schweizer und französischen Vereinen",
+    "hosted": "In Europa gehostet · DSGVO-nativ",
+    "mockups": "86 interaktive Mockups verfügbar"
+  },
+  "pricing": {
+    "eyebrow": "Transparente Preise",
+    "heading": "Für Vereinsbudgets konzipiert",
+    "subheading": "Weit weniger als eine Salesforce-Lizenz. Ohne Überraschungen.",
+    "popular": "Beliebt",
+    "starterName": "Starter",
+    "starterPrice": "Kostenlos",
+    "starterLimit": "Bis zu 500 Kontakte",
+    "starterF1": "Spender & Spenden",
+    "starterF2": "3 Nutzer",
+    "starterF3": "Community-Support",
+    "growthName": "Growth",
+    "growthPrice": "79€",
+    "growthPriceSuffix": "/Monat",
+    "growthLimit": "Bis zu 5.000 Kontakte",
+    "growthF1": "Alle Module",
+    "growthF2": "10 Nutzer",
+    "growthF3": "E-Mail-Support 48h",
+    "impactName": "Impact",
+    "impactPrice": "249€",
+    "impactPriceSuffix": "/Monat",
+    "impactLimit": "Bis zu 25.000 Kontakte",
+    "impactF1": "Unbegrenzte Nutzer",
+    "impactF2": "SSO + erweiterter Datenschutz",
+    "impactF3": "Prioritätssupport",
+    "footer": "Alle Pläne beinhalten Datenexport und EU-Hosting.",
+    "footerCta": "Erzählen Sie uns von Ihrer Situation →"
   }
 }
