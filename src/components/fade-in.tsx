@@ -15,9 +15,9 @@ export function FadeIn({
 
   return (
     <motion.div
-      initial={shouldReduceMotion ? false : { y: 24, clipPath: "inset(0 0 100% 0)" }}
-      whileInView={{ y: 0, clipPath: "inset(0 0 0% 0)" }}
-      viewport={{ once: true, margin: "-60px" }}
+      initial={shouldReduceMotion ? false : { opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "0px" }}
       transition={
         shouldReduceMotion
           ? { duration: 0 }
