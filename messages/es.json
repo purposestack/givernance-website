@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — El CRM para organizaciones sin ánimo de lucro en Europa",
-    "description": "CRM nativo RGPD para organizaciones sin ánimo de lucro europeas (2–200 empleados). Gestión de donantes, campañas postales, donaciones en línea, subvenciones e informes de impacto — sin la complejidad de Salesforce.",
+    "description": "Deje de forzar Salesforce para un equipo de 20 personas. Givernance es el CRM nativo RGPD para ONG europeas — no adaptado de un modelo estadounidense.",
     "ogTitle": "Givernance — El CRM para organizaciones sin ánimo de lucro en Europa",
-    "ogDescription": "CRM nativo RGPD para organizaciones sin ánimo de lucro europeas. Gestión de donantes, campañas postales, donaciones en línea, subvenciones e informes en un sistema sereno."
+    "ogDescription": "Deje de forzar Salesforce para su equipo. Givernance es el CRM nativo RGPD para ONG europeas — no adaptado de un modelo estadounidense."
   },
   "nav": {
     "home": "Inicio Givernance",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "El CRM para ONG en Europa",
     "heading": "Impulse su misión. No sus hojas de cálculo.",
-    "description": "Givernance es un CRM nativo RGPD para organizaciones sin ánimo de lucro europeas. Gestione donantes, campañas, donaciones en línea, subvenciones e informes de impacto en un sistema sereno — sin la complejidad ni el coste de Salesforce.",
+    "description": "Una sola herramienta para gestionar su captación de fondos — creada para ONG europeas, no adaptada de un modelo estadounidense. RGPD nativo. Sin consultores.",
     "bookDemo": "Reservar demo"
   },
   "trustStrip": {
@@ -41,8 +41,8 @@
     "eyebrow": "Por qué los equipos cambian",
     "heading": "Eligió Salesforce por las licencias gratuitas. Después su equipo creció.",
     "description": "Costes de licencia crecientes, dependencia de consultores, procesos RGPD improvisados y soluciones de informes en hojas de cálculo — ¿le suena?",
-    "patchworkHeading": "El mosaico de herramientas",
-    "alternativeHeading": "La alternativa Givernance",
+    "patchworkHeading": "En qué se va realmente su semana",
+    "alternativeHeading": "Qué cambia con Givernance",
     "pain1": "Paga más cada vez que el equipo crece",
     "pain2": "Depende de consultores para cambios simples",
     "pain3": "Parchea el RGPD a través de herramientas desconectadas",
@@ -87,13 +87,13 @@
   },
   "cta": {
     "eyebrow": "Vea el producto",
-    "heading": "¿Listo para ver cómo es un software para ONG más sereno?",
+    "heading": "¿Listo para un software creado para su trabajo?",
     "description": "Reserve una demo de 30 minutos adaptada a su organización. Explore 86 maquetas interactivas de gestión de donantes, campañas, cumplimiento y flujos asistidos por IA.",
     "bookDemo": "Reservar demo",
     "mockupHint": "O explore las maquetas interactivas usted mismo"
   },
   "footer": {
-    "brandDescription": "El CRM nativo RGPD para organizaciones sin ánimo de lucro europeas. Sereno, capaz, asequible.",
+    "brandDescription": "El CRM nativo RGPD para ONG europeas. Sencillo, capaz, asequible.",
     "tagline": "Creado por personas que creen que las ONG merecen mejor software.",
     "bookDemo": "Reservar demo",
     "productHeading": "Producto",

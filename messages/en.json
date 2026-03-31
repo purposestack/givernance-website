@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — The Nonprofit CRM Built for Europe",
-    "description": "GDPR-native CRM for European nonprofits (2–200 staff). Donor management, postal campaigns, online giving, grants, and impact reporting — without Salesforce complexity.",
+    "description": "Stop wrestling Salesforce into shape for your 20-person team. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model.",
     "ogTitle": "Givernance — The Nonprofit CRM Built for Europe",
-    "ogDescription": "GDPR-native CRM for European nonprofits. Donor management, postal campaigns, online giving, grants, and reporting in one calm system."
+    "ogDescription": "Stop wrestling Salesforce into shape. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model."
   },
   "nav": {
     "home": "Givernance home",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "The nonprofit CRM built for Europe",
     "heading": "Run your mission. Not your spreadsheets.",
-    "description": "Givernance is a GDPR-native CRM for European nonprofits. Manage donors, campaigns, online giving, grants, and impact reporting in one calm system — without Salesforce complexity or cost.",
+    "description": "One tool to run your fundraising — built for European nonprofits, not adapted from a US model. GDPR-native. No consultants required.",
     "bookDemo": "Book a demo"
   },
   "trustStrip": {
@@ -41,8 +41,8 @@
     "eyebrow": "Why teams switch",
     "heading": "You chose Salesforce for the free seats. Then your team grew.",
     "description": "Rising licence costs, consultant dependency, retrofitted GDPR workflows, and reporting workarounds in spreadsheets — sound familiar?",
-    "patchworkHeading": "The patchwork stack",
-    "alternativeHeading": "The Givernance alternative",
+    "patchworkHeading": "Where your week actually goes",
+    "alternativeHeading": "What changes with Givernance",
     "pain1": "You pay more every time the team grows",
     "pain2": "You depend on consultants for simple changes",
     "pain3": "You patch GDPR across disconnected tools",
@@ -87,13 +87,13 @@
   },
   "cta": {
     "eyebrow": "See it in action",
-    "heading": "Ready to see what calmer nonprofit software looks like?",
+    "heading": "Ready to see what purpose-built nonprofit software looks like?",
     "description": "Book a 30-minute demo tailored to your organisation. Explore 86 interactive mockups covering donor management, campaigns, compliance, and AI-assisted workflows.",
     "bookDemo": "Book a demo",
     "mockupHint": "Or browse the interactive mockups yourself"
   },
   "footer": {
-    "brandDescription": "The GDPR-native CRM for European nonprofits. Calm, capable, affordable.",
+    "brandDescription": "The GDPR-native CRM for European nonprofits. Simple, capable, affordable.",
     "tagline": "Built by people who believe nonprofits deserve better software.",
     "bookDemo": "Book a demo",
     "productHeading": "Product",

@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "description": "DSGVO-natives CRM für europäische Non-Profit-Organisationen (2–200 Mitarbeitende). Spenderverwaltung, Postkampagnen, Online-Spenden, Fördermittel und Wirkungsberichte — ohne die Komplexität von Salesforce.",
+    "description": "Hören Sie auf, Salesforce für Ihr 20-köpfiges Team passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet.",
     "ogTitle": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "ogDescription": "DSGVO-natives CRM für europäische Non-Profit-Organisationen. Spenderverwaltung, Postkampagnen, Online-Spenden, Fördermittel und Berichte in einem ruhigen System."
+    "ogDescription": "Hören Sie auf, Salesforce passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet."
   },
   "nav": {
     "home": "Givernance Startseite",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "Das CRM für Non-Profits in Europa",
     "heading": "Verfolgen Sie Ihre Mission. Nicht Ihre Tabellen.",
-    "description": "Givernance ist ein DSGVO-natives CRM für europäische gemeinnützige Organisationen. Verwalten Sie Spender, Kampagnen, Online-Spenden, Fördermittel und Wirkungsberichte in einem ruhigen System — ohne die Komplexität oder Kosten von Salesforce.",
+    "description": "Ein Werkzeug für Ihr gesamtes Fundraising — gebaut für europäische Non-Profits, nicht von einem US-Modell abgeleitet. DSGVO-nativ. Ohne Berater.",
     "bookDemo": "Demo buchen"
   },
   "trustStrip": {
@@ -41,8 +41,8 @@
     "eyebrow": "Warum Teams wechseln",
     "heading": "Sie haben sich wegen der kostenlosen Lizenzen für Salesforce entschieden. Dann wuchs Ihr Team.",
     "description": "Steigende Lizenzkosten, Abhängigkeit von Beratern, nachträglich angepasste DSGVO-Prozesse und Reporting-Workarounds in Tabellenkalkulationen — kommt Ihnen das bekannt vor?",
-    "patchworkHeading": "Der Flickenteppich",
-    "alternativeHeading": "Die Givernance-Alternative",
+    "patchworkHeading": "Wo Ihre Woche wirklich hingeht",
+    "alternativeHeading": "Was sich mit Givernance ändert",
     "pain1": "Sie zahlen mehr bei jedem Teamzuwachs",
     "pain2": "Sie sind für einfache Änderungen auf Berater angewiesen",
     "pain3": "Sie flicken den Datenschutz über unverbundene Tools zusammen",
@@ -87,13 +87,13 @@
   },
   "cta": {
     "eyebrow": "Produkt ansehen",
-    "heading": "Bereit zu sehen, wie ruhigere Non-Profit-Software aussieht?",
+    "heading": "Bereit für Software, die für Ihre Arbeit gebaut wurde?",
     "description": "Buchen Sie eine 30-minütige Demo für Ihre Organisation. Entdecken Sie 86 interaktive Mockups für Spenderverwaltung, Kampagnen, Compliance und KI-unterstützte Abläufe.",
     "bookDemo": "Demo buchen",
     "mockupHint": "Oder erkunden Sie die interaktiven Mockups selbst"
   },
   "footer": {
-    "brandDescription": "Das DSGVO-native CRM für europäische gemeinnützige Organisationen. Ruhig, leistungsfähig, erschwinglich.",
+    "brandDescription": "Das DSGVO-native CRM für europäische gemeinnützige Organisationen. Einfach, leistungsfähig, erschwinglich.",
     "tagline": "Entwickelt von Menschen, die glauben, dass Non-Profits bessere Software verdienen.",
     "bookDemo": "Demo buchen",
     "productHeading": "Produkt",

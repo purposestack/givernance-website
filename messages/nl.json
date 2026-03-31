@@ -1,9 +1,9 @@
 {
   "metadata": {
     "title": "Givernance — Het CRM voor non-profitorganisaties in Europa",
-    "description": "AVG-native CRM voor Europese non-profitorganisaties (2–200 medewerkers). Donateurbeheer, postale campagnes, online giften, subsidies en impactrapportage — zonder de complexiteit van Salesforce.",
+    "description": "Stop met Salesforce aanpassen voor uw team van 20 mensen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model.",
     "ogTitle": "Givernance — Het CRM voor non-profitorganisaties in Europa",
-    "ogDescription": "AVG-native CRM voor Europese non-profitorganisaties. Donateurbeheer, postale campagnes, online giften, subsidies en rapportage in één rustig systeem."
+    "ogDescription": "Stop met Salesforce aanpassen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model."
   },
   "nav": {
     "home": "Givernance startpagina",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "Het CRM voor non-profits in Europa",
     "heading": "Draag uw missie uit. Niet uw spreadsheets.",
-    "description": "Givernance is een AVG-native CRM voor Europese non-profitorganisaties. Beheer donateurs, campagnes, online giften, subsidies en impactrapportage in één rustig systeem — zonder de complexiteit of kosten van Salesforce.",
+    "description": "Eén tool voor al uw fondsenwerving — gebouwd voor Europese non-profits, niet afgeleid van een Amerikaans model. AVG-native. Zonder consultants.",
     "bookDemo": "Demo boeken"
   },
   "trustStrip": {
@@ -41,8 +41,8 @@
     "eyebrow": "Waarom teams overstappen",
     "heading": "U koos Salesforce voor de gratis licenties. Toen groeide uw team.",
     "description": "Stijgende licentiekosten, afhankelijkheid van consultants, achteraf aangepaste AVG-processen en rapportage-workarounds in spreadsheets — klinkt dat bekend?",
-    "patchworkHeading": "Het lappendeken",
-    "alternativeHeading": "Het Givernance-alternatief",
+    "patchworkHeading": "Waar uw week werkelijk aan opgaat",
+    "alternativeHeading": "Wat er verandert met Givernance",
     "pain1": "U betaalt meer bij elke teamuitbreiding",
     "pain2": "U bent afhankelijk van consultants voor eenvoudige wijzigingen",
     "pain3": "U lapt AVG-compliance samen over losgekoppelde tools",
@@ -87,13 +87,13 @@
   },
   "cta": {
     "eyebrow": "Bekijk het product",
-    "heading": "Klaar om te zien hoe rustiger non-profitsoftware eruitziet?",
+    "heading": "Klaar voor software die voor uw werk is gebouwd?",
     "description": "Boek een demo van 30 minuten voor uw organisatie. Verken 86 interactieve mockups voor donateurbeheer, campagnes, compliance en AI-ondersteunde werkstromen.",
     "bookDemo": "Demo boeken",
     "mockupHint": "Of verken de interactieve mockups zelf"
   },
   "footer": {
-    "brandDescription": "Het AVG-native CRM voor Europese non-profitorganisaties. Rustig, capabel, betaalbaar.",
+    "brandDescription": "Het AVG-native CRM voor Europese non-profitorganisaties. Eenvoudig, capabel, betaalbaar.",
     "tagline": "Gebouwd door mensen die geloven dat non-profits betere software verdienen.",
     "bookDemo": "Demo boeken",
     "productHeading": "Product",
