@@ -69,8 +69,7 @@
     "volunteersTitle": "Volunteers",
     "volunteersDescription": "Shifts, hours, background checks, and recognition alongside your constituent records.",
     "financeTitle": "Finance handoff",
-    "financeDescription": "Export journal entries and fund balances to your accounting system.",
-    "browseMockups": "Browse all 97 interactive mockups"
+    "financeDescription": "Export journal entries and fund balances to your accounting system."
   },
   "ai": {
     "eyebrow": "AI with guardrails",
@@ -88,9 +87,8 @@
   "cta": {
     "eyebrow": "See it in action",
     "heading": "Ready to see what purpose-built nonprofit software looks like?",
-    "description": "Book a 30-minute demo tailored to your organisation. Explore 86 interactive mockups covering donor management, campaigns, compliance, and AI-assisted workflows.",
-    "bookDemo": "Book a demo",
-    "mockupHint": "Or browse the interactive mockups yourself"
+    "description": "Book a 30-minute demo tailored to your organisation — covering donor management, campaigns, compliance, and AI-assisted workflows.",
+    "bookDemo": "Book a demo"
   },
   "footer": {
     "brandDescription": "The GDPR-native CRM for European nonprofits. Simple, capable, affordable.",
@@ -171,37 +169,6 @@
     "successTitle": "Thank you — we'll be in touch within 1 business day.",
     "successDescription": "We've received your request and will reach out to schedule your demo.",
     "errorFallback": "Something went wrong. Please try again."
-  },
-  "mockups": {
-    "eyebrow": "Design preview",
-    "heading": "See every screen before we build it.",
-    "description": "97 interactive mockups covering the full Givernance platform — from onboarding to impact reporting. Click any screenshot to explore the live HTML prototype.",
-    "browseInteractive": "Browse all interactive mockups",
-    "categoryCore": "Dashboard",
-    "categoryConstituents": "Constituents",
-    "categoryDonations": "Donations",
-    "categoryCampaigns": "Campaigns",
-    "categoryGrants": "Grants",
-    "categoryAuth": "Authentication & onboarding",
-    "categoryReference": "Design reference",
-    "dashboard": "Dashboard",
-    "constituentsList": "Constituent list",
-    "constituentsDetail": "Constituent detail",
-    "donationsList": "Donation list",
-    "donationsNew": "New donation",
-    "campaignsList": "Campaign list",
-    "grantsKanban": "Grants kanban",
-    "authLogin": "Login",
-    "onboarding1": "Onboarding — step 1",
-    "onboarding2": "Onboarding — step 2",
-    "onboarding3": "Onboarding — step 3",
-    "onboarding4": "Onboarding — step 4",
-    "onboarding5": "Onboarding — step 5",
-    "designSystem": "Design system",
-    "moodboard": "Moodboard",
-    "statScreens": "Interactive screens",
-    "statModules": "Feature modules",
-    "statInteractive": "Fully interactive"
   },
   "common": {
     "skipToContent": "Skip to content"

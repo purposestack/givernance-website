@@ -69,8 +69,7 @@
     "volunteersTitle": "Ehrenamtliche",
     "volunteersDescription": "Schichten, Stunden, Überprüfungen und Anerkennung neben Ihren Kontaktdatensätzen.",
     "financeTitle": "Finanzbuchungsübergabe",
-    "financeDescription": "Export von Buchungssätzen und Fondsbeständen in Ihr Buchhaltungssystem.",
-    "browseMockups": "Alle 97 interaktiven Mockups ansehen"
+    "financeDescription": "Export von Buchungssätzen und Fondsbeständen in Ihr Buchhaltungssystem."
   },
   "ai": {
     "eyebrow": "KI mit Leitplanken",
@@ -88,9 +87,8 @@
   "cta": {
     "eyebrow": "Produkt ansehen",
     "heading": "Bereit für Software, die für Ihre Arbeit gebaut wurde?",
-    "description": "Buchen Sie eine 30-minütige Demo für Ihre Organisation. Entdecken Sie 86 interaktive Mockups für Spenderverwaltung, Kampagnen, Compliance und KI-unterstützte Abläufe.",
-    "bookDemo": "Demo buchen",
-    "mockupHint": "Oder erkunden Sie die interaktiven Mockups selbst"
+    "description": "Buchen Sie eine 30-minütige Demo für Ihre Organisation — Spenderverwaltung, Kampagnen, Compliance und KI-unterstützte Abläufe.",
+    "bookDemo": "Demo buchen"
   },
   "footer": {
     "brandDescription": "Das DSGVO-native CRM für europäische gemeinnützige Organisationen. Einfach, leistungsfähig, erschwinglich.",
@@ -171,37 +169,6 @@
     "successTitle": "Vielen Dank — wir melden uns innerhalb eines Werktags.",
     "successDescription": "Ihre Anfrage ist eingegangen. Wir werden uns melden, um Ihre Demo zu planen.",
     "errorFallback": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
-  },
-  "mockups": {
-    "eyebrow": "Design-Vorschau",
-    "heading": "Sehen Sie jeden Bildschirm, bevor wir ihn bauen.",
-    "description": "97 interaktive Mockups der gesamten Givernance-Plattform — vom Onboarding bis zum Wirkungsbericht. Klicken Sie auf einen Screenshot, um den interaktiven HTML-Prototyp zu erkunden.",
-    "browseInteractive": "Alle interaktiven Mockups ansehen",
-    "categoryCore": "Dashboard",
-    "categoryConstituents": "Kontakte",
-    "categoryDonations": "Spenden",
-    "categoryCampaigns": "Kampagnen",
-    "categoryGrants": "Fördermittel",
-    "categoryAuth": "Authentifizierung & Onboarding",
-    "categoryReference": "Design-Referenz",
-    "dashboard": "Dashboard",
-    "constituentsList": "Kontaktliste",
-    "constituentsDetail": "Kontaktdetail",
-    "donationsList": "Spendenliste",
-    "donationsNew": "Neue Spende",
-    "campaignsList": "Kampagnenliste",
-    "grantsKanban": "Fördermittel-Kanban",
-    "authLogin": "Anmeldung",
-    "onboarding1": "Onboarding — Schritt 1",
-    "onboarding2": "Onboarding — Schritt 2",
-    "onboarding3": "Onboarding — Schritt 3",
-    "onboarding4": "Onboarding — Schritt 4",
-    "onboarding5": "Onboarding — Schritt 5",
-    "designSystem": "Design-System",
-    "moodboard": "Moodboard",
-    "statScreens": "Interaktive Bildschirme",
-    "statModules": "Funktionsmodule",
-    "statInteractive": "Vollständig interaktiv"
   },
   "common": {
     "skipToContent": "Zum Inhalt springen"

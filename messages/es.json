@@ -69,8 +69,7 @@
     "volunteersTitle": "Voluntarios",
     "volunteersDescription": "Turnos, horas, verificaciones y reconocimiento junto a sus registros de contacto.",
     "financeTitle": "Pasarela contable",
-    "financeDescription": "Exportación de asientos contables y saldos de fondos a su sistema contable.",
-    "browseMockups": "Ver las 97 maquetas interactivas"
+    "financeDescription": "Exportación de asientos contables y saldos de fondos a su sistema contable."
   },
   "ai": {
     "eyebrow": "IA con protecciones",
@@ -88,9 +87,8 @@
   "cta": {
     "eyebrow": "Vea el producto",
     "heading": "¿Listo para un software creado para su trabajo?",
-    "description": "Reserve una demo de 30 minutos adaptada a su organización. Explore 86 maquetas interactivas de gestión de donantes, campañas, cumplimiento y flujos asistidos por IA.",
-    "bookDemo": "Reservar demo",
-    "mockupHint": "O explore las maquetas interactivas usted mismo"
+    "description": "Reserve una demo de 30 minutos adaptada a su organización — gestión de donantes, campañas, cumplimiento y flujos asistidos por IA.",
+    "bookDemo": "Reservar demo"
   },
   "footer": {
     "brandDescription": "El CRM nativo RGPD para ONG europeas. Sencillo, capaz, asequible.",
@@ -171,37 +169,6 @@
     "successTitle": "Gracias — le contactaremos en 1 día laborable.",
     "successDescription": "Hemos recibido su solicitud. Nos pondremos en contacto para programar su demostración.",
     "errorFallback": "Algo salió mal. Inténtelo de nuevo."
-  },
-  "mockups": {
-    "eyebrow": "Vista previa del diseño",
-    "heading": "Vea cada pantalla antes de construirla.",
-    "description": "97 maquetas interactivas de toda la plataforma Givernance — desde la incorporación hasta los informes de impacto. Haga clic en una captura para explorar el prototipo HTML interactivo.",
-    "browseInteractive": "Ver todas las maquetas interactivas",
-    "categoryCore": "Panel de control",
-    "categoryConstituents": "Contactos",
-    "categoryDonations": "Donaciones",
-    "categoryCampaigns": "Campañas",
-    "categoryGrants": "Subvenciones",
-    "categoryAuth": "Autenticación e incorporación",
-    "categoryReference": "Referencia de diseño",
-    "dashboard": "Panel de control",
-    "constituentsList": "Lista de contactos",
-    "constituentsDetail": "Detalle de contacto",
-    "donationsList": "Lista de donaciones",
-    "donationsNew": "Nueva donación",
-    "campaignsList": "Lista de campañas",
-    "grantsKanban": "Kanban de subvenciones",
-    "authLogin": "Inicio de sesión",
-    "onboarding1": "Incorporación — paso 1",
-    "onboarding2": "Incorporación — paso 2",
-    "onboarding3": "Incorporación — paso 3",
-    "onboarding4": "Incorporación — paso 4",
-    "onboarding5": "Incorporación — paso 5",
-    "designSystem": "Sistema de diseño",
-    "moodboard": "Moodboard",
-    "statScreens": "Pantallas interactivas",
-    "statModules": "Módulos funcionales",
-    "statInteractive": "Totalmente interactivo"
   },
   "common": {
     "skipToContent": "Ir al contenido"

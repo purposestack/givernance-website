@@ -7,7 +7,6 @@ import { PrimaryButton } from "@/components/primary-button";
 
 import { SectionEyebrow } from "@/components/section-eyebrow";
 import { Footer } from "@/components/footer";
-import { Link } from "@/i18n/navigation";
 import {
   ShieldCheck,
   Mail,
@@ -19,7 +18,6 @@ import {
   Users,
   Landmark,
   CreditCard,
-  ArrowRight,
 } from "lucide-react";
 
 export default async function HomePage({
@@ -262,17 +260,6 @@ export default async function HomePage({
               </ul>
             </FadeIn>
 
-            <FadeIn>
-              <div className="mt-10 text-center">
-                <Link
-                  href="/mockups"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-primary-dark"
-                >
-                  {t("product.browseMockups")}
-                  <ArrowRight className="h-4 w-4" strokeWidth={1.7} aria-hidden="true" />
-                </Link>
-              </div>
-            </FadeIn>
           </div>
         </section>
 
@@ -337,15 +324,6 @@ export default async function HomePage({
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <PrimaryButton label={t("cta.bookDemo")} href="/demo" />
             </div>
-            <p className="mt-4">
-              <Link
-                href="/mockups"
-                className="inline-flex items-center gap-2 text-sm text-muted transition-colors hover:text-primary"
-              >
-                {t("cta.mockupHint")}
-                <ArrowRight className="h-4 w-4" strokeWidth={1.7} aria-hidden="true" />
-              </Link>
-            </p>
           </FadeIn>
         </section>
       </main>
