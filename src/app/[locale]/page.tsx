@@ -370,114 +370,41 @@ export default async function HomePage({
           </div>
         </section>
 
-        {/* ── Quick win 4 — Pricing Hint ── */}
+        {/* ── Early Access ── */}
         <section
           className="border-y border-border bg-gradient-to-b from-bg to-soft"
-          aria-labelledby="pricing-heading"
+          aria-labelledby="early-access-heading"
         >
-          <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+          <div className="mx-auto max-w-4xl px-6 py-16 text-center lg:px-8 lg:py-20">
             <FadeIn>
-              <div className="text-center">
-                <SectionEyebrow>{t("pricing.eyebrow")}</SectionEyebrow>
-                <h2
-                  id="pricing-heading"
-                  className="mt-4 font-heading text-[28px] leading-tight tracking-tight text-text sm:text-[36px]"
-                >
-                  {t("pricing.heading")}
-                </h2>
-                <p className="mt-4 text-base text-muted">{t("pricing.subheading")}</p>
-              </div>
-            </FadeIn>
-
-            <FadeIn delay={0.1}>
-              <div className="mt-12 grid gap-6 sm:grid-cols-3">
-                {/* Starter */}
-                <div className="rounded-panel border border-border bg-paper p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_20px_60px_-12px_rgba(46,125,94,0.15)]">
-                  <p className="text-sm font-semibold uppercase tracking-wide text-muted">
-                    {t("pricing.starterName")}
-                  </p>
-                  <p className="mt-3 font-heading text-4xl italic text-text">
-                    {t("pricing.starterPrice")}
-                  </p>
-                  <p className="mt-1 text-sm text-muted">{t("pricing.starterLimit")}</p>
-                  <ul className="mt-6 space-y-2 text-sm text-muted">
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.starterF1")}
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.starterF2")}
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.starterF3")}
-                    </li>
-                  </ul>
+              <SectionEyebrow>{t("earlyAccess.eyebrow")}</SectionEyebrow>
+              <h2
+                id="early-access-heading"
+                className="mt-4 font-heading text-[28px] leading-tight tracking-tight text-text sm:text-[36px]"
+              >
+                {t("earlyAccess.heading")}
+              </h2>
+              <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-muted">
+                {t("earlyAccess.description")}
+              </p>
+              <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <div className="flex items-center gap-2 rounded-full border border-green-soft-border bg-primary-50 px-4 py-2 text-sm text-primary">
+                  <CheckCircle className="h-4 w-4 shrink-0" strokeWidth={1.8} aria-hidden="true" />
+                  {t("earlyAccess.badge1")}
                 </div>
-
-                {/* Growth — highlighted with full primary bg */}
-                <div className="relative rounded-panel bg-primary p-6 text-paper shadow-[0_24px_80px_-12px_rgba(46,125,94,0.35)] transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_32px_80px_-12px_rgba(46,125,94,0.45)]">
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                    <span className="rounded-full bg-white px-3 py-1 text-[11px] font-semibold text-primary shadow-sm">
-                      {t("pricing.popular")}
-                    </span>
-                  </div>
-                  <p className="text-sm font-semibold uppercase tracking-wide text-white/70">
-                    {t("pricing.growthName")}
-                  </p>
-                  <p className="mt-3 font-heading text-4xl italic text-white">
-                    {t("pricing.growthPrice")}
-                    <span className="text-xl not-italic text-white/60">{t("pricing.growthPriceSuffix")}</span>
-                  </p>
-                  <p className="mt-1 text-sm text-white/60">{t("pricing.growthLimit")}</p>
-                  <ul className="mt-6 space-y-2 text-sm text-white/80">
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-white/60" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.growthF1")}
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-white/60" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.growthF2")}
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-white/60" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.growthF3")}
-                    </li>
-                  </ul>
+                <div className="flex items-center gap-2 rounded-full border border-green-soft-border bg-primary-50 px-4 py-2 text-sm text-primary">
+                  <CheckCircle className="h-4 w-4 shrink-0" strokeWidth={1.8} aria-hidden="true" />
+                  {t("earlyAccess.badge2")}
                 </div>
-
-                {/* Impact */}
-                <div className="rounded-panel border border-border bg-paper p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_20px_60px_-12px_rgba(46,125,94,0.15)]">
-                  <p className="text-sm font-semibold uppercase tracking-wide text-muted">
-                    {t("pricing.impactName")}
-                  </p>
-                  <p className="mt-3 font-heading text-4xl italic text-text">
-                    {t("pricing.impactPrice")}
-                    <span className="text-xl not-italic text-muted">{t("pricing.impactPriceSuffix")}</span>
-                  </p>
-                  <p className="mt-1 text-sm text-muted">{t("pricing.impactLimit")}</p>
-                  <ul className="mt-6 space-y-2 text-sm text-muted">
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.impactF1")}
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.impactF2")}
-                    </li>
-                    <li className="flex gap-2">
-                      <CheckCircle className="mt-0.5 h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
-                      {t("pricing.impactF3")}
-                    </li>
-                  </ul>
+                <div className="flex items-center gap-2 rounded-full border border-green-soft-border bg-primary-50 px-4 py-2 text-sm text-primary">
+                  <CheckCircle className="h-4 w-4 shrink-0" strokeWidth={1.8} aria-hidden="true" />
+                  {t("earlyAccess.badge3")}
                 </div>
               </div>
-
-              <p className="mt-8 text-center text-sm text-muted">
-                {t("pricing.footer")}{" "}
-                <Link href="/demo" className="text-primary hover:underline">
-                  {t("pricing.footerCta")}
+              <p className="mt-8 text-sm text-muted">
+                {t("earlyAccess.footer")}{" "}
+                <Link href="/demo" className="font-medium text-primary hover:underline">
+                  {t("earlyAccess.footerCta")}
                 </Link>
               </p>
             </FadeIn>
