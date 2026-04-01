@@ -402,10 +402,7 @@ export default async function HomePage({
                 </div>
               </div>
               <p className="mt-8 text-sm text-muted">
-                {t("earlyAccess.footer")}{" "}
-                <Link href="/demo" className="font-medium text-primary hover:underline">
-                  {t("earlyAccess.footerCta")}
-                </Link>
+                {t("earlyAccess.footer")}
               </p>
             </FadeIn>
           </div>
