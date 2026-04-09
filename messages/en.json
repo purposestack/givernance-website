@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Givernance — The Nonprofit CRM Built for Europe",
-    "description": "Stop wrestling an enterprise CRM into shape for your 20-person team. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model.",
-    "ogTitle": "Givernance — The Nonprofit CRM Built for Europe",
-    "ogDescription": "Stop wrestling an enterprise CRM into shape. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model."
+    "title": "Givernance: The Nonprofit CRM Built for Europe",
+    "description": "Stop wrestling an enterprise CRM into shape for your 20-person team. Givernance is the GDPR-native CRM built for European nonprofits, not adapted from a US model.",
+    "ogTitle": "Givernance: The Nonprofit CRM Built for Europe",
+    "ogDescription": "Stop wrestling an enterprise CRM into shape. Givernance is the GDPR-native CRM built for European nonprofits, not adapted from a US model."
   },
   "nav": {
     "home": "Givernance home",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "The nonprofit CRM built for Europe",
     "heading": "Run your mission. Not your spreadsheets.",
-    "description": "One tool to run your fundraising — built for European nonprofits, not adapted from a US model. GDPR-native. No consultants required.",
+    "description": "One tool to run your fundraising. Built for European nonprofits, not adapted from a US model. GDPR-native. No consultants required.",
     "bookDemo": "Book a demo",
     "ctaReassurance": "Reply within 1 business day · No commitment · Free"
   },
@@ -41,7 +41,7 @@
   "problem": {
     "eyebrow": "Why teams switch",
     "heading": "You chose a big-name CRM for the free seats. Then your team grew.",
-    "description": "Rising licence costs, consultant dependency, retrofitted GDPR workflows, and reporting workarounds in spreadsheets — sound familiar?",
+    "description": "Rising licence costs, consultant dependency, retrofitted GDPR workflows, and reporting workarounds in spreadsheets, sound familiar?",
     "patchworkHeading": "Where your week actually goes",
     "alternativeHeading": "What changes with Givernance",
     "pain1": "You pay more every time the team grows",
@@ -49,16 +49,16 @@
     "pain3": "You patch GDPR across disconnected tools",
     "pain4": "You adapt a US-centric model to European realities",
     "alt1": "Predictable pricing that scales with you",
-    "alt2": "Self-service — no consultants required",
+    "alt2": "Self-service: no consultants required",
     "alt3": "GDPR built in, not bolted on",
     "alt4": "Designed for European nonprofits from day one"
   },
   "product": {
     "eyebrow": "One platform, every workflow",
     "heading": "From postal campaigns to impact reporting.",
-    "description": "Givernance starts with the donor lifecycle — who gives, how much, and why — then connects campaigns, grants, volunteers, and reporting around that relationship.",
+    "description": "Givernance starts with the donor lifecycle, who gives, how much, and why, then connects campaigns, grants, volunteers, and reporting around that relationship.",
     "postalTitle": "Postal campaigns",
-    "postalDescription": "Personalised letters, merge fields, and print-ready PDFs — the workflow your team already runs.",
+    "postalDescription": "Personalised letters, merge fields, and print-ready PDFs. The workflow your team already runs.",
     "qrTitle": "QR attribution",
     "qrDescription": "Every mailing carries a unique QR code so you know exactly which campaign drove which gift.",
     "donationTitle": "Online giving",
@@ -66,7 +66,7 @@
     "grantsTitle": "Grants",
     "grantsDescription": "Applications, deadlines, tranches, and funder reporting in one place.",
     "impactTitle": "Impact & reporting",
-    "impactDescription": "Connect outcomes to fundraising and operations data — no spreadsheet required.",
+    "impactDescription": "Connect outcomes to fundraising and operations data. No spreadsheet required.",
     "volunteersTitle": "Volunteers",
     "volunteersDescription": "Shifts, hours, background checks, and recognition alongside your constituent records.",
     "financeTitle": "Finance handoff",
@@ -75,11 +75,11 @@
   "ai": {
     "eyebrow": "AI with guardrails",
     "heading": "Less admin. Same control.",
-    "description": "Duplicate detection, data clean-up, suggested next steps — AI handles the repetitive work so your team can focus on relationships.",
+    "description": "Duplicate detection, data clean-up, suggested next steps. AI handles the repetitive work so your team can focus on relationships.",
     "manualTitle": "Manual",
     "manualDescription": "Full human control. AI stays out of the way.",
     "assistedTitle": "Assisted",
-    "assistedDescription": "The default. AI proposes and explains — your team decides.",
+    "assistedDescription": "The default. AI proposes and explains: your team decides.",
     "autopilotTitle": "Autopilot",
     "autopilotDescription": "For routine work you trust to run automatically, with clear exceptions and full audit trails.",
     "defaultBadge": "Default",
@@ -88,7 +88,7 @@
   "cta": {
     "eyebrow": "See it in action",
     "heading": "Ready to see what purpose-built nonprofit software looks like?",
-    "description": "Book a 30-minute demo tailored to your organisation — covering donor management, campaigns, compliance, and AI-assisted workflows.",
+    "description": "Book a 30-minute demo tailored to your organisation, covering donor management, campaigns, compliance, and AI-assisted workflows.",
     "bookDemo": "Book a demo"
   },
   "footer": {
@@ -130,7 +130,7 @@
   "demo": {
     "eyebrow": "Book a demo",
     "heading": "See Givernance in action",
-    "description": "A 30-minute on-screen walkthrough tailored to your organisation — no slides, just the product. We'll show you exactly how Givernance fits your donor management, postal campaigns, and GDPR workflow.",
+    "description": "A 30-minute on-screen walkthrough tailored to your organisation. No slides, just the product. We'll show you exactly how Givernance fits your donor management, postal campaigns, and GDPR workflow.",
     "point1": "Live demo of the full product",
     "point2": "Tailored to your team size and context",
     "point3": "No commitment required",
@@ -167,7 +167,7 @@
     "submitButton": "Request my demo",
     "submitting": "Sending…",
     "footerNote": "We'll reply within 1 business day. No spam, ever.",
-    "successTitle": "Thank you — we'll be in touch within 1 business day.",
+    "successTitle": "Thank you. We'll be in touch within 1 business day.",
     "successDescription": "We've received your request and will reach out to schedule your demo.",
     "errorFallback": "Something went wrong. Please try again."
   },
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Early access",
     "heading": "Built with nonprofits.\nDesigned to last.",
-    "description": "Givernance is being developed with a group of pilot organizations in Switzerland and France. Pricing will be designed for nonprofit budgets — transparent, predictable, no surprises.",
+    "description": "Givernance is being developed with a group of pilot organizations in Switzerland and France. Pricing will be designed for nonprofit budgets, transparent, predictable, no surprises.",
     "badge1": "Hosted in Europe",
     "badge2": "GDPR-native",
     "badge3": "No data lock-in",

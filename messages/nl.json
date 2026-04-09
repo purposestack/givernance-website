@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Givernance — Het CRM voor non-profitorganisaties in Europa",
-    "description": "Stop met een enterprise-CRM aanpassen voor uw team van 20 mensen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model.",
-    "ogTitle": "Givernance — Het CRM voor non-profitorganisaties in Europa",
-    "ogDescription": "Stop met een enterprise-CRM aanpassen. Givernance is het AVG-native CRM voor Europese non-profits — niet afgeleid van een Amerikaans model."
+    "title": "Givernance: Het CRM voor non-profitorganisaties in Europa",
+    "description": "Stop met een enterprise-CRM aanpassen voor uw team van 20 mensen. Givernance is het AVG-native CRM voor Europese non-profits, niet afgeleid van een Amerikaans model.",
+    "ogTitle": "Givernance: Het CRM voor non-profitorganisaties in Europa",
+    "ogDescription": "Stop met een enterprise-CRM aanpassen. Givernance is het AVG-native CRM voor Europese non-profits, niet afgeleid van een Amerikaans model."
   },
   "nav": {
     "home": "Givernance startpagina",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "Het CRM voor non-profits in Europa",
     "heading": "Draag uw missie uit. Niet uw spreadsheets.",
-    "description": "Eén tool voor al uw fondsenwerving — gebouwd voor Europese non-profits, niet afgeleid van een Amerikaans model. AVG-native. Zonder consultants.",
+    "description": "Eén tool voor al uw fondsenwerving. Gebouwd voor Europese non-profits, niet afgeleid van een Amerikaans model. AVG-native. Zonder consultants.",
     "bookDemo": "Demo boeken",
     "ctaReassurance": "Antwoord binnen 1 werkdag · Vrijblijvend · Gratis"
   },
@@ -41,7 +41,7 @@
   "problem": {
     "eyebrow": "Waarom teams overstappen",
     "heading": "U koos een groot CRM voor de gratis licenties. Toen groeide uw team.",
-    "description": "Stijgende licentiekosten, afhankelijkheid van consultants, achteraf aangepaste AVG-processen en rapportage-workarounds in spreadsheets — klinkt dat bekend?",
+    "description": "Stijgende licentiekosten, afhankelijkheid van consultants, achteraf aangepaste AVG-processen en rapportage-workarounds in spreadsheets, klinkt dat bekend?",
     "patchworkHeading": "Waar uw week werkelijk aan opgaat",
     "alternativeHeading": "Wat er verandert met Givernance",
     "pain1": "U betaalt meer bij elke teamuitbreiding",
@@ -49,16 +49,16 @@
     "pain3": "U lapt AVG-compliance samen over losgekoppelde tools",
     "pain4": "U past een Amerikaans model aan Europese realiteiten aan",
     "alt1": "Voorspelbare prijzen die met u meegroeien",
-    "alt2": "Zelfstandig te gebruiken — zonder consultants",
+    "alt2": "Zelfstandig te gebruiken: zonder consultants",
     "alt3": "AVG ingebouwd, niet achteraf toegevoegd",
     "alt4": "Vanaf dag één ontworpen voor Europese non-profits"
   },
   "product": {
     "eyebrow": "Eén platform, al uw werkstromen",
     "heading": "Van postale campagnes tot impactrapportage.",
-    "description": "Givernance begint met de donateurlevenscyclus — wie geeft, hoeveel en waarom — en verbindt vervolgens campagnes, subsidies, vrijwilligers en rapportage rond die relatie.",
+    "description": "Givernance begint met de donateurlevenscyclus, wie geeft, hoeveel en waarom, en verbindt vervolgens campagnes, subsidies, vrijwilligers en rapportage rond die relatie.",
     "postalTitle": "Postale campagnes",
-    "postalDescription": "Gepersonaliseerde brieven, samenvoegvelden en drukklare PDF's — de werkstroom die uw team al kent.",
+    "postalDescription": "Gepersonaliseerde brieven, samenvoegvelden en drukklare PDF's. De werkstroom die uw team al kent.",
     "qrTitle": "QR-attributie",
     "qrDescription": "Elke mailing draagt een unieke QR-code zodat u precies weet welke campagne welke gift opleverde.",
     "donationTitle": "Online giften",
@@ -66,7 +66,7 @@
     "grantsTitle": "Subsidies",
     "grantsDescription": "Aanvragen, deadlines, tranches en rapportage aan financiers op één plek.",
     "impactTitle": "Impact en rapportage",
-    "impactDescription": "Koppel resultaten aan fondsenwervings- en operationele gegevens — geen spreadsheet nodig.",
+    "impactDescription": "Koppel resultaten aan fondsenwervings- en operationele gegevens. Geen spreadsheet nodig.",
     "volunteersTitle": "Vrijwilligers",
     "volunteersDescription": "Diensten, uren, controles en erkenning naast uw contactrecords.",
     "financeTitle": "Financiële overdracht",
@@ -75,11 +75,11 @@
   "ai": {
     "eyebrow": "AI met vangrails",
     "heading": "Minder administratie. Dezelfde controle.",
-    "description": "Duplicaatdetectie, gegevensopschoning, voorgestelde volgende stappen — AI handelt het repetitieve werk af zodat uw team zich kan concentreren op relaties.",
+    "description": "Duplicaatdetectie, gegevensopschoning, voorgestelde volgende stappen. AI handelt het repetitieve werk af zodat uw team zich kan concentreren op relaties.",
     "manualTitle": "Handmatig",
     "manualDescription": "Volledige menselijke controle. AI houdt zich afzijdig.",
     "assistedTitle": "Geassisteerd",
-    "assistedDescription": "De standaard. AI stelt voor en legt uit — uw team beslist.",
+    "assistedDescription": "De standaard. AI stelt voor en legt uit: uw team beslist.",
     "autopilotTitle": "Autopilot",
     "autopilotDescription": "Voor routinewerk dat u automatisch laat uitvoeren, met duidelijke uitzonderingen en volledige audittrails.",
     "defaultBadge": "Standaard",
@@ -88,7 +88,7 @@
   "cta": {
     "eyebrow": "Bekijk het product",
     "heading": "Klaar voor software die voor uw werk is gebouwd?",
-    "description": "Boek een demo van 30 minuten voor uw organisatie — donateurbeheer, campagnes, compliance en AI-ondersteunde werkstromen.",
+    "description": "Boek een demo van 30 minuten voor uw organisatie, donateurbeheer, campagnes, compliance en AI-ondersteunde werkstromen.",
     "bookDemo": "Demo boeken"
   },
   "footer": {
@@ -130,7 +130,7 @@
   "demo": {
     "eyebrow": "Demo boeken",
     "heading": "Bekijk Givernance in actie",
-    "description": "Een rondleiding van 30 minuten op uw scherm, afgestemd op uw organisatie — geen dia's, alleen het product. We laten u precies zien hoe Givernance past bij uw donateurbeheer, postale campagnes en AVG-werkstromen.",
+    "description": "Een rondleiding van 30 minuten op uw scherm, afgestemd op uw organisatie. Geen dia's, alleen het product. We laten u precies zien hoe Givernance past bij uw donateurbeheer, postale campagnes en AVG-werkstromen.",
     "point1": "Live demo van het volledige product",
     "point2": "Afgestemd op uw teamgrootte en context",
     "point3": "Vrijblijvend",
@@ -167,7 +167,7 @@
     "submitButton": "Demo aanvragen",
     "submitting": "Bezig met verzenden…",
     "footerNote": "Reactie binnen 1 werkdag. Geen spam, beloofd.",
-    "successTitle": "Bedankt — we nemen binnen 1 werkdag contact op.",
+    "successTitle": "Bedankt. We nemen binnen 1 werkdag contact op.",
     "successDescription": "Uw aanvraag is ontvangen. We nemen contact met u op om uw demo in te plannen.",
     "errorFallback": "Er ging iets mis. Probeer het opnieuw."
   },
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Vroege toegang",
     "heading": "Gebouwd met non-profits.\nOntworpen om te blijven.",
-    "description": "Givernance wordt ontwikkeld samen met een groep pilootorganisaties in Zwitserland en Frankrijk. De prijsstelling wordt afgestemd op non-profit budgetten — transparant, voorspelbaar, zonder verrassingen.",
+    "description": "Givernance wordt ontwikkeld samen met een groep pilootorganisaties in Zwitserland en Frankrijk. De prijsstelling wordt afgestemd op non-profit budgetten, transparant, voorspelbaar, zonder verrassingen.",
     "badge1": "Gehost in Europa",
     "badge2": "AVG-native",
     "badge3": "Geen data lock-in",

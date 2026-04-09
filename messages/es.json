@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Givernance — El CRM para organizaciones sin ánimo de lucro en Europa",
-    "description": "Deje de forzar un CRM empresarial para un equipo de 20 personas. Givernance es el CRM nativo RGPD para ONG europeas — no adaptado de un modelo estadounidense.",
-    "ogTitle": "Givernance — El CRM para organizaciones sin ánimo de lucro en Europa",
-    "ogDescription": "Deje de forzar un CRM empresarial para su equipo. Givernance es el CRM nativo RGPD para ONG europeas — no adaptado de un modelo estadounidense."
+    "title": "Givernance: El CRM para organizaciones sin ánimo de lucro en Europa",
+    "description": "Deje de forzar un CRM empresarial para un equipo de 20 personas. Givernance es el CRM nativo RGPD para ONG europeas, no adaptado de un modelo estadounidense.",
+    "ogTitle": "Givernance: El CRM para organizaciones sin ánimo de lucro en Europa",
+    "ogDescription": "Deje de forzar un CRM empresarial para su equipo. Givernance es el CRM nativo RGPD para ONG europeas, no adaptado de un modelo estadounidense."
   },
   "nav": {
     "home": "Inicio Givernance",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "El CRM para ONG en Europa",
     "heading": "Impulse su misión. No sus hojas de cálculo.",
-    "description": "Una sola herramienta para gestionar su captación de fondos — creada para ONG europeas, no adaptada de un modelo estadounidense. RGPD nativo. Sin consultores.",
+    "description": "Una sola herramienta para gestionar su captación de fondos. Creada para ONG europeas, no adaptada de un modelo estadounidense. RGPD nativo. Sin consultores.",
     "bookDemo": "Reservar demo",
     "ctaReassurance": "Respuesta en 1 día hábil · Sin compromiso · Gratis"
   },
@@ -41,7 +41,7 @@
   "problem": {
     "eyebrow": "Por qué los equipos cambian",
     "heading": "Eligió un gran CRM por las licencias gratuitas. Después su equipo creció.",
-    "description": "Costes de licencia crecientes, dependencia de consultores, procesos RGPD improvisados y soluciones de informes en hojas de cálculo — ¿le suena?",
+    "description": "Costes de licencia crecientes, dependencia de consultores, procesos RGPD improvisados y soluciones de informes en hojas de cálculo, ¿le suena?",
     "patchworkHeading": "En qué se va realmente su semana",
     "alternativeHeading": "Qué cambia con Givernance",
     "pain1": "Paga más cada vez que el equipo crece",
@@ -49,16 +49,16 @@
     "pain3": "Parchea el RGPD a través de herramientas desconectadas",
     "pain4": "Adapta un modelo estadounidense a las realidades europeas",
     "alt1": "Precios predecibles que crecen con usted",
-    "alt2": "Autonomía total — sin consultores",
+    "alt2": "Autonomía total: sin consultores",
     "alt3": "RGPD integrado, no parcheado",
     "alt4": "Diseñado para ONG europeas desde el primer día"
   },
   "product": {
     "eyebrow": "Una plataforma, todos sus procesos",
     "heading": "De las campañas postales a los informes de impacto.",
-    "description": "Givernance parte del ciclo de vida del donante — quién dona, cuánto y por qué — y luego conecta campañas, subvenciones, voluntarios e informes alrededor de esa relación.",
+    "description": "Givernance parte del ciclo de vida del donante, quién dona, cuánto y por qué, y luego conecta campañas, subvenciones, voluntarios e informes alrededor de esa relación.",
     "postalTitle": "Campañas postales",
-    "postalDescription": "Cartas personalizadas, campos de combinación y PDF listos para imprimir — el flujo de trabajo que su equipo ya conoce.",
+    "postalDescription": "Cartas personalizadas, campos de combinación y PDF listos para imprimir. El flujo de trabajo que su equipo ya conoce.",
     "qrTitle": "Atribución QR",
     "qrDescription": "Cada envío lleva un código QR único para saber exactamente qué campaña generó cada donación.",
     "donationTitle": "Donaciones en línea",
@@ -66,7 +66,7 @@
     "grantsTitle": "Subvenciones",
     "grantsDescription": "Solicitudes, plazos, tramos e informes a financiadores en un solo lugar.",
     "impactTitle": "Impacto e informes",
-    "impactDescription": "Conecte resultados con datos de captación y operaciones — sin hojas de cálculo.",
+    "impactDescription": "Conecte resultados con datos de captación y operaciones. Sin hojas de cálculo.",
     "volunteersTitle": "Voluntarios",
     "volunteersDescription": "Turnos, horas, verificaciones y reconocimiento junto a sus registros de contacto.",
     "financeTitle": "Pasarela contable",
@@ -75,11 +75,11 @@
   "ai": {
     "eyebrow": "IA con protecciones",
     "heading": "Menos administración. El mismo control.",
-    "description": "Detección de duplicados, limpieza de datos, sugerencias de próximos pasos — la IA se encarga del trabajo repetitivo para que su equipo pueda centrarse en las relaciones.",
+    "description": "Detección de duplicados, limpieza de datos, sugerencias de próximos pasos. La IA se encarga del trabajo repetitivo para que su equipo pueda centrarse en las relaciones.",
     "manualTitle": "Manual",
     "manualDescription": "Control humano total. La IA se mantiene al margen.",
     "assistedTitle": "Asistido",
-    "assistedDescription": "El modo por defecto. La IA propone y explica — su equipo decide.",
+    "assistedDescription": "El modo por defecto. La IA propone y explica: su equipo decide.",
     "autopilotTitle": "Piloto automático",
     "autopilotDescription": "Para tareas rutinarias que confía ejecutar automáticamente, con excepciones claras y pistas de auditoría completas.",
     "defaultBadge": "Por defecto",
@@ -88,7 +88,7 @@
   "cta": {
     "eyebrow": "Vea el producto",
     "heading": "¿Listo para un software creado para su trabajo?",
-    "description": "Reserve una demo de 30 minutos adaptada a su organización — gestión de donantes, campañas, cumplimiento y flujos asistidos por IA.",
+    "description": "Reserve una demo de 30 minutos adaptada a su organización, gestión de donantes, campañas, cumplimiento y flujos asistidos por IA.",
     "bookDemo": "Reservar demo"
   },
   "footer": {
@@ -130,7 +130,7 @@
   "demo": {
     "eyebrow": "Reservar una demo",
     "heading": "Vea Givernance en acción",
-    "description": "Una demostración de 30 minutos adaptada a su organización — sin diapositivas, solo el producto. Le mostramos exactamente cómo Givernance encaja con su gestión de donantes, campañas postales y flujos de cumplimiento del RGPD.",
+    "description": "Una demostración de 30 minutos adaptada a su organización. Sin diapositivas, solo el producto. Le mostramos exactamente cómo Givernance encaja con su gestión de donantes, campañas postales y flujos de cumplimiento del RGPD.",
     "point1": "Demostración completa del producto",
     "point2": "Adaptada al tamaño y contexto de su equipo",
     "point3": "Sin compromiso",
@@ -167,7 +167,7 @@
     "submitButton": "Solicitar mi demo",
     "submitting": "Enviando…",
     "footerNote": "Respondemos en 1 día laborable. Sin spam, nunca.",
-    "successTitle": "Gracias — le contactaremos en 1 día laborable.",
+    "successTitle": "Gracias. Le contactaremos en 1 día laborable.",
     "successDescription": "Hemos recibido su solicitud. Nos pondremos en contacto para programar su demostración.",
     "errorFallback": "Algo salió mal. Inténtelo de nuevo."
   },
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Acceso anticipado",
     "heading": "Construido con ONGs.\nDiseñado para durar.",
-    "description": "Givernance se está desarrollando con un grupo de organizaciones piloto en Suiza y Francia. Los precios estarán diseñados para presupuestos de ONG — transparentes, predecibles, sin sorpresas.",
+    "description": "Givernance se está desarrollando con un grupo de organizaciones piloto en Suiza y Francia. Los precios estarán diseñados para presupuestos de ONG, transparentes, predecibles, sin sorpresas.",
     "badge1": "Alojado en Europa",
     "badge2": "RGPD nativo",
     "badge3": "Sin bloqueo de datos",

@@ -147,11 +147,11 @@ export default async function HomePage({
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <PrimaryButton label={t("hero.bookDemo")} href="/demo" />
               </div>
-              {/* Quick win 1 — CTA reassurance */}
+              {/* Quick win 1: CTA reassurance */}
               <p className="mt-3 text-[13px] text-muted">{t("hero.ctaReassurance")}</p>
             </FadeIn>
 
-            {/* Quick win 3 — Floating dashboard with dramatic shadow */}
+            {/* Quick win 3: Floating dashboard with dramatic shadow */}
             <FadeIn delay={0.1} className="hidden lg:block">
               <div className="relative">
                 {/* Ambient green halo */}
@@ -175,7 +175,7 @@ export default async function HomePage({
           </div>
         </section>
 
-        {/* ── Quick win 2 — Social Proof Strip ── */}
+        {/* Quick win 2: Social Proof Strip */}
         <div className="border-y border-border bg-primary-50">
           <div className="mx-auto max-w-7xl px-6 py-5 lg:px-8">
             <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-[13px] font-medium text-muted">

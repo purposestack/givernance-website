@@ -5,7 +5,7 @@ import nodemailer from "nodemailer";
 //   import { Resend } from 'resend';
 //   const resend = new Resend(process.env.RESEND_API_KEY);
 //   await resend.emails.send({ from, to, subject, html });
-//   Resend free tier: 3 000 emails/month — https://resend.com
+//   Resend free tier: 3 000 emails/month, https://resend.com
 
 const RECIPIENT = "givernance+contact@protonmail.com";
 
@@ -79,14 +79,14 @@ function buildEmailHtml(d: DemoFormPayload): string {
   return `
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8" /><title>New demo request — Givernance</title></head>
+<head><meta charset="UTF-8" /><title>New demo request: Givernance</title></head>
 <body style="font-family:Inter,system-ui,sans-serif;background:#FAFAF8;margin:0;padding:32px;">
   <div style="max-width:560px;margin:0 auto;background:#fff;border-radius:16px;border:1px solid #E4E0D9;padding:32px;">
     <div style="margin-bottom:24px;">
       <span style="background:#E8F5EE;color:#1A5240;font-size:11px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;padding:4px 12px;border-radius:999px;border:1px solid #CFE2D7;">New demo request</span>
     </div>
     <h1 style="font-size:22px;color:#1C1B19;margin:0 0 8px;">
-      ${d.firstName} ${d.lastName} — ${d.orgName}
+      ${d.firstName} ${d.lastName}: ${d.orgName}
     </h1>
     <p style="color:#635E58;font-size:14px;margin:0 0 24px;">
       Submitted via <a href="https://givernance.app/demo" style="color:#2E7D5E;">givernance.app/demo</a>
@@ -114,7 +114,7 @@ function buildEmailHtml(d: DemoFormPayload): string {
 
 function buildEmailText(d: DemoFormPayload): string {
   return [
-    "New demo request — Givernance",
+    "New demo request: Givernance",
     "=".repeat(40),
     `Name: ${d.firstName} ${d.lastName}`,
     `Organisation: ${d.orgName}`,
@@ -163,7 +163,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   // If SMTP env vars are not configured → log and return success (dev fallback).
   if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) {
     console.log(
-      "[demo/route] SMTP not configured — logging form submission:\n",
+      "[demo/route] SMTP not configured, logging form submission:\n",
       JSON.stringify(data, null, 2),
     );
     return NextResponse.json({ success: true });
@@ -184,7 +184,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
       from: SMTP_FROM ?? "noreply@givernance.app",
       to: RECIPIENT,
       replyTo: data.email,
-      subject: `Demo request: ${data.firstName} ${data.lastName} — ${data.orgName}`,
+      subject: `Demo request: ${data.firstName} ${data.lastName}: ${data.orgName}`,
       text: buildEmailText(data),
       html: buildEmailHtml(data),
     });

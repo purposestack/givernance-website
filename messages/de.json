@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "description": "Hören Sie auf, ein Enterprise-CRM für Ihr 20-köpfiges Team passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet.",
-    "ogTitle": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "ogDescription": "Hören Sie auf, ein Enterprise-CRM passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet."
+    "title": "Givernance: Das CRM für gemeinnützige Organisationen in Europa",
+    "description": "Hören Sie auf, ein Enterprise-CRM für Ihr 20-köpfiges Team passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits, nicht von einem US-Modell abgeleitet.",
+    "ogTitle": "Givernance: Das CRM für gemeinnützige Organisationen in Europa",
+    "ogDescription": "Hören Sie auf, ein Enterprise-CRM passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits, nicht von einem US-Modell abgeleitet."
   },
   "nav": {
     "home": "Givernance Startseite",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "Das CRM für Non-Profits in Europa",
     "heading": "Verfolgen Sie Ihre Mission. Nicht Ihre Tabellen.",
-    "description": "Ein Werkzeug für Ihr gesamtes Fundraising — gebaut für europäische Non-Profits, nicht von einem US-Modell abgeleitet. DSGVO-nativ. Ohne Berater.",
+    "description": "Ein Werkzeug für Ihr gesamtes Fundraising. Gebaut für europäische Non-Profits, nicht von einem US-Modell abgeleitet. DSGVO-nativ. Ohne Berater.",
     "bookDemo": "Demo buchen",
     "ctaReassurance": "Antwort innerhalb 1 Werktag · Unverbindlich · Kostenlos"
   },
@@ -32,7 +32,7 @@
     "gdprTitle": "DSGVO-nativ",
     "gdprDescription": "Einwilligung, Nachvollziehbarkeit und Datenschutzkontrollen von Anfang an integriert.",
     "postalTitle": "Post- und digitales Fundraising",
-    "postalDescription": "Unterstützung der Kanäle, die gemeinnützige Organisationen tatsächlich nutzen — nicht nur generische Formulare.",
+    "postalDescription": "Unterstützung der Kanäle, die gemeinnützige Organisationen tatsächlich nutzen, nicht nur generische Formulare.",
     "aiTitle": "KI unter menschlicher Kontrolle",
     "aiDescription": "KI schlägt vor und erklärt. Sie bestätigen, was zählt.",
     "dataTitle": "Ihre Daten, immer",
@@ -41,7 +41,7 @@
   "problem": {
     "eyebrow": "Warum Teams wechseln",
     "heading": "Sie haben sich wegen der kostenlosen Lizenzen für ein großes CRM entschieden. Dann wuchs Ihr Team.",
-    "description": "Steigende Lizenzkosten, Abhängigkeit von Beratern, nachträglich angepasste DSGVO-Prozesse und Reporting-Workarounds in Tabellenkalkulationen — kommt Ihnen das bekannt vor?",
+    "description": "Steigende Lizenzkosten, Abhängigkeit von Beratern, nachträglich angepasste DSGVO-Prozesse und Reporting-Workarounds in Tabellenkalkulationen, kommt Ihnen das bekannt vor?",
     "patchworkHeading": "Wo Ihre Woche wirklich hingeht",
     "alternativeHeading": "Was sich mit Givernance ändert",
     "pain1": "Sie zahlen mehr bei jedem Teamzuwachs",
@@ -49,16 +49,16 @@
     "pain3": "Sie flicken den Datenschutz über unverbundene Tools zusammen",
     "pain4": "Sie passen ein US-zentrisches Modell an europäische Gegebenheiten an",
     "alt1": "Vorhersehbare Preise, die mit Ihnen wachsen",
-    "alt2": "Selbstständig nutzbar — ohne Berater",
+    "alt2": "Selbstständig nutzbar: ohne Berater",
     "alt3": "DSGVO integriert, nicht nachgerüstet",
     "alt4": "Von Anfang an für europäische Non-Profits entwickelt"
   },
   "product": {
     "eyebrow": "Eine Plattform, alle Abläufe",
     "heading": "Von Postkampagnen bis Wirkungsberichte.",
-    "description": "Givernance beginnt mit dem Spenderlebenszyklus — wer spendet, wie viel und warum — und verbindet dann Kampagnen, Fördermittel, Ehrenamtliche und Berichtswesen rund um diese Beziehung.",
+    "description": "Givernance beginnt mit dem Spenderlebenszyklus, wer spendet, wie viel und warum, und verbindet dann Kampagnen, Fördermittel, Ehrenamtliche und Berichtswesen rund um diese Beziehung.",
     "postalTitle": "Postkampagnen",
-    "postalDescription": "Personalisierte Briefe, Seriendruckfelder und druckfertige PDFs — der Arbeitsablauf, den Ihr Team bereits kennt.",
+    "postalDescription": "Personalisierte Briefe, Seriendruckfelder und druckfertige PDFs. Der Arbeitsablauf, den Ihr Team bereits kennt.",
     "qrTitle": "QR-Attribution",
     "qrDescription": "Jede Sendung trägt einen einzigartigen QR-Code, damit Sie genau wissen, welche Kampagne welche Spende ausgelöst hat.",
     "donationTitle": "Online-Spenden",
@@ -66,7 +66,7 @@
     "grantsTitle": "Fördermittel",
     "grantsDescription": "Anträge, Fristen, Tranchen und Förderberichte an einem Ort.",
     "impactTitle": "Wirkung und Berichtswesen",
-    "impactDescription": "Ergebnisse mit Fundraising- und Betriebsdaten verknüpfen — keine Tabellenkalkulation nötig.",
+    "impactDescription": "Ergebnisse mit Fundraising- und Betriebsdaten verknüpfen. Keine Tabellenkalkulation nötig.",
     "volunteersTitle": "Ehrenamtliche",
     "volunteersDescription": "Schichten, Stunden, Überprüfungen und Anerkennung neben Ihren Kontaktdatensätzen.",
     "financeTitle": "Finanzbuchungsübergabe",
@@ -75,11 +75,11 @@
   "ai": {
     "eyebrow": "KI mit Leitplanken",
     "heading": "Weniger Verwaltung. Gleiche Kontrolle.",
-    "description": "Duplikaterkennung, Datenbereinigung, vorgeschlagene nächste Schritte — KI übernimmt die repetitive Arbeit, damit sich Ihr Team auf Beziehungen konzentrieren kann.",
+    "description": "Duplikaterkennung, Datenbereinigung, vorgeschlagene nächste Schritte. KI übernimmt die repetitive Arbeit, damit sich Ihr Team auf Beziehungen konzentrieren kann.",
     "manualTitle": "Manuell",
     "manualDescription": "Volle menschliche Kontrolle. KI hält sich zurück.",
     "assistedTitle": "Assistiert",
-    "assistedDescription": "Der Standard. KI schlägt vor und erklärt — Ihr Team entscheidet.",
+    "assistedDescription": "Der Standard. KI schlägt vor und erklärt: Ihr Team entscheidet.",
     "autopilotTitle": "Autopilot",
     "autopilotDescription": "Für Routineaufgaben, die Sie automatisch ausführen lassen, mit klaren Ausnahmen und vollständigen Prüfprotokollen.",
     "defaultBadge": "Standard",
@@ -88,7 +88,7 @@
   "cta": {
     "eyebrow": "Produkt ansehen",
     "heading": "Bereit für Software, die für Ihre Arbeit gebaut wurde?",
-    "description": "Buchen Sie eine 30-minütige Demo für Ihre Organisation — Spenderverwaltung, Kampagnen, Compliance und KI-unterstützte Abläufe.",
+    "description": "Buchen Sie eine 30-minütige Demo für Ihre Organisation, Spenderverwaltung, Kampagnen, Compliance und KI-unterstützte Abläufe.",
     "bookDemo": "Demo buchen"
   },
   "footer": {
@@ -130,13 +130,13 @@
   "demo": {
     "eyebrow": "Demo buchen",
     "heading": "Erleben Sie Givernance in Aktion",
-    "description": "Eine 30-minütige Bildschirmpräsentation, zugeschnitten auf Ihre Organisation — keine Folien, nur das Produkt. Wir zeigen Ihnen, wie Givernance zu Ihrer Spenderverwaltung, Ihren Postkampagnen und Ihrem DSGVO-Workflow passt.",
+    "description": "Eine 30-minütige Bildschirmpräsentation, zugeschnitten auf Ihre Organisation. Keine Folien, nur das Produkt. Wir zeigen Ihnen, wie Givernance zu Ihrer Spenderverwaltung, Ihren Postkampagnen und Ihrem DSGVO-Workflow passt.",
     "point1": "Live-Demo des gesamten Produkts",
     "point2": "Auf Ihre Teamgröße und Ihren Kontext zugeschnitten",
     "point3": "Keine Verpflichtung",
     "point4": "Antwort innerhalb eines Werktags",
     "formTitle": "Demo anfragen",
-    "formDescription": "Füllen Sie das Formular aus — wir melden uns, um einen Termin zu vereinbaren.",
+    "formDescription": "Füllen Sie das Formular aus. Wir melden uns, um einen Termin zu vereinbaren.",
     "firstName": "Vorname",
     "lastName": "Nachname",
     "orgName": "Name der Organisation",
@@ -167,7 +167,7 @@
     "submitButton": "Demo anfragen",
     "submitting": "Wird gesendet…",
     "footerNote": "Antwort innerhalb eines Werktags. Kein Spam, versprochen.",
-    "successTitle": "Vielen Dank — wir melden uns innerhalb eines Werktags.",
+    "successTitle": "Vielen Dank. Wir melden uns innerhalb eines Werktags.",
     "successDescription": "Ihre Anfrage ist eingegangen. Wir werden uns melden, um Ihre Demo zu planen.",
     "errorFallback": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
   },
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Früher Zugang",
     "heading": "Gemeinsam mit Nonprofit-Organisationen entwickelt.",
-    "description": "Givernance wird gemeinsam mit einer Gruppe von Pilotorganisationen in der Schweiz und Frankreich entwickelt. Die Preisgestaltung wird auf Nonprofit-Budgets ausgerichtet — transparent, vorhersehbar, ohne Überraschungen.",
+    "description": "Givernance wird gemeinsam mit einer Gruppe von Pilotorganisationen in der Schweiz und Frankreich entwickelt. Die Preisgestaltung wird auf Nonprofit-Budgets ausgerichtet, transparent, vorhersehbar, ohne Überraschungen.",
     "badge1": "In Europa gehostet",
     "badge2": "DSGVO-nativ",
     "badge3": "Keine Daten-Abhängigkeit",

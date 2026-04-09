@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Givernance — Le CRM associatif conçu pour l'Europe",
-    "description": "Arrêtez de tordre un CRM d'entreprise pour une équipe de 20 personnes. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain.",
-    "ogTitle": "Givernance — Le CRM associatif conçu pour l'Europe",
-    "ogDescription": "Arrêtez de tordre un CRM d'entreprise pour votre équipe. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain."
+    "title": "Givernance: Le CRM associatif conçu pour l'Europe",
+    "description": "Arrêtez de tordre un CRM d'entreprise pour une équipe de 20 personnes. Givernance est le CRM natif RGPD conçu pour les associations européennes, pas adapté d'un modèle américain.",
+    "ogTitle": "Givernance: Le CRM associatif conçu pour l'Europe",
+    "ogDescription": "Arrêtez de tordre un CRM d'entreprise pour votre équipe. Givernance est le CRM natif RGPD conçu pour les associations européennes, pas adapté d'un modèle américain."
   },
   "nav": {
     "home": "Accueil Givernance",
@@ -23,7 +23,7 @@
   "hero": {
     "eyebrow": "Le CRM associatif conçu pour l'Europe",
     "heading": "Portez votre mission. Pas vos tableurs.",
-    "description": "Un seul outil pour piloter votre collecte — conçu pour les associations européennes, pas adapté d'un modèle américain. RGPD natif. Sans consultants.",
+    "description": "Un seul outil pour piloter votre collecte. Conçu pour les associations européennes, pas adapté d'un modèle américain. RGPD natif. Sans consultants.",
     "bookDemo": "Voir la démo",
     "ctaReassurance": "Réponse sous 1 jour ouvré · Sans engagement · Gratuit"
   },
@@ -41,7 +41,7 @@
   "problem": {
     "eyebrow": "Pourquoi les équipes changent",
     "heading": "Vous avez choisi un grand CRM pour les licences gratuites. Puis votre équipe a grandi.",
-    "description": "Coûts de licence croissants, dépendance aux consultants, processus RGPD bricolés et reporting dans des tableurs — ça vous parle ?",
+    "description": "Coûts de licence croissants, dépendance aux consultants, processus RGPD bricolés et reporting dans des tableurs, ça vous parle ?",
     "patchworkHeading": "Ce qui dévore vraiment vos semaines",
     "alternativeHeading": "Ce qui change avec Givernance",
     "pain1": "Vous payez plus à chaque nouvel arrivant",
@@ -49,16 +49,16 @@
     "pain3": "Vous colmatez le RGPD à travers des outils déconnectés",
     "pain4": "Vous adaptez un modèle américain aux réalités européennes",
     "alt1": "Une tarification prévisible qui grandit avec vous",
-    "alt2": "Autonomie totale — sans consultants",
+    "alt2": "Autonomie totale: sans consultants",
     "alt3": "RGPD intégré, pas rafistolé",
     "alt4": "Conçu pour les associations européennes dès le premier jour"
   },
   "product": {
     "eyebrow": "Une plateforme, tous vos processus",
     "heading": "Des campagnes postales au reporting d'impact.",
-    "description": "Givernance part du cycle de vie du donateur — qui donne, combien et pourquoi — puis connecte campagnes, subventions, bénévoles et reporting autour de cette relation.",
+    "description": "Givernance part du cycle de vie du donateur, qui donne, combien et pourquoi, puis connecte campagnes, subventions, bénévoles et reporting autour de cette relation.",
     "postalTitle": "Campagnes postales",
-    "postalDescription": "Courriers personnalisés, champs de fusion et PDF prêts à imprimer — le processus que votre équipe maîtrise déjà.",
+    "postalDescription": "Courriers personnalisés, champs de fusion et PDF prêts à imprimer. Le processus que votre équipe maîtrise déjà.",
     "qrTitle": "Attribution QR",
     "qrDescription": "Chaque envoi porte un QR code unique pour savoir exactement quelle campagne a généré quel don.",
     "donationTitle": "Dons en ligne",
@@ -66,7 +66,7 @@
     "grantsTitle": "Subventions",
     "grantsDescription": "Demandes, échéances, tranches et rapports aux financeurs au même endroit.",
     "impactTitle": "Impact et reporting",
-    "impactDescription": "Reliez les résultats aux données de collecte et d'opérations — sans tableur nécessaire.",
+    "impactDescription": "Reliez les résultats aux données de collecte et d'opérations. Sans tableur nécessaire.",
     "volunteersTitle": "Bénévoles",
     "volunteersDescription": "Créneaux, heures, vérifications et reconnaissance aux côtés de vos fiches constituants.",
     "financeTitle": "Passerelle comptable",
@@ -75,11 +75,11 @@
   "ai": {
     "eyebrow": "IA avec garde-fous",
     "heading": "Moins d'administratif. Même contrôle.",
-    "description": "Détection de doublons, nettoyage de données, suggestions d'actions — l'IA gère le travail répétitif pour que votre équipe se concentre sur les relations.",
+    "description": "Détection de doublons, nettoyage de données, suggestions d'actions. L'IA gère le travail répétitif pour que votre équipe se concentre sur les relations.",
     "manualTitle": "Manuel",
     "manualDescription": "Contrôle humain total. L'IA reste en retrait.",
     "assistedTitle": "Assisté",
-    "assistedDescription": "Le mode par défaut. L'IA propose et explique — votre équipe décide.",
+    "assistedDescription": "Le mode par défaut. L'IA propose et explique: votre équipe décide.",
     "autopilotTitle": "Autopilote",
     "autopilotDescription": "Pour les tâches de routine que vous confiez en automatique, avec des exceptions claires et une traçabilité complète.",
     "defaultBadge": "Par défaut",
@@ -88,7 +88,7 @@
   "cta": {
     "eyebrow": "Voir le produit",
     "heading": "Prêt à découvrir un logiciel conçu pour votre métier ?",
-    "description": "Réservez une démo de 30 minutes adaptée à votre association — gestion des donateurs, campagnes, conformité et processus assistés par IA.",
+    "description": "Réservez une démo de 30 minutes adaptée à votre association, gestion des donateurs, campagnes, conformité et processus assistés par IA.",
     "bookDemo": "Voir la démo"
   },
   "footer": {
@@ -130,7 +130,7 @@
   "demo": {
     "eyebrow": "Réserver une démo",
     "heading": "Découvrez Givernance en situation réelle",
-    "description": "Une démonstration de 30 minutes adaptée à votre association — pas de slides, uniquement le produit. Nous vous montrons comment Givernance s'intègre à votre gestion des donateurs, vos campagnes postales et votre conformité RGPD.",
+    "description": "Une démonstration de 30 minutes adaptée à votre association. Pas de slides, uniquement le produit. Nous vous montrons comment Givernance s'intègre à votre gestion des donateurs, vos campagnes postales et votre conformité RGPD.",
     "point1": "Démonstration complète du produit",
     "point2": "Adaptée à votre équipe et à votre contexte",
     "point3": "Sans engagement",
@@ -167,7 +167,7 @@
     "submitButton": "Demander ma démo",
     "submitting": "Envoi en cours…",
     "footerNote": "Réponse sous 1 jour ouvré. Jamais de spam.",
-    "successTitle": "Merci — nous vous recontactons sous 1 jour ouvré.",
+    "successTitle": "Merci. Nous vous recontactons sous 1 jour ouvré.",
     "successDescription": "Votre demande a bien été reçue. Nous vous contacterons pour planifier votre démonstration.",
     "errorFallback": "Une erreur est survenue. Veuillez réessayer."
   },
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Accès anticipé",
     "heading": "Construit avec les associations.\nConçu pour durer.",
-    "description": "Givernance est en cours de développement avec un groupe d'associations pilotes en Suisse et en France. Les tarifs seront pensés pour les budgets associatifs — transparents, prévisibles, sans surprise.",
+    "description": "Givernance est en cours de développement avec un groupe d'associations pilotes en Suisse et en France. Les tarifs seront pensés pour les budgets associatifs, transparents, prévisibles, sans surprise.",
     "badge1": "Hébergé en Europe",
     "badge2": "RGPD natif",
     "badge3": "Sans verrouillage des données",

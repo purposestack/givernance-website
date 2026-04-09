@@ -118,7 +118,7 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
 
   return (
     <div className="grid gap-16 lg:grid-cols-2 lg:gap-24">
-      {/* Left — hero text */}
+      {/* Left: hero text */}
       <FadeIn className="flex flex-col justify-center">
         <SectionEyebrow>{t.eyebrow}</SectionEyebrow>
 
@@ -144,7 +144,7 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
         </ul>
       </FadeIn>
 
-      {/* Right — form card */}
+      {/* Right: form card */}
       <FadeIn delay={0.1}>
         {submitted ? (
           <div className="flex flex-col items-center justify-center rounded-panel border border-border bg-paper p-8 text-center">

@@ -147,11 +147,11 @@ export function Navigation() {
         </div>
       </header>
 
-      {/* Mobile menu — rendered OUTSIDE <header> to escape its stacking context */}
+      {/* Mobile menu: rendered OUTSIDE <header> to escape its stacking context */}
       <AnimatePresence>
         {mobileOpen && (
           <>
-            {/* Full-page opaque backdrop — blocks all content underneath */}
+            {/* Full-page opaque backdrop: blocks all content underneath */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -164,7 +164,7 @@ export function Navigation() {
               aria-hidden="true"
             />
 
-            {/* Slide-in panel — above the backdrop */}
+            {/* Slide-in panel: above the backdrop */}
             <motion.div
               ref={panelRef}
               id="mobile-menu"
@@ -197,7 +197,7 @@ export function Navigation() {
                 </button>
               </div>
 
-              {/* Nav links only — no duplicate CTAs */}
+              {/* Nav links only: no duplicate CTAs */}
               <nav
                 className="flex flex-col gap-1 px-4 py-6"
                 aria-label={t("mobileNavLabel")}
