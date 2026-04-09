@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
 import { LogoMark } from "./logo-mark";
 import { PrimaryButton } from "./primary-button";
 
@@ -14,22 +13,12 @@ export async function Footer() {
     { label: t("demo"), href: "#demo" },
   ];
 
-  const resourceLinks = [
-    { label: t("documentation"), href: "/docs" },
-    { label: t("contact"), href: "/contact" },
-  ];
-
-  const legalLinks = [
-    { label: t("privacyPolicy"), href: "/privacy" },
-    { label: t("legalNotice"), href: "/legal" },
-  ];
-
   return (
     <footer className="border-t border-border bg-soft" role="contentinfo">
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-2">
           {/* Brand */}
-          <div className="lg:col-span-1">
+          <div>
             <div className="flex items-center gap-3">
               <LogoMark className="h-8 w-8" />
               <span className="text-base font-semibold tracking-tight">
@@ -59,40 +48,6 @@ export async function Footer() {
                   >
                     {link.label}
                   </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h3 className="text-sm font-semibold text-text">{t("resourcesHeading")}</h3>
-            <ul className="mt-4 space-y-3">
-              {resourceLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-muted transition-colors hover:text-text"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h3 className="text-sm font-semibold text-text">{t("legalHeading")}</h3>
-            <ul className="mt-4 space-y-3">
-              {legalLinks.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-muted transition-colors hover:text-text"
-                  >
-                    {link.label}
-                  </Link>
                 </li>
               ))}
             </ul>

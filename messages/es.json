@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Givernance — El CRM para organizaciones sin ánimo de lucro en Europa",
-    "description": "Deje de forzar un CRM empresarial para un equipo de 20 personas. Givernance es el CRM nativo RGPD para ONG europeas — no adaptado de un modelo estadounidense.",
-    "ogTitle": "Givernance — El CRM para organizaciones sin ánimo de lucro en Europa",
-    "ogDescription": "Deje de forzar un CRM empresarial para su equipo. Givernance es el CRM nativo RGPD para ONG europeas — no adaptado de un modelo estadounidense."
+    "title": "Givernance — Software para ONG en Europa",
+    "description": "Deje de forzar software empresarial para su equipo. Givernance está diseñado para ONG europeas, no adaptado de un modelo estadounidense.",
+    "ogTitle": "Givernance — Software para ONG en Europa",
+    "ogDescription": "Deje de forzar software empresarial para su equipo. Givernance está diseñado para ONG europeas, no adaptado de un modelo estadounidense."
   },
   "nav": {
     "home": "Inicio Givernance",
-    "tagline": "El CRM para ONG en Europa",
+    "tagline": "Software para ONG en Europa",
     "whySwitch": "Por qué",
     "product": "Producto",
     "ai": "IA",
@@ -21,9 +21,9 @@
     "switchLanguage": "Cambiar idioma"
   },
   "hero": {
-    "eyebrow": "El CRM para ONG en Europa",
-    "heading": "Impulse su misión. No sus hojas de cálculo.",
-    "description": "Una sola herramienta para gestionar su captación de fondos — creada para ONG europeas, no adaptada de un modelo estadounidense. RGPD nativo. Sin consultores.",
+    "eyebrow": "Software para ONG en Europa",
+    "heading": "Impulse sus valores. No sus tableros.",
+    "description": "Una sola herramienta para gestionar su captación de fondos, creada para ONG europeas. Sin consultores, sin dependencias.",
     "bookDemo": "Reservar demo",
     "ctaReassurance": "Respuesta en 1 día hábil · Sin compromiso · Gratis"
   },
@@ -40,13 +40,13 @@
   },
   "problem": {
     "eyebrow": "Por qué los equipos cambian",
-    "heading": "Eligió un gran CRM por las licencias gratuitas. Después su equipo creció.",
-    "description": "Costes de licencia crecientes, dependencia de consultores, procesos RGPD improvisados y soluciones de informes en hojas de cálculo — ¿le suena?",
+    "heading": "Eligió una gran plataforma por las licencias gratuitas. Después su equipo creció.",
+    "description": "Costes de licencia crecientes, dependencia de consultores, procesos de cumplimiento improvisados y soluciones de informes en hojas de cálculo. ¿Le suena?",
     "patchworkHeading": "En qué se va realmente su semana",
     "alternativeHeading": "Qué cambia con Givernance",
     "pain1": "Paga más cada vez que el equipo crece",
     "pain2": "Depende de consultores para cambios simples",
-    "pain3": "Parchea el RGPD a través de herramientas desconectadas",
+    "pain3": "Parchea la conformidad a través de herramientas desconectadas",
     "pain4": "Adapta un modelo estadounidense a las realidades europeas",
     "alt1": "Precios predecibles que crecen con usted",
     "alt2": "Autonomía total — sin consultores",
@@ -92,7 +92,7 @@
     "bookDemo": "Reservar demo"
   },
   "footer": {
-    "brandDescription": "El CRM nativo RGPD para ONG europeas. Sencillo, capaz, asequible.",
+    "brandDescription": "Diseñado para ONG europeas. Sencillo, capaz, asequible.",
     "tagline": "Creado por personas que creen que las ONG merecen mejor software.",
     "bookDemo": "Reservar demo",
     "productHeading": "Producto",
