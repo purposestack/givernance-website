@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "description": "Hören Sie auf, ein Enterprise-CRM für Ihr 20-köpfiges Team passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet.",
-    "ogTitle": "Givernance — Das CRM für gemeinnützige Organisationen in Europa",
-    "ogDescription": "Hören Sie auf, ein Enterprise-CRM passend zu biegen. Givernance ist das DSGVO-native CRM für europäische Non-Profits — nicht von einem US-Modell abgeleitet."
+    "title": "Givernance — Software für gemeinnützige Organisationen in Europa",
+    "description": "Hören Sie auf, Enterprise-Software für Ihr Team passend zu biegen. Givernance ist gebaut für europäische Non-Profits, nicht von einem US-Modell abgeleitet.",
+    "ogTitle": "Givernance — Software für gemeinnützige Organisationen in Europa",
+    "ogDescription": "Hören Sie auf, Enterprise-Software für Ihr Team passend zu biegen. Givernance ist gebaut für europäische Non-Profits, nicht von einem US-Modell abgeleitet."
   },
   "nav": {
     "home": "Givernance Startseite",
-    "tagline": "Das CRM für Non-Profits in Europa",
+    "tagline": "Software für Non-Profits in Europa",
     "whySwitch": "Warum wir",
     "product": "Produkt",
     "ai": "KI",
@@ -21,9 +21,9 @@
     "switchLanguage": "Sprache wechseln"
   },
   "hero": {
-    "eyebrow": "Das CRM für Non-Profits in Europa",
-    "heading": "Verfolgen Sie Ihre Mission. Nicht Ihre Tabellen.",
-    "description": "Ein Werkzeug für Ihr gesamtes Fundraising — gebaut für europäische Non-Profits, nicht von einem US-Modell abgeleitet. DSGVO-nativ. Ohne Berater.",
+    "eyebrow": "Software für Non-Profits in Europa",
+    "heading": "Stärken Sie Ihre Mission. Nicht Ihre Reibung.",
+    "description": "Ein Werkzeug für Ihr gesamtes Fundraising, gebaut für europäische Non-Profits. Ohne Berater, ohne Abhängigkeit.",
     "bookDemo": "Demo buchen",
     "ctaReassurance": "Antwort innerhalb 1 Werktag · Unverbindlich · Kostenlos"
   },
@@ -32,7 +32,7 @@
     "gdprTitle": "DSGVO-nativ",
     "gdprDescription": "Einwilligung, Nachvollziehbarkeit und Datenschutzkontrollen von Anfang an integriert.",
     "postalTitle": "Post- und digitales Fundraising",
-    "postalDescription": "Unterstützung der Kanäle, die gemeinnützige Organisationen tatsächlich nutzen — nicht nur generische Formulare.",
+    "postalDescription": "Unterstützung der Kanäle, die gemeinnützige Organisationen tatsächlich nutzen, nicht nur generische Formulare.",
     "aiTitle": "KI unter menschlicher Kontrolle",
     "aiDescription": "KI schlägt vor und erklärt. Sie bestätigen, was zählt.",
     "dataTitle": "Ihre Daten, immer",
@@ -40,8 +40,8 @@
   },
   "problem": {
     "eyebrow": "Warum Teams wechseln",
-    "heading": "Sie haben sich wegen der kostenlosen Lizenzen für ein großes CRM entschieden. Dann wuchs Ihr Team.",
-    "description": "Steigende Lizenzkosten, Abhängigkeit von Beratern, nachträglich angepasste DSGVO-Prozesse und Reporting-Workarounds in Tabellenkalkulationen — kommt Ihnen das bekannt vor?",
+    "heading": "Sie haben sich wegen der kostenlosen Lizenzen für eine große Plattform entschieden. Dann wuchs Ihr Team.",
+    "description": "Steigende Lizenzkosten, Abhängigkeit von Beratern, nachträglich angepasste Compliance-Prozesse und Reporting-Workarounds in Tabellenkalkulationen. Kommt Ihnen das bekannt vor?",
     "patchworkHeading": "Wo Ihre Woche wirklich hingeht",
     "alternativeHeading": "Was sich mit Givernance ändert",
     "pain1": "Sie zahlen mehr bei jedem Teamzuwachs",
@@ -92,7 +92,7 @@
     "bookDemo": "Demo buchen"
   },
   "footer": {
-    "brandDescription": "Das DSGVO-native CRM für europäische gemeinnützige Organisationen. Einfach, leistungsfähig, erschwinglich.",
+    "brandDescription": "Gebaut für europäische gemeinnützige Organisationen. Einfach, leistungsfähig, erschwinglich.",
     "tagline": "Entwickelt von Menschen, die glauben, dass Non-Profits bessere Software verdienen.",
     "bookDemo": "Demo buchen",
     "productHeading": "Produkt",

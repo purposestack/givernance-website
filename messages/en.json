@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Givernance — The Nonprofit CRM Built for Europe",
-    "description": "Stop wrestling an enterprise CRM into shape for your 20-person team. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model.",
-    "ogTitle": "Givernance — The Nonprofit CRM Built for Europe",
-    "ogDescription": "Stop wrestling an enterprise CRM into shape. Givernance is the GDPR-native CRM built for European nonprofits — not adapted from a US model."
+    "title": "Givernance — Nonprofit Software Built for Europe",
+    "description": "Stop wrestling enterprise software into shape for your team. Givernance is built for European nonprofits, not adapted from a US model.",
+    "ogTitle": "Givernance — Nonprofit Software Built for Europe",
+    "ogDescription": "Stop wrestling enterprise software into shape for your team. Givernance is built for European nonprofits, not adapted from a US model."
   },
   "nav": {
     "home": "Givernance home",
-    "tagline": "The nonprofit CRM built for Europe",
+    "tagline": "Nonprofit software built for Europe",
     "whySwitch": "Why switch",
     "product": "Product",
     "ai": "AI",
@@ -21,9 +21,9 @@
     "switchLanguage": "Switch language"
   },
   "hero": {
-    "eyebrow": "The nonprofit CRM built for Europe",
-    "heading": "Run your mission. Not your spreadsheets.",
-    "description": "One tool to run your fundraising — built for European nonprofits, not adapted from a US model. GDPR-native. No consultants required.",
+    "eyebrow": "Nonprofit software built for Europe",
+    "heading": "Back your mission. Ditch the friction.",
+    "description": "One tool to run your fundraising, built for European nonprofits. No consultants, no lock-in.",
     "bookDemo": "Book a demo",
     "ctaReassurance": "Reply within 1 business day · No commitment · Free"
   },
@@ -40,13 +40,13 @@
   },
   "problem": {
     "eyebrow": "Why teams switch",
-    "heading": "You chose a big-name CRM for the free seats. Then your team grew.",
-    "description": "Rising licence costs, consultant dependency, retrofitted GDPR workflows, and reporting workarounds in spreadsheets — sound familiar?",
+    "heading": "You chose a big-name platform for the free seats. Then your team grew.",
+    "description": "Rising licence costs, consultant dependency, patchwork compliance, and reporting workarounds in spreadsheets. Sound familiar?",
     "patchworkHeading": "Where your week actually goes",
     "alternativeHeading": "What changes with Givernance",
     "pain1": "You pay more every time the team grows",
     "pain2": "You depend on consultants for simple changes",
-    "pain3": "You patch GDPR across disconnected tools",
+    "pain3": "You patch compliance across disconnected tools",
     "pain4": "You adapt a US-centric model to European realities",
     "alt1": "Predictable pricing that scales with you",
     "alt2": "Self-service — no consultants required",
@@ -92,7 +92,7 @@
     "bookDemo": "Book a demo"
   },
   "footer": {
-    "brandDescription": "The GDPR-native CRM for European nonprofits. Simple, capable, affordable.",
+    "brandDescription": "Built for European nonprofits. Simple, capable, affordable.",
     "tagline": "Built by people who believe nonprofits deserve better software.",
     "bookDemo": "Book a demo",
     "productHeading": "Product",

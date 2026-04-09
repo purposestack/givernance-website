@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Givernance — Le CRM associatif conçu pour l'Europe",
-    "description": "Arrêtez de tordre un CRM d'entreprise pour une équipe de 20 personnes. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain.",
-    "ogTitle": "Givernance — Le CRM associatif conçu pour l'Europe",
-    "ogDescription": "Arrêtez de tordre un CRM d'entreprise pour votre équipe. Givernance est le CRM natif RGPD conçu pour les associations européennes — pas adapté d'un modèle américain."
+    "title": "Givernance — Le logiciel associatif conçu pour l'Europe",
+    "description": "Arrêtez de tordre un logiciel d'entreprise pour votre équipe. Givernance est conçu pour les associations européennes, pas adapté d'un modèle américain.",
+    "ogTitle": "Givernance — Le logiciel associatif conçu pour l'Europe",
+    "ogDescription": "Arrêtez de tordre un logiciel d'entreprise pour votre équipe. Givernance est conçu pour les associations européennes, pas adapté d'un modèle américain."
   },
   "nav": {
     "home": "Accueil Givernance",
-    "tagline": "Le CRM associatif conçu pour l'Europe",
+    "tagline": "Le logiciel pour associations conçu pour l'Europe",
     "whySwitch": "Pourquoi nous",
     "product": "Produit",
     "ai": "IA",
@@ -21,9 +21,9 @@
     "switchLanguage": "Changer de langue"
   },
   "hero": {
-    "eyebrow": "Le CRM associatif conçu pour l'Europe",
-    "heading": "Portez votre mission. Pas vos tableurs.",
-    "description": "Un seul outil pour piloter votre collecte — conçu pour les associations européennes, pas adapté d'un modèle américain. RGPD natif. Sans consultants.",
+    "eyebrow": "Le logiciel pour associations conçu pour l'Europe",
+    "heading": "Soutenez vos valeurs. Pas vos tableurs.",
+    "description": "Un seul outil pour piloter votre collecte, conçu pour les associations européennes. Sans consultants.",
     "bookDemo": "Voir la démo",
     "ctaReassurance": "Réponse sous 1 jour ouvré · Sans engagement · Gratuit"
   },
@@ -40,13 +40,13 @@
   },
   "problem": {
     "eyebrow": "Pourquoi les équipes changent",
-    "heading": "Vous avez choisi un grand CRM pour les licences gratuites. Puis votre équipe a grandi.",
-    "description": "Coûts de licence croissants, dépendance aux consultants, processus RGPD bricolés et reporting dans des tableurs — ça vous parle ?",
+    "heading": "Vous avez choisi un grand logiciel pour les licences gratuites. Puis votre équipe a grandi.",
+    "description": "Coûts de licence croissants, dépendance aux consultants, conformité bricolée et reporting dans des tableurs. Ça vous parle ?",
     "patchworkHeading": "Ce qui dévore vraiment vos semaines",
     "alternativeHeading": "Ce qui change avec Givernance",
     "pain1": "Vous payez plus à chaque nouvel arrivant",
     "pain2": "Vous dépendez de consultants pour des modifications simples",
-    "pain3": "Vous colmatez le RGPD à travers des outils déconnectés",
+    "pain3": "Vous colmatez la conformité à travers des outils déconnectés",
     "pain4": "Vous adaptez un modèle américain aux réalités européennes",
     "alt1": "Une tarification prévisible qui grandit avec vous",
     "alt2": "Autonomie totale — sans consultants",
@@ -92,7 +92,7 @@
     "bookDemo": "Voir la démo"
   },
   "footer": {
-    "brandDescription": "Le CRM natif RGPD pour les associations européennes. Simple, complet, abordable.",
+    "brandDescription": "Le logiciel pour les associations européennes. Simple, complet, abordable.",
     "tagline": "Conçu par des personnes convaincues que les associations méritent un meilleur logiciel.",
     "bookDemo": "Voir la démo",
     "productHeading": "Produit",
