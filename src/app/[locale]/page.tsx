@@ -190,8 +190,8 @@ export default async function HomePage({
               </span>
               <span className="hidden text-border sm:block" aria-hidden="true">·</span>
               <span className="flex items-center gap-2">
-                <Star className="h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
-                {t("social.mockups")}
+                <CheckCircle className="h-4 w-4 shrink-0 text-primary" strokeWidth={1.8} aria-hidden="true" />
+                {t("social.earlyAccessBadge")}
               </span>
             </div>
           </div>
