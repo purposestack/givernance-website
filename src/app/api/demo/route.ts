@@ -1,13 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import nodemailer from "nodemailer";
-
-// TODO: Replace nodemailer SMTP with Resend SDK for a simpler, more reliable setup.
-//   import { Resend } from 'resend';
-//   const resend = new Resend(process.env.RESEND_API_KEY);
-//   await resend.emails.send({ from, to, subject, html });
-//   Resend free tier: 3 000 emails/month — https://resend.com
+import { Resend } from "resend";
 
 const RECIPIENT = "givernance+contact@protonmail.com";
+const FROM = "Givernance <noreply@givernance.app>";
 
 interface DemoFormPayload {
   firstName: string;
@@ -152,42 +147,36 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
   const data = validation.data;
 
-  const {
-    SMTP_HOST,
-    SMTP_PORT,
-    SMTP_USER,
-    SMTP_PASS,
-    SMTP_FROM,
-  } = process.env;
+  const { RESEND_API_KEY } = process.env;
 
-  // If SMTP env vars are not configured → log and return success (dev fallback).
-  if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) {
+  // If RESEND_API_KEY is not configured → log and return success (dev fallback).
+  if (!RESEND_API_KEY) {
     console.log(
-      "[demo/route] SMTP not configured — logging form submission:\n",
+      "[demo/route] RESEND_API_KEY not configured — logging form submission:\n",
       JSON.stringify(data, null, 2),
     );
     return NextResponse.json({ success: true });
   }
 
   try {
-    const transporter = nodemailer.createTransport({
-      host: SMTP_HOST,
-      port: SMTP_PORT ? parseInt(SMTP_PORT, 10) : 587,
-      secure: SMTP_PORT === "465",
-      auth: {
-        user: SMTP_USER,
-        pass: SMTP_PASS,
-      },
-    });
+    const resend = new Resend(RESEND_API_KEY);
 
-    await transporter.sendMail({
-      from: SMTP_FROM ?? "noreply@givernance.app",
+    const { error } = await resend.emails.send({
+      from: FROM,
       to: RECIPIENT,
       replyTo: data.email,
       subject: `Demo request: ${data.firstName} ${data.lastName} — ${data.orgName}`,
       text: buildEmailText(data),
       html: buildEmailHtml(data),
     });
+
+    if (error) {
+      console.error("[demo/route] Resend error:", error);
+      return NextResponse.json(
+        { success: false, error: "Failed to send email. Please try again later." },
+        { status: 500 },
+      );
+    }
 
     return NextResponse.json({ success: true });
   } catch (err) {
