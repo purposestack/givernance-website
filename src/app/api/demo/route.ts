@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const RECIPIENT = "givernance+contact@protonmail.com";
-const FROM = "Givernance <noreply@givernance.app>";
+const FROM = "Givernance <noreply@givernance.org>";
 
 interface DemoFormPayload {
   firstName: string;
