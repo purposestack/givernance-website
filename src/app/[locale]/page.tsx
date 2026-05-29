@@ -18,7 +18,6 @@ import {
   Users,
   Landmark,
   CreditCard,
-  Star,
   CheckCircle,
 } from "lucide-react";
 

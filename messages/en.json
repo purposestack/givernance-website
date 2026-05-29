@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Givernance — Nonprofit Software Built for Europe",
-    "description": "Stop wrestling enterprise software into shape for your team. Givernance is built for European nonprofits, not adapted from a US model.",
-    "ogTitle": "Givernance — Nonprofit Software Built for Europe",
-    "ogDescription": "Stop wrestling enterprise software into shape for your team. Givernance is built for European nonprofits, not adapted from a US model."
+    "title": "Givernance - Infrastructure for European nonprofits",
+    "description": "Givernance helps European nonprofits run fundraising, donor stewardship, and reporting in one GDPR-native system, without spreadsheet sprawl.",
+    "ogTitle": "Givernance - Infrastructure for European nonprofits",
+    "ogDescription": "Givernance helps European nonprofits run fundraising, donor stewardship, and reporting in one GDPR-native system, without spreadsheet sprawl."
   },
   "nav": {
     "home": "Givernance home",
-    "tagline": "Nonprofit software built for Europe",
+    "tagline": "Infrastructure for European nonprofits",
     "whySwitch": "Why switch",
     "product": "Product",
     "ai": "AI",
@@ -21,9 +21,9 @@
     "switchLanguage": "Switch language"
   },
   "hero": {
-    "eyebrow": "Nonprofit software built for Europe",
-    "heading": "Back your mission. Ditch the spreadsheets.",
-    "description": "One tool to run your fundraising, built for European nonprofits. No consultants, no lock-in.",
+    "eyebrow": "Infrastructure for European nonprofits",
+    "heading": "Back your mission. Ditch the spreadsheet sprawl.",
+    "description": "One system for fundraising, donor stewardship, and reporting, built for European nonprofits. No consultants, no lock-in.",
     "bookDemo": "Book a demo",
     "ctaReassurance": "Reply within 1 business day · No commitment · Free"
   },
@@ -35,12 +35,12 @@
     "postalDescription": "Support the channels nonprofits actually use, not just generic forms.",
     "aiTitle": "Human-controlled AI",
     "aiDescription": "AI suggests and explains. You confirm what matters.",
-    "dataTitle": "Your data, always",
-    "dataDescription": "Export everything, any time. No lock-in."
+    "dataTitle": "No data lock-in",
+    "dataDescription": "Export everything, any time. Your records stay yours."
   },
   "problem": {
     "eyebrow": "Why teams switch",
-    "heading": "You chose a big-name platform for the free seats. Then your team grew.",
+    "heading": "You chose the big platform because it felt safe. Then the work got messy.",
     "description": "Rising licence costs, consultant dependency, patchwork compliance, and reporting workarounds in spreadsheets. Sound familiar?",
     "patchworkHeading": "Where your week actually goes",
     "alternativeHeading": "What changes with Givernance",
@@ -55,18 +55,18 @@
   },
   "product": {
     "eyebrow": "One platform, every workflow",
-    "heading": "From postal campaigns to impact reporting.",
-    "description": "Givernance starts with the donor lifecycle, who gives, how much, and why, then connects campaigns, grants, volunteers, and reporting around that relationship.",
+    "heading": "From donations to reporting, in one system.",
+    "description": "Givernance starts with the donor lifecycle, who gives, how much, and why, then connects fundraising, grants, volunteers, and funder reporting around that relationship.",
     "postalTitle": "Postal campaigns",
     "postalDescription": "Personalised letters, merge fields, and print-ready PDFs — the workflow your team already runs.",
     "qrTitle": "QR attribution",
     "qrDescription": "Every mailing carries a unique QR code so you know exactly which campaign drove which gift.",
     "donationTitle": "Online giving",
-    "donationDescription": "Branded donation pages and embeddable widgets, live in minutes. Powered by your own Stripe account.",
+    "donationDescription": "Branded donation pages and embeddable widgets, live in minutes. Connected to your own Stripe account.",
     "grantsTitle": "Grants",
-    "grantsDescription": "Applications, deadlines, tranches, and funder reporting in one place.",
+    "grantsDescription": "Track applications, deadlines, tranches, and funder reporting in one place.",
     "impactTitle": "Impact & reporting",
-    "impactDescription": "Connect outcomes to fundraising and operations data — no spreadsheet required.",
+    "impactDescription": "Connect outcomes to fundraising and operations data without spreadsheet gymnastics.",
     "volunteersTitle": "Volunteers",
     "volunteersDescription": "Shifts, hours, background checks, and recognition alongside your constituent records.",
     "financeTitle": "Finance handoff",
@@ -93,7 +93,7 @@
   },
   "footer": {
     "brandDescription": "Built for European nonprofits. Simple, capable, affordable.",
-    "tagline": "Built by people who believe nonprofits deserve better software.",
+    "tagline": "Built by people who think nonprofits deserve better infrastructure.",
     "bookDemo": "Book a demo",
     "productHeading": "Product",
     "features": "Features",
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Early access",
     "heading": "Built with nonprofits.\nDesigned to last.",
-    "description": "Givernance is being developed with a group of pilot organizations in Switzerland and France. Pricing will be designed for nonprofit budgets — transparent, predictable, no surprises.",
+    "description": "Givernance is being built with pilot organisations in Switzerland and France. It is designed as operational infrastructure for nonprofits, transparent, predictable, and ready for real fundraising work.",
     "badge1": "Hosted in Europe",
     "badge2": "GDPR-native",
     "badge3": "No data lock-in",
