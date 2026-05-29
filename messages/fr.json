@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Givernance — Le logiciel associatif conçu pour l'Europe",
-    "description": "Arrêtez de tordre un logiciel d'entreprise pour votre équipe. Givernance est conçu pour les associations européennes, pas adapté d'un modèle américain.",
-    "ogTitle": "Givernance — Le logiciel associatif conçu pour l'Europe",
-    "ogDescription": "Arrêtez de tordre un logiciel d'entreprise pour votre équipe. Givernance est conçu pour les associations européennes, pas adapté d'un modèle américain."
+    "title": "Givernance - Infrastructure pour les associations européennes",
+    "description": "Givernance aide les associations européennes à piloter collecte, relation donateurs et reporting dans un seul système natif RGPD, sans tableurs dispersés.",
+    "ogTitle": "Givernance - Infrastructure pour les associations européennes",
+    "ogDescription": "Givernance aide les associations européennes à piloter collecte, relation donateurs et reporting dans un seul système natif RGPD, sans tableurs dispersés."
   },
   "nav": {
     "home": "Accueil Givernance",
-    "tagline": "Le logiciel pour associations conçu pour l'Europe",
+    "tagline": "Infrastructure pour les associations européennes",
     "whySwitch": "Pourquoi nous",
     "product": "Produit",
     "ai": "IA",
@@ -21,9 +21,9 @@
     "switchLanguage": "Changer de langue"
   },
   "hero": {
-    "eyebrow": "Le logiciel pour associations conçu pour l'Europe",
-    "heading": "Soutenez vos valeurs. Pas vos tableurs.",
-    "description": "Un seul outil pour piloter votre collecte, conçu pour les associations européennes. Sans consultants.",
+    "eyebrow": "Infrastructure pour les associations européennes",
+    "heading": "Soutenez votre mission. Pas vos tableurs.",
+    "description": "Un seul système pour la collecte, la relation donateurs et le reporting, conçu pour les associations européennes. Sans consultants.",
     "bookDemo": "Voir la démo",
     "ctaReassurance": "Réponse sous 1 jour ouvré · Sans engagement · Gratuit"
   },
@@ -35,12 +35,12 @@
     "postalDescription": "Prise en charge des canaux réellement utilisés par les associations, pas uniquement des formulaires génériques.",
     "aiTitle": "IA sous contrôle humain",
     "aiDescription": "L'IA suggère et explique. Vous validez ce qui compte.",
-    "dataTitle": "Vos données, toujours",
-    "dataDescription": "Exportez tout, à tout moment. Aucun verrouillage."
+    "dataTitle": "Pas de verrouillage des données",
+    "dataDescription": "Exportez tout, à tout moment. Vos données restent à vous."
   },
   "problem": {
     "eyebrow": "Pourquoi les équipes changent",
-    "heading": "Vous avez choisi un grand logiciel pour les licences gratuites. Puis votre équipe a grandi.",
+    "heading": "Vous avez choisi le grand logiciel parce qu'il semblait rassurant. Puis le travail est devenu ingérable.",
     "description": "Coûts de licence croissants, dépendance aux consultants, conformité bricolée et reporting dans des tableurs. Ça vous parle ?",
     "patchworkHeading": "Ce qui dévore vraiment vos semaines",
     "alternativeHeading": "Ce qui change avec Givernance",
@@ -55,18 +55,18 @@
   },
   "product": {
     "eyebrow": "Une plateforme, tous vos processus",
-    "heading": "Des campagnes postales au reporting d'impact.",
-    "description": "Givernance part du cycle de vie du donateur, qui donne, combien et pourquoi, puis connecte campagnes, subventions, bénévoles et reporting autour de cette relation.",
+    "heading": "Des dons au reporting, dans un seul système.",
+    "description": "Givernance part du cycle de vie du donateur, qui donne, combien et pourquoi, puis relie collecte, subventions, bénévoles et reporting financeur autour de cette relation.",
     "postalTitle": "Campagnes postales",
     "postalDescription": "Courriers personnalisés, champs de fusion et PDF prêts à imprimer — le processus que votre équipe maîtrise déjà.",
     "qrTitle": "Attribution QR",
     "qrDescription": "Chaque envoi porte un QR code unique pour savoir exactement quelle campagne a généré quel don.",
     "donationTitle": "Dons en ligne",
-    "donationDescription": "Pages de dons à votre image et widgets intégrables, en ligne en quelques minutes. Connectés à votre propre compte Stripe.",
+    "donationDescription": "Pages de dons à votre image et widgets intégrables, en ligne en quelques minutes. Reliés à votre propre compte Stripe.",
     "grantsTitle": "Subventions",
-    "grantsDescription": "Demandes, échéances, tranches et rapports aux financeurs au même endroit.",
+    "grantsDescription": "Suivez les demandes, échéances, tranches et rapports aux financeurs au même endroit.",
     "impactTitle": "Impact et reporting",
-    "impactDescription": "Reliez les résultats aux données de collecte et d'opérations — sans tableur nécessaire.",
+    "impactDescription": "Reliez les résultats aux données de collecte et d'opérations sans gymnastique de tableur.",
     "volunteersTitle": "Bénévoles",
     "volunteersDescription": "Créneaux, heures, vérifications et reconnaissance aux côtés de vos fiches constituants.",
     "financeTitle": "Passerelle comptable",
@@ -93,7 +93,7 @@
   },
   "footer": {
     "brandDescription": "Le logiciel pour les associations européennes. Simple, complet, abordable.",
-    "tagline": "Conçu par des personnes convaincues que les associations méritent un meilleur logiciel.",
+    "tagline": "Conçu par des personnes convaincues que les associations méritent une meilleure infrastructure.",
     "bookDemo": "Voir la démo",
     "productHeading": "Produit",
     "features": "Fonctionnalités",
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Accès anticipé",
     "heading": "Construit avec les associations.\nConçu pour durer.",
-    "description": "Givernance est en cours de développement avec un groupe d'associations pilotes en Suisse et en France. Les tarifs seront pensés pour les budgets associatifs — transparents, prévisibles, sans surprise.",
+    "description": "Givernance se construit avec des associations pilotes en Suisse et en France. C'est une infrastructure opérationnelle pour les associations, transparente, prévisible, et prête pour le travail réel de collecte.",
     "badge1": "Hébergé en Europe",
     "badge2": "RGPD natif",
     "badge3": "Sans verrouillage des données",
