@@ -8,7 +8,7 @@ export function LogoMark({
   "aria-hidden"?: boolean | "true" | "false";
 }) {
   return (
-    <div className={`relative shrink-0 ${className}`} aria-hidden={ariaHidden ?? "true"}>
+    <div className={`shrink-0 ${className}`} aria-hidden={ariaHidden ?? "true"}>
       <svg
         viewBox="0 0 500 500"
         className="h-full w-full"
