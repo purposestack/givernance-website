@@ -1,131 +1,164 @@
 {
   "metadata": {
-    "title": "Givernance - Infrastructuur voor Europese non-profits",
-    "description": "Givernance helpt Europese non-profits fondsenwerving, donateurrelaties en rapportage te beheren in één AVG-native systeem, zonder spreadsheetchaos.",
-    "ogTitle": "Givernance - Infrastructuur voor Europese non-profits",
-    "ogDescription": "Givernance helpt Europese non-profits fondsenwerving, donateurrelaties en rapportage te beheren in één AVG-native systeem, zonder spreadsheetchaos."
+    "title": "Givernance — Infrastructuur voor Europese non-profits",
+    "description": "De operationele infrastructuur die Europese non-profits gebruiken voor fondsenwerving, donateurrelaties, subsidies en rapportage — AVG-native, zonder afhankelijkheid.",
+    "ogTitle": "Givernance — Infrastructuur voor Europese non-profits",
+    "ogDescription": "Eén platform voor fondsenwerving, donateurrelaties, subsidies, vrijwilligers en rapportage. Gebouwd samen met Zwitserse en Franse non-profits."
   },
   "nav": {
     "home": "Givernance startpagina",
     "tagline": "Infrastructuur voor Europese non-profits",
-    "whySwitch": "Waarom wij",
+    "infrastructure": "Infrastructuur",
     "product": "Product",
-    "ai": "AI",
-    "demo": "Demo",
+    "governance": "Governance",
+    "pilots": "Pilots",
     "bookDemo": "Demo boeken",
     "openMenu": "Menu openen",
     "closeMenu": "Menu sluiten",
     "menuTitle": "Menu",
     "mobileNavLabel": "Mobiele navigatie",
     "mainNavLabel": "Hoofdnavigatie",
-    "switchLanguage": "Taal wijzigen"
+    "switchLanguage": "Taal wijzigen",
+    "ai": "AI",
+    "demo": "Demo"
   },
   "hero": {
-    "eyebrow": "Infrastructuur voor Europese non-profits",
-    "heading": "Steun uw missie. Niet uw spreadsheets.",
-    "description": "Eén systeem voor fondsenwerving, donateurrelaties en rapportage, gebouwd voor Europese non-profits. Zonder consultants, zonder afhankelijkheid.",
+    "kicker": "Infrastructuur voor Europese non-profits",
+    "titleLead": "Steun uw missie.",
+    "titleAccents": [
+      "Weg met de spreadsheets.",
+      "Donateurs, subsidies & impact verenigd.",
+      "Uw data — volledig in eigen beheer.",
+      "Geen toeslag per gebruiker."
+    ],
+    "body": "Givernance is de operationele laag die Europese non-profits gebruiken voor fondsenwerving, donateurrelaties, subsidies en rapportage — op één plek, zonder consultants en zonder leveranciersafhankelijkheid.",
     "bookDemo": "Demo boeken",
-    "ctaReassurance": "Antwoord binnen 1 werkdag · Vrijblijvend · Gratis"
+    "replyNote": "Antwoord binnen 1 werkdag · Vrijblijvend · Gratis"
   },
-  "trustStrip": {
-    "heading": "Belangrijkste voordelen",
-    "gdprTitle": "AVG-native",
-    "gdprDescription": "Toestemming, traceerbaarheid en privacycontroles vanaf het begin ingebouwd.",
-    "postalTitle": "Postaal + digitaal fondsenwerven",
-    "postalDescription": "Ondersteuning van de kanalen die non-profits daadwerkelijk gebruiken, niet alleen generieke formulieren.",
-    "aiTitle": "AI onder menselijke controle",
-    "aiDescription": "AI suggereert en legt uit. U bevestigt wat belangrijk is.",
-    "dataTitle": "Geen data lock-in",
-    "dataDescription": "Exporteer alles, op elk moment. Uw gegevens blijven van u."
+  "marquee": [
+    "Gebouwd met Zwitserse en Franse non-profits",
+    "Gehost in Europa",
+    "AVG-native",
+    "Geen data-afhankelijkheid",
+    "Vroege toegang · Vrijblijvend"
+  ],
+  "marqueeLabel": "Belangrijkste voordelen",
+  "principles": {
+    "kicker": "§ I — Fundamenten",
+    "title": "Vier beloften aan de sector.",
+    "body": "Givernance is gebouwd rondom wat Europese non-profits echt nodig hebben om hun middelen te mobiliseren, bij te houden en te verantwoorden — niet wat een generieke SaaS-CRM gemakkelijk kan leveren.",
+    "items": [
+      { "n": "01", "title": "AVG-native", "body": "Toestemming, controleerbaarheid en privacybeheer zijn ingebakken in het datamodel — niet achteraf toegevoegd als een instellingspagina." },
+      { "n": "02", "title": "Postaal en digitaal", "body": "Printcampagnes, QR-gelinkte mailings en online donaties in één register. De kanalen die Europese non-profits daadwerkelijk gebruiken." },
+      { "n": "03", "title": "AI onder menselijke controle", "body": "AI stelt voor en legt uit. Uw team beslist wat telt. Geen onomkeerbare actie zonder menselijke goedkeuring." },
+      { "n": "04", "title": "Datasoevereiniteit", "body": "Gehost in Europa. Volledig exporteerbaar, op elk moment. Geen afhankelijkheid, geen consultantkosten om te vertrekken." }
+    ]
   },
-  "problem": {
-    "eyebrow": "Waarom teams overstappen",
-    "heading": "U koos het grote platform omdat het veilig voelde. Toen werd het werk onoverzichtelijk.",
-    "description": "Stijgende licentiekosten, afhankelijkheid van consultants, achteraf aangepaste nalevingsprocessen en rapportage-workarounds in spreadsheets. Klinkt dat bekend?",
-    "patchworkHeading": "Waar uw week werkelijk aan opgaat",
-    "alternativeHeading": "Wat er verandert met Givernance",
-    "pain1": "U betaalt meer bij elke teamuitbreiding",
-    "pain2": "U bent afhankelijk van consultants voor eenvoudige wijzigingen",
-    "pain3": "U lapt compliance samen over losgekoppelde tools",
-    "pain4": "U past een Amerikaans model aan Europese realiteiten aan",
-    "alt1": "Voorspelbare prijzen die met u meegroeien",
-    "alt2": "Zelfstandig te gebruiken — zonder consultants",
-    "alt3": "AVG ingebouwd, niet achteraf toegevoegd",
-    "alt4": "Vanaf dag één ontworpen voor Europese non-profits"
+  "whyChange": {
+    "kicker": "§ II — Waarom teams overstappen",
+    "titleLead": "U koos een bekend platform vanwege de gratis accounts.",
+    "titleAccent": "Daarna groeide het team.",
+    "statusQuoLabel": "De status quo",
+    "withLabel": "Met Givernance",
+    "statusQuo": [
+      "Licentiekosten die stijgen bij elke nieuwe medewerker",
+      "Compliance samengelapt over losstaande tools",
+      "Consultantafhankelijkheid voor de eenvoudigste aanpassing",
+      "Een Amerikaans datamodel terugverbouwd naar Europese realiteit"
+    ],
+    "withGivernance": [
+      "Voorspelbare prijzen, afgestemd op non-profitbudgetten",
+      "AVG ingebakken in de kern, met volledige audittrail",
+      "Selfservicewerkstromen die uw team van begin tot eind zelf beheert",
+      "Europees model: postaal, SEPA, belastingrecht, meertalig"
+    ]
   },
   "product": {
-    "eyebrow": "Eén platform, al uw werkstromen",
-    "heading": "Van donaties tot rapportage, in één systeem.",
-    "description": "Givernance begint met de donateurlevenscyclus, wie geeft, hoeveel en waarom, en verbindt vervolgens fondsenwerving, subsidies, vrijwilligers en rapportage aan financiers rond die relatie.",
-    "postalTitle": "Postale campagnes",
-    "postalDescription": "Gepersonaliseerde brieven, samenvoegvelden en drukklare PDF's — de werkstroom die uw team al kent.",
-    "qrTitle": "QR-attributie",
-    "qrDescription": "Elke mailing draagt een unieke QR-code zodat u precies weet welke campagne welke gift opleverde.",
-    "donationTitle": "Online giften",
-    "donationDescription": "Gebrandde donatiepagina's en inbedbare widgets, binnen minuten live. Verbonden met uw eigen Stripe-account.",
-    "grantsTitle": "Subsidies",
-    "grantsDescription": "Volg aanvragen, deadlines, tranches en rapportage aan financiers op één plek.",
-    "impactTitle": "Impact en rapportage",
-    "impactDescription": "Koppel resultaten aan fondsenwervings- en operationele gegevens zonder spreadsheetacrobatiek.",
-    "volunteersTitle": "Vrijwilligers",
-    "volunteersDescription": "Diensten, uren, controles en erkenning naast uw contactrecords.",
-    "financeTitle": "Financiële overdracht",
-    "financeDescription": "Export van boekingen en fondsbalansen naar uw boekhoudsysteem."
+    "kicker": "§ III — Eén platform",
+    "titleLead": "Van postale campagnes naar",
+    "titleAccent": "impactrapportage.",
+    "body": "Givernance begint bij de donateurlevenscyclus — wie geeft, hoeveel en waarom — en verbindt vervolgens campagnes, subsidies, vrijwilligers en rapportage rondom die relatie.",
+    "modules": [
+      { "n": "01", "title": "Postale campagnes", "body": "Gepersonaliseerde brieven, samenvoegvelden en drukklare pdf's — de werkstroom die uw team al gebruikt, eindelijk goed gestructureerd." },
+      { "n": "02", "title": "QR-attributie", "body": "Elke mailing draagt een unieke QR-code zodat u precies weet welke envelop welke gift opleverde." },
+      { "n": "03", "title": "Online donaties", "body": "Donatiepagina's in uw huisstijl en inbedbare widgets, binnen minuten live. Gekoppeld aan uw eigen Stripe-account." },
+      { "n": "04", "title": "Subsidies", "body": "Aanvragen, deadlines, tranches en rapportage aan financiers op één plek, met ingebouwde logica voor geoormerkte fondsen." },
+      { "n": "05", "title": "Vrijwilligers", "body": "Diensten, uren, screeningen en erkenning — naast uw contactrecords." },
+      { "n": "06", "title": "Impactrapportage", "body": "Koppel resultaten aan fondsenwervings- en operationele data. Het rapport dat uw bestuur vraagt, zonder spreadsheetmarathon." },
+      { "n": "07", "title": "Boekhoudoverdracht", "body": "Exporteer journaalposten en fondsbalansen naar uw boekhoudsysteem — geen dubbele invoer, geen afstemmingsgymnastiek." }
+    ],
+    "ledgerTitle": "Eén register, één bron van waarheid.",
+    "ledgerBody": "Elke module deelt hetzelfde donateur- en contactrecord. Geen imports, geen synchronisaties, geen reconciliaties."
   },
   "ai": {
-    "eyebrow": "AI met vangrails",
-    "heading": "Minder administratie. Dezelfde controle.",
-    "description": "Duplicaatdetectie, gegevensopschoning, voorgestelde volgende stappen — AI handelt het repetitieve werk af zodat uw team zich kan concentreren op relaties.",
-    "manualTitle": "Handmatig",
-    "manualDescription": "Volledige menselijke controle. AI houdt zich afzijdig.",
-    "assistedTitle": "Geassisteerd",
-    "assistedDescription": "De standaard. AI stelt voor en legt uit — uw team beslist.",
-    "autopilotTitle": "Autopilot",
-    "autopilotDescription": "Voor routinewerk dat u automatisch laat uitvoeren, met duidelijke uitzonderingen en volledige audittrails.",
-    "defaultBadge": "Standaard",
-    "guardrail": "Geen onomkeerbare actie zonder uw bevestiging. Elke AI-beslissing wordt gelogd en is controleerbaar."
+    "kicker": "§ IV — AI met vangrails",
+    "titleLead": "Minder administratie.",
+    "titleAccent": "Dezelfde controle.",
+    "body": "Duplicaatdetectie, gegevensopschoning, voorgestelde vervolgstappen — AI handelt het repetitieve werk af zodat uw team zich kan richten op relaties. Elke beslissing wordt gelogd en is controleerbaar.",
+    "footnote": "Geen onomkeerbare actie zonder uw bevestiging. Elke AI-beslissing wordt gelogd, is toerekenbaar en controleerbaar.",
+    "modes": [
+      { "code": "M", "name": "Handmatig", "body": "Volledige menselijke controle. AI blijft buiten beeld." },
+      { "code": "A", "name": "Geassisteerd", "body": "Standaardmodus. AI stelt voor en legt uit — uw team beslist.", "badge": "Standaard" },
+      { "code": "P", "name": "Autopilot", "body": "Voor routinewerk dat u automatisch laat uitvoeren, met duidelijke uitzonderingen en volledige audittrails." }
+    ]
+  },
+  "pilots": {
+    "kicker": "§ V — Vroege toegang",
+    "titleLead": "Gebouwd met non-profits.",
+    "titleAccent": "Ontworpen om te blijven.",
+    "body": "Givernance wordt ontwikkeld samen met een groep pilootorganisaties in Zwitserland en Frankrijk. De prijsstelling wordt transparant, voorspelbaar en afgestemd op non-profitbudgetten — geen verrassingen, geen valkuilen per gebruiker.",
+    "hosted": "Hosting",
+    "hostedValue": "Europa",
+    "compliance": "Naleving",
+    "complianceValue": "AVG-native",
+    "lockin": "Afhankelijkheid",
+    "lockinValue": "Geen"
   },
   "cta": {
-    "eyebrow": "Bekijk het product",
-    "heading": "Klaar voor software die voor uw werk is gebouwd?",
-    "description": "Boek een demo van 30 minuten voor uw organisatie — donateurbeheer, campagnes, compliance en AI-ondersteunde werkstromen.",
-    "bookDemo": "Demo boeken"
+    "kicker": "Zie het in actie",
+    "titleLead": "Klaar om te zien hoe doelgerichte non-profitsoftware",
+    "titleAccent": "eruitziet?",
+    "body": "Boek een demo van 30 minuten op maat van uw organisatie — donateurbeheer, postale en digitale campagnes, AVG-naleving en AI-ondersteunde werkstromen.",
+    "bookDemo": "Demo boeken",
+    "replyNote": "Antwoord binnen 1 werkdag · Vrijblijvend"
   },
   "footer": {
-    "brandDescription": "Gebouwd voor Europese non-profitorganisaties. Eenvoudig, capabel, betaalbaar.",
-    "tagline": "Gebouwd door mensen die geloven dat non-profits een betere infrastructuur verdienen.",
+    "geneva": "Genève · CH",
+    "paris": "Parijs · FR",
+    "tagline": "Operationele infrastructuur voor Europese non-profits. Mobiliseer, volg en verantwoord uw middelen — zonder consultants, zonder afhankelijkheid.",
+    "platform": "Platform",
+    "infrastructure": "Infrastructuur",
+    "product": "Product",
+    "aiGovernance": "AI-governance",
+    "earlyAccess": "Vroege toegang",
+    "footprint": "Aanwezigheid",
+    "hostedInEurope": "Gehost in Europa",
+    "copyright": "Gebouwd voor de Europese non-profitsector",
+    "privacy": "Privacy",
+    "terms": "Juridische kennisgeving",
+    "github": "GitHub",
     "bookDemo": "Demo boeken",
-    "productHeading": "Product",
-    "features": "Functies",
-    "whySwitch": "Waarom overstappen",
     "ai": "AI",
-    "demo": "Demo",
-    "resourcesHeading": "Bronnen",
-    "documentation": "Documentatie",
-    "contact": "Contact",
-    "legalHeading": "Juridisch",
-    "privacyPolicy": "Privacybeleid",
-    "legalNotice": "Juridische kennisgeving",
-    "copyright": "© {year} Givernance. Alle rechten voorbehouden.",
-    "hostedInEurope": "Ontworpen en gehost in Europa"
+    "demo": "Demo"
   },
   "dashboard": {
-    "todayOverview": "Overzicht van vandaag",
-    "fundraisingDashboard": "Fondsenwervingsdashboard",
+    "overview": "Overzicht van vandaag",
+    "dashboardLabel": "/ Fondsenwervingsdashboard",
     "assistedMode": "Geassisteerde modus",
-    "postalSpringAppeal": "Voorjaars-donatieoproep per post",
-    "qrLinkedSegments": "QR-gekoppeld / 3 donateursegmenten",
+    "campaign": "Postale lenteactie",
+    "campaignMeta": "QR-gekoppeld · 3 donateursegmenten",
     "onTrack": "Op schema",
-    "suggestedNextActions": "Voorgestelde volgende stappen",
-    "action1": "Bedankemails sturen naar 26 nieuwe donateurs",
-    "action2": "Anomalie in QR-campagnetoewijzing controleren",
-    "action3": "Stripe Connect-onboarding voor Fondation Horizon bevestigen",
+    "nextActions": "Voorgestelde vervolgacties",
+    "actions": [
+      "Follow-up sturen naar niet-reagerende donateurs van Segment 2",
+      "Budget herbestemmen naar de best presterende mailpack",
+      "Bedankmail voor Segment 3 inplannen"
+    ],
+    "day": "Dag",
     "campaignRoi": "Campagne-ROI",
-    "costVsDonations": "Kosten vs. ontvangen donaties",
     "mailSent": "Verzonden post",
-    "mailSentValue": "12.400",
     "revenue": "Inkomsten",
-    "revenueValue": "€ 58.240"
+    "ariaLabel": "Live Givernance-dashboard met een postale lenteactie, stijgende dagelijkse donaties, drie voorgestelde AI-acties en een campagne-ROI van 4,8×."
   },
   "demo": {
     "eyebrow": "Demo boeken",
@@ -173,20 +206,5 @@
   },
   "common": {
     "skipToContent": "Ga naar inhoud"
-  },
-  "social": {
-    "built": "Gebouwd met Zwitserse en Franse verenigingen",
-    "hosted": "Gehost in Europa · AVG-native",
-    "earlyAccessBadge": "Vroege toegang · Geen verplichting"
-  },
-  "earlyAccess": {
-    "eyebrow": "Vroege toegang",
-    "heading": "Gebouwd met non-profits.\nOntworpen om te blijven.",
-    "description": "Givernance wordt gebouwd met pilootorganisaties in Zwitserland en Frankrijk. Het is ontworpen als operationele infrastructuur voor non-profits — transparant, voorspelbaar en klaar voor het echte fondsenwervingswerk.",
-    "badge1": "Gehost in Europa",
-    "badge2": "AVG-native",
-    "badge3": "Geen data lock-in",
-    "footer": "Wilt u tot de eerste organisaties behoren die Givernance gebruiken?",
-    "footerCta": "Vertel ons over uw situatie →"
   }
 }

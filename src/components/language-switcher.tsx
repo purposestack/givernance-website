@@ -21,7 +21,7 @@ export function LanguageSwitcher() {
         value={currentLocale}
         onChange={handleChange}
         aria-label={t("switchLanguage")}
-        className="appearance-none cursor-pointer rounded-full border border-border bg-paper py-1.5 pl-3 pr-6 text-xs font-medium uppercase tracking-wide text-muted transition-colors hover:bg-soft hover:text-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+        className="mono-label appearance-none cursor-pointer rounded-full border border-border bg-cream py-1.5 pl-3 pr-6 text-ink/65 transition-colors hover:bg-sage-light/40 hover:text-deep-text focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-deep-text min-h-[44px]"
       >
         {locales.map((code) => (
           <option key={code} value={code}>
@@ -30,7 +30,7 @@ export function LanguageSwitcher() {
         ))}
       </select>
       <svg
-        className="pointer-events-none absolute right-2 h-3 w-3 text-muted"
+        className="pointer-events-none absolute right-2 h-3 w-3 text-ink/40"
         viewBox="0 0 12 12"
         fill="none"
         aria-hidden="true"

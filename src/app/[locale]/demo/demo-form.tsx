@@ -1,14 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { SectionEyebrow } from "@/components/section-eyebrow";
-import { FadeIn } from "@/components/fade-in";
-import { ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowUpRight, CheckCircle } from "lucide-react";
 
 const inputClass =
-  "rounded-md border border-border bg-bg px-4 py-3 text-sm w-full focus:outline-none focus:ring-2 focus:ring-primary";
+  "rounded-lg border border-border bg-cream px-4 py-3 text-sm w-full text-ink placeholder:text-ink/40 focus:outline-none focus:ring-2 focus:ring-deep transition-colors";
 
-const labelClass = "block text-sm font-medium text-text mb-1.5";
+const labelClass = "block mono-label text-ink/65 mb-2";
 
 interface DemoFormTranslations {
   eyebrow: string;
@@ -119,22 +117,22 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
   return (
     <div className="grid gap-16 lg:grid-cols-2 lg:gap-24">
       {/* Left — hero text */}
-      <FadeIn className="flex flex-col justify-center">
-        <SectionEyebrow>{t.eyebrow}</SectionEyebrow>
+      <div className="flex flex-col justify-center">
+        <p className="mono-label text-deep-text mb-5">{t.eyebrow}</p>
 
-        <h1 className="mt-6 font-heading text-4xl leading-tight tracking-tight text-text lg:text-5xl">
+        <h1 className="font-serif text-4xl lg:text-5xl leading-tight tracking-tight text-ink">
           {t.heading}
         </h1>
 
-        <p className="mt-6 text-lg leading-8 text-muted">
+        <p className="mt-6 text-lg leading-8 text-ink/70">
           {t.description}
         </p>
 
         <ul className="mt-8 space-y-4">
           {t.points.map((point) => (
-            <li key={point} className="flex items-center gap-3 text-sm text-muted">
+            <li key={point} className="flex items-center gap-3 text-sm text-ink/70">
               <CheckCircle
-                className="h-4 w-4 shrink-0 text-primary"
+                className="size-4 shrink-0 text-sage-mid"
                 strokeWidth={1.8}
                 aria-hidden="true"
               />
@@ -142,21 +140,21 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
             </li>
           ))}
         </ul>
-      </FadeIn>
+      </div>
 
       {/* Right — form card */}
-      <FadeIn delay={0.1}>
+      <div>
         {submitted ? (
-          <div className="flex flex-col items-center justify-center rounded-panel border border-border bg-paper p-8 text-center">
+          <div className="flex flex-col items-center justify-center rounded-2xl border border-border bg-card p-8 text-center">
             <CheckCircle
-              className="h-12 w-12 text-primary"
+              className="size-12 text-sage-mid"
               strokeWidth={1.5}
               aria-hidden="true"
             />
-            <h2 className="mt-4 text-xl font-semibold text-text">
+            <h2 className="mt-4 font-serif text-xl text-ink">
               {t.successTitle}
             </h2>
-            <p className="mt-3 text-sm text-muted">
+            <p className="mt-3 text-sm text-ink/65">
               {t.successDescription}
             </p>
           </div>
@@ -164,12 +162,12 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
           <form
             onSubmit={handleSubmit}
             noValidate
-            className="rounded-panel border border-border bg-paper p-8"
+            className="rounded-2xl border border-border bg-card p-8"
           >
-            <h2 className="text-lg font-semibold text-text">
+            <h2 className="font-serif text-xl text-ink">
               {t.formTitle}
             </h2>
-            <p className="mt-1 text-sm text-muted">
+            <p className="mt-1 text-sm text-ink/65">
               {t.formDescription}
             </p>
 
@@ -178,7 +176,8 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
                   <label htmlFor="firstName" className={labelClass}>
-                    {t.firstName} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
+                    {t.firstName}{" "}
+                    <span className="text-ember-text" aria-hidden="true">{t.required}</span>
                   </label>
                   <input
                     id="firstName"
@@ -194,7 +193,8 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
                 </div>
                 <div>
                   <label htmlFor="lastName" className={labelClass}>
-                    {t.lastName} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
+                    {t.lastName}{" "}
+                    <span className="text-ember-text" aria-hidden="true">{t.required}</span>
                   </label>
                   <input
                     id="lastName"
@@ -213,7 +213,8 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
               {/* Organisation name */}
               <div>
                 <label htmlFor="orgName" className={labelClass}>
-                  {t.orgName} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
+                  {t.orgName}{" "}
+                  <span className="text-ember-text" aria-hidden="true">{t.required}</span>
                 </label>
                 <input
                   id="orgName"
@@ -231,7 +232,8 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
               {/* Role */}
               <div>
                 <label htmlFor="role" className={labelClass}>
-                  {t.role} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
+                  {t.role}{" "}
+                  <span className="text-ember-text" aria-hidden="true">{t.required}</span>
                 </label>
                 <input
                   id="role"
@@ -249,7 +251,8 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
               {/* Work email */}
               <div>
                 <label htmlFor="email" className={labelClass}>
-                  {t.email} <span className="text-red-dark" aria-hidden="true">{t.required}</span>
+                  {t.email}{" "}
+                  <span className="text-ember-text" aria-hidden="true">{t.required}</span>
                 </label>
                 <input
                   id="email"
@@ -329,14 +332,14 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
                   {t.mattersOptions.map((option) => (
                     <label
                       key={option.value}
-                      className="flex cursor-pointer items-center gap-3 text-sm text-text"
+                      className="flex cursor-pointer items-center gap-3 text-sm text-ink/80"
                     >
                       <input
                         type="checkbox"
                         value={option.value}
                         checked={form.matters.includes(option.value)}
                         onChange={handleCheckbox}
-                        className="h-4 w-4 rounded border-border accent-primary"
+                        className="size-4 rounded border-border accent-deep"
                       />
                       {option.label}
                     </label>
@@ -348,7 +351,7 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
             {error && (
               <p
                 role="alert"
-                className="mt-4 rounded-md border border-red-light-border bg-red-light-bg px-4 py-3 text-sm text-red-dark"
+                className="mt-4 rounded-lg border border-red-light-border bg-red-light-bg px-4 py-3 text-sm text-red-dark"
               >
                 {error}
               </p>
@@ -357,24 +360,24 @@ export function DemoForm({ translations: t }: { translations: DemoFormTranslatio
             <button
               type="submit"
               disabled={submitting}
-              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-medium text-white shadow-green transition hover:bg-primary-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-60"
+              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-deep-section px-5 py-3 text-sm font-medium text-cream transition hover:bg-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-deep-text disabled:opacity-60 min-h-[44px]"
             >
               {submitting ? t.submitting : t.submitButton}
               {!submitting && (
-                <ArrowRight
-                  className="h-4 w-4"
+                <ArrowUpRight
+                  className="size-4"
                   strokeWidth={1.8}
                   aria-hidden="true"
                 />
               )}
             </button>
 
-            <p className="mt-4 text-center text-xs text-muted">
+            <p className="mt-4 text-center mono-label text-ink/65">
               {t.footerNote}
             </p>
           </form>
         )}
-      </FadeIn>
+      </div>
     </div>
   );
 }

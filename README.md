@@ -13,10 +13,10 @@ This site sells the value of Givernance to nonprofit decision-makers — fundrai
 | Layer | Technology |
 |-------|-----------|
 | Framework | Next.js 15 (App Router, TypeScript) |
-| Styling | Tailwind CSS v4 (design tokens from Givernance identity) |
-| Animation | Framer Motion |
+| Styling | Tailwind CSS v4 (oklch design tokens from Givernance identity) |
+| Animation | CSS keyframes / transitions (no animation library) |
 | Icons | Lucide React |
-| Typography | Instrument Serif (headings) + Inter (body) |
+| Typography | Sora (headings/display) + Manrope (body) + IBM Plex Mono (labels) |
 | i18n | next-intl (App Router, `[locale]` routing) |
 | Deploy | Vercel (EU region) |
 

@@ -1,131 +1,164 @@
 {
   "metadata": {
-    "title": "Givernance - Infrastructure for European nonprofits",
-    "description": "Givernance helps European nonprofits run fundraising, donor stewardship, and reporting in one GDPR-native system, without spreadsheet sprawl.",
-    "ogTitle": "Givernance - Infrastructure for European nonprofits",
-    "ogDescription": "Givernance helps European nonprofits run fundraising, donor stewardship, and reporting in one GDPR-native system, without spreadsheet sprawl."
+    "title": "Givernance — Infrastructure for European nonprofits",
+    "description": "The operational infrastructure European nonprofits use to run fundraising, donor stewardship, grants and reporting — GDPR-native, no lock-in.",
+    "ogTitle": "Givernance — Infrastructure for European nonprofits",
+    "ogDescription": "One platform for fundraising, donor stewardship, grants, volunteers and reporting. Built with Swiss and French nonprofits."
   },
   "nav": {
     "home": "Givernance home",
     "tagline": "Infrastructure for European nonprofits",
-    "whySwitch": "Why switch",
+    "infrastructure": "Infrastructure",
     "product": "Product",
-    "ai": "AI",
-    "demo": "Demo",
+    "governance": "Governance",
+    "pilots": "Pilots",
     "bookDemo": "Book a demo",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "menuTitle": "Menu",
     "mobileNavLabel": "Mobile navigation",
     "mainNavLabel": "Main navigation",
-    "switchLanguage": "Switch language"
+    "switchLanguage": "Switch language",
+    "ai": "AI",
+    "demo": "Demo"
   },
   "hero": {
-    "eyebrow": "Infrastructure for European nonprofits",
-    "heading": "Back your mission. Ditch the spreadsheet sprawl.",
-    "description": "One system for fundraising, donor stewardship, and reporting, built for European nonprofits. No consultants, no lock-in.",
+    "kicker": "Infrastructure for European nonprofits",
+    "titleLead": "Back your mission.",
+    "titleAccents": [
+      "Ditch the spreadsheets.",
+      "Unify donors, grants & impact.",
+      "Own your data, end to end.",
+      "Skip the per-seat tax."
+    ],
+    "body": "Givernance is the operational layer European nonprofits use to run fundraising, donor stewardship, grants and reporting — in one place, without consultants and without lock-in.",
     "bookDemo": "Book a demo",
-    "ctaReassurance": "Reply within 1 business day · No commitment · Free"
+    "replyNote": "Reply within 1 business day · No commitment · Free"
   },
-  "trustStrip": {
-    "heading": "Key benefits",
-    "gdprTitle": "GDPR-native",
-    "gdprDescription": "Consent, auditability, and privacy controls built in from the start.",
-    "postalTitle": "Postal + digital fundraising",
-    "postalDescription": "Support the channels nonprofits actually use, not just generic forms.",
-    "aiTitle": "Human-controlled AI",
-    "aiDescription": "AI suggests and explains. You confirm what matters.",
-    "dataTitle": "No data lock-in",
-    "dataDescription": "Export everything, any time. Your records stay yours."
+  "marquee": [
+    "Built with Swiss & French nonprofits",
+    "Hosted in Europe",
+    "GDPR-native",
+    "No data lock-in",
+    "Early access · No commitment"
+  ],
+  "marqueeLabel": "Key features",
+  "principles": {
+    "kicker": "§ I — Foundations",
+    "title": "Four commitments to the sector.",
+    "body": "Givernance is built around what European nonprofits actually need to mobilise, track and report their resources — not what a generic SaaS CRM finds convenient to ship.",
+    "items": [
+      { "n": "01", "title": "GDPR-native", "body": "Consent, auditability and privacy controls are built into the data model — not bolted on as a settings page." },
+      { "n": "02", "title": "Postal + digital", "body": "Print campaigns, QR-attributed mailings and online donations live in one ledger. The channels European nonprofits actually use." },
+      { "n": "03", "title": "Human-controlled AI", "body": "AI proposes and explains. Your team confirms what matters. No irreversible action without human approval." },
+      { "n": "04", "title": "Data sovereignty", "body": "Hosted in Europe. Exportable in full, any time. No lock-in, no consultant fees to leave." }
+    ]
   },
-  "problem": {
-    "eyebrow": "Why teams switch",
-    "heading": "You chose the big platform because it felt safe. Then the work got messy.",
-    "description": "Rising licence costs, consultant dependency, patchwork compliance, and reporting workarounds in spreadsheets. Sound familiar?",
-    "patchworkHeading": "Where your week actually goes",
-    "alternativeHeading": "What changes with Givernance",
-    "pain1": "You pay more every time the team grows",
-    "pain2": "You depend on consultants for simple changes",
-    "pain3": "You patch compliance across disconnected tools",
-    "pain4": "You adapt a US-centric model to European realities",
-    "alt1": "Predictable pricing that scales with you",
-    "alt2": "Self-service — no consultants required",
-    "alt3": "GDPR built in, not bolted on",
-    "alt4": "Designed for European nonprofits from day one"
+  "whyChange": {
+    "kicker": "§ II — Why teams switch",
+    "titleLead": "You chose a big-name platform for the free seats.",
+    "titleAccent": "Then your team grew.",
+    "statusQuoLabel": "The status quo",
+    "withLabel": "With Givernance",
+    "statusQuo": [
+      "Licence costs that rise every time the team grows",
+      "Compliance patched across disconnected tools",
+      "Consultant dependency for the simplest change",
+      "A US-centric data model retrofitted to European realities"
+    ],
+    "withGivernance": [
+      "Predictable pricing designed for nonprofit budgets",
+      "GDPR built into the core, with full audit trail",
+      "Self-service workflows your team owns end-to-end",
+      "European-first model: postal, banking, fiscalité, languages"
+    ]
   },
   "product": {
-    "eyebrow": "One platform, every workflow",
-    "heading": "From donations to reporting, in one system.",
-    "description": "Givernance starts with the donor lifecycle, who gives, how much, and why, then connects fundraising, grants, volunteers, and funder reporting around that relationship.",
-    "postalTitle": "Postal campaigns",
-    "postalDescription": "Personalised letters, merge fields, and print-ready PDFs — the workflow your team already runs.",
-    "qrTitle": "QR attribution",
-    "qrDescription": "Every mailing carries a unique QR code so you know exactly which campaign drove which gift.",
-    "donationTitle": "Online giving",
-    "donationDescription": "Branded donation pages and embeddable widgets, live in minutes. Connected to your own Stripe account.",
-    "grantsTitle": "Grants",
-    "grantsDescription": "Track applications, deadlines, tranches, and funder reporting in one place.",
-    "impactTitle": "Impact & reporting",
-    "impactDescription": "Connect outcomes to fundraising and operations data without spreadsheet gymnastics.",
-    "volunteersTitle": "Volunteers",
-    "volunteersDescription": "Shifts, hours, background checks, and recognition alongside your constituent records.",
-    "financeTitle": "Finance handoff",
-    "financeDescription": "Export journal entries and fund balances to your accounting system."
+    "kicker": "§ III — One platform",
+    "titleLead": "From postal campaigns to",
+    "titleAccent": "impact reporting.",
+    "body": "Givernance starts with the donor lifecycle — who gives, how much, and why — then connects campaigns, grants, volunteers and reporting around that relationship.",
+    "modules": [
+      { "n": "01", "title": "Postal campaigns", "body": "Personalised letters, merge fields and print-ready PDFs — the workflow your team already runs, finally on rails." },
+      { "n": "02", "title": "QR attribution", "body": "Every mailing carries a unique QR so you know which envelope drove which gift." },
+      { "n": "03", "title": "Online giving", "body": "Branded donation pages and embeddable widgets, live in minutes. Powered by your own Stripe account." },
+      { "n": "04", "title": "Grants", "body": "Applications, deadlines, tranches and funder reporting in one place, with restricted-fund logic built in." },
+      { "n": "05", "title": "Volunteers", "body": "Shifts, hours, background checks and recognition, alongside your constituent records." },
+      { "n": "06", "title": "Impact reporting", "body": "Connect outcomes to fundraising and operations data. The report your board asks for, without a spreadsheet marathon." },
+      { "n": "07", "title": "Finance handoff", "body": "Export journal entries and fund balances to your accounting system — no double-entry, no reconciliation gymnastics." }
+    ],
+    "ledgerTitle": "One ledger, one source of truth.",
+    "ledgerBody": "Every module shares the same donor and constituent record. No imports, no sync jobs, no reconciliation."
   },
   "ai": {
-    "eyebrow": "AI with guardrails",
-    "heading": "Less admin. Same control.",
-    "description": "Duplicate detection, data clean-up, suggested next steps — AI handles the repetitive work so your team can focus on relationships.",
-    "manualTitle": "Manual",
-    "manualDescription": "Full human control. AI stays out of the way.",
-    "assistedTitle": "Assisted",
-    "assistedDescription": "The default. AI proposes and explains — your team decides.",
-    "autopilotTitle": "Autopilot",
-    "autopilotDescription": "For routine work you trust to run automatically, with clear exceptions and full audit trails.",
-    "defaultBadge": "Default",
-    "guardrail": "No irreversible action without your confirmation. Every AI decision is logged and auditable."
+    "kicker": "§ IV — AI with guardrails",
+    "titleLead": "Less admin.",
+    "titleAccent": "Same control.",
+    "body": "Duplicate detection, data clean-up, suggested next steps — AI handles repetitive work so your team can focus on relationships. Every decision is logged and auditable.",
+    "footnote": "No irreversible action without your confirmation. Every AI decision is logged, attributable, and auditable.",
+    "modes": [
+      { "code": "M", "name": "Manual", "body": "Full human control. The AI stays out of the way." },
+      { "code": "A", "name": "Assisted", "body": "Default mode. AI proposes and explains — your team decides.", "badge": "Default" },
+      { "code": "P", "name": "Autopilot", "body": "For routine work you trust to run automatically, with clear exceptions and full audit trails." }
+    ]
+  },
+  "pilots": {
+    "kicker": "§ V — Early access",
+    "titleLead": "Built with nonprofits.",
+    "titleAccent": "Designed to last.",
+    "body": "Givernance is being developed with a group of pilot organisations in Switzerland and France. Pricing will be transparent, predictable, and designed for nonprofit budgets — no surprises, no per-seat traps.",
+    "hosted": "Hosted",
+    "hostedValue": "Europe",
+    "compliance": "Compliance",
+    "complianceValue": "GDPR-native",
+    "lockin": "Lock-in",
+    "lockinValue": "None"
   },
   "cta": {
-    "eyebrow": "See it in action",
-    "heading": "Ready to see what purpose-built nonprofit software looks like?",
-    "description": "Book a 30-minute demo tailored to your organisation — covering donor management, campaigns, compliance, and AI-assisted workflows.",
-    "bookDemo": "Book a demo"
+    "kicker": "See it in action",
+    "titleLead": "Ready to see what purpose-built nonprofit software",
+    "titleAccent": "looks like?",
+    "body": "Book a 30-minute demo tailored to your organisation — covering donor management, postal & digital campaigns, compliance, and AI-assisted workflows.",
+    "bookDemo": "Book a demo",
+    "replyNote": "Reply within 1 business day · No commitment"
   },
   "footer": {
-    "brandDescription": "Built for European nonprofits. Simple, capable, affordable.",
-    "tagline": "Built by people who think nonprofits deserve better infrastructure.",
+    "geneva": "Geneva · CH",
+    "paris": "Paris · FR",
+    "tagline": "Operational infrastructure for European nonprofits. Mobilise, track and report your resources — without consultants, without lock-in.",
+    "platform": "Platform",
+    "infrastructure": "Infrastructure",
+    "product": "Product",
+    "aiGovernance": "AI governance",
+    "earlyAccess": "Early access",
+    "footprint": "Footprint",
+    "hostedInEurope": "Hosted in Europe",
+    "copyright": "Built for the European nonprofit sector",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "github": "GitHub",
     "bookDemo": "Book a demo",
-    "productHeading": "Product",
-    "features": "Features",
-    "whySwitch": "Why switch",
     "ai": "AI",
-    "demo": "Demo",
-    "resourcesHeading": "Resources",
-    "documentation": "Documentation",
-    "contact": "Contact",
-    "legalHeading": "Legal",
-    "privacyPolicy": "Privacy policy",
-    "legalNotice": "Legal notice",
-    "copyright": "© {year} Givernance. All rights reserved.",
-    "hostedInEurope": "Designed and hosted in Europe"
+    "demo": "Demo"
   },
   "dashboard": {
-    "todayOverview": "Today's overview",
-    "fundraisingDashboard": "Fundraising dashboard",
+    "overview": "Today's overview",
+    "dashboardLabel": "/ Fundraising dashboard",
     "assistedMode": "Assisted mode",
-    "postalSpringAppeal": "Postal spring appeal",
-    "qrLinkedSegments": "QR-linked / 3 donor segments",
+    "campaign": "Postal spring appeal",
+    "campaignMeta": "QR-linked · 3 donor segments",
     "onTrack": "On track",
-    "suggestedNextActions": "Suggested next actions",
-    "action1": "Send thank-you emails to 26 new donors",
-    "action2": "Review anomaly in QR campaign attribution",
-    "action3": "Confirm Stripe Connect onboarding for Fondation Horizon",
+    "nextActions": "Suggested next actions",
+    "actions": [
+      "Send follow-up to Segment 2 non-responders",
+      "Reallocate budget to top-performing mail pack",
+      "Schedule Segment 3 thank-you emails"
+    ],
+    "day": "Day",
     "campaignRoi": "Campaign ROI",
-    "costVsDonations": "Cost vs donations received",
     "mailSent": "Mail sent",
-    "mailSentValue": "12,400",
     "revenue": "Revenue",
-    "revenueValue": "€58,240"
+    "ariaLabel": "Live Givernance dashboard showing a postal spring appeal campaign with rising daily donations, three suggested AI actions, and a 4.8× campaign ROI."
   },
   "demo": {
     "eyebrow": "Book a demo",
@@ -173,20 +206,5 @@
   },
   "common": {
     "skipToContent": "Skip to content"
-  },
-  "social": {
-    "built": "Built with Swiss and French nonprofits",
-    "hosted": "Hosted in Europe · GDPR-native",
-    "earlyAccessBadge": "Early access · No commitment"
-  },
-  "earlyAccess": {
-    "eyebrow": "Early access",
-    "heading": "Built with nonprofits.\nDesigned to last.",
-    "description": "Givernance is being built with pilot organisations in Switzerland and France. It is designed as operational infrastructure for nonprofits, transparent, predictable, and ready for real fundraising work.",
-    "badge1": "Hosted in Europe",
-    "badge2": "GDPR-native",
-    "badge3": "No data lock-in",
-    "footer": "Want to be among the first nonprofits to use Givernance?",
-    "footerCta": "Tell us about your situation →"
   }
 }

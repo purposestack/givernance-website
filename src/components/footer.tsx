@@ -1,65 +1,71 @@
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { LogoMark } from "./logo-mark";
-import { PrimaryButton } from "./primary-button";
 
 export async function Footer() {
   const t = await getTranslations("footer");
   const year = new Date().getFullYear();
 
-  const productLinks = [
-    { label: t("whySwitch"), href: "#why-switch" },
-    { label: t("features"), href: "#product" },
-    { label: t("ai"), href: "#ai" },
-    { label: t("demo"), href: "#demo" },
-  ];
-
   return (
-    <footer className="border-t border-border bg-soft" role="contentinfo">
-      <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="grid gap-12 md:grid-cols-2">
-          {/* Brand */}
-          <div>
-            <div className="flex items-center gap-3">
-              <LogoMark className="h-8 w-8" />
-              <span className="text-base font-semibold tracking-tight">
-                Givernance
-              </span>
+    <footer className="bg-cream pt-20 pb-10" role="contentinfo">
+      <div className="max-w-7xl mx-auto px-6 lg:px-10">
+        <div className="grid md:grid-cols-12 gap-12 pb-16 border-b border-border">
+          <div className="md:col-span-5">
+            <div className="flex items-center gap-2.5 mb-6">
+              <LogoMark className="size-7" />
+              <span className="font-serif text-lg tracking-tight">Givernance</span>
             </div>
-            <p className="mt-4 max-w-xs text-sm leading-6 text-muted">
-              {t("brandDescription")}
-            </p>
-            <p className="mt-3 max-w-xs text-sm italic leading-6 text-muted">
-              {t("tagline")}
-            </p>
-            <div className="mt-6">
-              <PrimaryButton label={t("bookDemo")} href="/demo" />
-            </div>
+            <p className="text-sm text-ink/65 max-w-sm leading-relaxed">{t("tagline")}</p>
           </div>
-
-          {/* Product */}
-          <div>
-            <h3 className="text-sm font-semibold text-text">{t("productHeading")}</h3>
-            <ul className="mt-4 space-y-3">
-              {productLinks.map((link) => (
-                <li key={link.label}>
-                  <a
-                    href={link.href}
-                    className="text-sm text-muted transition-colors hover:text-text"
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+          <div className="md:col-span-3 md:col-start-7">
+            <p className="mono-label text-ink/65 mb-5">{t("platform")}</p>
+            <ul className="space-y-3 text-sm">
+              <li>
+                <a href="#infrastructure" className="text-ink/75 hover:text-deep transition-colors">
+                  {t("infrastructure")}
+                </a>
+              </li>
+              <li>
+                <a href="#product" className="text-ink/75 hover:text-deep transition-colors">
+                  {t("product")}
+                </a>
+              </li>
+              <li>
+                <a href="#governance" className="text-ink/75 hover:text-deep transition-colors">
+                  {t("aiGovernance")}
+                </a>
+              </li>
+              <li>
+                <a href="#pilots" className="text-ink/75 hover:text-deep transition-colors">
+                  {t("earlyAccess")}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="md:col-span-3">
+            <p className="mono-label text-ink/65 mb-5">{t("footprint")}</p>
+            <ul className="space-y-3 text-sm text-ink/75">
+              <li>{t("geneva")}</li>
+              <li>{t("paris")}</li>
+              <li>{t("hostedInEurope")}</li>
             </ul>
           </div>
         </div>
-
-        {/* Bottom bar */}
-        <div className="mt-16 flex flex-col items-center gap-4 border-t border-border pt-8 md:flex-row md:justify-between">
-          <p className="text-sm text-muted">
-            {t("copyright", { year })}
+        <div className="pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+          <p className="mono-label text-ink/65">
+            © {year} Givernance · {t("copyright")}
           </p>
-          <p className="text-sm text-muted">{t("hostedInEurope")}</p>
+          <div className="flex gap-6">
+            <Link href="/privacy" className="mono-label text-ink/65 hover:text-deep-text transition-colors">
+              {t("privacy")}
+            </Link>
+            <Link href="/terms" className="mono-label text-ink/65 hover:text-deep-text transition-colors">
+              {t("terms")}
+            </Link>
+            <a href="https://github.com/purposestack" className="mono-label text-ink/65 hover:text-deep-text transition-colors">
+              {t("github")}
+            </a>
+          </div>
         </div>
       </div>
     </footer>

@@ -1,131 +1,164 @@
 {
   "metadata": {
-    "title": "Givernance - Infrastruktur für europäische Non-Profits",
-    "description": "Givernance hilft europäischen Non-Profits, Fundraising, Spenderbeziehungen und Berichtswesen in einem DSGVO-nativen System zu steuern, ohne Tabellenchaos.",
-    "ogTitle": "Givernance - Infrastruktur für europäische Non-Profits",
-    "ogDescription": "Givernance hilft europäischen Non-Profits, Fundraising, Spenderbeziehungen und Berichtswesen in einem DSGVO-nativen System zu steuern, ohne Tabellenchaos."
+    "title": "Givernance — Infrastruktur für europäische gemeinnützige Organisationen",
+    "description": "Die operative Infrastruktur, mit der europäische Non-Profits Fundraising, Spenderpflege, Fördermittel und Berichtswesen steuern — DSGVO-nativ, ohne Abhängigkeit.",
+    "ogTitle": "Givernance — Infrastruktur für europäische gemeinnützige Organisationen",
+    "ogDescription": "Eine Plattform für Fundraising, Spenderpflege, Fördermittel, Ehrenamtliche und Berichtswesen. Gemeinsam mit Schweizer und französischen Non-Profits entwickelt."
   },
   "nav": {
     "home": "Givernance Startseite",
     "tagline": "Infrastruktur für europäische Non-Profits",
-    "whySwitch": "Warum wir",
+    "infrastructure": "Infrastruktur",
     "product": "Produkt",
-    "ai": "KI",
-    "demo": "Demo",
+    "governance": "Governance",
+    "pilots": "Piloten",
     "bookDemo": "Demo buchen",
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen",
     "menuTitle": "Menü",
     "mobileNavLabel": "Mobile Navigation",
     "mainNavLabel": "Hauptnavigation",
-    "switchLanguage": "Sprache wechseln"
+    "switchLanguage": "Sprache wechseln",
+    "ai": "KI",
+    "demo": "Demo"
   },
   "hero": {
-    "eyebrow": "Infrastruktur für europäische Non-Profits",
-    "heading": "Stärken Sie Ihre Mission. Nicht Ihre Tabellen.",
-    "description": "Ein System für Fundraising, Spenderbeziehungen und Berichtswesen, gebaut für europäische Non-Profits. Ohne Berater, ohne Abhängigkeit.",
+    "kicker": "Infrastruktur für europäische Non-Profits",
+    "titleLead": "Stärken Sie Ihre Mission.",
+    "titleAccents": [
+      "Schluss mit Tabellenchaos.",
+      "Spender, Fördermittel & Wirkung vereint.",
+      "Ihre Daten — in Ihrer Hand.",
+      "Kein Preisaufschlag pro Nutzer."
+    ],
+    "body": "Givernance ist die operative Plattform, mit der europäische gemeinnützige Organisationen Fundraising, Spenderpflege, Fördermittel und Berichtswesen steuern — an einem Ort, ohne Berater und ohne Abhängigkeit.",
     "bookDemo": "Demo buchen",
-    "ctaReassurance": "Antwort innerhalb 1 Werktag · Unverbindlich · Kostenlos"
+    "replyNote": "Antwort innerhalb 1 Werktag · Unverbindlich · Kostenlos"
   },
-  "trustStrip": {
-    "heading": "Hauptvorteile",
-    "gdprTitle": "DSGVO-nativ",
-    "gdprDescription": "Einwilligung, Nachvollziehbarkeit und Datenschutzkontrollen von Anfang an integriert.",
-    "postalTitle": "Post- und digitales Fundraising",
-    "postalDescription": "Unterstützung der Kanäle, die gemeinnützige Organisationen tatsächlich nutzen, nicht nur generische Formulare.",
-    "aiTitle": "KI unter menschlicher Kontrolle",
-    "aiDescription": "KI schlägt vor und erklärt. Sie bestätigen, was zählt.",
-    "dataTitle": "Kein Daten-Lock-in",
-    "dataDescription": "Exportieren Sie alles, jederzeit. Ihre Daten bleiben Ihre."
+  "marquee": [
+    "Gemeinsam mit Schweizer & französischen Non-Profits entwickelt",
+    "Gehostet in Europa",
+    "DSGVO-nativ",
+    "Keine Datenbindung",
+    "Frühzugang · Unverbindlich"
+  ],
+  "marqueeLabel": "Wichtigste Vorteile",
+  "principles": {
+    "kicker": "§ I — Fundamente",
+    "title": "Vier Versprechen an den Sektor.",
+    "body": "Givernance ist auf das ausgerichtet, was europäische gemeinnützige Organisationen wirklich brauchen, um ihre Ressourcen zu mobilisieren, zu verfolgen und darüber zu berichten — nicht auf das, was ein generisches SaaS-CRM bequem liefern kann.",
+    "items": [
+      { "n": "01", "title": "DSGVO-nativ", "body": "Einwilligung, Nachvollziehbarkeit und Datenschutzkontrollen sind im Datenmodell verankert — nicht als nachträgliche Einstellungsseite hinzugefügt." },
+      { "n": "02", "title": "Postal & digital", "body": "Printmailings, QR-attributierte Sendungen und Online-Spenden in einem einzigen Datensatz. Die Kanäle, die europäische Non-Profits wirklich nutzen." },
+      { "n": "03", "title": "KI unter menschlicher Kontrolle", "body": "KI schlägt vor und erklärt. Ihr Team entscheidet. Keine irreversible Aktion ohne menschliche Freigabe." },
+      { "n": "04", "title": "Datensouveränität", "body": "Gehostet in Europa. Jederzeit vollständig exportierbar. Keine Abhängigkeit, keine Beraterhonorare für den Abgang." }
+    ]
   },
-  "problem": {
-    "eyebrow": "Warum Teams wechseln",
-    "heading": "Sie haben sich für die große Plattform entschieden, weil sie sicher wirkte. Dann wurde die Arbeit unübersichtlich.",
-    "description": "Steigende Lizenzkosten, Abhängigkeit von Beratern, nachträglich angepasste Compliance-Prozesse und Reporting-Workarounds in Tabellenkalkulationen. Kommt Ihnen das bekannt vor?",
-    "patchworkHeading": "Wo Ihre Woche wirklich hingeht",
-    "alternativeHeading": "Was sich mit Givernance ändert",
-    "pain1": "Sie zahlen mehr bei jedem Teamzuwachs",
-    "pain2": "Sie sind für einfache Änderungen auf Berater angewiesen",
-    "pain3": "Sie flicken den Datenschutz über unverbundene Tools zusammen",
-    "pain4": "Sie passen ein US-zentrisches Modell an europäische Gegebenheiten an",
-    "alt1": "Vorhersehbare Preise, die mit Ihnen wachsen",
-    "alt2": "Selbstständig nutzbar — ohne Berater",
-    "alt3": "DSGVO integriert, nicht nachgerüstet",
-    "alt4": "Von Anfang an für europäische Non-Profits entwickelt"
+  "whyChange": {
+    "kicker": "§ II — Warum Teams wechseln",
+    "titleLead": "Sie haben eine bekannte Plattform wegen der kostenlosen Zugänge gewählt.",
+    "titleAccent": "Dann wuchs das Team.",
+    "statusQuoLabel": "Der Status quo",
+    "withLabel": "Mit Givernance",
+    "statusQuo": [
+      "Lizenzkosten, die bei jeder Neueinstellung steigen",
+      "Compliance-Flickwerk über unverbundene Tools verteilt",
+      "Beraterabhängigkeit selbst für die einfachste Änderung",
+      "Ein US-zentrisches Datenmodell, auf europäische Realitäten aufgepfropft"
+    ],
+    "withGivernance": [
+      "Planbare Preise, die auf Non-Profit-Budgets ausgelegt sind",
+      "DSGVO im Kern des Produkts, mit vollständigem Prüfprotokoll",
+      "Self-Service-Abläufe, die Ihr Team von Anfang bis Ende selbst verantwortet",
+      "Europäisches Modell: Postal, SEPA, Steuerrecht, Mehrsprachigkeit"
+    ]
   },
   "product": {
-    "eyebrow": "Eine Plattform, alle Abläufe",
-    "heading": "Von Spenden bis Berichtswesen, in einem System.",
-    "description": "Givernance beginnt mit dem Spenderlebenszyklus, wer spendet, wie viel und warum, und verbindet dann Fundraising, Fördermittel, Ehrenamtliche und Förderberichte rund um diese Beziehung.",
-    "postalTitle": "Postkampagnen",
-    "postalDescription": "Personalisierte Briefe, Seriendruckfelder und druckfertige PDFs — der Arbeitsablauf, den Ihr Team bereits kennt.",
-    "qrTitle": "QR-Attribution",
-    "qrDescription": "Jede Sendung trägt einen einzigartigen QR-Code, damit Sie genau wissen, welche Kampagne welche Spende ausgelöst hat.",
-    "donationTitle": "Online-Spenden",
-    "donationDescription": "Gebrandete Spendenseiten und einbettbare Widgets, in Minuten online. Verbunden mit Ihrem eigenen Stripe-Konto.",
-    "grantsTitle": "Fördermittel",
-    "grantsDescription": "Verfolgen Sie Anträge, Fristen, Tranchen und Förderberichte an einem Ort.",
-    "impactTitle": "Wirkung und Berichtswesen",
-    "impactDescription": "Verknüpfen Sie Ergebnisse mit Fundraising- und Betriebsdaten, ohne Tabellen-Akrobatik.",
-    "volunteersTitle": "Ehrenamtliche",
-    "volunteersDescription": "Schichten, Stunden, Überprüfungen und Anerkennung neben Ihren Kontaktdatensätzen.",
-    "financeTitle": "Finanzbuchungsübergabe",
-    "financeDescription": "Export von Buchungssätzen und Fondsbeständen in Ihr Buchhaltungssystem."
+    "kicker": "§ III — Eine Plattform",
+    "titleLead": "Von Postkampagnen zum",
+    "titleAccent": "Wirkungsbericht.",
+    "body": "Givernance beginnt beim Spenderlebenszyklus — wer gibt, wie viel und warum — und verbindet dann Kampagnen, Fördermittel, Ehrenamtliche und Berichtswesen rund um diese Beziehung.",
+    "modules": [
+      { "n": "01", "title": "Postkampagnen", "body": "Personalisierte Briefe, Seriendruckfelder und druckfertige PDFs — der Arbeitsablauf, den Ihr Team bereits kennt, endlich mit Struktur." },
+      { "n": "02", "title": "QR-Attribution", "body": "Jede Sendung trägt einen einzigartigen QR-Code, damit Sie wissen, welcher Umschlag welche Spende ausgelöst hat." },
+      { "n": "03", "title": "Online-Spenden", "body": "Markengerechte Spendenformulare und einbettbare Widgets, in Minuten live. Verbunden mit Ihrem eigenen Stripe-Konto." },
+      { "n": "04", "title": "Fördermittel", "body": "Anträge, Fristen, Tranchen und Fördererberichte an einem Ort, mit integrierter Logik für zweckgebundene Fonds." },
+      { "n": "05", "title": "Ehrenamtliche", "body": "Schichten, Stunden, Eignungsprüfungen und Anerkennung — zusammen mit Ihren Kontaktdatensätzen." },
+      { "n": "06", "title": "Wirkungsberichterstattung", "body": "Verknüpfen Sie Ergebnisse mit Fundraising- und Betriebsdaten. Der Bericht, den Ihr Vorstand erwartet — ohne Tabellen-Marathon." },
+      { "n": "07", "title": "Buchungsübergabe", "body": "Buchungssätze und Fondsguthaben in Ihr Buchhaltungssystem exportieren — keine Doppelerfassung, keine Abstimmungsgymnastik." }
+    ],
+    "ledgerTitle": "Ein Datensatz, eine Quelle der Wahrheit.",
+    "ledgerBody": "Jedes Modul teilt denselben Spender- und Kontaktdatensatz. Kein Import, kein Sync-Job, keine Abstimmung."
   },
   "ai": {
-    "eyebrow": "KI mit Leitplanken",
-    "heading": "Weniger Verwaltung. Gleiche Kontrolle.",
-    "description": "Duplikaterkennung, Datenbereinigung, vorgeschlagene nächste Schritte — KI übernimmt die repetitive Arbeit, damit sich Ihr Team auf Beziehungen konzentrieren kann.",
-    "manualTitle": "Manuell",
-    "manualDescription": "Volle menschliche Kontrolle. KI hält sich zurück.",
-    "assistedTitle": "Assistiert",
-    "assistedDescription": "Der Standard. KI schlägt vor und erklärt — Ihr Team entscheidet.",
-    "autopilotTitle": "Autopilot",
-    "autopilotDescription": "Für Routineaufgaben, die Sie automatisch ausführen lassen, mit klaren Ausnahmen und vollständigen Prüfprotokollen.",
-    "defaultBadge": "Standard",
-    "guardrail": "Keine irreversible Aktion ohne Ihre Bestätigung. Jede KI-Entscheidung wird protokolliert und ist nachvollziehbar."
+    "kicker": "§ IV — KI mit Leitplanken",
+    "titleLead": "Weniger Verwaltung.",
+    "titleAccent": "Gleiche Kontrolle.",
+    "body": "Duplikaterkennung, Datenbereinigung, vorgeschlagene nächste Schritte — KI übernimmt die repetitive Arbeit, damit sich Ihr Team auf Beziehungen konzentrieren kann. Jede Entscheidung wird protokolliert und ist nachvollziehbar.",
+    "footnote": "Keine irreversible Aktion ohne Ihre Bestätigung. Jede KI-Entscheidung wird protokolliert, ist zurechenbar und nachvollziehbar.",
+    "modes": [
+      { "code": "M", "name": "Manuell", "body": "Volle menschliche Kontrolle. Die KI bleibt im Hintergrund." },
+      { "code": "A", "name": "Assistiert", "body": "Standardmodus. KI schlägt vor und erklärt — Ihr Team entscheidet.", "badge": "Standard" },
+      { "code": "P", "name": "Autopilot", "body": "Für Routineaufgaben, denen Sie automatische Ausführung anvertrauen — mit klaren Ausnahmen und vollständigem Prüfprotokoll." }
+    ]
+  },
+  "pilots": {
+    "kicker": "§ V — Frühzugang",
+    "titleLead": "Mit Non-Profits entwickelt.",
+    "titleAccent": "Für die Dauer gebaut.",
+    "body": "Givernance entsteht gemeinsam mit einer Gruppe von Pilotorganisationen in der Schweiz und Frankreich. Die Preisgestaltung wird transparent, planbar und auf Non-Profit-Budgets ausgelegt sein — ohne Überraschungen, ohne Nutzer-Fallen.",
+    "hosted": "Hosting",
+    "hostedValue": "Europa",
+    "compliance": "Compliance",
+    "complianceValue": "DSGVO-nativ",
+    "lockin": "Bindung",
+    "lockinValue": "Keine"
   },
   "cta": {
-    "eyebrow": "Produkt ansehen",
-    "heading": "Bereit für Software, die für Ihre Arbeit gebaut wurde?",
-    "description": "Buchen Sie eine 30-minütige Demo für Ihre Organisation — Spenderverwaltung, Kampagnen, Compliance und KI-unterstützte Abläufe.",
-    "bookDemo": "Demo buchen"
+    "kicker": "Erleben Sie es live",
+    "titleLead": "Bereit zu sehen, wie zweckgebaut entwickelte Non-Profit-Software",
+    "titleAccent": "aussieht?",
+    "body": "Buchen Sie eine 30-minütige Demo, zugeschnitten auf Ihre Organisation — Spenderverwaltung, Postal- und Digitalkampagnen, Compliance und KI-gestützte Abläufe.",
+    "bookDemo": "Demo buchen",
+    "replyNote": "Antwort innerhalb 1 Werktag · Unverbindlich"
   },
   "footer": {
-    "brandDescription": "Gebaut für europäische gemeinnützige Organisationen. Einfach, leistungsfähig, erschwinglich.",
-    "tagline": "Entwickelt von Menschen, die überzeugt sind, dass Non-Profits eine bessere Infrastruktur verdienen.",
+    "geneva": "Genf · CH",
+    "paris": "Paris · FR",
+    "tagline": "Operative Infrastruktur für europäische gemeinnützige Organisationen. Mobilisieren, verfolgen und berichten Sie über Ihre Ressourcen — ohne Berater, ohne Abhängigkeit.",
+    "platform": "Plattform",
+    "infrastructure": "Infrastruktur",
+    "product": "Produkt",
+    "aiGovernance": "KI-Governance",
+    "earlyAccess": "Frühzugang",
+    "footprint": "Präsenz",
+    "hostedInEurope": "Gehostet in Europa",
+    "copyright": "Gebaut für den europäischen Non-Profit-Sektor",
+    "privacy": "Datenschutz",
+    "terms": "Impressum",
+    "github": "GitHub",
     "bookDemo": "Demo buchen",
-    "productHeading": "Produkt",
-    "features": "Funktionen",
-    "whySwitch": "Warum wechseln",
     "ai": "KI",
-    "demo": "Demo",
-    "resourcesHeading": "Ressourcen",
-    "documentation": "Dokumentation",
-    "contact": "Kontakt",
-    "legalHeading": "Rechtliches",
-    "privacyPolicy": "Datenschutzerklärung",
-    "legalNotice": "Impressum",
-    "copyright": "© {year} Givernance. Alle Rechte vorbehalten.",
-    "hostedInEurope": "Entwickelt und gehostet in Europa"
+    "demo": "Demo"
   },
   "dashboard": {
-    "todayOverview": "Tagesüberblick",
-    "fundraisingDashboard": "Fundraising-Dashboard",
+    "overview": "Tagesübersicht",
+    "dashboardLabel": "/ Fundraising-Dashboard",
     "assistedMode": "Assistierter Modus",
-    "postalSpringAppeal": "Frühlings-Spendenaufruf per Post",
-    "qrLinkedSegments": "QR-verknüpft / 3 Spendersegmente",
+    "campaign": "Postaler Frühjahrsaufruf",
+    "campaignMeta": "QR-verknüpft · 3 Spendersegmente",
     "onTrack": "Im Plan",
-    "suggestedNextActions": "Vorgeschlagene nächste Schritte",
-    "action1": "Dankes-E-Mails an 26 neue Spender senden",
-    "action2": "Anomalie bei der QR-Kampagnenzuordnung überprüfen",
-    "action3": "Stripe-Connect-Onboarding für Fondation Horizon bestätigen",
+    "nextActions": "Vorgeschlagene nächste Schritte",
+    "actions": [
+      "Nachfassung an Nicht-Respondenten aus Segment 2 senden",
+      "Budget auf die leistungsstärkste Postpackage umschichten",
+      "Dankesmails für Segment 3 einplanen"
+    ],
+    "day": "Tag",
     "campaignRoi": "Kampagnen-ROI",
-    "costVsDonations": "Kosten vs. erhaltene Spenden",
     "mailSent": "Post versandt",
-    "mailSentValue": "12.400",
     "revenue": "Einnahmen",
-    "revenueValue": "58.240 €"
+    "ariaLabel": "Live-Givernance-Dashboard mit einer postalen Frühjahrsappell-Kampagne, steigenden täglichen Spenden, drei vorgeschlagenen KI-Aktionen und einem Kampagnen-ROI von 4,8×."
   },
   "demo": {
     "eyebrow": "Demo buchen",
@@ -173,20 +206,5 @@
   },
   "common": {
     "skipToContent": "Zum Inhalt springen"
-  },
-  "social": {
-    "built": "Entwickelt mit Schweizer und französischen Vereinen",
-    "hosted": "In Europa gehostet · DSGVO-nativ",
-    "earlyAccessBadge": "Frühzeitiger Zugang · Keine Verpflichtung"
-  },
-  "earlyAccess": {
-    "eyebrow": "Früher Zugang",
-    "heading": "Gemeinsam mit Nonprofit-Organisationen entwickelt.",
-    "description": "Givernance wird gemeinsam mit Pilotorganisationen in der Schweiz und Frankreich entwickelt. Es ist als operative Infrastruktur für Non-Profits konzipiert — transparent, vorhersehbar und bereit für die echte Fundraising-Arbeit.",
-    "badge1": "In Europa gehostet",
-    "badge2": "DSGVO-nativ",
-    "badge3": "Keine Daten-Abhängigkeit",
-    "footer": "Möchten Sie zu den ersten Organisationen gehören, die Givernance nutzen?",
-    "footerCta": "Erzählen Sie uns von Ihrer Situation →"
   }
 }
