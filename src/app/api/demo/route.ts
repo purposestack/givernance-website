@@ -68,23 +68,23 @@ function validatePayload(
 function buildEmailHtml(d: DemoFormPayload): string {
   const row = (label: string, value: string | undefined) =>
     value
-      ? `<tr><td style="padding:6px 12px 6px 0;color:#635E58;font-size:14px;white-space:nowrap;vertical-align:top;">${label}</td><td style="padding:6px 0;font-size:14px;color:#1C1B19;">${value}</td></tr>`
+      ? `<tr><td style="padding:6px 12px 6px 0;color:#5b6b66;font-size:14px;white-space:nowrap;vertical-align:top;">${label}</td><td style="padding:6px 0;font-size:14px;color:#14201f;">${value}</td></tr>`
       : "";
 
   return `
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8" /><title>New demo request — Givernance</title></head>
-<body style="font-family:Inter,system-ui,sans-serif;background:#FAFAF8;margin:0;padding:32px;">
-  <div style="max-width:560px;margin:0 auto;background:#fff;border-radius:16px;border:1px solid #E4E0D9;padding:32px;">
+<body style="font-family:Manrope,system-ui,sans-serif;background:#f5f1ea;margin:0;padding:32px;">
+  <div style="max-width:560px;margin:0 auto;background:#fff;border-radius:16px;border:1px solid #dde6e3;padding:32px;">
     <div style="margin-bottom:24px;">
-      <span style="background:#E8F5EE;color:#1A5240;font-size:11px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;padding:4px 12px;border-radius:999px;border:1px solid #CFE2D7;">New demo request</span>
+      <span style="background:#d6f1ea;color:#084e46;font-size:11px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;padding:4px 12px;border-radius:999px;border:1px solid #b7e3d8;">New demo request</span>
     </div>
-    <h1 style="font-size:22px;color:#1C1B19;margin:0 0 8px;">
+    <h1 style="font-size:22px;color:#14201f;margin:0 0 8px;">
       ${d.firstName} ${d.lastName} — ${d.orgName}
     </h1>
-    <p style="color:#635E58;font-size:14px;margin:0 0 24px;">
-      Submitted via <a href="https://givernance.app/demo" style="color:#2E7D5E;">givernance.app/demo</a>
+    <p style="color:#5b6b66;font-size:14px;margin:0 0 24px;">
+      Submitted via <a href="https://givernance.org/demo" style="color:#107472;">givernance.org/demo</a>
     </p>
 
     <table style="width:100%;border-collapse:collapse;">
@@ -92,15 +92,15 @@ function buildEmailHtml(d: DemoFormPayload): string {
       ${row("Last name", d.lastName)}
       ${row("Organisation", d.orgName)}
       ${row("Role", d.role)}
-      ${row("Email", `<a href="mailto:${d.email}" style="color:#2E7D5E;">${d.email}</a>`)}
+      ${row("Email", `<a href="mailto:${d.email}" style="color:#107472;">${d.email}</a>`)}
       ${row("Org type", d.orgType)}
       ${row("Team size", d.teamSize)}
       ${row("Currently using", d.currentTools)}
       ${row("What matters", d.matters && d.matters.length > 0 ? d.matters.join(", ") : undefined)}
     </table>
 
-    <div style="margin-top:24px;padding-top:24px;border-top:1px solid #E4E0D9;font-size:12px;color:#635E58;">
-      Reply directly to <a href="mailto:${d.email}" style="color:#2E7D5E;">${d.email}</a> to schedule the demo.
+    <div style="margin-top:24px;padding-top:24px;border-top:1px solid #dde6e3;font-size:12px;color:#5b6b66;">
+      Reply directly to <a href="mailto:${d.email}" style="color:#107472;">${d.email}</a> to schedule the demo.
     </div>
   </div>
 </body>
