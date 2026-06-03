@@ -59,12 +59,12 @@ export default async function DemoPage({
   };
 
   return (
-    <>
+    <div className="min-h-screen bg-cream text-ink font-sans">
       <Navigation />
-      <main id="main-content" className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
+      <main id="main-content" className="mx-auto max-w-7xl px-6 py-16 lg:px-10 lg:py-24">
         <DemoForm translations={translations} />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

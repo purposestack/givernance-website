@@ -1,131 +1,164 @@
 {
   "metadata": {
-    "title": "Givernance - Infraestructura para ONG europeas",
-    "description": "Givernance ayuda a las ONG europeas a gestionar la captación de fondos, la relación con donantes y los informes en un único sistema nativo RGPD, sin hojas de cálculo dispersas.",
-    "ogTitle": "Givernance - Infraestructura para ONG europeas",
-    "ogDescription": "Givernance ayuda a las ONG europeas a gestionar la captación de fondos, la relación con donantes y los informes en un único sistema nativo RGPD, sin hojas de cálculo dispersas."
+    "title": "Givernance — Infraestructura para ONG europeas",
+    "description": "La infraestructura operativa que usan las ONG europeas para gestionar la captación de fondos, la relación con donantes, las subvenciones y los informes — RGPD nativo, sin dependencias.",
+    "ogTitle": "Givernance — Infraestructura para ONG europeas",
+    "ogDescription": "Una sola plataforma para captación de fondos, donantes, subvenciones, voluntariado e informes. Construida con ONG suizas y francesas."
   },
   "nav": {
     "home": "Inicio Givernance",
     "tagline": "Infraestructura para ONG europeas",
-    "whySwitch": "Por qué",
+    "infrastructure": "Infraestructura",
     "product": "Producto",
-    "ai": "IA",
-    "demo": "Demo",
+    "governance": "Gobernanza",
+    "pilots": "Pilotos",
     "bookDemo": "Reservar demo",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "menuTitle": "Menú",
     "mobileNavLabel": "Navegación móvil",
     "mainNavLabel": "Navegación principal",
-    "switchLanguage": "Cambiar idioma"
+    "switchLanguage": "Cambiar idioma",
+    "ai": "IA",
+    "demo": "Demo"
   },
   "hero": {
-    "eyebrow": "Infraestructura para ONG europeas",
-    "heading": "Impulse su misión. No sus hojas de cálculo.",
-    "description": "Un solo sistema para la captación de fondos, la relación con donantes y los informes, creado para ONG europeas. Sin consultores, sin dependencias.",
+    "kicker": "Infraestructura para ONG europeas",
+    "titleLead": "Impulse su misión.",
+    "titleAccents": [
+      "Olvídese de las hojas de cálculo.",
+      "Donantes, subvenciones e impacto, unidos.",
+      "Sus datos, bajo su control.",
+      "Sin coste por usuario."
+    ],
+    "body": "Givernance es la capa operativa que usan las ONG europeas para gestionar la captación de fondos, la relación con donantes, las subvenciones y los informes — en un solo lugar, sin consultores y sin dependencias.",
     "bookDemo": "Reservar demo",
-    "ctaReassurance": "Respuesta en 1 día hábil · Sin compromiso · Gratis"
+    "replyNote": "Respuesta en 1 día hábil · Sin compromiso · Gratis"
   },
-  "trustStrip": {
-    "heading": "Ventajas clave",
-    "gdprTitle": "Nativo RGPD",
-    "gdprDescription": "Consentimiento, trazabilidad y controles de privacidad integrados desde el inicio.",
-    "postalTitle": "Captación postal + digital",
-    "postalDescription": "Soporte para los canales que las ONG realmente utilizan, no solo formularios genéricos.",
-    "aiTitle": "IA bajo control humano",
-    "aiDescription": "La IA sugiere y explica. Usted confirma lo que importa.",
-    "dataTitle": "Sin bloqueo de datos",
-    "dataDescription": "Exporte todo, en cualquier momento. Sus datos siguen siendo suyos."
+  "marquee": [
+    "Desarrollado con ONG suizas y francesas",
+    "Alojado en Europa",
+    "RGPD nativo",
+    "Sin bloqueo de datos",
+    "Acceso anticipado · Sin compromiso"
+  ],
+  "marqueeLabel": "Ventajas clave",
+  "principles": {
+    "kicker": "§ I — Fundamentos",
+    "title": "Cuatro compromisos con el sector.",
+    "body": "Givernance está construido en torno a lo que las ONG europeas realmente necesitan para movilizar, hacer seguimiento e informar sobre sus recursos — no en torno a lo que a un CRM SaaS genérico le resulta cómodo ofrecer.",
+    "items": [
+      { "n": "01", "title": "RGPD nativo", "body": "El consentimiento, la trazabilidad y los controles de privacidad están integrados en el modelo de datos — no añadidos como una página de ajustes." },
+      { "n": "02", "title": "Postal y digital", "body": "Campañas impresas, envíos atribuidos por QR y donaciones en línea en un único registro. Los canales que las ONG europeas utilizan de verdad." },
+      { "n": "03", "title": "IA bajo control humano", "body": "La IA propone y explica. Su equipo decide lo que importa. Ninguna acción irreversible sin aprobación humana." },
+      { "n": "04", "title": "Soberanía de datos", "body": "Alojado en Europa. Exportable en su totalidad, en cualquier momento. Sin bloqueo, sin honorarios de consultor para marcharse." }
+    ]
   },
-  "problem": {
-    "eyebrow": "Por qué los equipos cambian",
-    "heading": "Eligió la gran plataforma porque parecía segura. Después el trabajo se volvió caótico.",
-    "description": "Costes de licencia crecientes, dependencia de consultores, procesos de cumplimiento improvisados y soluciones de informes en hojas de cálculo. ¿Le suena?",
-    "patchworkHeading": "En qué se va realmente su semana",
-    "alternativeHeading": "Qué cambia con Givernance",
-    "pain1": "Paga más cada vez que el equipo crece",
-    "pain2": "Depende de consultores para cambios simples",
-    "pain3": "Parchea la conformidad a través de herramientas desconectadas",
-    "pain4": "Adapta un modelo estadounidense a las realidades europeas",
-    "alt1": "Precios predecibles que crecen con usted",
-    "alt2": "Autonomía total — sin consultores",
-    "alt3": "RGPD integrado, no parcheado",
-    "alt4": "Diseñado para ONG europeas desde el primer día"
+  "whyChange": {
+    "kicker": "§ II — Por qué los equipos cambian",
+    "titleLead": "Eligió una plataforma conocida por las cuentas gratuitas.",
+    "titleAccent": "Luego el equipo creció.",
+    "statusQuoLabel": "El statu quo",
+    "withLabel": "Con Givernance",
+    "statusQuo": [
+      "Costes de licencia que suben cada vez que el equipo crece",
+      "Cumplimiento normativo parcheado entre herramientas desconectadas",
+      "Dependencia de consultores para el cambio más sencillo",
+      "Un modelo de datos centrado en EE. UU. adaptado a duras penas a la realidad europea"
+    ],
+    "withGivernance": [
+      "Precios predecibles, diseñados para presupuestos de ONG",
+      "RGPD en el núcleo del producto, con pista de auditoría completa",
+      "Flujos de trabajo en autoservicio que su equipo controla de principio a fin",
+      "Modelo europeo de base: postal, banca, fiscalidad, idiomas"
+    ]
   },
   "product": {
-    "eyebrow": "Una plataforma, todos sus procesos",
-    "heading": "De las donaciones a los informes, en un solo sistema.",
-    "description": "Givernance parte del ciclo de vida del donante, quién dona, cuánto y por qué, y luego conecta la captación de fondos, las subvenciones, el voluntariado y los informes a financiadores alrededor de esa relación.",
-    "postalTitle": "Campañas postales",
-    "postalDescription": "Cartas personalizadas, campos de combinación y PDF listos para imprimir — el flujo de trabajo que su equipo ya conoce.",
-    "qrTitle": "Atribución QR",
-    "qrDescription": "Cada envío lleva un código QR único para saber exactamente qué campaña generó cada donación.",
-    "donationTitle": "Donaciones en línea",
-    "donationDescription": "Páginas de donación con su marca y widgets integrables, en línea en minutos. Conectadas a su propia cuenta Stripe.",
-    "grantsTitle": "Subvenciones",
-    "grantsDescription": "Haga seguimiento de solicitudes, plazos, tramos e informes a financiadores en un solo lugar.",
-    "impactTitle": "Impacto e informes",
-    "impactDescription": "Conecte resultados con datos de captación y operaciones sin malabarismos con hojas de cálculo.",
-    "volunteersTitle": "Voluntarios",
-    "volunteersDescription": "Turnos, horas, verificaciones y reconocimiento junto a sus registros de contacto.",
-    "financeTitle": "Pasarela contable",
-    "financeDescription": "Exportación de asientos contables y saldos de fondos a su sistema contable."
+    "kicker": "§ III — Una sola plataforma",
+    "titleLead": "De las campañas postales al",
+    "titleAccent": "informe de impacto.",
+    "body": "Givernance parte del ciclo de vida del donante — quién dona, cuánto y por qué — y luego conecta campañas, subvenciones, voluntariado e informes en torno a esa relación.",
+    "modules": [
+      { "n": "01", "title": "Campañas postales", "body": "Cartas personalizadas, campos de combinación y PDF listos para imprimir — el flujo de trabajo que su equipo ya conoce, por fin bien organizado." },
+      { "n": "02", "title": "Atribución QR", "body": "Cada envío lleva un código QR único para saber qué sobre generó qué donación." },
+      { "n": "03", "title": "Donaciones en línea", "body": "Páginas de donación con su marca y widgets integrables, en línea en minutos. Con su propia cuenta Stripe." },
+      { "n": "04", "title": "Subvenciones", "body": "Solicitudes, plazos, tramos e informes a financiadores en un solo lugar, con lógica de fondos restringidos incluida." },
+      { "n": "05", "title": "Voluntariado", "body": "Turnos, horas, comprobaciones de antecedentes y reconocimiento, junto a sus registros de contacto." },
+      { "n": "06", "title": "Informes de impacto", "body": "Conecte resultados con datos de captación y operaciones. El informe que su patronato pide, sin maratón de hojas de cálculo." },
+      { "n": "07", "title": "Traspaso contable", "body": "Exporte asientos y saldos de fondos a su sistema contable — sin doble registro, sin gimnasia de conciliación." }
+    ],
+    "ledgerTitle": "Un solo registro, una única fuente de verdad.",
+    "ledgerBody": "Cada módulo comparte el mismo registro de donante y contacto. Sin importaciones, sin sincronizaciones, sin conciliaciones."
   },
   "ai": {
-    "eyebrow": "IA con protecciones",
-    "heading": "Menos administración. El mismo control.",
-    "description": "Detección de duplicados, limpieza de datos, sugerencias de próximos pasos — la IA se encarga del trabajo repetitivo para que su equipo pueda centrarse en las relaciones.",
-    "manualTitle": "Manual",
-    "manualDescription": "Control humano total. La IA se mantiene al margen.",
-    "assistedTitle": "Asistido",
-    "assistedDescription": "El modo por defecto. La IA propone y explica — su equipo decide.",
-    "autopilotTitle": "Piloto automático",
-    "autopilotDescription": "Para tareas rutinarias que confía ejecutar automáticamente, con excepciones claras y pistas de auditoría completas.",
-    "defaultBadge": "Por defecto",
-    "guardrail": "Ninguna acción irreversible sin su confirmación. Cada decisión de la IA queda registrada y es auditable."
+    "kicker": "§ IV — IA con protecciones",
+    "titleLead": "Menos administración.",
+    "titleAccent": "El mismo control.",
+    "body": "Detección de duplicados, limpieza de datos, sugerencias de próximos pasos — la IA se ocupa del trabajo repetitivo para que su equipo pueda centrarse en las relaciones. Cada decisión queda registrada y es auditable.",
+    "footnote": "Ninguna acción irreversible sin su confirmación. Cada decisión de la IA queda registrada, es atribuible y auditable.",
+    "modes": [
+      { "code": "M", "name": "Manual", "body": "Control humano total. La IA se mantiene al margen." },
+      { "code": "A", "name": "Asistido", "body": "Modo predeterminado. La IA propone y explica — su equipo decide.", "badge": "Por defecto" },
+      { "code": "P", "name": "Piloto automático", "body": "Para el trabajo rutinario que confía en que se ejecute automáticamente, con excepciones claras y pistas de auditoría completas." }
+    ]
+  },
+  "pilots": {
+    "kicker": "§ V — Acceso anticipado",
+    "titleLead": "Construido con ONG.",
+    "titleAccent": "Diseñado para durar.",
+    "body": "Givernance se está desarrollando con un grupo de organizaciones piloto en Suiza y Francia. Los precios serán transparentes, predecibles y adecuados para presupuestos de ONG — sin sorpresas, sin trampas por usuario.",
+    "hosted": "Alojamiento",
+    "hostedValue": "Europa",
+    "compliance": "Cumplimiento",
+    "complianceValue": "RGPD nativo",
+    "lockin": "Dependencia",
+    "lockinValue": "Ninguna"
   },
   "cta": {
-    "eyebrow": "Vea el producto",
-    "heading": "¿Listo para un software creado para su trabajo?",
-    "description": "Reserve una demo de 30 minutos adaptada a su organización — gestión de donantes, campañas, cumplimiento y flujos asistidos por IA.",
-    "bookDemo": "Reservar demo"
+    "kicker": "Véalo en acción",
+    "titleLead": "¿Preparado para ver cómo es un software de ONG",
+    "titleAccent": "diseñado para su trabajo?",
+    "body": "Reserve una demo de 30 minutos adaptada a su organización — gestión de donantes, campañas postales y digitales, cumplimiento normativo y flujos de trabajo asistidos por IA.",
+    "bookDemo": "Reservar demo",
+    "replyNote": "Respuesta en 1 día hábil · Sin compromiso"
   },
   "footer": {
-    "brandDescription": "Diseñado para ONG europeas. Sencillo, capaz, asequible.",
-    "tagline": "Creado por personas que creen que las ONG merecen una mejor infraestructura.",
+    "geneva": "Ginebra · CH",
+    "paris": "París · FR",
+    "tagline": "Infraestructura operativa para ONG europeas. Movilice, haga seguimiento e informe sobre sus recursos — sin consultores, sin dependencias.",
+    "platform": "Plataforma",
+    "infrastructure": "Infraestructura",
+    "product": "Producto",
+    "aiGovernance": "Gobernanza de la IA",
+    "earlyAccess": "Acceso anticipado",
+    "footprint": "Presencia",
+    "hostedInEurope": "Alojado en Europa",
+    "copyright": "Construido para el sector no lucrativo europeo",
+    "privacy": "Privacidad",
+    "terms": "Aviso legal",
+    "github": "GitHub",
     "bookDemo": "Reservar demo",
-    "productHeading": "Producto",
-    "features": "Funcionalidades",
-    "whySwitch": "Por qué cambiar",
     "ai": "IA",
-    "demo": "Demo",
-    "resourcesHeading": "Recursos",
-    "documentation": "Documentación",
-    "contact": "Contacto",
-    "legalHeading": "Legal",
-    "privacyPolicy": "Política de privacidad",
-    "legalNotice": "Aviso legal",
-    "copyright": "© {year} Givernance. Todos los derechos reservados.",
-    "hostedInEurope": "Diseñado y alojado en Europa"
+    "demo": "Demo"
   },
   "dashboard": {
-    "todayOverview": "Resumen de hoy",
-    "fundraisingDashboard": "Panel de captación de fondos",
+    "overview": "Resumen del día",
+    "dashboardLabel": "/ Panel de captación de fondos",
     "assistedMode": "Modo asistido",
-    "postalSpringAppeal": "Llamamiento postal de primavera",
-    "qrLinkedSegments": "QR vinculado / 3 segmentos de donantes",
+    "campaign": "Campaña postal de primavera",
+    "campaignMeta": "Vinculado por QR · 3 segmentos de donantes",
     "onTrack": "En curso",
-    "suggestedNextActions": "Próximas acciones sugeridas",
-    "action1": "Enviar correos de agradecimiento a 26 nuevos donantes",
-    "action2": "Revisar anomalía en la atribución de campaña QR",
-    "action3": "Confirmar incorporación de Stripe Connect para Fondation Horizon",
+    "nextActions": "Próximas acciones sugeridas",
+    "actions": [
+      "Enviar seguimiento a los no respondentes del Segmento 2",
+      "Reasignar presupuesto al paquete postal con mejor rendimiento",
+      "Programar correos de agradecimiento para el Segmento 3"
+    ],
+    "day": "Día",
     "campaignRoi": "ROI de campaña",
-    "costVsDonations": "Coste vs. donaciones recibidas",
     "mailSent": "Envíos realizados",
-    "mailSentValue": "12.400",
     "revenue": "Ingresos",
-    "revenueValue": "58.240 €"
+    "ariaLabel": "Panel de control en directo de Givernance que muestra una campaña postal de primavera con donaciones diarias en aumento, tres acciones de IA sugeridas y un ROI de campaña de 4,8×."
   },
   "demo": {
     "eyebrow": "Reservar una demo",
@@ -173,20 +206,5 @@
   },
   "common": {
     "skipToContent": "Ir al contenido"
-  },
-  "social": {
-    "built": "Creado con asociaciones suizas y francesas",
-    "hosted": "Alojado en Europa · RGPD nativo",
-    "earlyAccessBadge": "Acceso anticipado · Sin compromiso"
-  },
-  "earlyAccess": {
-    "eyebrow": "Acceso anticipado",
-    "heading": "Construido con ONGs.\nDiseñado para durar.",
-    "description": "Givernance se está creando con organizaciones piloto en Suiza y Francia. Está diseñado como infraestructura operativa para ONG — transparente, predecible y listo para el trabajo real de captación de fondos.",
-    "badge1": "Alojado en Europa",
-    "badge2": "RGPD nativo",
-    "badge3": "Sin bloqueo de datos",
-    "footer": "¿Quiere ser una de las primeras organizaciones en usar Givernance?",
-    "footerCta": "Cuéntenos su situación →"
   }
 }

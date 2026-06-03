@@ -1,6 +1,12 @@
-export function LogoMark({ className = "h-10 w-10" }: { className?: string }) {
+export function LogoMark({
+  className = "h-10 w-10",
+  "aria-hidden": ariaHidden,
+}: {
+  className?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+}) {
   return (
-    <div className={`relative shrink-0 ${className}`} aria-hidden="true">
+    <div className={`relative shrink-0 ${className}`} aria-hidden={ariaHidden ?? "true"}>
       <svg
         viewBox="0 0 256 256"
         className="h-full w-full"

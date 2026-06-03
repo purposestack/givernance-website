@@ -10,22 +10,35 @@ The public marketing website for **Givernance**, a GDPR-native CRM built for Eur
 |-------|-----------|
 | Framework | Next.js 15 (App Router, TypeScript strict) |
 | Styling | Tailwind CSS v4 — **zero inline styles** (see ADR in issue #2) |
-| Animation | Framer Motion (respect `prefers-reduced-motion`) |
+| Animation | CSS keyframes / transitions (no animation library); respect `prefers-reduced-motion` |
 | Icons | Lucide React |
-| Typography | Instrument Serif (headings), Inter (body) — via `next/font` |
+| Typography | Sora (headings/display), Manrope (body), IBM Plex Mono (labels) — via `next/font/google` |
 | i18n | next-intl with `[locale]` App Router routing |
 | Deploy | Vercel (EU region) |
 
 ## Design tokens
 
-All colors, shadows, radii, and fonts are defined as Tailwind tokens. Never use inline `style={{}}` or hardcoded hex values.
+All colors, shadows, radii, and fonts are defined as Tailwind tokens in `src/app/globals.css` (`@theme`). Never use inline `style={{}}` or hardcoded hex values.
+
+The dynamic-animation components are the documented exceptions where computed/runtime style values are unavoidable: `typewriter.tsx`, `live-dashboard.tsx`, `home/hero.tsx` (wave timing), and `opengraph-image.tsx` (built with `next/og`, which requires inline styles).
 
 ### Colors
-- `primary` (#2E7D5E), `primary-light` (#4CAF82), `primary-dark` (#1A5240)
-- `primary-hover` (#267052), `primary-50` (#E8F5EE)
-- `navy` (#1E293B)
-- `bg` (#FAFAF8), `paper` (#FFFFFF), `soft` (#F2F0EC)
-- `border` (#E4E0D9), `text` (#1C1B19), `muted` (#6B6760)
+
+Colours are oklch-based. Tokens are defined in `globals.css`.
+
+Brand palette:
+- `cream` (oklch 0.965 0.012 86 — page background)
+- `sage-light` (oklch 0.945 0.035 178), `sage-mid` (oklch 0.777 0.113 173)
+- `deep` (oklch 0.545 0.115 178), `ink` (oklch 0.215 0.020 200 — foreground text)
+- `ember` (oklch 0.708 0.158 22 — accent)
+
+Accessibility-tuned variants (for verified contrast):
+- `deep-text` (#107472), `deep-section` (#084e46), `ember-text` (#b52e29)
+
+Semantic aliases:
+- `background` → `cream`, `foreground` → `ink`
+- `card` (oklch 0.985 0.008 84), `card-foreground` → `ink`
+- `border` (deep @ 16% alpha), `input` (deep @ 22% alpha), `muted` (oklch 0.48 0.025 178)
 
 ## Conventions
 

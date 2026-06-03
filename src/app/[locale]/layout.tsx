@@ -1,29 +1,27 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Newsreader, JetBrains_Mono } from "next/font/google";
+import { Sora, Manrope, IBM_Plex_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { AxeDev } from "@/components/axe-dev";
 import "../globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+const sora = Sora({
+  variable: "--font-sora",
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
+});
+
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500", "600"],
 });
 
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
-  subsets: ["latin"],
-  display: "swap",
-  style: ["normal", "italic"],
-  weight: "variable",
-  axes: ["opsz"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
+const ibmPlexMono = IBM_Plex_Mono({
+  variable: "--font-ibm-plex-mono",
   subsets: ["latin"],
   display: "swap",
   weight: ["400", "500"],
@@ -88,7 +86,7 @@ export async function generateMetadata({
 }
 
 export const viewport: Viewport = {
-  themeColor: "#2E7D5E",
+  themeColor: "#128776",
   width: "device-width",
   initialScale: 1,
 };
@@ -129,7 +127,7 @@ export default async function LocaleLayout({
     <html
       lang={htmlLangMap[locale] ?? locale}
       data-scroll-behavior="smooth"
-      className={`${inter.variable} ${newsreader.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${sora.variable} ${manrope.variable} ${ibmPlexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <script
