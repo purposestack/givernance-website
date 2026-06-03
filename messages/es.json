@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "title": "Givernance — Software para ONG en Europa",
-    "description": "Deje de forzar software empresarial para su equipo. Givernance está diseñado para ONG europeas, no adaptado de un modelo estadounidense.",
-    "ogTitle": "Givernance — Software para ONG en Europa",
-    "ogDescription": "Deje de forzar software empresarial para su equipo. Givernance está diseñado para ONG europeas, no adaptado de un modelo estadounidense."
+    "title": "Givernance - Infraestructura para ONG europeas",
+    "description": "Givernance ayuda a las ONG europeas a gestionar la captación de fondos, la relación con donantes y los informes en un único sistema nativo RGPD, sin hojas de cálculo dispersas.",
+    "ogTitle": "Givernance - Infraestructura para ONG europeas",
+    "ogDescription": "Givernance ayuda a las ONG europeas a gestionar la captación de fondos, la relación con donantes y los informes en un único sistema nativo RGPD, sin hojas de cálculo dispersas."
   },
   "nav": {
     "home": "Inicio Givernance",
-    "tagline": "Software para ONG en Europa",
+    "tagline": "Infraestructura para ONG europeas",
     "whySwitch": "Por qué",
     "product": "Producto",
     "ai": "IA",
@@ -21,9 +21,9 @@
     "switchLanguage": "Cambiar idioma"
   },
   "hero": {
-    "eyebrow": "Software para ONG en Europa",
-    "heading": "Impulse sus valores. No sus tableros.",
-    "description": "Una sola herramienta para gestionar su captación de fondos, creada para ONG europeas. Sin consultores, sin dependencias.",
+    "eyebrow": "Infraestructura para ONG europeas",
+    "heading": "Impulse su misión. No sus hojas de cálculo.",
+    "description": "Un solo sistema para la captación de fondos, la relación con donantes y los informes, creado para ONG europeas. Sin consultores, sin dependencias.",
     "bookDemo": "Reservar demo",
     "ctaReassurance": "Respuesta en 1 día hábil · Sin compromiso · Gratis"
   },
@@ -35,12 +35,12 @@
     "postalDescription": "Soporte para los canales que las ONG realmente utilizan, no solo formularios genéricos.",
     "aiTitle": "IA bajo control humano",
     "aiDescription": "La IA sugiere y explica. Usted confirma lo que importa.",
-    "dataTitle": "Sus datos, siempre",
-    "dataDescription": "Exporte todo, en cualquier momento. Sin dependencia del proveedor."
+    "dataTitle": "Sin bloqueo de datos",
+    "dataDescription": "Exporte todo, en cualquier momento. Sus datos siguen siendo suyos."
   },
   "problem": {
     "eyebrow": "Por qué los equipos cambian",
-    "heading": "Eligió una gran plataforma por las licencias gratuitas. Después su equipo creció.",
+    "heading": "Eligió la gran plataforma porque parecía segura. Después el trabajo se volvió caótico.",
     "description": "Costes de licencia crecientes, dependencia de consultores, procesos de cumplimiento improvisados y soluciones de informes en hojas de cálculo. ¿Le suena?",
     "patchworkHeading": "En qué se va realmente su semana",
     "alternativeHeading": "Qué cambia con Givernance",
@@ -55,8 +55,8 @@
   },
   "product": {
     "eyebrow": "Una plataforma, todos sus procesos",
-    "heading": "De las campañas postales a los informes de impacto.",
-    "description": "Givernance parte del ciclo de vida del donante, quién dona, cuánto y por qué, y luego conecta campañas, subvenciones, voluntarios e informes alrededor de esa relación.",
+    "heading": "De las donaciones a los informes, en un solo sistema.",
+    "description": "Givernance parte del ciclo de vida del donante, quién dona, cuánto y por qué, y luego conecta la captación de fondos, las subvenciones, el voluntariado y los informes a financiadores alrededor de esa relación.",
     "postalTitle": "Campañas postales",
     "postalDescription": "Cartas personalizadas, campos de combinación y PDF listos para imprimir — el flujo de trabajo que su equipo ya conoce.",
     "qrTitle": "Atribución QR",
@@ -64,9 +64,9 @@
     "donationTitle": "Donaciones en línea",
     "donationDescription": "Páginas de donación con su marca y widgets integrables, en línea en minutos. Conectadas a su propia cuenta Stripe.",
     "grantsTitle": "Subvenciones",
-    "grantsDescription": "Solicitudes, plazos, tramos e informes a financiadores en un solo lugar.",
+    "grantsDescription": "Haga seguimiento de solicitudes, plazos, tramos e informes a financiadores en un solo lugar.",
     "impactTitle": "Impacto e informes",
-    "impactDescription": "Conecte resultados con datos de captación y operaciones — sin hojas de cálculo.",
+    "impactDescription": "Conecte resultados con datos de captación y operaciones sin malabarismos con hojas de cálculo.",
     "volunteersTitle": "Voluntarios",
     "volunteersDescription": "Turnos, horas, verificaciones y reconocimiento junto a sus registros de contacto.",
     "financeTitle": "Pasarela contable",
@@ -93,7 +93,7 @@
   },
   "footer": {
     "brandDescription": "Diseñado para ONG europeas. Sencillo, capaz, asequible.",
-    "tagline": "Creado por personas que creen que las ONG merecen mejor software.",
+    "tagline": "Creado por personas que creen que las ONG merecen una mejor infraestructura.",
     "bookDemo": "Reservar demo",
     "productHeading": "Producto",
     "features": "Funcionalidades",
@@ -182,7 +182,7 @@
   "earlyAccess": {
     "eyebrow": "Acceso anticipado",
     "heading": "Construido con ONGs.\nDiseñado para durar.",
-    "description": "Givernance se está desarrollando con un grupo de organizaciones piloto en Suiza y Francia. Los precios estarán diseñados para presupuestos de ONG — transparentes, predecibles, sin sorpresas.",
+    "description": "Givernance se está creando con organizaciones piloto en Suiza y Francia. Está diseñado como infraestructura operativa para ONG — transparente, predecible y listo para el trabajo real de captación de fondos.",
     "badge1": "Alojado en Europa",
     "badge2": "RGPD nativo",
     "badge3": "Sin bloqueo de datos",
