@@ -1,4 +1,6 @@
 import { getTranslations } from "next-intl/server";
+import { ArrowUpRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
 export async function Pilots() {
   const t = await getTranslations("pilots");
@@ -18,6 +20,13 @@ export async function Pilots() {
         </div>
         <div className="lg:col-span-6 lg:col-start-7 space-y-8">
           <p className="text-lg text-ink/75 leading-relaxed">{t("body")}</p>
+          <Link
+            href="/pricing"
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-deep-text hover:text-deep transition-colors"
+          >
+            {t("seePricing")}
+            <ArrowUpRight className="size-3.5" aria-hidden="true" />
+          </Link>
           <dl className="grid grid-cols-3 gap-6 border-t border-border pt-8">
             <div>
               <dt className="mono-label text-ink/65 mb-2">{t("hosted")}</dt>

@@ -3,7 +3,11 @@
     "title": "Givernance — L'infrastructure des associations européennes",
     "description": "L'infrastructure opérationnelle des associations européennes pour piloter la collecte de fonds, la fidélisation des donateurs, les subventions et le reporting — conforme RGPD, sans verrouillage.",
     "ogTitle": "Givernance — L'infrastructure des associations européennes",
-    "ogDescription": "Une seule plateforme pour la collecte, les donateurs, les subventions, les bénévoles et le reporting. Construite avec des associations suisses et françaises."
+    "ogDescription": "Une seule plateforme pour la collecte, les donateurs, les subventions, les bénévoles et le reporting. Construite avec des associations suisses et françaises.",
+    "pricingTitle": "Tarifs — Givernance",
+    "pricingDescription": "Tarification transparente par association pour les structures européennes. Sans coût par utilisateur, IA incluse, RGPD natif. Formules Starter, Organisation et Scale — mensuel ou annuel.",
+    "pricingOgTitle": "Tarifs Givernance — pensés pour les budgets associatifs",
+    "pricingOgDescription": "Tarification par association avec utilisateurs illimités, IA incluse et sans frais de conseil. Bloquez le tarif de lancement en devenant Partenaire Fondateur."
   },
   "nav": {
     "home": "Accueil Givernance",
@@ -12,6 +16,7 @@
     "product": "Produit",
     "governance": "Gouvernance",
     "pilots": "Pilotes",
+    "pricing": "Tarifs",
     "bookDemo": "Réserver une démo",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
@@ -107,6 +112,7 @@
     "titleLead": "Construit avec des associations.",
     "titleAccent": "Conçu pour durer.",
     "body": "Givernance se construit avec un groupe d'associations pilotes en Suisse et en France. La tarification sera transparente, prévisible et adaptée aux budgets associatifs — sans surprises ni pièges au compte utilisateur.",
+    "seePricing": "Voir les tarifs transparents",
     "hosted": "Hébergement",
     "hostedValue": "Europe",
     "compliance": "Conformité",
@@ -131,6 +137,7 @@
     "product": "Produit",
     "aiGovernance": "Gouvernance IA",
     "earlyAccess": "Accès anticipé",
+    "pricing": "Tarifs",
     "footprint": "Présence",
     "hostedInEurope": "Hébergé en Europe",
     "copyright": "Au service du secteur associatif européen",
@@ -203,6 +210,186 @@
     "successTitle": "Merci — nous vous recontactons sous 1 jour ouvré.",
     "successDescription": "Votre demande a bien été reçue. Nous vous contacterons pour planifier votre démonstration.",
     "errorFallback": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "pricing": {
+    "kicker": "§ VI — Tarifs",
+    "title": "Une tarification pensée pour les budgets associatifs, pas pour les effectifs.",
+    "body": "Un seul tarif par association — bénévoles, stagiaires et membres du conseil inclus. IA, conformité RGPD et accompagnement sont intégrés. Sans coût par utilisateur, sans frais de conseil, sans surprises.",
+    "launchNote": "Tarif de lancement — bloquez-le pour 24 mois en tant que Partenaire Fondateur.",
+    "currencyLabel": "Devise",
+    "billingLabel": "Facturation",
+    "monthly": "Mensuel",
+    "annual": "Annuel",
+    "annualSave": "Économisez ~20 %",
+    "perMonth": "/mois",
+    "billedAnnually": "facturé annuellement",
+    "billedMonthly": "facturé mensuellement",
+    "fromLabel": "à partir de",
+    "customPrice": "Sur devis",
+    "soonBadge": "Prévu pour 2026",
+    "mostChosen": "Le plus choisi",
+    "includesPrevious": "Tout ce qu'inclut {plan}, plus :",
+    "foundingPrice": "Partenaire Fondateur : {price}{per}",
+    "tiersHeading": "Trois formules, un seul produit",
+    "tiers": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "tagline": "Pour les petites associations qui trouvent leur rythme.",
+        "audience": "Gérez votre collecte de façon professionnelle, sans consultant CRM.",
+        "cta": "Réserver une démo",
+        "features": [
+          { "label": "Jusqu'à 5 000 contacts" },
+          { "label": "Utilisateurs illimités — sans frais par compte" },
+          { "label": "Gestion des dons + prélèvements SEPA récurrents" },
+          { "label": "Jusqu'à 5 campagnes actives (postales + digitales)" },
+          { "label": "Mailings tracés par QR code + rapprochement QR-facture suisse" },
+          { "label": "Pages de dons en ligne (Stripe & Mollie)" },
+          { "label": "Gestion des contacts + historique complet" },
+          { "label": "Envois en masse — jusqu'à 5 000/mois" },
+          { "label": "Reporting + tableaux de bord" },
+          { "label": "Suite RGPD — consentement, piste d'audit, export de demandes d'accès" },
+          { "label": "Import CSV / Excel" },
+          { "label": "IA Copilote — Mode assisté" },
+          { "label": "Accès API (lecture)" },
+          { "label": "Assistance communautaire" }
+        ],
+        "limitsTitle": "Limites",
+        "limits": [
+          "Champs personnalisés : 10 par fiche",
+          "Modules subventions, bénévolat et reporting d'impact non inclus"
+        ]
+      },
+      {
+        "id": "organization",
+        "name": "Organisation",
+        "tagline": "Pour les associations établies gérant plusieurs campagnes.",
+        "audience": "La formule dans laquelle la plupart des associations s'épanouissent.",
+        "cta": "Réserver une démo",
+        "features": [
+          { "label": "Jusqu'à 50 000 contacts" },
+          { "label": "Campagnes illimitées (postales + digitales)" },
+          { "label": "Envois en masse — jusqu'à 50 000/mois" },
+          { "label": "Champs personnalisés : 50 par fiche" },
+          { "label": "Accès API (lecture + écriture) + webhooks" },
+          { "label": "Passerelle comptable — export grand livre, soldes de fonds" },
+          { "label": "IA Copilote — Assisté + Autopilote" },
+          { "label": "Accompagnement à la prise en main (2 h guidées)" },
+          { "label": "Assistance e-mail prioritaire (réponse sous 24 h)" },
+          { "label": "Module subventions — dossiers, échéances, fonds dédiés", "soon": true },
+          { "label": "Module bénévolat — créneaux, heures, reconnaissance", "soon": true },
+          { "label": "Reporting d'impact — résultats liés à la collecte", "soon": true },
+          { "label": "Outil de migration depuis Salesforce NPSP", "soon": true }
+        ]
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "tagline": "Pour les grandes structures et les fédérations.",
+        "audience": "Besoins complexes, entités multiples, ou plus de 50 000 contacts.",
+        "cta": "Nous contacter",
+        "features": [
+          { "label": "Contacts illimités" },
+          { "label": "SSO — SAML / OIDC avec votre fournisseur d'identité" },
+          { "label": "Intégrations personnalisées + points d'accès API dédiés" },
+          { "label": "Tarif volumétrique sur les envois d'e-mails" },
+          { "label": "Chargé de compte dédié" },
+          { "label": "Option auto-hébergement — choisissez votre région EU" },
+          { "label": "Gestion multi-entités (modèle fédération)", "soon": true },
+          { "label": "Automatisations personnalisées — générateur de workflows", "soon": true },
+          { "label": "Segmentation et scoring des donateurs par IA", "soon": true }
+        ]
+      }
+    ],
+    "matrix": {
+      "title": "Ce qui est inclus dans chaque formule",
+      "body": "Chaque formule embarque le cœur RGPD natif. Les formules supérieures ajoutent de la capacité, de l'automatisation et du support.",
+      "featureColumn": "Fonctionnalité",
+      "comingLabel": "Disponible en 2026",
+      "soonNote": "Les éléments marqués « 2026 » figurent sur la feuille de route publique et ne sont pas encore disponibles.",
+      "rows": [
+        { "label": "Contacts", "starter": "5 000", "organization": "50 000", "scale": "Illimité" },
+        { "label": "Utilisateurs", "starter": "Illimité", "organization": "Illimité", "scale": "Illimité" },
+        { "label": "Campagnes actives", "starter": "5", "organization": "Illimité", "scale": "Illimité" },
+        { "label": "Envois en masse / mois", "starter": "5 000", "organization": "50 000", "scale": "Tarif volumétrique" },
+        { "label": "Champs personnalisés / fiche", "starter": "10", "organization": "50", "scale": "Illimité" },
+        { "label": "Dons + prélèvements récurrents", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Campagnes postales + digitales", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Correspondance QR & QR-facture suisse", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Dons en ligne (Stripe & Mollie)", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Suite de conformité RGPD", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Export comptable / grand livre", "starter": "no", "organization": "yes", "scale": "yes" },
+        { "label": "Accès API", "starter": "Lecture", "organization": "Lecture + écriture", "scale": "Complet + webhooks" },
+        { "label": "IA Copilote", "starter": "Assisté", "organization": "Assisté + Autopilote", "scale": "Assisté + Autopilote" },
+        { "label": "Module subventions", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Module bénévolat", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Reporting d'impact", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Migration Salesforce", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "SSO (SAML / OIDC)", "starter": "no", "organization": "no", "scale": "yes" },
+        { "label": "Option auto-hébergement", "starter": "no", "organization": "no", "scale": "yes" },
+        { "label": "Assistance", "starter": "Communautaire", "organization": "E-mail prioritaire", "scale": "Chargé de compte dédié" }
+      ]
+    },
+    "founding": {
+      "kicker": "Partenaires Fondateurs",
+      "title": "Façonnez la plateforme. Bloquez le demi-tarif.",
+      "body": "Plutôt qu'une remise éphémère, nous invitons les 50 premières associations à un vrai partenariat. Les Partenaires Fondateurs bénéficient du demi-tarif pendant deux ans — et d'un accès direct aux personnes qui construisent Givernance.",
+      "discountLabel": "50 % de réduction pendant 24 mois",
+      "spotsLabel": "Limité aux 50 premières associations souscrivant un plan annuel",
+      "commitTitle": "Les engagements des Partenaires Fondateurs",
+      "commit": [
+        "Facturation annuelle",
+        "Un appel de retour de 30 minutes chaque trimestre",
+        "L'autorisation de vous citer en étude de cas (anonymisée si vous préférez)",
+        "Accès bêta aux nouvelles fonctionnalités"
+      ],
+      "perksTitle": "Les avantages des Partenaires Fondateurs",
+      "perks": [
+        "50 % de réduction pendant 24 mois — fixe, sans dégressivité",
+        "Badge « Partenaire Fondateur » dans l'application",
+        "Un canal direct avec l'équipe produit",
+        "Priorité sur les demandes de fonctionnalités",
+        "Garantie de blocage de tarif — votre prix n'augmente jamais par surprise"
+      ]
+    },
+    "comparison": {
+      "kicker": "Comment nous nous situons",
+      "title": "Une plateforme qui remplace une pile d'outils.",
+      "body": "Les concurrents facturent par utilisateur, réservent l'IA aux modules complémentaires et facturent la migration comme du conseil. Givernance intègre le workflow opérationnel et le facture par association.",
+      "featureColumn": "Fonctionnalité",
+      "us": "Givernance",
+      "competitorA": "Salesforce NPSP",
+      "competitorB": "Bloomerang",
+      "legendIncluded": "Inclus",
+      "legendNot": "Non inclus",
+      "rows": [
+        { "label": "Tarification par association (sans frais par utilisateur)", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "Utilisateurs illimités inclus", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "RGPD natif, hébergé en Europe", "sf": "Partiel", "bl": "Hébergé aux États-Unis", "gv": "yes" },
+        { "label": "Assistant IA inclus", "sf": "Module complémentaire", "bl": "Limité", "gv": "yes" },
+        { "label": "Campagnes postales + QR", "sf": "Module complémentaire", "bl": "Limité", "gv": "yes" },
+        { "label": "Accompagnement inclus (sans frais d'implémentation)", "sf": "Consulting payant", "bl": "Souvent payant", "gv": "yes" },
+        { "label": "Subventions & bénévolat en une seule plateforme", "sf": "Module complémentaire", "bl": "Limité", "gv": "2026" },
+        { "label": "Tarification publique transparente", "sf": "no", "bl": "Partiel", "gv": "yes" }
+      ]
+    },
+    "faq": {
+      "title": "Questions sur les tarifs",
+      "items": [
+        { "q": "Facturez-vous par utilisateur ?", "a": "Jamais. Givernance est facturé par association. Salariés, bénévoles, stagiaires et membres du conseil accèdent tous à la plateforme sans surcoût — éliminant ainsi la principale raison pour laquelle les factures CRM s'emballent." },
+        { "q": "Que se passe-t-il quand nous dépassons notre formule ?", "a": "Rien ne se bloque brutalement. Un message convivial s'affiche à l'approche d'une limite, et les imports sont seulement suspendus à 105 % — la lecture de vos données reste toujours possible. Nous ne supprimons jamais de données et ne déclenchons jamais de frais surprises." },
+        { "q": "L'accompagnement et la migration sont-ils inclus ?", "a": "L'accompagnement à la prise en main est inclus, et l'import CSV/Excel est disponible sur toutes les formules. Un outil de migration dédié depuis Salesforce NPSP est prévu en 2026 pour les formules Organisation et Scale." },
+        { "q": "Nos données sont-elles conformes RGPD et hébergées en Europe ?", "a": "Oui. Consentement, piste d'audit et exports de demandes d'accès sont intégrés au modèle de données, et tout l'hébergement est en UE. Les clients Scale peuvent également choisir leur propre région pour l'auto-hébergement." },
+        { "q": "Mensuel ou annuel ?", "a": "Les deux. Le mensuel vous donne de la flexibilité ; l'annuel permet d'économiser environ 20 %. Pas de pénalité pour le mensuel — le tarif annuel récompense simplement l'engagement." },
+        { "q": "Quand pouvons-nous commencer ?", "a": "Givernance est en accès anticipé avec des associations pilotes en Suisse et en France. Réservez une démo pour découvrir le produit et, s'il vous convient, revendiquez l'une des 50 places de Partenaire Fondateur." }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à mettre un chiffre sur votre mission ?",
+      "body": "Réservez une démo de 30 minutes. Nous vous présenterons la formule adaptée à votre association et, si vous faites partie des 50 premiers, bloquerons votre tarif Partenaire Fondateur.",
+      "button": "Réserver une démo",
+      "replyNote": "Réponse sous 1 jour ouvré · Sans engagement"
+    }
   },
   "common": {
     "skipToContent": "Aller au contenu"

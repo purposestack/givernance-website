@@ -3,7 +3,11 @@
     "title": "Givernance — Infrastructure for European nonprofits",
     "description": "The operational infrastructure European nonprofits use to run fundraising, donor stewardship, grants and reporting — GDPR-native, no lock-in.",
     "ogTitle": "Givernance — Infrastructure for European nonprofits",
-    "ogDescription": "One platform for fundraising, donor stewardship, grants, volunteers and reporting. Built with Swiss and French nonprofits."
+    "ogDescription": "One platform for fundraising, donor stewardship, grants, volunteers and reporting. Built with Swiss and French nonprofits.",
+    "pricingTitle": "Pricing — Givernance",
+    "pricingDescription": "Transparent, per-organisation pricing for European nonprofits. No per-seat tax, AI included, GDPR-native. Starter, Organization and Scale plans — billed monthly or annually.",
+    "pricingOgTitle": "Givernance pricing — built for nonprofit budgets",
+    "pricingOgDescription": "Per-organisation pricing with unlimited users, AI included and no consultant tax. Lock in launch pricing as a Founding Partner."
   },
   "nav": {
     "home": "Givernance home",
@@ -12,6 +16,7 @@
     "product": "Product",
     "governance": "Governance",
     "pilots": "Pilots",
+    "pricing": "Pricing",
     "bookDemo": "Book a demo",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
@@ -107,6 +112,7 @@
     "titleLead": "Built with nonprofits.",
     "titleAccent": "Designed to last.",
     "body": "Givernance is being developed with a group of pilot organisations in Switzerland and France. Pricing will be transparent, predictable, and designed for nonprofit budgets — no surprises, no per-seat traps.",
+    "seePricing": "See transparent pricing",
     "hosted": "Hosted",
     "hostedValue": "Europe",
     "compliance": "Compliance",
@@ -131,6 +137,7 @@
     "product": "Product",
     "aiGovernance": "AI governance",
     "earlyAccess": "Early access",
+    "pricing": "Pricing",
     "footprint": "Footprint",
     "hostedInEurope": "Hosted in Europe",
     "copyright": "Built for the European nonprofit sector",
@@ -203,6 +210,186 @@
     "successTitle": "Thank you — we'll be in touch within 1 business day.",
     "successDescription": "We've received your request and will reach out to schedule your demo.",
     "errorFallback": "Something went wrong. Please try again."
+  },
+  "pricing": {
+    "kicker": "§ VI — Pricing",
+    "title": "Pricing built for nonprofit budgets, not seat counts.",
+    "body": "One price per organisation — volunteers, interns and board members included. AI, GDPR compliance and onboarding come built in. No per-seat tax, no consultant fees, no surprises.",
+    "launchNote": "Launch pricing — lock it in for 24 months as a Founding Partner.",
+    "currencyLabel": "Currency",
+    "billingLabel": "Billing",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "annualSave": "Save ~20%",
+    "perMonth": "/mo",
+    "billedAnnually": "billed annually",
+    "billedMonthly": "billed monthly",
+    "fromLabel": "from",
+    "customPrice": "Custom",
+    "soonBadge": "On the 2026 roadmap",
+    "mostChosen": "Most chosen",
+    "includesPrevious": "Everything in {plan}, plus:",
+    "foundingPrice": "Founding Partner: {price}{per}",
+    "tiersHeading": "Three plans, one product",
+    "tiers": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "tagline": "For small nonprofits finding their rhythm.",
+        "audience": "Run professional fundraising without a CRM consultant.",
+        "cta": "Book a demo",
+        "features": [
+          { "label": "Up to 5,000 constituents" },
+          { "label": "Unlimited users — no per-seat charge" },
+          { "label": "Donation management + recurring SEPA gifts" },
+          { "label": "Up to 5 active campaigns (postal + digital)" },
+          { "label": "QR-attributed mailings + Swiss QR-bill matching" },
+          { "label": "Online giving pages (Stripe & Mollie)" },
+          { "label": "Constituent management + full timeline" },
+          { "label": "Bulk email — up to 5,000/month" },
+          { "label": "Reporting + dashboards" },
+          { "label": "GDPR suite — consent, audit trail, SAR export" },
+          { "label": "CSV / Excel import" },
+          { "label": "AI Copilot — Assisted mode" },
+          { "label": "API access (read)" },
+          { "label": "Community support" }
+        ],
+        "limitsTitle": "Limits",
+        "limits": [
+          "Custom fields: 10 per record",
+          "Grants, volunteers & impact reporting not included"
+        ]
+      },
+      {
+        "id": "organization",
+        "name": "Organization",
+        "tagline": "For established nonprofits running multiple campaigns.",
+        "audience": "The plan most organisations will live in.",
+        "cta": "Book a demo",
+        "features": [
+          { "label": "Up to 50,000 constituents" },
+          { "label": "Unlimited campaigns (postal + digital)" },
+          { "label": "Bulk email — up to 50,000/month" },
+          { "label": "Custom fields: 50 per record" },
+          { "label": "API access (read + write) + webhooks" },
+          { "label": "Finance handoff — GL export, fund balances" },
+          { "label": "AI Copilot — Assisted + Autopilot" },
+          { "label": "Dedicated onboarding (2h guided setup)" },
+          { "label": "Priority email support (24h response)" },
+          { "label": "Grants module — applications, deadlines, restricted funds", "soon": true },
+          { "label": "Volunteer module — shifts, hours, recognition", "soon": true },
+          { "label": "Impact reporting — outcomes linked to fundraising", "soon": true },
+          { "label": "Salesforce NPSP migration tool", "soon": true }
+        ]
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "tagline": "For large organisations and federations.",
+        "audience": "Complex requirements, multiple entities, or 50,000+ constituents.",
+        "cta": "Talk to us",
+        "features": [
+          { "label": "Unlimited constituents" },
+          { "label": "SSO — SAML / OIDC with your identity provider" },
+          { "label": "Custom integrations + dedicated API endpoints" },
+          { "label": "Volume pricing on email sends" },
+          { "label": "Dedicated success manager" },
+          { "label": "Self-hosting option — choose your EU region" },
+          { "label": "Multi-entity management (federation model)", "soon": true },
+          { "label": "Custom automations — workflow builder", "soon": true },
+          { "label": "AI-powered segmentation & donor scoring", "soon": true }
+        ]
+      }
+    ],
+    "matrix": {
+      "title": "What's included where",
+      "body": "Every plan ships with the GDPR-native core. Higher plans add capacity, automation and support.",
+      "featureColumn": "Feature",
+      "comingLabel": "Coming in 2026",
+      "soonNote": "Items marked ‘2026’ are on the public roadmap and not yet generally available.",
+      "rows": [
+        { "label": "Constituents", "starter": "5,000", "organization": "50,000", "scale": "Unlimited" },
+        { "label": "Users", "starter": "Unlimited", "organization": "Unlimited", "scale": "Unlimited" },
+        { "label": "Active campaigns", "starter": "5", "organization": "Unlimited", "scale": "Unlimited" },
+        { "label": "Bulk email / month", "starter": "5,000", "organization": "50,000", "scale": "Volume pricing" },
+        { "label": "Custom fields / record", "starter": "10", "organization": "50", "scale": "Unlimited" },
+        { "label": "Donations + recurring gifts", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Postal + digital campaigns", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "QR & Swiss QR-bill matching", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Online giving (Stripe & Mollie)", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "GDPR compliance suite", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Finance / GL export", "starter": "no", "organization": "yes", "scale": "yes" },
+        { "label": "API access", "starter": "Read", "organization": "Read + write", "scale": "Full + webhooks" },
+        { "label": "AI Copilot", "starter": "Assisted", "organization": "Assisted + Autopilot", "scale": "Assisted + Autopilot" },
+        { "label": "Grants module", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Volunteer module", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Impact reporting", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Salesforce migration", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "SSO (SAML / OIDC)", "starter": "no", "organization": "no", "scale": "yes" },
+        { "label": "Self-hosting option", "starter": "no", "organization": "no", "scale": "yes" },
+        { "label": "Support", "starter": "Community", "organization": "Priority email", "scale": "Dedicated manager" }
+      ]
+    },
+    "founding": {
+      "kicker": "Founding Partners",
+      "title": "Shape the platform. Lock in half price.",
+      "body": "Instead of a fleeting discount, we're inviting the first 50 organisations into a real partnership. Founding Partners get half price for two years — and a direct line to the people building Givernance.",
+      "discountLabel": "50% off for 24 months",
+      "spotsLabel": "Limited to the first 50 organisations on an annual plan",
+      "commitTitle": "What Founding Partners commit to",
+      "commit": [
+        "Annual billing",
+        "A 30-minute feedback call each quarter",
+        "Permission to feature you as a case study (anonymised if you prefer)",
+        "Beta access to new features"
+      ],
+      "perksTitle": "What Founding Partners get",
+      "perks": [
+        "50% off for 24 months — locked, not declining",
+        "“Founding Partner” badge in-app",
+        "A direct channel with the product team",
+        "Priority on feature requests",
+        "Price-lock guarantee — your rate never increases by surprise"
+      ]
+    },
+    "comparison": {
+      "kicker": "How we compare",
+      "title": "One platform that replaces a stack of tools.",
+      "body": "Competitors charge per seat, gate AI behind add-ons and bill migration as consulting. Givernance bundles the operational workflow and prices it per organisation.",
+      "featureColumn": "Capability",
+      "us": "Givernance",
+      "competitorA": "Salesforce NPSP",
+      "competitorB": "Bloomerang",
+      "legendIncluded": "Included",
+      "legendNot": "Not included",
+      "rows": [
+        { "label": "Per-organisation pricing (no per-seat)", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "Unlimited users included", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "GDPR-native, hosted in Europe", "sf": "Partial", "bl": "US-hosted", "gv": "yes" },
+        { "label": "AI assistant included", "sf": "Add-on", "bl": "Limited", "gv": "yes" },
+        { "label": "Postal + QR campaigns", "sf": "Add-on", "bl": "Limited", "gv": "yes" },
+        { "label": "Onboarding included (no implementation fee)", "sf": "Paid consulting", "bl": "Often paid", "gv": "yes" },
+        { "label": "Grants & volunteers in one platform", "sf": "Add-on", "bl": "Limited", "gv": "2026" },
+        { "label": "Transparent public pricing", "sf": "no", "bl": "Partial", "gv": "yes" }
+      ]
+    },
+    "faq": {
+      "title": "Pricing questions",
+      "items": [
+        { "q": "Do you charge per user?", "a": "Never. Givernance is priced per organisation. Staff, volunteers, interns and board members all get access at no extra cost — eliminating the #1 reason CRM bills spiral." },
+        { "q": "What happens when we outgrow a plan?", "a": "Nothing breaks. You'll see a friendly heads-up as you approach a limit, and imports pause only at 105% — read access to your data is always maintained. We never delete data and never spring a surprise charge." },
+        { "q": "Are onboarding and migration included?", "a": "Onboarding is included, and CSV/Excel import ships on every plan. A dedicated Salesforce NPSP migration tool is on the 2026 roadmap for Organization and Scale." },
+        { "q": "Is our data GDPR-compliant and hosted in Europe?", "a": "Yes. Consent, audit trail and subject-access exports are built into the data model, and all hosting is in the EU. Scale customers can also self-host in the region of their choice." },
+        { "q": "Monthly or annual?", "a": "Both. Monthly gives you flexibility; annual saves roughly 20%. There's no penalty for monthly — the annual price simply rewards the commitment." },
+        { "q": "When can we start?", "a": "Givernance is in early access with pilot organisations in Switzerland and France. Book a demo to see the product and, if it fits, claim one of the 50 Founding Partner places." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to put a number on your mission?",
+      "body": "Book a 30-minute demo. We'll walk through the plan that fits your organisation and, if you're among the first 50, lock in Founding Partner pricing.",
+      "button": "Book a demo",
+      "replyNote": "Reply within 1 business day · No commitment"
+    }
   },
   "common": {
     "skipToContent": "Skip to content"
