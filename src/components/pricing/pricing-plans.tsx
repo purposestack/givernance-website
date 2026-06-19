@@ -72,7 +72,11 @@ export function PricingPlans() {
                 >
                   {t(option)}
                   {option === "annual" && (
-                    <span className="ml-1.5 hidden font-mono text-[0.625rem] uppercase tracking-wider text-ember-text sm:inline">
+                    <span
+                      className={`ml-1.5 hidden font-mono text-[0.625rem] uppercase tracking-wider sm:inline ${
+                        billing === "annual" ? "text-cream" : "text-ember-text"
+                      }`}
+                    >
                       {t("annualSave")}
                     </span>
                   )}
