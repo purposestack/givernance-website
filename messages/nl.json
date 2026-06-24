@@ -239,7 +239,7 @@
         "audience": "Professionele fondsenwerving zonder CRM-consultant.",
         "cta": "Demo boeken",
         "features": [
-          { "label": "Tot 50.000 contacten" },
+          { "label": "Tot 5.000 contacten" },
           { "label": "Onbeperkt gebruikers" },
           { "label": "Donatiebeheer" },
           { "label": "Tot 10 campagnes per jaar" },
@@ -257,7 +257,7 @@
         "audience": "Het abonnement waar de meeste organisaties mee werken.",
         "cta": "Demo boeken",
         "features": [
-          { "label": "Tot 250.000 contacten" },
+          { "label": "Tot 50.000 contacten" },
           { "label": "Onbeperkt campagnes" },
           { "label": "AI Copilot — Geassisteerd + Autopilot" },
           { "label": "Toegewijde onboarding + prioriteitsondersteuning" },
@@ -270,7 +270,7 @@
         "id": "scale",
         "name": "Scale",
         "tagline": "Voor grote organisaties en federaties.",
-        "audience": "Complexe vereisten, meerdere entiteiten of 250.000+ contacten.",
+        "audience": "Complexe vereisten, meerdere entiteiten of 50.000+ contacten.",
         "cta": "Neem contact op",
         "features": [
           { "label": "Onbeperkt contacten" },
@@ -287,7 +287,7 @@
       "comingLabel": "Beschikbaar eind 2026",
       "soonNote": "Items gemarkeerd met ‘2026’ staan op de publieke roadmap, gepland voor eind 2026, en zijn nog niet algemeen beschikbaar.",
       "rows": [
-        { "label": "Contacten", "starter": "50.000", "organization": "250.000", "scale": "Onbeperkt" },
+        { "label": "Contacten", "starter": "5.000", "organization": "50.000", "scale": "Onbeperkt" },
         { "label": "Gebruikers", "starter": "Onbeperkt", "organization": "Onbeperkt", "scale": "Onbeperkt" },
         { "label": "Campagnes / jaar", "starter": "10", "organization": "Onbeperkt", "scale": "Onbeperkt" },
         { "label": "Aangepaste velden / record", "starter": "10", "organization": "50", "scale": "Onbeperkt" },

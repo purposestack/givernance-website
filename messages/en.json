@@ -239,7 +239,7 @@
         "audience": "Run professional fundraising without a CRM consultant.",
         "cta": "Book a demo",
         "features": [
-          { "label": "Up to 50,000 constituents" },
+          { "label": "Up to 5,000 constituents" },
           { "label": "Unlimited users" },
           { "label": "Donation management" },
           { "label": "Up to 10 campaigns per year" },
@@ -257,7 +257,7 @@
         "audience": "The plan most organisations will live in.",
         "cta": "Book a demo",
         "features": [
-          { "label": "Up to 250,000 constituents" },
+          { "label": "Up to 50,000 constituents" },
           { "label": "Unlimited campaigns" },
           { "label": "AI Copilot — Assisted + Autopilot" },
           { "label": "Dedicated onboarding + priority support" },
@@ -270,7 +270,7 @@
         "id": "scale",
         "name": "Scale",
         "tagline": "For large organisations and federations.",
-        "audience": "Complex requirements, multiple entities, or 250,000+ constituents.",
+        "audience": "Complex requirements, multiple entities, or 50,000+ constituents.",
         "cta": "Talk to us",
         "features": [
           { "label": "Unlimited constituents" },
@@ -287,7 +287,7 @@
       "comingLabel": "Coming late 2026",
       "soonNote": "Items marked ‘2026’ are on the public roadmap, planned for late 2026, and not yet generally available.",
       "rows": [
-        { "label": "Constituents", "starter": "50,000", "organization": "250,000", "scale": "Unlimited" },
+        { "label": "Constituents", "starter": "5,000", "organization": "50,000", "scale": "Unlimited" },
         { "label": "Users", "starter": "Unlimited", "organization": "Unlimited", "scale": "Unlimited" },
         { "label": "Campaigns / year", "starter": "10", "organization": "Unlimited", "scale": "Unlimited" },
         { "label": "Custom fields / record", "starter": "10", "organization": "50", "scale": "Unlimited" },

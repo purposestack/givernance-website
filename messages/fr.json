@@ -239,7 +239,7 @@
         "audience": "Gérez votre collecte de façon professionnelle, sans consultant CRM.",
         "cta": "Réserver une démo",
         "features": [
-          { "label": "Jusqu'à 50 000 contacts" },
+          { "label": "Jusqu'à 5 000 contacts" },
           { "label": "Utilisateurs illimités" },
           { "label": "Gestion des dons" },
           { "label": "Jusqu'à 10 campagnes par an" },
@@ -257,7 +257,7 @@
         "audience": "La formule dans laquelle la plupart des associations s'épanouissent.",
         "cta": "Réserver une démo",
         "features": [
-          { "label": "Jusqu'à 250 000 contacts" },
+          { "label": "Jusqu'à 50 000 contacts" },
           { "label": "Campagnes illimitées" },
           { "label": "IA Copilote — Assisté + Autopilote" },
           { "label": "Accompagnement dédié à la prise en main + assistance prioritaire" },
@@ -270,7 +270,7 @@
         "id": "scale",
         "name": "Scale",
         "tagline": "Pour les grandes structures et les fédérations.",
-        "audience": "Besoins complexes, entités multiples, ou plus de 250 000 contacts.",
+        "audience": "Besoins complexes, entités multiples, ou plus de 50 000 contacts.",
         "cta": "Nous contacter",
         "features": [
           { "label": "Contacts illimités" },
@@ -287,7 +287,7 @@
       "comingLabel": "Disponible fin 2026",
       "soonNote": "Les éléments marqués « 2026 » figurent sur la feuille de route publique, prévus pour fin 2026, et ne sont pas encore disponibles.",
       "rows": [
-        { "label": "Contacts", "starter": "50 000", "organization": "250 000", "scale": "Illimité" },
+        { "label": "Contacts", "starter": "5 000", "organization": "50 000", "scale": "Illimité" },
         { "label": "Utilisateurs", "starter": "Illimité", "organization": "Illimité", "scale": "Illimité" },
         { "label": "Campagnes / an", "starter": "10", "organization": "Illimité", "scale": "Illimité" },
         { "label": "Champs personnalisés / fiche", "starter": "10", "organization": "50", "scale": "Illimité" },

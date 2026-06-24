@@ -239,7 +239,7 @@
         "audience": "Gestione captación profesional sin un consultor de CRM.",
         "cta": "Reservar demo",
         "features": [
-          { "label": "Hasta 50.000 contactos" },
+          { "label": "Hasta 5.000 contactos" },
           { "label": "Usuarios ilimitados" },
           { "label": "Gestión de donaciones" },
           { "label": "Hasta 10 campañas por año" },
@@ -257,7 +257,7 @@
         "audience": "El plan en el que vivirá la mayoría de organizaciones.",
         "cta": "Reservar demo",
         "features": [
-          { "label": "Hasta 250.000 contactos" },
+          { "label": "Hasta 50.000 contactos" },
           { "label": "Campañas ilimitadas" },
           { "label": "Copiloto IA — Asistido + Piloto automático" },
           { "label": "Incorporación dedicada + soporte prioritario" },
@@ -270,7 +270,7 @@
         "id": "scale",
         "name": "Scale",
         "tagline": "Para grandes organizaciones y federaciones.",
-        "audience": "Requisitos complejos, múltiples entidades o más de 250.000 contactos.",
+        "audience": "Requisitos complejos, múltiples entidades o más de 50.000 contactos.",
         "cta": "Contáctenos",
         "features": [
           { "label": "Contactos ilimitados" },
@@ -287,7 +287,7 @@
       "comingLabel": "Disponible a finales de 2026",
       "soonNote": "Los elementos marcados como «2026» están en la hoja de ruta pública, previstos para finales de 2026, y aún no están disponibles de forma general.",
       "rows": [
-        { "label": "Contactos", "starter": "50.000", "organization": "250.000", "scale": "Ilimitados" },
+        { "label": "Contactos", "starter": "5.000", "organization": "50.000", "scale": "Ilimitados" },
         { "label": "Usuarios", "starter": "Ilimitados", "organization": "Ilimitados", "scale": "Ilimitados" },
         { "label": "Campañas / año", "starter": "10", "organization": "Ilimitadas", "scale": "Ilimitadas" },
         { "label": "Campos personalizados / registro", "starter": "10", "organization": "50", "scale": "Ilimitados" },

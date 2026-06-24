@@ -239,7 +239,7 @@
         "audience": "Professionelles Fundraising — ganz ohne CRM-Berater.",
         "cta": "Demo buchen",
         "features": [
-          { "label": "Bis zu 50.000 Kontakte" },
+          { "label": "Bis zu 5.000 Kontakte" },
           { "label": "Unbegrenzte Nutzer" },
           { "label": "Spendenverwaltung" },
           { "label": "Bis zu 10 Kampagnen pro Jahr" },
@@ -257,7 +257,7 @@
         "audience": "Der Tarif, in dem die meisten Organisationen dauerhaft arbeiten.",
         "cta": "Demo buchen",
         "features": [
-          { "label": "Bis zu 250.000 Kontakte" },
+          { "label": "Bis zu 50.000 Kontakte" },
           { "label": "Unbegrenzte Kampagnen" },
           { "label": "KI-Copilot — Assistiert + Autopilot" },
           { "label": "Dediziertes Onboarding + priorisierter Support" },
@@ -270,7 +270,7 @@
         "id": "scale",
         "name": "Scale",
         "tagline": "Für große Organisationen und Dachverbände.",
-        "audience": "Komplexe Anforderungen, mehrere Einheiten oder 250.000+ Kontakte.",
+        "audience": "Komplexe Anforderungen, mehrere Einheiten oder 50.000+ Kontakte.",
         "cta": "Kontakt aufnehmen",
         "features": [
           { "label": "Unbegrenzte Kontakte" },
@@ -287,7 +287,7 @@
       "comingLabel": "Verfügbar Ende 2026",
       "soonNote": "Mit „2026“ markierte Punkte stehen auf der öffentlichen Roadmap, geplant für Ende 2026, und sind noch nicht allgemein verfügbar.",
       "rows": [
-        { "label": "Kontakte", "starter": "50.000", "organization": "250.000", "scale": "Unbegrenzt" },
+        { "label": "Kontakte", "starter": "5.000", "organization": "50.000", "scale": "Unbegrenzt" },
         { "label": "Nutzer", "starter": "Unbegrenzt", "organization": "Unbegrenzt", "scale": "Unbegrenzt" },
         { "label": "Kampagnen / Jahr", "starter": "10", "organization": "Unbegrenzt", "scale": "Unbegrenzt" },
         { "label": "Benutzerdefinierte Felder / Datensatz", "starter": "10", "organization": "50", "scale": "Unbegrenzt" },
