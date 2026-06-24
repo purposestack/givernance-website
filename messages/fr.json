@@ -226,7 +226,7 @@
     "billedMonthly": "facturé mensuellement",
     "fromLabel": "à partir de",
     "customPrice": "Sur devis",
-    "soonBadge": "Prévu pour 2026",
+    "soonBadge": "Prévu fin 2026",
     "mostChosen": "Le plus choisi",
     "includesPrevious": "Tout ce qu'inclut {plan}, plus :",
     "foundingPrice": "Partenaire Fondateur : {price}{per}",
@@ -240,22 +240,14 @@
         "cta": "Réserver une démo",
         "features": [
           { "label": "Jusqu'à 50 000 contacts" },
-          { "label": "Utilisateurs illimités — sans frais par compte" },
+          { "label": "Utilisateurs illimités" },
           { "label": "Gestion des dons" },
-          { "label": "Jusqu'à 10 campagnes par an (postales + digitales)" },
-          { "label": "Mailings tracés par QR code + rapprochement QR-facture suisse" },
-          { "label": "Pages de dons en ligne (Stripe & Mollie)" },
-          { "label": "Gestion des contacts + historique complet" },
-          { "label": "Reporting + tableaux de bord" },
-          { "label": "Suite RGPD — consentement, piste d'audit, export de demandes d'accès" },
-          { "label": "Import CSV / Excel" },
-          { "label": "IA Copilote — Mode assisté" },
-          { "label": "Assistance communautaire" }
-        ],
-        "limitsTitle": "Limites",
-        "limits": [
-          "Champs personnalisés : 10 par fiche",
-          "Modules subventions, bénévolat et reporting d'impact non inclus"
+          { "label": "Jusqu'à 10 campagnes par an" },
+          { "label": "Mailings tracés par QR code" },
+          { "label": "Pages de dons en ligne" },
+          { "label": "Tableaux de bord" },
+          { "label": "Suite RGPD" },
+          { "label": "Imports CSV / Excel" }
         ]
       },
       {
@@ -266,16 +258,12 @@
         "cta": "Réserver une démo",
         "features": [
           { "label": "Jusqu'à 250 000 contacts" },
-          { "label": "Campagnes illimitées (postales + digitales)" },
-          { "label": "Champs personnalisés : 50 par fiche" },
-          { "label": "Passerelle comptable — export grand livre, soldes de fonds" },
-          { "label": "Accès API (lecture + écriture) + webhooks" },
+          { "label": "Campagnes illimitées" },
           { "label": "IA Copilote — Assisté + Autopilote" },
           { "label": "Accompagnement dédié à la prise en main + assistance prioritaire" },
           { "label": "Module subventions — dossiers, échéances, fonds dédiés", "soon": true },
           { "label": "Module bénévolat — créneaux, heures, reconnaissance", "soon": true },
-          { "label": "Reporting d'impact — résultats liés à la collecte", "soon": true },
-          { "label": "Outil de migration depuis Salesforce NPSP", "soon": true }
+          { "label": "Reporting d'impact — résultats liés à la collecte", "soon": true }
         ]
       },
       {
@@ -287,12 +275,8 @@
         "features": [
           { "label": "Contacts illimités" },
           { "label": "SSO — SAML / OIDC avec votre fournisseur d'identité" },
-          { "label": "Intégrations personnalisées + points d'accès API dédiés" },
-          { "label": "Responsable dédié" },
-          { "label": "Option auto-hébergement — choisissez votre région EU" },
-          { "label": "Gestion multi-entités (modèle fédération)", "soon": true },
-          { "label": "Automatisations personnalisées — générateur de workflows", "soon": true },
-          { "label": "Segmentation et scoring des donateurs par IA", "soon": true }
+          { "label": "Intégrations personnalisées" },
+          { "label": "Responsable dédié" }
         ]
       }
     ],
@@ -300,8 +284,8 @@
       "title": "Ce qui est inclus dans chaque formule",
       "body": "Chaque formule embarque le cœur RGPD natif. Les formules supérieures ajoutent de la capacité, de l'automatisation et du support.",
       "featureColumn": "Fonctionnalité",
-      "comingLabel": "Disponible en 2026",
-      "soonNote": "Les éléments marqués « 2026 » figurent sur la feuille de route publique et ne sont pas encore disponibles.",
+      "comingLabel": "Disponible fin 2026",
+      "soonNote": "Les éléments marqués « 2026 » figurent sur la feuille de route publique, prévus pour fin 2026, et ne sont pas encore disponibles.",
       "rows": [
         { "label": "Contacts", "starter": "50 000", "organization": "250 000", "scale": "Illimité" },
         { "label": "Utilisateurs", "starter": "Illimité", "organization": "Illimité", "scale": "Illimité" },

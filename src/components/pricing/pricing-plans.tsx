@@ -13,8 +13,6 @@ type Tier = {
   audience: string;
   cta: string;
   features: Feature[];
-  limitsTitle?: string;
-  limits?: string[];
 };
 
 type Currency = "EUR" | "CHF";
@@ -212,19 +210,6 @@ export function PricingPlans() {
                     </li>
                   ))}
                 </ul>
-
-                {tier.limits && tier.limits.length > 0 && (
-                  <div className="mt-7 border-t border-border pt-5">
-                    <p className="mono-label text-ink/70">{tier.limitsTitle}</p>
-                    <ul className="mt-3 space-y-2">
-                      {tier.limits.map((limit) => (
-                        <li key={limit} className="text-xs text-ink/70 leading-relaxed">
-                          {limit}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
               </article>
             );
           })}

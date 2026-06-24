@@ -226,7 +226,7 @@
     "billedMonthly": "facturado mensualmente",
     "fromLabel": "desde",
     "customPrice": "A medida",
-    "soonBadge": "En la hoja de ruta de 2026",
+    "soonBadge": "Previsto para finales de 2026",
     "mostChosen": "El más elegido",
     "includesPrevious": "Todo lo de {plan}, más:",
     "foundingPrice": "Socio Fundador: {price}{per}",
@@ -239,23 +239,15 @@
         "audience": "Gestione captación profesional sin un consultor de CRM.",
         "cta": "Reservar demo",
         "features": [
-          { "label": "Hasta 50000 contactos" },
-          { "label": "Usuarios ilimitados — sin coste por usuario" },
+          { "label": "Hasta 50.000 contactos" },
+          { "label": "Usuarios ilimitados" },
           { "label": "Gestión de donaciones" },
-          { "label": "Hasta 10 campañas por año (postal + digital)" },
-          { "label": "Envíos atribuidos por QR + conciliación de recibo QR suizo" },
-          { "label": "Páginas de donación en línea (Stripe y Mollie)" },
-          { "label": "Gestión de contactos + línea de tiempo completa" },
-          { "label": "Informes y paneles de control" },
-          { "label": "Suite RGPD — consentimiento, pista de auditoría, exportación SAR" },
-          { "label": "Importación CSV / Excel" },
-          { "label": "Copiloto IA — modo Asistido" },
-          { "label": "Soporte de comunidad" }
-        ],
-        "limitsTitle": "Límites",
-        "limits": [
-          "Campos personalizados: 10 por registro",
-          "Módulos de subvenciones, voluntariado e informes de impacto no incluidos"
+          { "label": "Hasta 10 campañas por año" },
+          { "label": "Envíos atribuidos por QR" },
+          { "label": "Páginas de donación en línea" },
+          { "label": "Paneles de control" },
+          { "label": "Suite RGPD" },
+          { "label": "Importación CSV / Excel" }
         ]
       },
       {
@@ -265,34 +257,26 @@
         "audience": "El plan en el que vivirá la mayoría de organizaciones.",
         "cta": "Reservar demo",
         "features": [
-          { "label": "Hasta 250000 contactos" },
-          { "label": "Campañas ilimitadas (postal + digital)" },
-          { "label": "Campos personalizados: 50 por registro" },
-          { "label": "Traspaso contable — exportación GL, saldos de fondos" },
-          { "label": "Acceso API (lectura + escritura) + webhooks" },
+          { "label": "Hasta 250.000 contactos" },
+          { "label": "Campañas ilimitadas" },
           { "label": "Copiloto IA — Asistido + Piloto automático" },
           { "label": "Incorporación dedicada + soporte prioritario" },
           { "label": "Módulo de subvenciones — solicitudes, plazos, fondos restringidos", "soon": true },
           { "label": "Módulo de voluntariado — turnos, horas, reconocimiento", "soon": true },
-          { "label": "Informes de impacto — resultados vinculados a la captación", "soon": true },
-          { "label": "Herramienta de migración desde Salesforce NPSP", "soon": true }
+          { "label": "Informes de impacto — resultados vinculados a la captación", "soon": true }
         ]
       },
       {
         "id": "scale",
         "name": "Scale",
         "tagline": "Para grandes organizaciones y federaciones.",
-        "audience": "Requisitos complejos, múltiples entidades o más de 250000 contactos.",
+        "audience": "Requisitos complejos, múltiples entidades o más de 250.000 contactos.",
         "cta": "Contáctenos",
         "features": [
           { "label": "Contactos ilimitados" },
           { "label": "SSO — SAML / OIDC con su proveedor de identidad" },
-          { "label": "Integraciones personalizadas + endpoints de API dedicados" },
-          { "label": "Responsable de éxito dedicado" },
-          { "label": "Opción de alojamiento propio — elija su región en la UE" },
-          { "label": "Gestión multientidad (modelo de federación)", "soon": true },
-          { "label": "Automatizaciones personalizadas — generador de flujos de trabajo", "soon": true },
-          { "label": "Segmentación y puntuación de donantes con IA", "soon": true }
+          { "label": "Integraciones personalizadas" },
+          { "label": "Responsable de éxito dedicado" }
         ]
       }
     ],
@@ -300,10 +284,10 @@
       "title": "Qué incluye cada plan",
       "body": "Todos los planes incluyen el núcleo RGPD nativo. Los planes superiores añaden capacidad, automatización y soporte.",
       "featureColumn": "Funcionalidad",
-      "comingLabel": "Disponible en 2026",
-      "soonNote": "Los elementos marcados como «2026» están en la hoja de ruta pública y aún no están disponibles de forma general.",
+      "comingLabel": "Disponible a finales de 2026",
+      "soonNote": "Los elementos marcados como «2026» están en la hoja de ruta pública, previstos para finales de 2026, y aún no están disponibles de forma general.",
       "rows": [
-        { "label": "Contactos", "starter": "50000", "organization": "250000", "scale": "Ilimitados" },
+        { "label": "Contactos", "starter": "50.000", "organization": "250.000", "scale": "Ilimitados" },
         { "label": "Usuarios", "starter": "Ilimitados", "organization": "Ilimitados", "scale": "Ilimitados" },
         { "label": "Campañas / año", "starter": "10", "organization": "Ilimitadas", "scale": "Ilimitadas" },
         { "label": "Campos personalizados / registro", "starter": "10", "organization": "50", "scale": "Ilimitados" },

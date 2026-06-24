@@ -226,7 +226,7 @@
     "billedMonthly": "billed monthly",
     "fromLabel": "from",
     "customPrice": "Custom",
-    "soonBadge": "On the 2026 roadmap",
+    "soonBadge": "Planned for late 2026",
     "mostChosen": "Most chosen",
     "includesPrevious": "Everything in {plan}, plus:",
     "foundingPrice": "Founding Partner: {price}{per}",
@@ -240,22 +240,14 @@
         "cta": "Book a demo",
         "features": [
           { "label": "Up to 50,000 constituents" },
-          { "label": "Unlimited users — no per-seat charge" },
+          { "label": "Unlimited users" },
           { "label": "Donation management" },
-          { "label": "Up to 10 campaigns per year (postal + digital)" },
-          { "label": "QR-attributed mailings + Swiss QR-bill matching" },
-          { "label": "Online giving pages (Stripe & Mollie)" },
-          { "label": "Constituent management + full timeline" },
-          { "label": "Reporting + dashboards" },
-          { "label": "GDPR suite — consent, audit trail, SAR export" },
-          { "label": "CSV / Excel import" },
-          { "label": "AI Copilot — Assisted mode" },
-          { "label": "Community support" }
-        ],
-        "limitsTitle": "Limits",
-        "limits": [
-          "Custom fields: 10 per record",
-          "Grants, volunteers & impact reporting not included"
+          { "label": "Up to 10 campaigns per year" },
+          { "label": "QR-attributed mailings" },
+          { "label": "Online giving pages" },
+          { "label": "Dashboards" },
+          { "label": "GDPR suite" },
+          { "label": "CSV / Excel import" }
         ]
       },
       {
@@ -266,16 +258,12 @@
         "cta": "Book a demo",
         "features": [
           { "label": "Up to 250,000 constituents" },
-          { "label": "Unlimited campaigns (postal + digital)" },
-          { "label": "Custom fields: 50 per record" },
-          { "label": "Finance handoff — GL export, fund balances" },
-          { "label": "API access (read + write) + webhooks" },
+          { "label": "Unlimited campaigns" },
           { "label": "AI Copilot — Assisted + Autopilot" },
           { "label": "Dedicated onboarding + priority support" },
           { "label": "Grants module — applications, deadlines, restricted funds", "soon": true },
           { "label": "Volunteer module — shifts, hours, recognition", "soon": true },
-          { "label": "Impact reporting — outcomes linked to fundraising", "soon": true },
-          { "label": "Salesforce NPSP migration tool", "soon": true }
+          { "label": "Impact reporting — outcomes linked to fundraising", "soon": true }
         ]
       },
       {
@@ -287,12 +275,8 @@
         "features": [
           { "label": "Unlimited constituents" },
           { "label": "SSO — SAML / OIDC with your identity provider" },
-          { "label": "Custom integrations + dedicated API endpoints" },
-          { "label": "Dedicated success manager" },
-          { "label": "Self-hosting option — choose your EU region" },
-          { "label": "Multi-entity management (federation model)", "soon": true },
-          { "label": "Custom automations — workflow builder", "soon": true },
-          { "label": "AI-powered segmentation & donor scoring", "soon": true }
+          { "label": "Custom integrations" },
+          { "label": "Dedicated success manager" }
         ]
       }
     ],
@@ -300,8 +284,8 @@
       "title": "What's included where",
       "body": "Every plan ships with the GDPR-native core. Higher plans add capacity, automation and support.",
       "featureColumn": "Feature",
-      "comingLabel": "Coming in 2026",
-      "soonNote": "Items marked ‘2026’ are on the public roadmap and not yet generally available.",
+      "comingLabel": "Coming late 2026",
+      "soonNote": "Items marked ‘2026’ are on the public roadmap, planned for late 2026, and not yet generally available.",
       "rows": [
         { "label": "Constituents", "starter": "50,000", "organization": "250,000", "scale": "Unlimited" },
         { "label": "Users", "starter": "Unlimited", "organization": "Unlimited", "scale": "Unlimited" },

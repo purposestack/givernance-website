@@ -226,7 +226,7 @@
     "billedMonthly": "monatliche Abrechnung",
     "fromLabel": "ab",
     "customPrice": "Individuell",
-    "soonBadge": "Auf der Roadmap 2026",
+    "soonBadge": "Geplant für Ende 2026",
     "mostChosen": "Am häufigsten gewählt",
     "includesPrevious": "Alles aus {plan}, plus:",
     "foundingPrice": "Gründungspartner: {price}{per}",
@@ -240,22 +240,14 @@
         "cta": "Demo buchen",
         "features": [
           { "label": "Bis zu 50.000 Kontakte" },
-          { "label": "Unbegrenzte Nutzer — kein Aufschlag pro Nutzer" },
+          { "label": "Unbegrenzte Nutzer" },
           { "label": "Spendenverwaltung" },
-          { "label": "Bis zu 10 Kampagnen pro Jahr (postal + digital)" },
-          { "label": "QR-attributierte Sendungen + Schweizer QR-Rechnung" },
-          { "label": "Online-Spendenformulare (Stripe & Mollie)" },
-          { "label": "Kontaktverwaltung + vollständige Zeitachse" },
-          { "label": "Berichte + Dashboards" },
-          { "label": "DSGVO-Suite — Einwilligung, Prüfprotokoll, SAR-Export" },
-          { "label": "CSV / Excel-Import" },
-          { "label": "KI-Copilot — Assistierter Modus" },
-          { "label": "Community-Support" }
-        ],
-        "limitsTitle": "Grenzen",
-        "limits": [
-          "Benutzerdefinierte Felder: 10 pro Datensatz",
-          "Fördermittel, Ehrenamtliche & Wirkungsberichterstattung nicht enthalten"
+          { "label": "Bis zu 10 Kampagnen pro Jahr" },
+          { "label": "QR-attributierte Sendungen" },
+          { "label": "Online-Spendenformulare" },
+          { "label": "Dashboards" },
+          { "label": "DSGVO-Suite" },
+          { "label": "CSV / Excel-Import" }
         ]
       },
       {
@@ -266,16 +258,12 @@
         "cta": "Demo buchen",
         "features": [
           { "label": "Bis zu 250.000 Kontakte" },
-          { "label": "Unbegrenzte Kampagnen (postal + digital)" },
-          { "label": "Benutzerdefinierte Felder: 50 pro Datensatz" },
-          { "label": "Buchungsübergabe — GL-Export, Fondsguthaben" },
-          { "label": "API-Zugang (Lesen + Schreiben) + Webhooks" },
+          { "label": "Unbegrenzte Kampagnen" },
           { "label": "KI-Copilot — Assistiert + Autopilot" },
           { "label": "Dediziertes Onboarding + priorisierter Support" },
           { "label": "Fördermittelmodul — Anträge, Fristen, zweckgebundene Fonds", "soon": true },
           { "label": "Ehrenamtigenmodul — Schichten, Stunden, Anerkennung", "soon": true },
-          { "label": "Wirkungsberichterstattung — Ergebnisse verknüpft mit Fundraising", "soon": true },
-          { "label": "Salesforce NPSP-Migrationswerkzeug", "soon": true }
+          { "label": "Wirkungsberichterstattung — Ergebnisse verknüpft mit Fundraising", "soon": true }
         ]
       },
       {
@@ -287,12 +275,8 @@
         "features": [
           { "label": "Unbegrenzte Kontakte" },
           { "label": "SSO — SAML / OIDC mit Ihrem Identitätsanbieter" },
-          { "label": "Individuelle Integrationen + dedizierte API-Endpunkte" },
-          { "label": "Dedizierter Kundenbetreuer" },
-          { "label": "Self-Hosting-Option — wählen Sie Ihre EU-Region" },
-          { "label": "Mehrere-Entitäten-Verwaltung (Verbandsmodell)", "soon": true },
-          { "label": "Individuelle Automatisierungen — Workflow-Builder", "soon": true },
-          { "label": "KI-gestützte Segmentierung & Spender-Scoring", "soon": true }
+          { "label": "Individuelle Integrationen" },
+          { "label": "Dedizierter Kundenbetreuer" }
         ]
       }
     ],
@@ -300,8 +284,8 @@
       "title": "Was ist wo enthalten",
       "body": "Jeder Tarif enthält den DSGVO-nativen Kern. Höhere Tarife bieten mehr Kapazität, Automatisierung und Support.",
       "featureColumn": "Funktion",
-      "comingLabel": "Verfügbar 2026",
-      "soonNote": "Mit „2026“ markierte Punkte stehen auf der öffentlichen Roadmap und sind noch nicht allgemein verfügbar.",
+      "comingLabel": "Verfügbar Ende 2026",
+      "soonNote": "Mit „2026“ markierte Punkte stehen auf der öffentlichen Roadmap, geplant für Ende 2026, und sind noch nicht allgemein verfügbar.",
       "rows": [
         { "label": "Kontakte", "starter": "50.000", "organization": "250.000", "scale": "Unbegrenzt" },
         { "label": "Nutzer", "starter": "Unbegrenzt", "organization": "Unbegrenzt", "scale": "Unbegrenzt" },
