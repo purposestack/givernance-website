@@ -17,11 +17,12 @@ export function Navigation() {
 
   const homePrefix = isHome ? "" : "/";
 
-  const navLinks = [
+  const navLinks: { label: string; href: string; route?: boolean }[] = [
     { label: t("infrastructure"), href: `${homePrefix}#infrastructure` },
     { label: t("product"), href: `${homePrefix}#product` },
     { label: t("governance"), href: `${homePrefix}#governance` },
     { label: t("pilots"), href: `${homePrefix}#pilots` },
+    { label: t("pricing"), href: "/pricing", route: true },
   ];
 
   const close = useCallback(() => {
@@ -81,15 +82,25 @@ export function Navigation() {
           </Link>
 
           <div className="hidden lg:flex items-center gap-9">
-            {navLinks.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="text-sm text-ink/70 hover:text-deep transition-colors"
-              >
-                {item.label}
-              </a>
-            ))}
+            {navLinks.map((item) =>
+              item.route ? (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="text-sm text-ink/70 hover:text-deep transition-colors"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="text-sm text-ink/70 hover:text-deep transition-colors"
+                >
+                  {item.label}
+                </a>
+              ),
+            )}
           </div>
 
           <div className="flex items-center gap-3">
@@ -151,16 +162,27 @@ export function Navigation() {
               className="flex flex-col gap-1 px-4 py-6"
               aria-label={t("mobileNavLabel")}
             >
-              {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  onClick={close}
-                  className="px-4 py-3 text-base text-ink hover:text-deep transition-colors rounded-lg hover:bg-sage-light/40 min-h-[44px] flex items-center"
-                >
-                  {link.label}
-                </a>
-              ))}
+              {navLinks.map((link) =>
+                link.route ? (
+                  <Link
+                    key={link.label}
+                    href={link.href}
+                    onClick={close}
+                    className="px-4 py-3 text-base text-ink hover:text-deep transition-colors rounded-lg hover:bg-sage-light/40 min-h-[44px] flex items-center"
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    onClick={close}
+                    className="px-4 py-3 text-base text-ink hover:text-deep transition-colors rounded-lg hover:bg-sage-light/40 min-h-[44px] flex items-center"
+                  >
+                    {link.label}
+                  </a>
+                ),
+              )}
               <Link
                 href="/demo"
                 onClick={close}

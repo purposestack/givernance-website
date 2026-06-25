@@ -3,7 +3,11 @@
     "title": "Givernance — Infrastruktur für europäische gemeinnützige Organisationen",
     "description": "Die operative Infrastruktur, mit der europäische Non-Profits Fundraising, Spenderpflege, Fördermittel und Berichtswesen steuern — DSGVO-nativ, ohne Abhängigkeit.",
     "ogTitle": "Givernance — Infrastruktur für europäische gemeinnützige Organisationen",
-    "ogDescription": "Eine Plattform für Fundraising, Spenderpflege, Fördermittel, Ehrenamtliche und Berichtswesen. Gemeinsam mit Schweizer und französischen Non-Profits entwickelt."
+    "ogDescription": "Eine Plattform für Fundraising, Spenderpflege, Fördermittel, Ehrenamtliche und Berichtswesen. Gemeinsam mit Schweizer und französischen Non-Profits entwickelt.",
+    "pricingTitle": "Preise — Givernance",
+    "pricingDescription": "Transparente Preise pro Organisation für europäische Non-Profits. Kein Aufschlag pro Nutzer, KI inklusive, DSGVO-nativ. Starter, Organization und Scale — monatlich oder jährlich.",
+    "pricingOgTitle": "Givernance Preise — gebaut für Non-Profit-Budgets",
+    "pricingOgDescription": "Preise pro Organisation mit unbegrenzten Nutzern, inkludierter KI und ohne Beraterhonorare. Sichern Sie sich den Einführungspreis als Gründungspartner."
   },
   "nav": {
     "home": "Givernance Startseite",
@@ -12,6 +16,7 @@
     "product": "Produkt",
     "governance": "Governance",
     "pilots": "Piloten",
+    "pricing": "Preise",
     "bookDemo": "Demo buchen",
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen",
@@ -70,7 +75,7 @@
       "Planbare Preise, die auf Non-Profit-Budgets ausgelegt sind",
       "DSGVO im Kern des Produkts, mit vollständigem Prüfprotokoll",
       "Self-Service-Abläufe, die Ihr Team von Anfang bis Ende selbst verantwortet",
-      "Europäisches Modell: Postal, SEPA, Steuerrecht, Mehrsprachigkeit"
+      "Europäisches Modell: Postal, Banken, Steuerrecht, Mehrsprachigkeit"
     ]
   },
   "product": {
@@ -107,6 +112,7 @@
     "titleLead": "Mit Non-Profits entwickelt.",
     "titleAccent": "Für die Dauer gebaut.",
     "body": "Givernance entsteht gemeinsam mit einer Gruppe von Pilotorganisationen in der Schweiz und Frankreich. Die Preisgestaltung wird transparent, planbar und auf Non-Profit-Budgets ausgelegt sein — ohne Überraschungen, ohne Nutzer-Fallen.",
+    "seePricing": "Transparente Preise ansehen",
     "hosted": "Hosting",
     "hostedValue": "Europa",
     "compliance": "Compliance",
@@ -131,6 +137,7 @@
     "product": "Produkt",
     "aiGovernance": "KI-Governance",
     "earlyAccess": "Frühzugang",
+    "pricing": "Preise",
     "footprint": "Präsenz",
     "hostedInEurope": "Gehostet in Europa",
     "copyright": "Gebaut für den europäischen Non-Profit-Sektor",
@@ -203,6 +210,158 @@
     "successTitle": "Vielen Dank — wir melden uns innerhalb eines Werktags.",
     "successDescription": "Ihre Anfrage ist eingegangen. Wir werden uns melden, um Ihre Demo zu planen.",
     "errorFallback": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "pricing": {
+    "kicker": "§ VI — Preise",
+    "title": "Preise, die für Non-Profit-Budgets gemacht sind — nicht für Nutzerzahlen.",
+    "body": "Ein Preis pro Organisation — Ehrenamtliche, Praktikanten und Vorstandsmitglieder inbegriffen. KI, DSGVO-Konformität und Onboarding sind enthalten. Kein Aufschlag pro Nutzer, keine Beraterhonorare, keine Überraschungen.",
+    "launchNote": "Einführungspreis — sichern Sie ihn sich 24 Monate als Gründungspartner.",
+    "currencyLabel": "Währung",
+    "billingLabel": "Abrechnung",
+    "monthly": "Monatlich",
+    "annual": "Jährlich",
+    "annualSave": "Ca. 20 % sparen",
+    "perMonth": "/Mo.",
+    "billedAnnually": "jährliche Abrechnung",
+    "billedMonthly": "monatliche Abrechnung",
+    "fromLabel": "ab",
+    "customPrice": "Individuell",
+    "soonBadge": "Geplant für Ende 2026",
+    "mostChosen": "Am häufigsten gewählt",
+    "includesPrevious": "Alles aus {plan}, plus:",
+    "foundingPrice": "Gründungspartner: {price}{per}",
+    "tiersHeading": "Drei Tarife, ein Produkt",
+    "tiers": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "tagline": "Für kleine Non-Profits, die ihren Rhythmus finden.",
+        "audience": "Professionelles Fundraising — ganz ohne CRM-Berater.",
+        "cta": "Demo buchen",
+        "features": [
+          { "label": "Bis zu 5.000 Kontakte" },
+          { "label": "Unbegrenzte Nutzer" },
+          { "label": "Spendenverwaltung" },
+          { "label": "Bis zu 10 Kampagnen pro Jahr" },
+          { "label": "Getrackte Sendungen" },
+          { "label": "Online-Spendenformulare" },
+          { "label": "Dashboards" },
+          { "label": "DSGVO-Suite" },
+          { "label": "CSV / Excel-Import" }
+        ]
+      },
+      {
+        "id": "organization",
+        "name": "Organization",
+        "tagline": "Für etablierte Non-Profits, die mehrere Kampagnen betreiben.",
+        "audience": "Der Tarif, in dem die meisten Organisationen dauerhaft arbeiten.",
+        "cta": "Demo buchen",
+        "features": [
+          { "label": "Bis zu 50.000 Kontakte" },
+          { "label": "Unbegrenzte Kampagnen" },
+          { "label": "Dediziertes Onboarding + priorisierter Support" },
+          { "label": "Fördermittelmodul — Anträge, Fristen, zweckgebundene Fonds", "soon": true },
+          { "label": "Ehrenamtigenmodul — Schichten, Stunden, Anerkennung", "soon": true },
+          { "label": "Wirkungsberichterstattung — Ergebnisse verknüpft mit Fundraising", "soon": true }
+        ]
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "tagline": "Für große Organisationen und Dachverbände.",
+        "audience": "Komplexe Anforderungen, mehrere Einheiten oder 50.000+ Kontakte.",
+        "cta": "Kontakt aufnehmen",
+        "features": [
+          { "label": "Unbegrenzte Kontakte" },
+          { "label": "SSO — SAML / OIDC mit Ihrem Identitätsanbieter" },
+          { "label": "Individuelle Integrationen" },
+          { "label": "Dedizierter Kundenbetreuer" }
+        ]
+      }
+    ],
+    "matrix": {
+      "title": "Was ist wo enthalten",
+      "body": "Jeder Tarif enthält den DSGVO-nativen Kern. Höhere Tarife bieten mehr Kapazität, Automatisierung und Support.",
+      "featureColumn": "Funktion",
+      "comingLabel": "Verfügbar Ende 2026",
+      "soonNote": "Mit „2026“ markierte Punkte stehen auf der öffentlichen Roadmap, geplant für Ende 2026, und sind noch nicht allgemein verfügbar.",
+      "rows": [
+        { "label": "Kontakte", "starter": "5.000", "organization": "50.000", "scale": "Unbegrenzt" },
+        { "label": "Nutzer", "starter": "Unbegrenzt", "organization": "Unbegrenzt", "scale": "Unbegrenzt" },
+        { "label": "Kampagnen / Jahr", "starter": "10", "organization": "Unbegrenzt", "scale": "Unbegrenzt" },
+        { "label": "Spendenverwaltung", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Postal- + Digitalkampagnen", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "QR & Schweizer QR-Rechnung", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Online-Spenden (Stripe & Mollie)", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "DSGVO-Compliance-Suite", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "KI-Copilot", "starter": "Assistiert", "organization": "Assistiert + Autopilot", "scale": "Assistiert + Autopilot" },
+        { "label": "Fördermittelmodul", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Freiwilligenmodul", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Wirkungsberichterstattung", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "SSO (SAML / OIDC)", "starter": "no", "organization": "no", "scale": "yes" },
+        { "label": "Support", "starter": "Community", "organization": "Priorität", "scale": "Dedizierter Betreuer" }
+      ]
+    },
+    "founding": {
+      "kicker": "Gründungspartner",
+      "title": "Gestalten Sie die Plattform. Sichern Sie sich den halben Preis.",
+      "body": "Statt eines flüchtigen Rabatts laden wir die ersten 50 Organisationen in eine echte Partnerschaft ein. Gründungspartner erhalten zwei Jahre lang den halben Preis — und einen direkten Draht zu den Menschen, die Givernance bauen.",
+      "discountLabel": "50 % Rabatt für 24 Monate",
+      "spotsLabel": "Begrenzt auf die ersten 50 Organisationen mit Jahresplan",
+      "commitTitle": "Was Gründungspartner zusagen",
+      "commit": [
+        "Jährliche Abrechnung",
+        "Ein 30-minütiger Feedback-Anruf pro Quartal",
+        "Erlaubnis, Sie als Fallstudie zu nennen (auf Wunsch anonymisiert)",
+        "Beta-Zugang zu neuen Funktionen"
+      ],
+      "perksTitle": "Was Gründungspartner erhalten",
+      "perks": [
+        "50 % Rabatt für 24 Monate — fest, kein abnehmender Rabatt",
+        "„Gründungspartner“-Badge in der App",
+        "Direkter Kanal zum Produktteam",
+        "Vorrang bei Feature-Anfragen",
+        "Preisgarantie — Ihr Tarif erhöht sich nie überraschend"
+      ]
+    },
+    "comparison": {
+      "kicker": "So schneiden wir ab",
+      "title": "Eine Plattform, die einen ganzen Tool-Stack ersetzt.",
+      "body": "Wettbewerber berechnen Kosten pro Nutzer, sperren KI hinter Zusatzmodulen und stellen Migration als Beratungsleistung in Rechnung. Givernance bündelt den operativen Workflow und berechnet ihn pro Organisation.",
+      "featureColumn": "Funktion",
+      "us": "Givernance",
+      "competitorA": "Salesforce NPSP",
+      "competitorB": "Bloomerang",
+      "legendIncluded": "Enthalten",
+      "legendNot": "Nicht enthalten",
+      "rows": [
+        { "label": "Preis pro Organisation (kein Aufschlag pro Nutzer)", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "Unbegrenzte Nutzer enthalten", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "DSGVO-nativ, gehostet in Europa", "sf": "Teilweise", "bl": "US-gehostet", "gv": "yes" },
+        { "label": "KI-Assistent enthalten", "sf": "Zusatzmodul", "bl": "Eingeschränkt", "gv": "yes" },
+        { "label": "Postal- + QR-Kampagnen", "sf": "Zusatzmodul", "bl": "Eingeschränkt", "gv": "yes" },
+        { "label": "Onboarding enthalten (keine Implementierungsgebühr)", "sf": "Kostenpflichtige Beratung", "bl": "Oft kostenpflichtig", "gv": "yes" },
+        { "label": "Fördermittel & Ehrenamtliche in einer Plattform", "sf": "Zusatzmodul", "bl": "Eingeschränkt", "gv": "2026" },
+        { "label": "Transparente öffentliche Preise", "sf": "no", "bl": "Teilweise", "gv": "yes" }
+      ]
+    },
+    "faq": {
+      "title": "Fragen zu den Preisen",
+      "items": [
+        { "q": "Berechnen Sie Kosten pro Nutzer?", "a": "Niemals. Givernance wird pro Organisation berechnet. Mitarbeitende, Ehrenamtliche, Praktikanten und Vorstandsmitglieder erhalten kostenlos Zugang — das beseitigt den häufigsten Grund, warum CRM-Rechnungen explodieren." },
+        { "q": "Was passiert, wenn wir einen Tarif überschreiten?", "a": "Nichts bricht zusammen. Sie erhalten einen freundlichen Hinweis, wenn Sie sich einem Limit nähern, und Importe pausieren erst bei 105 % — der Lesezugang zu Ihren Daten bleibt jederzeit erhalten. Wir löschen keine Daten und berechnen nie unangekündigte Zusatzkosten." },
+        { "q": "Sind Onboarding und Migration enthalten?", "a": "Onboarding ist enthalten, und CSV/Excel-Import ist in jedem Tarif verfügbar. Ein dediziertes Salesforce NPSP-Migrationswerkzeug steht auf der Roadmap 2026 für Organization und Scale." },
+        { "q": "Sind unsere Daten DSGVO-konform und in Europa gehostet?", "a": "Ja. Einwilligung, Prüfprotokoll und Betroffenenauskunft-Exporte sind im Datenmodell verankert, und das gesamte Hosting erfolgt in der EU. Scale-Kunden können auch selbst hosten — in der Region ihrer Wahl." },
+        { "q": "Monatlich oder jährlich?", "a": "Beides. Monatlich bietet Flexibilität; jährlich spart rund 20 %. Es gibt keine Strafe für monatliche Abrechnung — der Jahrespreis belohnt einfach die Verbindlichkeit." },
+        { "q": "Wann können wir starten?", "a": "Givernance befindet sich im Frühzugang mit Pilotorganisationen in der Schweiz und Frankreich. Buchen Sie eine Demo, um das Produkt kennenzulernen — und wenn es passt, sichern Sie sich einen der 50 Gründungspartner-Plätze." }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, Ihrer Mission einen konkreten Wert zu geben?",
+      "body": "Buchen Sie eine 30-minütige Demo. Wir führen Sie durch den Tarif, der zu Ihrer Organisation passt — und wenn Sie zu den ersten 50 gehören, sichern Sie sich den Gründungspartner-Preis.",
+      "button": "Demo buchen",
+      "replyNote": "Antwort innerhalb 1 Werktag · Unverbindlich"
+    }
   },
   "common": {
     "skipToContent": "Zum Inhalt springen"

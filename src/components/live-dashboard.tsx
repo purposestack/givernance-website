@@ -79,9 +79,10 @@ export function LiveDashboard() {
       aria-label={t("ariaLabel")}
     >
       <div className="flex items-center justify-between gap-4 mb-8 lg:mb-10">
-        <h3 className="font-sans font-medium text-lg lg:text-2xl text-ink tracking-tight">
+        {/* Non-heading element: this dashboard sits inside the Hero h1 context, so no heading tag here */}
+        <p className="font-sans font-medium text-lg lg:text-2xl text-ink tracking-tight">
           {t("overview")} <span className="text-ink/65">{t("dashboardLabel")}</span>
-        </h3>
+        </p>
         <span className="inline-flex items-center gap-1.5 rounded-full bg-ember/15 px-3 py-1.5 text-xs font-medium text-ember-text">
           <Sparkles className="size-3" strokeWidth={2} aria-hidden="true" />
           {t("assistedMode")}
@@ -92,9 +93,9 @@ export function LiveDashboard() {
         <div className="lg:col-span-3 border border-border rounded-xl p-5 lg:p-6 bg-background/40">
           <div className="flex items-start justify-between gap-3 mb-6">
             <div>
-              <h4 className="font-sans font-semibold text-base lg:text-lg text-ink">
+              <p className="font-sans font-semibold text-base lg:text-lg text-ink">
                 {t("campaign")}
-              </h4>
+              </p>
               <p className="text-xs lg:text-sm text-ink/65 mt-1">{t("campaignMeta")}</p>
             </div>
             <span className="inline-flex items-center gap-1.5 rounded-full bg-ember/15 px-2.5 py-1 text-[11px] font-medium text-ember-text shrink-0">
@@ -154,9 +155,9 @@ export function LiveDashboard() {
 
         <div className="lg:col-span-2 flex flex-col gap-5">
           <div className="border border-border rounded-xl p-5 lg:p-6 bg-background/40">
-            <h4 className="font-sans font-semibold text-base text-ink mb-4">
+            <p className="font-sans font-semibold text-base text-ink mb-4">
               {t("nextActions")}
-            </h4>
+            </p>
             <ul className="space-y-3">
               {actions.map((action, i) => (
                 <li

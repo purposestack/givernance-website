@@ -40,6 +40,11 @@ export async function Footer() {
                   {t("earlyAccess")}
                 </a>
               </li>
+              <li>
+                <Link href="/pricing" className="text-ink/75 hover:text-deep transition-colors">
+                  {t("pricing")}
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="md:col-span-3">

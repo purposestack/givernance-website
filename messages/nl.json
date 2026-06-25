@@ -3,7 +3,11 @@
     "title": "Givernance — Infrastructuur voor Europese non-profits",
     "description": "De operationele infrastructuur die Europese non-profits gebruiken voor fondsenwerving, donateurrelaties, subsidies en rapportage — AVG-native, zonder afhankelijkheid.",
     "ogTitle": "Givernance — Infrastructuur voor Europese non-profits",
-    "ogDescription": "Eén platform voor fondsenwerving, donateurrelaties, subsidies, vrijwilligers en rapportage. Gebouwd samen met Zwitserse en Franse non-profits."
+    "ogDescription": "Eén platform voor fondsenwerving, donateurrelaties, subsidies, vrijwilligers en rapportage. Gebouwd samen met Zwitserse en Franse non-profits.",
+    "pricingTitle": "Prijzen — Givernance",
+    "pricingDescription": "Transparante prijzen per organisatie voor Europese non-profits. Geen toeslag per gebruiker, AI inbegrepen, AVG-native. Starter-, Organization- en Scale-abonnement — maandelijks of jaarlijks.",
+    "pricingOgTitle": "Givernance-prijzen — afgestemd op non-profitbudgetten",
+    "pricingOgDescription": "Prijzen per organisatie met onbeperkt gebruikers, AI inbegrepen en geen consultantkosten. Vergrendel de lanceringsprijs als Founding Partner."
   },
   "nav": {
     "home": "Givernance startpagina",
@@ -12,6 +16,7 @@
     "product": "Product",
     "governance": "Governance",
     "pilots": "Pilots",
+    "pricing": "Prijzen",
     "bookDemo": "Demo boeken",
     "openMenu": "Menu openen",
     "closeMenu": "Menu sluiten",
@@ -70,7 +75,7 @@
       "Voorspelbare prijzen, afgestemd op non-profitbudgetten",
       "AVG ingebakken in de kern, met volledige audittrail",
       "Selfservicewerkstromen die uw team van begin tot eind zelf beheert",
-      "Europees model: postaal, SEPA, belastingrecht, meertalig"
+      "Europees model: postaal, bankieren, belastingrecht, meertalig"
     ]
   },
   "product": {
@@ -107,6 +112,7 @@
     "titleLead": "Gebouwd met non-profits.",
     "titleAccent": "Ontworpen om te blijven.",
     "body": "Givernance wordt ontwikkeld samen met een groep pilootorganisaties in Zwitserland en Frankrijk. De prijsstelling wordt transparant, voorspelbaar en afgestemd op non-profitbudgetten — geen verrassingen, geen valkuilen per gebruiker.",
+    "seePricing": "Bekijk de transparante prijzen",
     "hosted": "Hosting",
     "hostedValue": "Europa",
     "compliance": "Naleving",
@@ -131,6 +137,7 @@
     "product": "Product",
     "aiGovernance": "AI-governance",
     "earlyAccess": "Vroege toegang",
+    "pricing": "Prijzen",
     "footprint": "Aanwezigheid",
     "hostedInEurope": "Gehost in Europa",
     "copyright": "Gebouwd voor de Europese non-profitsector",
@@ -203,6 +210,158 @@
     "successTitle": "Bedankt — we nemen binnen 1 werkdag contact op.",
     "successDescription": "Uw aanvraag is ontvangen. We nemen contact met u op om uw demo in te plannen.",
     "errorFallback": "Er ging iets mis. Probeer het opnieuw."
+  },
+  "pricing": {
+    "kicker": "§ VI — Prijzen",
+    "title": "Prijzen afgestemd op non-profitbudgetten, niet op gebruikersaantallen.",
+    "body": "Één prijs per organisatie — vrijwilligers, stagiairs en bestuursleden inbegrepen. AI, AVG-naleving en onboarding zijn standaard inbegrepen. Geen toeslag per gebruiker, geen consultantkosten, geen verrassingen.",
+    "launchNote": "Lanceringsprijs — vergrendel hem voor 24 maanden als Founding Partner.",
+    "currencyLabel": "Valuta",
+    "billingLabel": "Facturering",
+    "monthly": "Maandelijks",
+    "annual": "Jaarlijks",
+    "annualSave": "Bespaar ~20%",
+    "perMonth": "/mnd",
+    "billedAnnually": "jaarlijks gefactureerd",
+    "billedMonthly": "maandelijks gefactureerd",
+    "fromLabel": "vanaf",
+    "customPrice": "Op maat",
+    "soonBadge": "Gepland voor eind 2026",
+    "mostChosen": "Meest gekozen",
+    "includesPrevious": "Alles van {plan}, plus:",
+    "foundingPrice": "Founding Partner: {price}{per}",
+    "tiersHeading": "Drie abonnementen, één product",
+    "tiers": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "tagline": "Voor kleine non-profits die hun ritme vinden.",
+        "audience": "Professionele fondsenwerving zonder CRM-consultant.",
+        "cta": "Demo boeken",
+        "features": [
+          { "label": "Tot 5.000 contacten" },
+          { "label": "Onbeperkt gebruikers" },
+          { "label": "Donatiebeheer" },
+          { "label": "Tot 10 campagnes per jaar" },
+          { "label": "Getrackte mailings" },
+          { "label": "Online donatieformulieren" },
+          { "label": "Dashboards" },
+          { "label": "AVG-pakket" },
+          { "label": "CSV / Excel-import" }
+        ]
+      },
+      {
+        "id": "organization",
+        "name": "Organization",
+        "tagline": "Voor gevestigde non-profits met meerdere campagnes.",
+        "audience": "Het abonnement waar de meeste organisaties mee werken.",
+        "cta": "Demo boeken",
+        "features": [
+          { "label": "Tot 50.000 contacten" },
+          { "label": "Onbeperkt campagnes" },
+          { "label": "Toegewijde onboarding + prioriteitsondersteuning" },
+          { "label": "Subsidiemodule — aanvragen, deadlines, geoormerkte fondsen", "soon": true },
+          { "label": "Vrijwilligersmodule — diensten, uren, erkenning", "soon": true },
+          { "label": "Impactrapportage — resultaten gekoppeld aan fondsenwerving", "soon": true }
+        ]
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "tagline": "Voor grote organisaties en federaties.",
+        "audience": "Complexe vereisten, meerdere entiteiten of 50.000+ contacten.",
+        "cta": "Neem contact op",
+        "features": [
+          { "label": "Onbeperkt contacten" },
+          { "label": "SSO — SAML / OIDC met uw identiteitsprovider" },
+          { "label": "Aangepaste integraties" },
+          { "label": "Vaste accountmanager" }
+        ]
+      }
+    ],
+    "matrix": {
+      "title": "Wat is inbegrepen per abonnement",
+      "body": "Elk abonnement bevat de AVG-native kern. Hogere abonnementen voegen capaciteit, automatisering en ondersteuning toe.",
+      "featureColumn": "Functionaliteit",
+      "comingLabel": "Beschikbaar eind 2026",
+      "soonNote": "Items gemarkeerd met ‘2026’ staan op de publieke roadmap, gepland voor eind 2026, en zijn nog niet algemeen beschikbaar.",
+      "rows": [
+        { "label": "Contacten", "starter": "5.000", "organization": "50.000", "scale": "Onbeperkt" },
+        { "label": "Gebruikers", "starter": "Onbeperkt", "organization": "Onbeperkt", "scale": "Onbeperkt" },
+        { "label": "Campagnes / jaar", "starter": "10", "organization": "Onbeperkt", "scale": "Onbeperkt" },
+        { "label": "Donatiebeheer", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Postale + digitale campagnes", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "QR & Zwitserse QR-factuurkoppeling", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Online donaties (Stripe & Mollie)", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "AVG-nalevingspakket", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "AI Copilot", "starter": "Geassisteerd", "organization": "Geassisteerd + Autopilot", "scale": "Geassisteerd + Autopilot" },
+        { "label": "Subsidiemodule", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Vrijwilligersmodule", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Impactrapportage", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "SSO (SAML / OIDC)", "starter": "no", "organization": "no", "scale": "yes" },
+        { "label": "Ondersteuning", "starter": "Community", "organization": "Prioriteit", "scale": "Vaste accountmanager" }
+      ]
+    },
+    "founding": {
+      "kicker": "Founding Partners",
+      "title": "Vorm het platform. Vergrendel de halve prijs.",
+      "body": "In plaats van een vluchtige korting nodigen wij de eerste 50 organisaties uit voor een echte samenwerking. Founding Partners krijgen twee jaar lang de helft van de prijs — en een rechtstreekse lijn naar de mensen die Givernance bouwen.",
+      "discountLabel": "50% korting voor 24 maanden",
+      "spotsLabel": "Beperkt tot de eerste 50 organisaties met een jaarabonnement",
+      "commitTitle": "Wat Founding Partners toezeggen",
+      "commit": [
+        "Jaarlijkse facturering",
+        "Een feedbackgesprek van 30 minuten per kwartaal",
+        "Toestemming om u als casestudy te vermelden (anoniem indien gewenst)",
+        "Beta-toegang tot nieuwe functies"
+      ],
+      "perksTitle": "Wat Founding Partners ontvangen",
+      "perks": [
+        "50% korting voor 24 maanden — vast, niet aflopend",
+        "\"Founding Partner\"-badge in de app",
+        "Een directe lijn met het productteam",
+        "Prioriteit bij functieaanvragen",
+        "Prijsgarantie — uw tarief stijgt nooit onverwacht"
+      ]
+    },
+    "comparison": {
+      "kicker": "Hoe wij ons vergelijken",
+      "title": "Eén platform dat een hele reeks tools vervangt.",
+      "body": "Concurrenten rekenen per gebruiker, verstoppen AI achter betaalde add-ons en factureren migratie als consultancy. Givernance bundelt de operationele werkstroom en beprijst die per organisatie.",
+      "featureColumn": "Mogelijkheid",
+      "us": "Givernance",
+      "competitorA": "Salesforce NPSP",
+      "competitorB": "Bloomerang",
+      "legendIncluded": "Inbegrepen",
+      "legendNot": "Niet inbegrepen",
+      "rows": [
+        { "label": "Prijs per organisatie (geen toeslag per gebruiker)", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "Onbeperkt gebruikers inbegrepen", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "AVG-native, gehost in Europa", "sf": "Gedeeltelijk", "bl": "Gehost in de VS", "gv": "yes" },
+        { "label": "AI-assistent inbegrepen", "sf": "Add-on", "bl": "Beperkt", "gv": "yes" },
+        { "label": "Postale + QR-campagnes", "sf": "Add-on", "bl": "Beperkt", "gv": "yes" },
+        { "label": "Onboarding inbegrepen (geen implementatiekosten)", "sf": "Betaald advies", "bl": "Vaak betaald", "gv": "yes" },
+        { "label": "Subsidies en vrijwilligers op één platform", "sf": "Add-on", "bl": "Beperkt", "gv": "2026" },
+        { "label": "Transparante openbare prijzen", "sf": "no", "bl": "Gedeeltelijk", "gv": "yes" }
+      ]
+    },
+    "faq": {
+      "title": "Vragen over prijzen",
+      "items": [
+        { "q": "Rekent u per gebruiker?", "a": "Nooit. Givernance beprijst per organisatie. Medewerkers, vrijwilligers, stagiairs en bestuursleden krijgen allemaal toegang zonder extra kosten — zodat de #1-reden waarom CRM-rekeningen de pan uit rijzen wordt geëlimineerd." },
+        { "q": "Wat gebeurt er als wij een abonnement ontgroeien?", "a": "Er gaat niets stuk. U ziet een vriendelijke melding wanneer u een limiet nadert, en imports pauzeren pas op 105% — leestoegang tot uw gegevens blijft altijd gewaarborgd. Wij verwijderen nooit gegevens en verrassingskosten zijn uitgesloten." },
+        { "q": "Zijn onboarding en migratie inbegrepen?", "a": "Onboarding is inbegrepen en CSV/Excel-import zit op elk abonnement. Een toegewijde Salesforce NPSP-migratietool staat op de roadmap voor 2026 voor Organization en Scale." },
+        { "q": "Voldoen onze gegevens aan de AVG en worden ze in Europa gehost?", "a": "Ja. Toestemming, audittrail en exports voor inzageverzoeken zijn ingebakken in het datamodel, en alle hosting vindt plaats in de EU. Scale-klanten kunnen ook zelf hosten in de regio van hun keuze." },
+        { "q": "Maandelijks of jaarlijks?", "a": "Beide. Maandelijks geeft flexibiliteit; jaarlijks bespaart circa 20%. Er is geen boete voor maandelijkse facturering — de jaarprijs beloont simpelweg de toezegging." },
+        { "q": "Wanneer kunnen wij starten?", "a": "Givernance is in vroege toegang bij pilootorganisaties in Zwitserland en Frankrijk. Boek een demo om het product te zien en, als het past, één van de 50 Founding Partner-plekken te claimen." }
+      ]
+    },
+    "cta": {
+      "title": "Klaar om een getal aan uw missie te verbinden?",
+      "body": "Boek een demo van 30 minuten. Wij bespreken het abonnement dat past bij uw organisatie en, als u bij de eerste 50 hoort, vergrendelen wij de Founding Partner-prijs.",
+      "button": "Demo boeken",
+      "replyNote": "Antwoord binnen 1 werkdag · Vrijblijvend"
+    }
   },
   "common": {
     "skipToContent": "Ga naar inhoud"

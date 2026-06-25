@@ -3,7 +3,11 @@
     "title": "Givernance — Infraestructura para ONG europeas",
     "description": "La infraestructura operativa que usan las ONG europeas para gestionar la captación de fondos, la relación con donantes, las subvenciones y los informes — RGPD nativo, sin dependencias.",
     "ogTitle": "Givernance — Infraestructura para ONG europeas",
-    "ogDescription": "Una sola plataforma para captación de fondos, donantes, subvenciones, voluntariado e informes. Construida con ONG suizas y francesas."
+    "ogDescription": "Una sola plataforma para captación de fondos, donantes, subvenciones, voluntariado e informes. Construida con ONG suizas y francesas.",
+    "pricingTitle": "Precios — Givernance",
+    "pricingDescription": "Precios transparentes por organización para ONG europeas. Sin coste por usuario, IA incluida, RGPD nativo. Planes Starter, Organization y Scale — facturación mensual o anual.",
+    "pricingOgTitle": "Precios de Givernance — pensados para presupuestos de ONG",
+    "pricingOgDescription": "Precio por organización con usuarios ilimitados, IA incluida y sin honorarios de consultor. Bloquee el precio de lanzamiento como Socio Fundador."
   },
   "nav": {
     "home": "Inicio Givernance",
@@ -12,6 +16,7 @@
     "product": "Producto",
     "governance": "Gobernanza",
     "pilots": "Pilotos",
+    "pricing": "Precios",
     "bookDemo": "Reservar demo",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
@@ -107,6 +112,7 @@
     "titleLead": "Construido con ONG.",
     "titleAccent": "Diseñado para durar.",
     "body": "Givernance se está desarrollando con un grupo de organizaciones piloto en Suiza y Francia. Los precios serán transparentes, predecibles y adecuados para presupuestos de ONG — sin sorpresas, sin trampas por usuario.",
+    "seePricing": "Ver precios transparentes",
     "hosted": "Alojamiento",
     "hostedValue": "Europa",
     "compliance": "Cumplimiento",
@@ -131,6 +137,7 @@
     "product": "Producto",
     "aiGovernance": "Gobernanza de la IA",
     "earlyAccess": "Acceso anticipado",
+    "pricing": "Precios",
     "footprint": "Presencia",
     "hostedInEurope": "Alojado en Europa",
     "copyright": "Construido para el sector no lucrativo europeo",
@@ -203,6 +210,158 @@
     "successTitle": "Gracias — le contactaremos en 1 día laborable.",
     "successDescription": "Hemos recibido su solicitud. Nos pondremos en contacto para programar su demostración.",
     "errorFallback": "Algo salió mal. Inténtelo de nuevo."
+  },
+  "pricing": {
+    "kicker": "§ VI — Precios",
+    "title": "Precios pensados para presupuestos de ONG, no para conteos de usuarios.",
+    "body": "Un precio por organización — voluntarios, becarios y miembros del patronato incluidos. IA, cumplimiento del RGPD e incorporación incluidos de serie. Sin coste por usuario, sin honorarios de consultor, sin sorpresas.",
+    "launchNote": "Precio de lanzamiento — bloquéelo durante 24 meses como Socio Fundador.",
+    "currencyLabel": "Divisa",
+    "billingLabel": "Facturación",
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "annualSave": "Ahorre ~20%",
+    "perMonth": "/mes",
+    "billedAnnually": "facturado anualmente",
+    "billedMonthly": "facturado mensualmente",
+    "fromLabel": "desde",
+    "customPrice": "A medida",
+    "soonBadge": "Previsto para finales de 2026",
+    "mostChosen": "El más elegido",
+    "includesPrevious": "Todo lo de {plan}, más:",
+    "foundingPrice": "Socio Fundador: {price}{per}",
+    "tiersHeading": "Tres planes, un solo producto",
+    "tiers": [
+      {
+        "id": "starter",
+        "name": "Starter",
+        "tagline": "Para ONG pequeñas que están encontrando su ritmo.",
+        "audience": "Gestione captación profesional sin un consultor de CRM.",
+        "cta": "Reservar demo",
+        "features": [
+          { "label": "Hasta 5.000 contactos" },
+          { "label": "Usuarios ilimitados" },
+          { "label": "Gestión de donaciones" },
+          { "label": "Hasta 10 campañas por año" },
+          { "label": "Envíos con seguimiento" },
+          { "label": "Páginas de donación en línea" },
+          { "label": "Paneles de control" },
+          { "label": "Suite RGPD" },
+          { "label": "Importación CSV / Excel" }
+        ]
+      },
+      {
+        "id": "organization",
+        "name": "Organization",
+        "tagline": "Para ONG consolidadas que gestionan múltiples campañas.",
+        "audience": "El plan en el que vivirá la mayoría de organizaciones.",
+        "cta": "Reservar demo",
+        "features": [
+          { "label": "Hasta 50.000 contactos" },
+          { "label": "Campañas ilimitadas" },
+          { "label": "Incorporación dedicada + soporte prioritario" },
+          { "label": "Módulo de subvenciones — solicitudes, plazos, fondos restringidos", "soon": true },
+          { "label": "Módulo de voluntariado — turnos, horas, reconocimiento", "soon": true },
+          { "label": "Informes de impacto — resultados vinculados a la captación", "soon": true }
+        ]
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "tagline": "Para grandes organizaciones y federaciones.",
+        "audience": "Requisitos complejos, múltiples entidades o más de 50.000 contactos.",
+        "cta": "Contáctenos",
+        "features": [
+          { "label": "Contactos ilimitados" },
+          { "label": "SSO — SAML / OIDC con su proveedor de identidad" },
+          { "label": "Integraciones personalizadas" },
+          { "label": "Responsable de éxito dedicado" }
+        ]
+      }
+    ],
+    "matrix": {
+      "title": "Qué incluye cada plan",
+      "body": "Todos los planes incluyen el núcleo RGPD nativo. Los planes superiores añaden capacidad, automatización y soporte.",
+      "featureColumn": "Funcionalidad",
+      "comingLabel": "Disponible a finales de 2026",
+      "soonNote": "Los elementos marcados como «2026» están en la hoja de ruta pública, previstos para finales de 2026, y aún no están disponibles de forma general.",
+      "rows": [
+        { "label": "Contactos", "starter": "5.000", "organization": "50.000", "scale": "Ilimitados" },
+        { "label": "Usuarios", "starter": "Ilimitados", "organization": "Ilimitados", "scale": "Ilimitados" },
+        { "label": "Campañas / año", "starter": "10", "organization": "Ilimitadas", "scale": "Ilimitadas" },
+        { "label": "Gestión de donaciones", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Campañas postal + digital", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Conciliación QR y recibo QR suizo", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Donación en línea (Stripe y Mollie)", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Suite de cumplimiento RGPD", "starter": "yes", "organization": "yes", "scale": "yes" },
+        { "label": "Copiloto IA", "starter": "Asistido", "organization": "Asistido + Piloto automático", "scale": "Asistido + Piloto automático" },
+        { "label": "Módulo de subvenciones", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Módulo de voluntariado", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "Informes de impacto", "starter": "no", "organization": "2026", "scale": "2026" },
+        { "label": "SSO (SAML / OIDC)", "starter": "no", "organization": "no", "scale": "yes" },
+        { "label": "Soporte", "starter": "Comunidad", "organization": "Prioritario", "scale": "Responsable dedicado" }
+      ]
+    },
+    "founding": {
+      "kicker": "Socios Fundadores",
+      "title": "Dé forma a la plataforma. Bloquee la mitad del precio.",
+      "body": "En lugar de un descuento efímero, invitamos a las primeras 50 organizaciones a una colaboración real. Los Socios Fundadores obtienen la mitad del precio durante dos años — y una línea directa con el equipo que construye Givernance.",
+      "discountLabel": "50% de descuento durante 24 meses",
+      "spotsLabel": "Limitado a las primeras 50 organizaciones con plan anual",
+      "commitTitle": "Lo que los Socios Fundadores se comprometen a hacer",
+      "commit": [
+        "Facturación anual",
+        "Una llamada de feedback de 30 minutos cada trimestre",
+        "Permiso para incluirle como caso de estudio (anonimizado si lo prefiere)",
+        "Acceso beta a nuevas funcionalidades"
+      ],
+      "perksTitle": "Lo que obtienen los Socios Fundadores",
+      "perks": [
+        "50% de descuento durante 24 meses — fijo, sin reducción",
+        "Distintivo «Socio Fundador» dentro de la aplicación",
+        "Canal directo con el equipo de producto",
+        "Prioridad en solicitudes de funcionalidades",
+        "Garantía de precio bloqueado — su tarifa nunca sube sin previo aviso"
+      ]
+    },
+    "comparison": {
+      "kicker": "Cómo nos comparamos",
+      "title": "Una plataforma que sustituye a un conjunto de herramientas.",
+      "body": "La competencia cobra por usuario, bloquea la IA tras complementos de pago y factura la migración como consultoría. Givernance integra el flujo de trabajo operativo y lo precio por organización.",
+      "featureColumn": "Capacidad",
+      "us": "Givernance",
+      "competitorA": "Salesforce NPSP",
+      "competitorB": "Bloomerang",
+      "legendIncluded": "Incluido",
+      "legendNot": "No incluido",
+      "rows": [
+        { "label": "Precio por organización (sin coste por usuario)", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "Usuarios ilimitados incluidos", "sf": "no", "bl": "yes", "gv": "yes" },
+        { "label": "RGPD nativo, alojado en Europa", "sf": "Parcial", "bl": "Alojado en EE. UU.", "gv": "yes" },
+        { "label": "Asistente IA incluido", "sf": "Complemento", "bl": "Limitado", "gv": "yes" },
+        { "label": "Campañas postal + QR", "sf": "Complemento", "bl": "Limitado", "gv": "yes" },
+        { "label": "Incorporación incluida (sin honorarios de implantación)", "sf": "Consultoría de pago", "bl": "Habitualmente de pago", "gv": "yes" },
+        { "label": "Subvenciones y voluntariado en una sola plataforma", "sf": "Complemento", "bl": "Limitado", "gv": "2026" },
+        { "label": "Precios públicos y transparentes", "sf": "no", "bl": "Parcial", "gv": "yes" }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre precios",
+      "items": [
+        { "q": "¿Cobran por usuario?", "a": "Nunca. Givernance tiene precio por organización. El personal, los voluntarios, los becarios y los miembros del patronato acceden sin coste adicional — eliminando la razón número uno por la que las facturas de CRM se disparan." },
+        { "q": "¿Qué ocurre cuando superamos un plan?", "a": "Nada se rompe. Recibirá un aviso amigable al acercarse al límite, y las importaciones se pausan solo al llegar al 105% — el acceso de lectura a sus datos siempre se mantiene. Nunca borramos datos ni aplicamos cargos sorpresa." },
+        { "q": "¿La incorporación y la migración están incluidas?", "a": "La incorporación está incluida, y la importación CSV/Excel viene en todos los planes. Una herramienta de migración dedicada desde Salesforce NPSP está en la hoja de ruta de 2026 para los planes Organization y Scale." },
+        { "q": "¿Nuestros datos cumplen el RGPD y están alojados en Europa?", "a": "Sí. El consentimiento, la pista de auditoría y las exportaciones de acceso del interesado están integrados en el modelo de datos, y todo el alojamiento está en la UE. Los clientes del plan Scale también pueden alojar en la región de su elección." },
+        { "q": "¿Mensual o anual?", "a": "Ambas opciones. El pago mensual le da flexibilidad; el anual ahorra aproximadamente un 20%. No hay penalización por el pago mensual — el precio anual simplemente recompensa el compromiso." },
+        { "q": "¿Cuándo podemos empezar?", "a": "Givernance está en acceso anticipado con organizaciones piloto en Suiza y Francia. Reserve una demo para ver el producto y, si encaja, reclame una de las 50 plazas de Socio Fundador." }
+      ]
+    },
+    "cta": {
+      "title": "¿Listo para poner un número a su misión?",
+      "body": "Reserve una demo de 30 minutos. Le mostraremos el plan que mejor se adapta a su organización y, si está entre los primeros 50, bloquearemos el precio de Socio Fundador.",
+      "button": "Reservar demo",
+      "replyNote": "Respuesta en 1 día hábil · Sin compromiso"
+    }
   },
   "common": {
     "skipToContent": "Ir al contenido"
